@@ -1,0 +1,84 @@
+# Klätterverket Academy — publicera på GitHub Pages
+#
+# Körs automatiskt varje gång något laddas upp eller ändras i repositoryt.
+#  1. Kontrollerar varje mapp under utbildningar/ (utbildning.json måste
+#     vara giltig och ha kurs, lektioner och rätta svar).
+#  2. Bygger listan utbildningar/index.json — den behöver ingen skriva själv.
+#  3. Publicerar webbplatsen.
+# Hittas ett fel stoppas publiceringen och den gamla versionen ligger kvar.
+# Felet syns under fliken Actions, med mappens namn och vad som är fel.
+
+name: Publicera Academy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicera:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Kontrollera utbildningar och bygg listan
+        shell: python
+        run: |
+          import json, os, sys
+          rot = 'utbildningar'
+          mappar, fel = [], []
+          if os.path.isdir(rot):
+              for namn in sorted(os.listdir(rot)):
+                  sokvag = os.path.join(rot, namn)
+                  if namn.startswith(('_', '.')) or not os.path.isdir(sokvag):
+                      continue
+                  fil = os.path.join(sokvag, 'utbildning.json')
+                  if not os.path.isfile(fil):
+                      fel.append(f'{namn}: mappen saknar filen utbildning.json')
+                      continue
+                  try:
+                      with open(fil, encoding='utf-8-sig') as f:
+                          pkg = json.load(f)
+                  except Exception as e:
+                      fel.append(f'{namn}/utbildning.json är inte giltig JSON: {e}')
+                      continue
+                  kurs = pkg.get('course') or {}
+                  if not kurs.get('title'):
+                      fel.append(f'{namn}: "course" saknar "title"')
+                  if not pkg.get('lessons'):
+                      fel.append(f'{namn}: inga lektioner ("lessons")')
+                  for i, q in enumerate((pkg.get('quiz') or {}).get('items', []), 1):
+                      if q.get('type') != 'ordering' and not q.get('correct'):
+                          fel.append(f'{namn}: provfråga {i} saknar rätt svar ("correct")')
+                      if len(q.get('options') or []) < 2:
+                          fel.append(f'{namn}: provfråga {i} har färre än två alternativ')
+                  mappar.append(namn)
+          for f in fel:
+              print(f'::error title=Fel i utbildning::{f}')
+          if fel:
+              sys.exit(1)
+          os.makedirs(rot, exist_ok=True)
+          with open(os.path.join(rot, 'index.json'), 'w', encoding='utf-8') as f:
+              json.dump({'utbildningar': mappar}, f, ensure_ascii=False, indent=1)
+          print('Utbildningar som publiceras:', ', '.join(mappar) or '(inga extra)')
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
