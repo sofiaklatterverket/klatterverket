@@ -1,0 +1,870 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "hlr",
+  "title": "HLR och hjärtstartare",
+  "summary": "Känn igen ett hjärtstopp, larma, ge HLR och använd hjärtstartaren — på vuxna och barn. Enligt HLR-rådets riktlinjer från 2026.",
+  "audience": [
+   "all"
+  ],
+  "estimatedMinutes": 40,
+  "cover": "media/hlr-utbildning.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 12,
+   "title": "HLR och hjärtstartare"
+  },
+  "modules": [
+   {
+    "id": "mod.hlr-1",
+    "title": "Agera vid hjärtstopp",
+    "lessons": [
+     "les.hlr-kanna-igen",
+     "les.hlr-vuxen",
+     "les.hlr-hjartstartare",
+     "les.hlr-barn"
+    ]
+   },
+   {
+    "id": "mod.hlr-2",
+    "title": "Fler lägen — och vår hall",
+    "lessons": [
+     "les.hlr-luftvag",
+     "les.hlr-klatterhall"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "les.hlr-kanna-igen",
+   "label": "1.1",
+   "title": "Känn igen hjärtstoppet och larma",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ett hjärtstopp kan hända vem som helst, var som helst — också i klätterhallen, mitt i ett pass. Cirka 6 000 personer per år drabbas av hjärtstopp utanför sjukhus i Sverige. Får de HLR och en strömstöt från en [[aed|hjärtstartare]] inom de första minuterna kan upp till sju av tio överleva."
+    },
+    {
+     "type": "richtext",
+     "text": "Det betyder att **du** — den som är på plats — är den viktigaste länken. Ambulansen hinner sällan fram först. Den här lektionen handlar om de första 30 sekunderna: att förstå att det är ett hjärtstopp, och att larma."
+    },
+    {
+     "type": "video",
+     "assetId": "vid.hlr-alla-kan",
+     "title": "Alla kan rädda liv",
+     "src": "https://www.youtube.com/watch?v=FglYtVtilZ4"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så gör du — enligt riktlinjerna från 2026"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Säkerhet.** Är det säkert för dig att gå fram? Titta efter fallande föremål, klättrare ovanför eller annat som kan skada dig.",
+      "**Väck.** Skaka försiktigt i axlarna och ropa. Svarar personen inte är hen medvetslös.",
+      "**Ropa på hjälp.** Ropa högt så att kollegor och besökare kommer.",
+      "**Ring 112 direkt** och slå på högtalaren. Säg att någon är medvetslös och var ni är. Larmoperatören hjälper dig resten av vägen.",
+      "**Kontrollera andningen.** Handen på pannan, lyft hakan, titta, lyssna och känn — kort, högst cirka tio sekunder.",
+      "**Andas personen inte normalt — eller är du osäker — starta HLR.**"
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Nytt sedan 2026",
+     "text": "Tidigare kontrollerade man andningen innan man ringde. Enligt HLR-rådets riktlinjer från 2026 ringer du **112 direkt** när personen inte svarar — det gör att hjärtstoppet upptäcks snabbare."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Är det verkligen ett hjärtstopp?"
+    },
+    {
+     "type": "richtext",
+     "text": "Det svåraste är ofta att tro på det. Personen kan se ut att andas, och just det lurar många att vänta. Två saker är viktiga att känna igen:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "[[agonal-andning|Agonal andning]] — glesa, djupa, suckande, snarkande eller gurglande andetag. Det är inte normal andning.",
+      "**Kortvarig kramp** kan vara ett tecken på hjärtstopp. Kontrollera andningen så fort krampen släppt.",
+      "Den som är medvetslös men **andas normalt** ska inte ha HLR — hen ska ligga i stabilt sidoläge. Det kommer i lektion 2.1."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "agonal-andning"
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Är du osäker — starta HLR",
+     "text": "HLR på någon som inte har hjärtstopp gör sällan allvarlig skada. Att vänta på någon som har det gör det nästan alltid."
+    },
+    {
+     "type": "task",
+     "id": "task.hlr-adress",
+     "instruction": "Ta reda på den exakta adressen till din hall och skriv in den i telefonen så att du kan läsa upp den för 112. Gasverket: Gasverksvägen 15, 115 42 Stockholm. Sickla: Marcusplatsen 17, 131 34 Nacka.",
+     "hint": "Säg också vilken ingång ambulansen ska ta och att någon möter dem där."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: HLR-rådet — så gör du vuxen-HLR",
+     "url": "https://www.hlr.nu/sa-har-gor-du-vuxen-hlr/"
+    }
+   ],
+   "source": {
+    "url": "https://www.hlr.nu/sa-har-gor-du-vuxen-hlr/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "les.hlr-vuxen",
+   "label": "1.2",
+   "title": "HLR på vuxen",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "När personen inte andas normalt tar du över hjärtats jobb. Bröstkompressionerna pressar ut blod till hjärnan, och det är de som köper tid tills hjärtstartaren och ambulansen kommer. Tryck hårt, tryck snabbt och avbryt så lite som möjligt."
+    },
+    {
+     "type": "video",
+     "assetId": "vid.hlr-vuxen",
+     "title": "Vuxen-HLR 2026 — kort klipp (HLR-rådet)",
+     "src": "https://vimeo.com/1189719901"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Kompressionerna"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Lägg personen på rygg på ett fast underlag. Sitter hen på en stol eller bänk: få ner hen på golvet.",
+      "Placera handloven mitt på bröstkorgen, den andra handen ovanpå. Fläta ihop fingrarna.",
+      "Raka armar, axlarna rakt ovanför händerna.",
+      "Tryck **5–6 cm** djupt, **100–120 gånger per minut** — ungefär i takt med \"Stayin' Alive\".",
+      "Släpp upp bröstkorgen helt mellan trycken, men behåll handkontakten."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kompression"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Inblåsningarna"
+    },
+    {
+     "type": "richtext",
+     "text": "Efter 30 kompressioner ger du 2 inblåsningar: öppna luftvägen genom att lyfta hakan, kläm ihop näsan och blås in i ungefär en sekund så att bröstkorgen höjs. Fortsätt sedan med 30 nya kompressioner — [[30-2|30:2]] — tills ambulansen tar över eller personen vaknar och andas normalt."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Kan eller vill du inte blåsa in?",
+     "text": "Ge bara kompressioner. Det är mycket bättre än ingen HLR alls. Ansiktsskydd ligger i hjärtstartarens skåp."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen i en klätterhall: mjukt underlag",
+     "text": "Ligger personen på en tjock fallmatta sjunker hela kroppen när du trycker. Enligt 2026 års riktlinjer ska du då **trycka hårdare** för att nå rätt djup. Går det att snabbt få personen till fast golv är det bättre — men det får inte fördröja HLR."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Ni är flera — byt av varandra"
+    },
+    {
+     "type": "richtext",
+     "text": "Att ge bra kompressioner är tungt. Kvaliteten sjunker redan efter ett par minuter utan att du märker det. Byt av varandra ungefär **varannan minut**, gärna när hjärtstartaren analyserar, så att pausen blir så kort som möjligt."
+    },
+    {
+     "type": "task",
+     "id": "task.hlr-kurs",
+     "instruction": "Kontrollera med din platsansvarige när du senast gick praktisk HLR-utbildning med docka — och boka in dig om det är mer än ett år sedan.",
+     "hint": "Den här kursen ger kunskapen. Handgreppen sitter först när du har tryckt på en docka."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: 1177 — hjärt-lungräddning",
+     "url": "https://www.1177.se/Stockholm/olyckor--skador/akuta-rad---forsta-hjalpen/hjart-lungraddning-hlr/"
+    }
+   ],
+   "source": {
+    "url": "https://www.hlr.nu/sa-har-gor-du-vuxen-hlr/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "les.hlr-hjartstartare",
+   "label": "1.3",
+   "title": "Hjärtstartaren",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Vid de flesta plötsliga hjärtstopp hos vuxna fladdrar hjärtat i stället för att pumpa — ett så kallat kammarflimmer. Det enda som kan få hjärtat att slå normalt igen är en strömstöt. Varje minut utan den minskar chansen att överleva."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "aed"
+    },
+    {
+     "type": "video",
+     "assetId": "vid.aed",
+     "title": "Så gör du hjärt-lungräddning med hjärtstartare (Svenska Röda Korset)",
+     "src": "https://www.youtube.com/watch?v=r2HLiaDwZBM"
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Om filmen",
+     "text": "Filmen är äldre än 2026 års riktlinjer. Det som har ändrats är ordningen i början: i dag ringer du 112 direkt när personen inte svarar. Själva hjärtstartaren används på samma sätt."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så använder du den"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Skicka någon** att hämta hjärtstartaren så fort du förstår att det är ett hjärtstopp. Fortsätt HLR under tiden.",
+      "**Slå på den** — och följ rösten. Den talar om allt du behöver göra.",
+      "**Blotta bröstkorgen.** Torka om den är blöt. Raka snabbt om den är mycket hårig — rakhyveln ligger i skåpet. Ta bort BH:n om den är i vägen.",
+      "**Sätt på elektroderna:** en under höger nyckelben, en strax under vänster armhåla. Bilden på elektroderna visar var.",
+      "**Rör inte personen** när apparaten analyserar och när den ger strömstöt. Säg högt: \"Släpp!\"",
+      "**Fortsätt HLR direkt** efter strömstöten — eller när apparaten säger att ingen stöt behövs. Lämna elektroderna på."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Du kan inte göra fel",
+     "text": "Hjärtstartaren ger bara en strömstöt om den känner av en rytm som behöver det. Alla får använda den, och ingen utbildning krävs enligt lag."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Vår beredskap i hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "En hjärtstartare gör bara nytta om alla vet var den sitter och om den fungerar. HLR-rådet rekommenderar att någon tittar på den varje dag:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Statuslampan eller displayen visar OK.",
+      "Elektroderna har inte passerat utgångsdatum och förpackningen är hel.",
+      "Inget batterilarm.",
+      "Tillbehören finns: rakhyvel, sax, handskar, ansiktsskydd och torkduk.",
+      "Skåpet är inte blockerat, och skylten syns."
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Hallens hjärtstartare ska också vara registrerad i [[hjartstartarregistret|Hjärtstartarregistret]]. Då ser 112 den på sin karta och kan skicka en [[sms-livraddare|SMS-livräddare]] att hämta den — även till ett hjärtstopp utanför hallen."
+    },
+    {
+     "type": "task",
+     "id": "task.hlr-hitta-aed",
+     "instruction": "Gå till hjärtstartaren i din hall. Kontrollera att statuslampan visar OK, titta på elektrodernas utgångsdatum och se efter att tillbehören finns i skåpet.",
+     "hint": "Saknas något, eller lyser en varning: säg till din platsansvarige direkt."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: HLR-rådet om hjärtstartare",
+     "url": "https://www.hlr.nu/om-hjartstartare/"
+    }
+   ],
+   "source": {
+    "url": "https://www.hlr.nu/om-hjartstartare/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "les.hlr-barn",
+   "label": "1.4",
+   "title": "HLR på barn",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Barn är en stor del av våra besökare — på kalas, i barngrupper och på lov. Hjärtstopp hos barn är ovanligt och beror oftast på syrebrist, inte på hjärtat. Därför börjar barn-HLR med luft."
+    },
+    {
+     "type": "video",
+     "assetId": "vid.hlr-barn",
+     "title": "Barn-HLR 1–18 år, 2026 — kort klipp (HLR-rådet)",
+     "src": "https://vimeo.com/1191660618"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så skiljer sig barn-HLR från vuxen"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "Vuxen",
+      "Barn (0–18 år)"
+     ],
+     "rows": [
+      [
+       "Börja med",
+       "30 kompressioner",
+       "**5 inblåsningar**"
+      ],
+      [
+       "Sedan",
+       "30:2",
+       "15:2"
+      ],
+      [
+       "Djup",
+       "5–6 cm",
+       "En tredjedel av bröstkorgen"
+      ],
+      [
+       "Takt",
+       "100–120 per minut",
+       "100–120 per minut"
+      ],
+      [
+       "Ensam utan telefon",
+       "Larma först",
+       "Gör HLR i 1 minut, larma sedan"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Har du bara övat vuxen-HLR?",
+     "text": "Gör då som du kan: 30:2 på ett barn är mycket bättre än ingen HLR alls."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Hjärtstartaren på barn"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Barn under 25 kg (ungefär 8 år): använd barnläge eller barnelektroder om apparaten har det.",
+      "Elektroderna sätts då en mitt fram till vänster om bröstbenet och en på ryggen mellan skulderbladen.",
+      "Finns inget barnläge: använd hjärtstartaren ändå, med vanliga elektroder."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Spädbarn",
+     "text": "Spädbarn under ett år är ovanliga i hallen men kan följa med en förälder. HLR på spädbarn görs med två tummar på bröstbenet och inblåsning över både näsa och mun. HLR-rådets film om spädbarn finns i länken nedan."
+    },
+    {
+     "type": "task",
+     "id": "task.hlr-barnlage",
+     "instruction": "Ta reda på om hallens hjärtstartare har barnläge eller barnelektroder, och var de i så fall finns."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: HLR-rådet — barn-HLR",
+     "url": "https://www.hlr.nu/sa-har-gor-du-barn-hlr/"
+    }
+   ],
+   "source": {
+    "url": "https://www.hlr.nu/sa-har-gor-du-barn-hlr/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "les.hlr-luftvag",
+   "label": "2.1",
+   "title": "Luftvägsstopp och stabilt sidoläge",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Två situationer som är vanligare än hjärtstopp: någon sätter i halsen i kaféet, eller någon har svimmat men andas. Båda går att lösa på plats om du vet vad du ska göra."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Luftvägsstopp"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "luftvagsstopp"
+    },
+    {
+     "type": "video",
+     "assetId": "vid.luftvag",
+     "title": "Om någon vuxen sätter något i halsen (Svenska Röda Korset)",
+     "src": "https://www.youtube.com/watch?v=8Fkd9bYIc4w"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Kan personen hosta, prata eller andas?** Uppmana hen att hosta. Stanna kvar och håll uppsikt.",
+      "**Kan hen inte?** Stå bredvid, luta personen framåt och ge upp till **5 ryggslag** mellan skulderbladen med handloven.",
+      "Hjälper det inte: ställ dig bakom, knytnäven mellan naveln och bröstkorgen, och ge upp till **5 buktryck** inåt och uppåt.",
+      "Växla 5 ryggslag och 5 buktryck tills föremålet kommer upp.",
+      "**Blir personen medvetslös:** ring 112 och starta HLR."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Efteråt",
+     "text": "Den som fått buktryck ska alltid undersökas av läkare, även om allt känns bra. Buktrycken kan ha skadat inre organ. På spädbarn under ett år används aldrig buktryck — där ger du brösttryck."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Stabilt sidoläge"
+    },
+    {
+     "type": "richtext",
+     "text": "Den som är medvetslös men **andas normalt** ska inte ha HLR. Hen ska ligga i [[stabilt-sidolage|stabilt sidoläge]] så att luftvägen hålls fri. Ring 112 först."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Armen närmast dig rakt ut från kroppen.",
+      "Den andra armen över bröstet, med handryggen mot kinden.",
+      "Vinkla upp det bortre knäet och vänd personen mot dig.",
+      "Vinkla det övre benet i höft och knä så att kroppen ligger stadigt.",
+      "Justera handen under kinden så att huvudet lutar lätt bakåt och luftvägen är fri.",
+      "**Kontrollera andningen hela tiden.** Slutar hen andas normalt: vänd tillbaka på rygg och starta HLR."
+     ]
+    },
+    {
+     "type": "task",
+     "id": "task.hlr-sidolage",
+     "instruction": "Öva stabilt sidoläge på en kollega i personalrummet — båda håll. Det tar två minuter."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: HLR-rådet — luftvägsstopp",
+     "url": "https://www.hlr.nu/sa-har-gor-du-vid-luftvagsstopp/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: 1177 — stabilt sidoläge",
+     "url": "https://www.1177.se/Stockholm/olyckor--skador/akuta-rad---forsta-hjalpen/stabilt-sidolage-pa-barn/"
+    }
+   ],
+   "source": {
+    "url": "https://www.hlr.nu/sa-har-gor-du-vid-luftvagsstopp/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "les.hlr-klatterhall",
+   "label": "2.2",
+   "title": "I klätterhallen: fall, nacke och teamarbete",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=56288310-c424-4dce-b037-695ac2568b4e&size=1600",
+     "alt": "En säkrare står vid väggen och tittar upp mot sin klättrare.",
+     "caption": "Hjärtstopp vid träning sker ofta hos vuxna som verkar friska."
+    },
+    {
+     "type": "richtext",
+     "text": "Två saker gör klätterhallen speciell. Människor tränar hårt, och hjärtstopp vid fysisk aktivitet drabbar ofta vuxna som verkat helt friska. Och folk faller — ibland illa. Den här lektionen handlar om hur du prioriterar, och hur ni jobbar tillsammans."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Fallolycka med misstänkt nackskada"
+    },
+    {
+     "type": "richtext",
+     "text": "Har någon fallit från höjd kan nacken vara skadad. Grundregeln är att **inte flytta** personen. Men livshotande tillstånd går alltid först:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Personen…",
+      "Gör så här"
+     ],
+     "rows": [
+      [
+       "…är vaken",
+       "Flytta inte. Be hen ligga stilla, ring 112 och håll huvudet stilla med händerna."
+      ],
+      [
+       "…är medvetslös men andas normalt",
+       "Ring 112. Håll huvudet stilla och följ andningen. Vänd bara om luftvägen hotas, t.ex. vid kräkning."
+      ],
+      [
+       "…är medvetslös och andas inte normalt",
+       "**Ring 112 och starta HLR.** Ett hjärtstopp går före risken för nackskada."
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "manuell-stabilisering"
+    },
+    {
+     "type": "video",
+     "assetId": "vid.nacke",
+     "title": "Nackskada — manuell stabilisering (HLR-rådet)",
+     "src": "https://vimeo.com/651081919"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dela upp rollerna"
+    },
+    {
+     "type": "richtext",
+     "text": "Den 16 september 2025 föll en ledare ihop medan han säkrade sin klätterpartner i Halmstad klätterklubbs hall. Fyra ledare delade direkt upp jobbet: en ropade på hjälp, en ringde 112, en hämtade hjärtstartaren och två turades om med kompressionerna. Två strömstötar hann ges innan ambulansen kom efter ungefär åtta minuter. Mannen överlevde, och de fyra utsågs till Årets hjärt-lungräddare 2026."
+    },
+    {
+     "type": "richtext",
+     "text": "Så ser det ut när det fungerar. När ni är flera, ta en roll var — och säg högt vilken du tar:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "**Rädda:** HLR, och byt av varandra varannan minut.",
+      "**Larma:** ring 112, högtalare på, stanna i samtalet.",
+      "**Hämta:** hjärtstartaren — spring.",
+      "**Möt:** gå ut och möt ambulansen vid entrén och visa vägen.",
+      "**Skydda:** få ner klättrare i närheten, håll undan besökare — särskilt barn."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Efteråt",
+     "text": "Den som har gjort HLR, eller sett det, kan behöva prata om det. Säg till din chef. I Halmstad hade ledarna ett uppföljande samtal med ungdomarna som sett händelsen — det är en del av jobbet, inte ett tillägg."
+    },
+    {
+     "type": "task",
+     "id": "task.hlr-sms",
+     "instruction": "Ladda ned appen Heartrunner och anmäl dig som SMS-livräddare, om du vill. Du behöver vara över 18 år och ha gått en HLR-utbildning.",
+     "hint": "Det är frivilligt. Men varje hjärtstopp nära en klätterhall har nytta av att personalen där finns i appen."
+    },
+    {
+     "type": "reference",
+     "label": "Läs om Årets hjärt-lungräddare 2026",
+     "url": "https://www.hlr.nu/klattrarteamet-raddade-hans-liv-kvartett-ar-arets-hjart-lungraddare/"
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu har du gått igenom hela kursen. Provet har tio frågor och tar ungefär tio minuter."
+    }
+   ],
+   "source": {
+    "url": "https://www.hlr.nu/",
+    "checkedAt": "2026-10-07"
+   }
+  }
+ ],
+ "terms": {
+  "agonal-andning": {
+   "term": "Agonal andning",
+   "definition": "Glesa, suckande, snarkande eller gurglande andetag hos någon som fått hjärtstopp. Det är inte normal andning — starta HLR."
+  },
+  "kompression": {
+   "term": "Bröstkompression",
+   "definition": "Tryck mitt på bröstkorgen, 5–6 cm djupt och 100–120 gånger per minut på en vuxen. Håller blodet i rörelse till hjärnan."
+  },
+  "aed": {
+   "term": "Hjärtstartare (AED)",
+   "definition": "En bärbar apparat som analyserar hjärtrytmen och vid behov ger en strömstöt. Den pratar och talar om exakt vad du ska göra — den är byggd för lekmän.",
+   "more": "AED står för automatisk extern defibrillator. Apparaten ger bara en strömstöt om den känner av en rytm som behöver det, så du kan inte skada någon med den."
+  },
+  "luftvagsstopp": {
+   "term": "Luftvägsstopp",
+   "definition": "Något sitter fast i halsen och blockerar luftvägen. Personen kan inte hosta, prata eller andas."
+  },
+  "manuell-stabilisering": {
+   "term": "Manuell stabilisering",
+   "definition": "Att hålla huvudet stilla med händerna vid misstänkt nackskada, i stället för att flytta personen."
+  }
+ },
+ "quiz": {
+  "title": "Prov: HLR och hjärtstartare",
+  "passScore": 0.8,
+  "draw": 10,
+  "attempts": 3,
+  "items": [
+   {
+    "id": "q-hlr-1",
+    "type": "single",
+    "stem": "En besökare faller ihop vid boulderväggen och svarar inte när du ropar och skakar. Du har ropat på hjälp. Vad gör du sedan?",
+    "options": [
+     "Ringer 112 och slår på högtalaren",
+     "Kontrollerar andningen i 30 sekunder",
+     "Lägger hen i stabilt sidoläge",
+     "Springer själv efter hjärtstartaren"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-kanna-igen",
+    "why": "Enligt riktlinjerna från 2026 ringer du 112 direkt när personen inte svarar — sedan kontrollerar du andningen kort."
+   },
+   {
+    "id": "q-hlr-2",
+    "type": "single",
+    "stem": "Personen tar glesa, djupa, suckande andetag. Vad betyder det?",
+    "options": [
+     "Onormal andning — starta HLR",
+     "Normal andning — stabilt sidoläge",
+     "Personen hyperventilerar",
+     "Vänta och se om det blir bättre"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-kanna-igen",
+    "why": "Det kallas agonal andning och är ett tecken på hjärtstopp. Det räknas inte som normal andning."
+   },
+   {
+    "id": "q-hlr-3",
+    "type": "multi",
+    "stem": "Vilka tecken kan tyda på hjärtstopp? Välj alla som stämmer.",
+    "options": [
+     "Medvetslöshet",
+     "Gurglande eller snarkande andning",
+     "Kortvarig kramp",
+     "Personen är vaken men har ont i bröstet"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "les.hlr-kanna-igen",
+    "why": "Den som är vaken med bröstsmärta har inte hjärtstopp — men kan ha en hjärtinfarkt och ska också ha 112."
+   },
+   {
+    "id": "q-hlr-4",
+    "type": "single",
+    "stem": "Vilket djup och vilken takt gäller för kompressioner på en vuxen?",
+    "options": [
+     "5–6 cm, 100–120 per minut",
+     "3–4 cm, 80 per minut",
+     "7–8 cm, 130–140 per minut",
+     "5–6 cm, 60–80 per minut"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-vuxen",
+    "why": "Tryck hårt och snabbt: 5–6 cm, 100–120 gånger per minut, och släpp upp bröstkorgen helt mellan trycken."
+   },
+   {
+    "id": "q-hlr-5",
+    "type": "single",
+    "stem": "Personen ligger på en tjock fallmatta och det går inte snabbt att flytta hen. Hur gör du?",
+    "options": [
+     "Trycker hårdare för att nå rätt djup",
+     "Avstår från HLR",
+     "Ger bara inblåsningar",
+     "Trycker långsammare"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-vuxen",
+    "why": "På mjukt underlag sjunker kroppen när du trycker. Riktlinjerna från 2026 säger: tryck hårdare."
+   },
+   {
+    "id": "q-hlr-6",
+    "type": "single",
+    "stem": "Du kan inte ge inblåsningar. Vad gäller?",
+    "options": [
+     "Ge bara kompressioner — det är mycket bättre än ingen HLR",
+     "Vänta på ambulansen",
+     "Byt till stabilt sidoläge",
+     "Ge 15 kompressioner i stället för 30"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-vuxen",
+    "why": "Kompressioner utan inblåsningar håller ändå blodet i rörelse. Ingen HLR alls är det enda som är fel."
+   },
+   {
+    "id": "q-hlr-7",
+    "type": "single",
+    "stem": "Var placeras hjärtstartarens elektroder på en vuxen?",
+    "options": [
+     "Under höger nyckelben och strax under vänster armhåla",
+     "Båda på vänster bröstsida",
+     "En på magen och en på ryggen",
+     "Under båda nyckelbenen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-hjartstartare",
+    "why": "Bilden på elektroderna visar också var de ska sitta."
+   },
+   {
+    "id": "q-hlr-8",
+    "type": "single",
+    "stem": "Hjärtstartaren säger att den ska ge en strömstöt. Vad gör du?",
+    "options": [
+     "Ser till att ingen rör personen",
+     "Fortsätter kompressionerna",
+     "Håller i huvudet",
+     "Ger två inblåsningar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-hjartstartare",
+    "why": "Ingen får röra personen när apparaten analyserar eller ger stöt. Efter stöten fortsätter du HLR direkt."
+   },
+   {
+    "id": "q-hlr-9",
+    "type": "multi",
+    "stem": "Vad ingår i den dagliga kontrollen av hallens hjärtstartare? Välj alla som stämmer.",
+    "options": [
+     "Statuslampan visar OK",
+     "Elektrodernas utgångsdatum",
+     "Att tillbehören finns i skåpet",
+     "Att man provar att ge en strömstöt"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "les.hlr-hjartstartare",
+    "why": "Man provar aldrig strömstöten. Statuslampa, elektroder, batteri och tillbehör är det du kontrollerar."
+   },
+   {
+    "id": "q-hlr-10",
+    "type": "single",
+    "stem": "Varför ska hallens hjärtstartare vara registrerad i Hjärtstartarregistret?",
+    "options": [
+     "Så att 112 och SMS-livräddare kan hitta den",
+     "Lagen kräver det",
+     "Annars gäller inte garantin",
+     "Annars låser den sig"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-hjartstartare",
+    "why": "Registreringen är frivillig och gratis, men gör att apparaten kan användas också vid hjärtstopp utanför hallen."
+   },
+   {
+    "id": "q-hlr-11",
+    "type": "single",
+    "stem": "Hur börjar du HLR på ett barn, om du har övat barn-HLR?",
+    "options": [
+     "5 inblåsningar, sedan 15:2",
+     "30 kompressioner, sedan 30:2",
+     "2 inblåsningar, sedan 30:2",
+     "15 kompressioner, sedan 5 inblåsningar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-barn",
+    "why": "Hjärtstopp hos barn beror oftast på syrebrist — därför börjar man med luft."
+   },
+   {
+    "id": "q-hlr-12",
+    "type": "single",
+    "stem": "Ett barn som väger ungefär 20 kg behöver hjärtstartaren och apparaten har barnläge. Var sätter du elektroderna?",
+    "options": [
+     "En fram till vänster om bröstbenet, en på ryggen mellan skulderbladen",
+     "Som på en vuxen",
+     "Båda på ryggen",
+     "Hjärtstartare ska inte användas på barn"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-barn",
+    "why": "Under 25 kg: barnläge och elektroder fram och bak. Finns inget barnläge används apparaten ändå."
+   },
+   {
+    "id": "q-hlr-13",
+    "type": "ordering",
+    "stem": "En vuxen har satt i halsen och kan inte hosta eller prata. Sätt stegen i rätt ordning.",
+    "options": [
+     "Ge upp till 5 ryggslag",
+     "Ge upp till 5 buktryck",
+     "Växla ryggslag och buktryck tills föremålet kommer upp",
+     "Blir personen medvetslös: ring 112 och starta HLR"
+    ],
+    "lesson": "les.hlr-luftvag",
+    "why": "Först ryggslag med personen framåtlutad, sedan buktryck — och så vidare. Medvetslös betyder HLR."
+   },
+   {
+    "id": "q-hlr-14",
+    "type": "single",
+    "stem": "En besökare har svimmat, är medvetslös men andas normalt. Vad gör du efter att ha ringt 112?",
+    "options": [
+     "Lägger hen i stabilt sidoläge och följer andningen",
+     "Startar HLR",
+     "Ger buktryck",
+     "Låter hen ligga på rygg utan tillsyn"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-luftvag",
+    "why": "Andas personen normalt är det stabilt sidoläge, inte HLR. Slutar hen andas normalt: vänd på rygg och starta HLR."
+   },
+   {
+    "id": "q-hlr-15",
+    "type": "single",
+    "stem": "En klättrare har fallit från toppen av en repled, ligger stilla, svarar inte och andas inte normalt. Du misstänker nackskada. Vad gör du?",
+    "options": [
+     "Ringer 112 och startar HLR",
+     "Rör ingenting och väntar på ambulansen",
+     "Lägger hen i stabilt sidoläge",
+     "Letar efter en halskrage"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "les.hlr-klatterhall",
+    "why": "Livshotande tillstånd går före risken för ryggmärgsskada. Ett hjärtstopp ska ha HLR, även efter ett fall."
+   },
+   {
+    "id": "q-hlr-16",
+    "type": "ordering",
+    "stem": "Ni är fyra i personalen när någon får hjärtstopp. Sätt de första stegen i rätt ordning.",
+    "options": [
+     "Kontrollera säkerhet och väck personen",
+     "Ring 112 och skicka någon efter hjärtstartaren",
+     "Kontrollera andningen kort och starta HLR",
+     "Sätt på hjärtstartaren och följ rösten"
+    ],
+    "lesson": "les.hlr-klatterhall",
+    "why": "Larmet går före andningskontrollen. Den fjärde kollegan går ut och möter ambulansen vid entrén."
+   }
+  ]
+ }
+}
