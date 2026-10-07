@@ -1,2 +1,0 @@
-Lägg egna bilder och filmer här, t.ex. hall.jpg.
-I redaktören skriver du sedan adressen som media/hall.jpg.
