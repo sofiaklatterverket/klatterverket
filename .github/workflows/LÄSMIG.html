@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Klätterverket Academy — läs mig</title>
+<style>
+:root{--txt:#111;--muted:#66655F;--line:#E4E2DC;--bg:#F6F5F1;--accent:#FFD23F}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.6 "Plus Jakarta Sans",-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+header{background:#000;color:#fff;padding:34px 20px 30px}
+header div,main{max-width:820px;margin:0 auto}
+header small{letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.8;font-size:12px}
+h1{font:800 36px/1.1 Inter,-apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:-.03em;margin:6px 0 8px}
+h2{font:800 22px/1.2 Inter,-apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:-.02em;margin:38px 0 10px}
+h3{font-size:16px;margin:22px 0 6px}
+main{padding:10px 20px 60px}
+code{background:#fff;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:13px}
+.box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:14px 0}
+.warn{border-left:4px solid var(--accent)}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+td,th{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:14px}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+ol li,ul li{margin-bottom:6px}
+a{color:#000}
+.muted{color:var(--muted)}
+</style>
+</head>
+<body>
+<header><div>
+  <small>Klätterverket Academy</small>
+  <h1>Läs mig först</h1>
+  <div>Så är mappen uppbyggd, hur ni publicerar den på GitHub, och hur nya utbildningar läggs upp — med eller utan ChatGPT.</div>
+</div></header>
+<main>
+
+<h2>Vad som finns i mappen</h2>
+<table>
+<tr><th>Fil eller mapp</th><th>Vad den är</th></tr>
+<tr><td><code>index.html</code></td><td>Utbildningen. Det medarbetarna öppnar.</td></tr>
+<tr><td><code>redaktor.html</code></td><td>Samma app med redaktörsläget (lösenord <code>klatterverket</code>). Här ändras kurserna i innehållsfilen, anläggningar och inställningar.</td></tr>
+<tr><td><code>data/</code></td><td>Innehållsfilen, facit och paketet <code>kv-academy-data.js</code>. Skrivs av redaktören när du trycker Spara.</td></tr>
+<tr><td><code>utbildningar/</code></td><td><b>Färdiga utbildningar som egna mappar.</b> En mapp per utbildning, med filen <code>utbildning.json</code> och eventuella bilder. Här lägger Sofia upp nya utbildningar.</td></tr>
+<tr><td><code>media/</code></td><td>Bilder och filmer som används av kurserna i innehållsfilen.</td></tr>
+<tr><td><code>ChatGPT-instruktion/</code></td><td>Systemprompten till ChatGPT, och en hel kurs som exempel.</td></tr>
+<tr><td><code>GitHub-installation/publicera.yml</code></td><td>Publiceringsflödet för GitHub, som en synlig kopia (se steg 3).</td></tr>
+<tr><td><code>.github/workflows/publicera.yml</code></td><td>Samma fil, där GitHub vill ha den. Mappen är dold i Utforskaren.</td></tr>
+</table>
+
+<h2>Publicera på GitHub — steg för steg</h2>
+<p>GitHub Pages ger Academy en riktig webbadress, gratis. Den fungerar i alla webbläsare och i mobilen, och alla filmer spelar inne i lektionerna. Allt görs i webbläsaren på github.com — inga program behöver installeras.</p>
+
+<div class="box warn"><b>Bra att veta först:</b> med ett gratiskonto måste repositoryt vara <b>Public</b> för att GitHub Pages ska fungera. Det betyder att allt i det — kurserna, provens rätta svar, inställningarna — går att läsa för den som hittar det. Det är rimligt för den här sortens utbildning, men lägg aldrig personuppgifter, lösenord eller känsliga rutiner där. Medarbetarnas framsteg hamnar aldrig i GitHub; de stannar i varje webbläsare.</div>
+
+<h3>Steg 1 — Gör repositoryt publikt</h3>
+<ol>
+<li>Öppna repositoryt <code>klatterverket</code> på github.com.</li>
+<li><b>Settings</b> (kugghjulet i menyn överst) → längst ned under <b>Danger Zone</b> → <b>Change visibility</b> → <b>Make public</b>. Hoppa över om det redan är publikt.</li>
+</ol>
+
+<h3>Steg 2 — Slå på GitHub Pages</h3>
+<ol>
+<li><b>Settings</b> → <b>Pages</b> i vänstermenyn.</li>
+<li>Under <b>Build and deployment</b> → <b>Source</b>: välj <b>GitHub Actions</b>. (Inte "Deploy from a branch".)</li>
+</ol>
+
+<h3>Steg 3 — Lägg in publiceringsflödet</h3>
+<p>Flödet är en liten fil som säger åt GitHub att kontrollera utbildningarna och publicera webbplatsen vid varje ändring. Den ska ligga i en dold mapp, så det säkraste är att skapa den direkt på GitHub:</p>
+<ol>
+<li>Gå till repositoryts startsida → <b>Add file</b> → <b>Create new file</b>.</li>
+<li>Skriv filnamnet exakt: <code>.github/workflows/publicera.yml</code> — snedstrecken skapar mapparna automatiskt.</li>
+<li>Öppna <code>GitHub-installation/publicera.yml</code> från den här mappen i Anteckningar, markera allt (Ctrl+A), kopiera och klistra in i GitHub.</li>
+<li>Tryck <b>Commit changes…</b> → <b>Commit changes</b>.</li>
+</ol>
+
+<h3>Steg 4 — Ladda upp filerna</h3>
+<ol>
+<li>Repositoryts startsida → <b>Add file</b> → <b>Upload files</b>.</li>
+<li>Öppna mappen <b>Klätterverket Academy</b> i Utforskaren, markera allt med Ctrl+A och dra in det i webbläsarfönstret. Mapparna följer med.</li>
+<li>Vänta tills alla filer listats, och tryck <b>Commit changes</b>.</li>
+</ol>
+<p class="muted">Använd Chrome eller Edge — de kan ta emot hela mappar. GitHub tar emot högst 100 filer per uppladdning, vilket räcker gott.</p>
+
+<h3>Steg 5 — Se att det fungerar</h3>
+<ol>
+<li>Fliken <b>Actions</b>: där syns körningen "Publicera Academy". Gul ring = pågår, grön bock = klart, rött kryss = något stoppade (klicka på den för att se vad).</li>
+<li>När den är grön: <b>Settings</b> → <b>Pages</b> visar adressen, t.ex. <code>https://ditt-användarnamn.github.io/klatterverket/</code>.</li>
+<li>Öppna adressen. Det är den medarbetarna ska ha — som bokmärke, i personalgruppen, på en QR-kod i personalrummet.</li>
+</ol>
+<p class="muted">Blev den första körningen röd för att Pages inte var påslaget: gå till Actions → körningen → <b>Re-run all jobs</b>.</p>
+
+<h3>Steg 6 — Ge Sofia behörighet</h3>
+<ol>
+<li>Sofia skapar ett eget gratiskonto på github.com.</li>
+<li><b>Settings</b> → <b>Collaborators</b> → <b>Add people</b> → hennes användarnamn. Hon får ett mejl och accepterar inbjudan.</li>
+</ol>
+
+<h2>Lägga upp en ny utbildning (Sofia)</h2>
+<p>En utbildning är en mapp under <code>utbildningar/</code> med filen <code>utbildning.json</code> i. Den syns i Academy någon minut efter att den lagts upp. Inget annat behöver ändras.</p>
+<h3>Med ChatGPT</h3>
+<ol>
+<li><b>En gång:</b> skapa en egen GPT (Utforska GPT:er → Skapa) eller ett Projekt i ChatGPT. Klistra in hela texten i <code>ChatGPT-instruktion/Systemprompt.md</code> som instruktioner, och ladda upp <code>ChatGPT-instruktion/exempel-hlr-utbildning.json</code> som kunskapsfil — det är HLR-kursen i exakt rätt format, som förebild.</li>
+<li>Be om en utbildning, t.ex. "Gör en utbildning i första hjälpen vid fall och skador i klätterhallen, för instruktörer". ChatGPT ställer några frågor, föreslår en disposition och skriver sedan hela filen.</li>
+<li><b>Granska innehållet.</b> ChatGPT kan ha fel. Läs igenom, kontrollera källorna, och rätta det som är Klätterverkets egna rutiner.</li>
+<li><b>Testa filen</b> (rekommenderas): spara texten som <code>utbildning.json</code>, öppna <code>redaktor.html</code> → Meny → <b>Testa ett utbildningspaket</b>. Du får se direkt om något är fel, och kan gå igenom kursen.</li>
+</ol>
+<h3>Lägga upp den i GitHub</h3>
+<ol>
+<li>Öppna mappen <code>utbildningar</code> i repositoryt → <b>Add file</b> → <b>Create new file</b>.</li>
+<li>Skriv filnamnet <code>forsta-hjalpen/utbildning.json</code> (mappnamnet först — små bokstäver och bindestreck), klistra in filen och tryck <b>Commit changes</b>.</li>
+<li>Har kursen en omslagsbild: öppna den nya mappen → <b>Add file</b> → <b>Upload files</b> → dra in bilden. Den ska heta som i fältet <code>"cover"</code>, t.ex. <code>omslag.jpg</code>.</li>
+<li>Vänta en minut och ladda om Academy. Blev det rött under <b>Actions</b> står det exakt vad som är fel och i vilken mapp — rätta filen (pennan uppe till höger när filen är öppen) och committa igen.</li>
+</ol>
+<p>Ändra en utbildning: öppna <code>utbildning.json</code> i GitHub, tryck på pennan, ändra, committa. Ta bort en utbildning: radera mappen. Mappar som börjar med <code>_</code> publiceras inte — <code>_exempel</code> är en liten mall att titta på.</p>
+
+<h2>Ändra de tre första kurserna</h2>
+<p>HLR, Brand och Hot och våld ligger i innehållsfilen i <code>data/</code>, inte som paket. Ändra dem så här:</p>
+<ol>
+<li>Öppna <code>redaktor.html</code> <b>från mappen på datorn</b> (inte från webbadressen — där kan den inte spara).</li>
+<li>Gör ändringarna och tryck <b>Spara</b>. Första gången: markera de tre filerna i mappen <code>data</code>.</li>
+<li>Ladda upp de tre filerna i <code>data/</code> till GitHub (öppna mappen <code>data</code> → Add file → Upload files → dra in dem → Commit). De ersätter de gamla.</li>
+</ol>
+<p class="muted">Vill ni hellre hantera även de kurserna som paket: öppna kursen i redaktören → <b>Ladda ned som utbildningspaket</b>.</p>
+
+<h2>Framsteg, intyg och rapporten</h2>
+<p>Det finns ingen server, så varje medarbetares framsteg sparas i den webbläsare hon använder:</p>
+<ul>
+<li>"Fortsätt där du var" och intyget fungerar direkt, på den dator eller mobil man använder.</li>
+<li>Delar flera på en dator: tryck <b>Logga ut</b> uppe till höger när du är klar.</li>
+<li>För att utbildningsansvarig ska se allas resultat i <b>Rapport</b>: medarbetaren väljer <b>Meny → Exportera mina framsteg</b> och skickar filen (mejl eller en delad mapp). Utbildningsansvarig läser in den med <b>Meny → Importera framsteg</b>.</li>
+</ul>
+<p class="muted">Nästa steg, den dag det behövs: en liten server som tar emot framstegen automatiskt. Datamodellen ändras inte av det.</p>
+
+<h2>Roller</h2>
+<table>
+<tr><th>Roll</th><th>Ser</th><th>Hur man får den</th></tr>
+<tr><td>Medarbetare</td><td>Sina egna kurser, framsteg och intyg</td><td>Registrerar sig och väljer anläggning</td></tr>
+<tr><td>Platsansvarig</td><td>Hela sin anläggnings rapport</td><td>Adressen läggs in i redaktören under Inställningar → Platsansvariga</td></tr>
+<tr><td>Central insyn</td><td>Alla anläggningar, insynslogg, efterfrågan</td><td>Inställningar → Central insyn. Förifyllt: <code>utbildning@klatterverket.se</code> — byt till riktiga adresser.</td></tr>
+</table>
+
+<h2>Innan ni lanserar — det här behöver Klätterverket bekräfta</h2>
+<div class="box warn">
+<ol>
+<li><b>Utrymning i klätterhallen</b> (Brand, lektion 2.2) är märkt som utkast. Rutinen för att fira ned klättrare, svepzoner och återsamlingsplats är ett förslag — stäm av mot hallarnas utrymningsplaner och ta sedan bort utkastmarkeringen i redaktören.</li>
+<li>Vem som är brandskyddsansvarig, var återsamlingsplatserna ligger, och om Sickla har hiss eller utrymningsplats på loftet.</li>
+<li>Hur personalen larmar varandra och vem som tar emot larmet — Hot och våld, lektion 1.1.</li>
+<li>Var hjärtstartarna sitter och att de är registrerade i Hjärtstartarregistret.</li>
+<li>Hur tillbud rapporteras i dag — Hot och våld, lektion 2.2.</li>
+<li>Riktiga adresser för central insyn och platsansvariga under Inställningar.</li>
+</ol>
+<p class="muted">HLR-kursen är teori. Den ersätter inte praktisk utbildning med docka, och säger det själv.</p>
+</div>
+
+<h2>Utan GitHub — via Google Drive</h2>
+<p>Mappen fungerar fortfarande om den bara synkas med Google Drive för datorn och <code>index.html</code> öppnas direkt från disk. Då gäller två begränsningar: utbildningar i <code>utbildningar/</code> laddas inte (webbläsaren får inte läsa mappar från disk), och YouTube-filmer spelar ofta bara i en ny flik.</p>
+
+<h2>Byta lösenord till redaktören</h2>
+<p>Lösenordet ligger som en kontrollsumma i <code>redaktor.html</code> (raden <code>EDITOR_PASS_SHA</code>). Det är ett lås mot misstag, inte ett skydd — redaktören på webbadressen kan ändå inte skriva till GitHub. Det riktiga skyddet är vilka som har behörighet till repositoryt.</p>
+
+<h2>Källor</h2>
+<ul>
+<li>HLR: Svenska HLR-rådet (riktlinjer 2026), 1177, Sveriges Hjärtstartarregister, SMS-livräddare.</li>
+<li>Brand: Lagen om skydd mot olyckor, Storstockholms brandförsvar, Brandskyddsföreningen, Arbetsmiljöverket AFS 2023:12, SOS Alarm.</li>
+<li>Hot och våld: Arbetsmiljöverket AFS 2023:1 och 2023:2, Polisen, Suntarbetsliv, Prevent, Svensk Handel, Brottsofferjouren.</li>
+</ul>
+<p class="muted">Varje lektion länkar till sina källor. Innehållet är faktagranskat i oktober 2026.</p>
+</main>
+</body>
+</html>
