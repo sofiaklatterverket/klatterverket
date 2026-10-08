@@ -1,0 +1,2145 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "reception-kundbemotande",
+  "title": "Reception & kundbemötande",
+  "summary": "Möt varje kund varmt och tydligt, sälj rätt kort och kurs, och sköt Zoezi, reklamationer och svåra situationer. Med Klätterverkets priser, kort och vanliga frågor.",
+  "audience": [
+   "reception"
+  ],
+  "estimatedMinutes": 99,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24
+  },
+  "modules": [
+   {
+    "title": "Möt kunden",
+    "lessons": [
+     "rec-grunder",
+     "rec-saljmetoder",
+     "rec-kundmote",
+     "rec-forsta-gangen"
+    ]
+   },
+   {
+    "title": "Zoezi och sortimentet",
+    "lessons": [
+     "rec-zoezi-grunder",
+     "rec-zoezi-fortsattning",
+     "rec-medlemskap-kort",
+     "rec-prova-pa"
+    ]
+   },
+   {
+    "title": "Kontakt och svåra lägen",
+    "lessons": [
+     "rec-telefon-mejl",
+     "rec-svara-kundsituationer",
+     "rec-reklamationer"
+    ]
+   },
+   {
+    "title": "Sälja, svara och sköta dagen",
+    "lessons": [
+     "rec-rekommendera-kurs",
+     "rec-merforsaljning",
+     "rec-presentkort-rabatter",
+     "rec-faq",
+     "rec-oppning",
+     "rec-stangning"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "rec-grunder",
+   "label": "1.1",
+   "title": "Receptionen — grunderna",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Receptionen är det första och det sista en besökare möter. Här avgörs om kunden känner sig välkommen, får rätt kort, rätt utrustning och rätt information om säkerheten. Du är hallens värd — inte bara kassan."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "En medarbetare i Klätterverket-hoodie i hallen.",
+     "caption": "Du representerar Klätterverket — sedan 1994."
+    },
+    {
+     "type": "heading",
+     "text": "Dina fyra uppdrag"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Välkomna** — hälsa inom några sekunder, även om du är upptagen.",
+      "**Kontrollera** — rätt [[klatterkort|klätterkort]] för det kunden ska göra, och att kortet syns på selen.",
+      "**Sälj och boka** — entré, kort, kurser och hyrutrustning i Zoezi.",
+      "**Informera** — regler, [[kamratkontroll|kamratkontroll]], åldersgränser och vad som händer i hallen i dag."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Fakta du ska kunna utantill"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "Gasverket",
+      "Sickla"
+     ],
+     "rows": [
+      [
+       "Adress",
+       "Gasverksvägen 15",
+       "Marcusplatsen 17, Nacka"
+      ],
+      [
+       "Öppet vardagar",
+       "Mån/ons/fre 10–22, tis/tors 07–22",
+       "10–22"
+      ],
+      [
+       "Öppet helg",
+       "10–20",
+       "10–20"
+      ],
+      [
+       "Klättring",
+       "17 m höga väggar, ca 1 000 m², rep, boulder, gym",
+       "Ca 40 topprepsleder, boulder med tunnel, gym på loftet"
+      ],
+      [
+       "Mat",
+       "Matkafé Mätarhuset, tis–sön 10–16",
+       "—"
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Telefon: 08-641 10 48. Mejl: info@klatterverket.se."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kamratkontroll"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Hej och välkommen! Har du varit här förut?” — En öppen fråga direkt säger dig om du ska förklara allt eller bara checka in."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att bli kvar i skärmen",
+     "text": "Det är lätt att hälsa med blicken i Zoezi. Titta upp, le och säg hej först — sedan skärmen. En kund som känner sig sedd förlåter att det tar en minut."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6bca5cc9-d8d3-42d5-ade5-fa1107eaea82&size=1600",
+     "alt": "Översikt över klätterhallen på Gasverket.",
+     "caption": "Gasverket: rep, boulder och gym under samma tak."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt i hallen du jobbar i och skriv ner i telefonen: var hyrutrustningen finns, var omklädningsrummen ligger, var bouldern börjar och var första hjälpen finns. Det är det kunderna frågar om först."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Grönt & rött kort",
+     "url": "https://www.klatterforbundet.se/utbildning/gront-och-rott-kort/"
+    }
+   ]
+  },
+  {
+   "id": "rec-saljmetoder",
+   "label": "1.2",
+   "title": "Säljmetoder",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "I receptionen säljer du hela tiden — entréer, kort, kurser. Bra försäljning handlar inte om att övertala. Det handlar om att förstå vad kunden vill och föreslå det som passar bäst. Då kommer kunden tillbaka."
+    },
+    {
+     "type": "heading",
+     "text": "Fyra steg i ett bra säljsamtal"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Fråga** — öppna frågor: ”Vad vill du göra i dag?” ”Hur ofta tänker du klättra?”",
+      "**Lyssna** — [[aktivt-lyssnande|aktivt lyssnande]]: upprepa kort det du hört.",
+      "**Föreslå** — ett förslag, max två. För många val gör det svårt att bestämma sig.",
+      "**Avsluta** — ”Ska vi köra på det?” Gör det enkelt att säga ja."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "behovsanalys"
+    },
+    {
+     "type": "heading",
+     "text": "Exempel: räkna åt kunden"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Om kunden klättrar…",
+      "Bäst val",
+      "Varför"
+     ],
+     "rows": [
+      [
+       "1–2 gånger totalt",
+       "Entré 190 kr",
+       "Inget att binda upp sig på."
+      ],
+      [
+       "Ett par gånger i månaden",
+       "10-klipp 1 650 kr",
+       "165 kr per gång i stället för 190 kr."
+      ],
+      [
+       "Ofta, men oregelbundet",
+       "25-klipp 3 500 kr",
+       "140 kr per gång."
+      ],
+      [
+       "Minst 3–4 gånger i månaden",
+       "Månadskort Guld 590 kr / Silver 510 kr",
+       "Guld är betalt efter drygt tre besök (3 × 190 = 570 kr)."
+      ],
+      [
+       "Hela året",
+       "Årskort Guld 6 400 kr / Silver 5 500 kr",
+       "Guld: 12 × 590 = 7 080 kr per månad, årskortet sparar 680 kr."
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Om du tänker komma varje vecka blir månadskortet billigare redan efter tre besök. Vill du att jag lägger upp det åt dig?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att sälja det dyraste",
+     "text": "Säljer du ett årskort till någon som klättrar två gånger om året blir kunden missnöjd — och berättar det för andra. Föreslå det som kunden faktiskt har nytta av."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vad skiljer Guld från Silver, och vilka tider gäller för Dagtid-korten? Lägg in det här så att alla säger samma sak. Priserna är hämtade från hemsidan 2026-10-07 och ska kontrolleras innan publicering."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1bf8f05d-7675-4c79-b568-563ec45119ca&size=1600",
+     "alt": "En leende kvinna med ett klätterrep.",
+     "caption": "Rätt kort från början ger en nöjd stamkund."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva säljsamtalet med en kollega: hen är en kund som klättrat två gånger och vill börja ”på riktigt”. Ställ två öppna frågor och föreslå ett kort med en uträkning."
+    }
+   ]
+  },
+  {
+   "id": "rec-kundmote",
+   "label": "1.3",
+   "title": "Det perfekta kundmötet",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ett perfekt kundmöte behöver inte vara långt. Det ska vara vänligt, tydligt och säkert. Kunden ska gå därifrån med rätt kort, rätt information och en känsla av att vara välkommen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aad640c6-f322-43eb-be4f-a954a98af0fd&size=1600",
+     "alt": "Instruktörer pratar i hallen.",
+     "caption": "Värme och tydlighet — samma ton som i hallen."
+    },
+    {
+     "type": "heading",
+     "text": "Mötet i fem steg"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Hälsa** — ögonkontakt och ett ”Hej!” inom några sekunder.",
+      "**Fråga** — ”Har du varit här förut?” ”Vad vill du klättra i dag?”",
+      "**Kontrollera** — har kunden rätt [[klatterkort|klätterkort]] för det hen ska göra?",
+      "**Ge det viktigaste** — kortet på selen, [[kamratkontroll|kamratkontroll]], fri fallzon.",
+      "**Avsluta** — ”Ha ett riktigt bra pass! Säg till om du undrar något.”"
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Exempel"
+    },
+    {
+     "type": "richtext",
+     "text": "Två vänner kommer in en tisdagskväll på Gasverket. Den ena har grönt kort, den andra har aldrig klättrat."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Kul att ni är här! Du med grönt kort kan säkra på topprep. Din kompis kan inte säkra dig ännu — men ni kan klättra boulder tillsammans i dag, och vill hen lära sig säkra finns grönt kort-kursen. Vill ni att jag visar var bouldern börjar?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att säga ja för att vara snäll",
+     "text": "En kund utan grönt kort får inte säkra på topprep, även om hen ”har gjort det massor av gånger utomhus”. Var vänlig men tydlig — och erbjud ett alternativ i stället för bara ett nej."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=58651d57-2625-4c69-a377-bd00dcf638e2&size=1600",
+     "alt": "En säkrare står vid väggen och tittar upp mot sin klättrare.",
+     "caption": "Säkraren behöver grönt kort för topprep."
+    },
+    {
+     "type": "task",
+     "instruction": "Stå bredvid en erfaren kollega i receptionen i 20 minuter. Notera hur hen hälsar, vilka frågor hen ställer och hur hen avslutar. Välj en sak du tar med dig."
+    }
+   ]
+  },
+  {
+   "id": "rec-forsta-gangen",
+   "label": "1.4",
+   "title": "Förstagångsbesökaren",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Den som kommer för första gången är ofta lite nervös: ”Vad ska jag göra? Får jag ens klättra?” Ditt jobb är att göra det enkelt och tryggt. Ett bra första besök är början på en stamkund."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc73d0a2-82df-460c-9a77-edd32db978c1&size=1600",
+     "alt": "En kvinna tar på sig klätterskor.",
+     "caption": "Hyrskor och sele — det första förstagångsbesökaren behöver."
+    },
+    {
+     "type": "heading",
+     "text": "Det här behöver förstagångsbesökaren veta"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Vad hen får göra**: utan kort kan hen klättra boulder. Rep kräver kurs eller kort.",
+      "**Hyrutrustning**: skor, sele, repbroms och kritpåse finns att hyra.",
+      "**Boulder**: klättra ner i stället för att hoppa från toppen. Mattorna ska vara fria från föremål.",
+      "**Barn**: barn under 13 år i boulder ska ha en ansvarig person över 15 år med minst [[gult-kort|gult kort]], max 2 barn per vuxen.",
+      "**Var allt finns**: omklädningsrum, skåp, toaletter, bouldern."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Vägar vidare efter första besöket"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kunden vill…",
+      "Föreslå"
+     ],
+     "rows": [
+      [
+       "Testa rep med instruktör",
+       "Prova på (helg) 350 kr, 90 min. Barn minst 120 cm."
+      ],
+      [
+       "Klättra rep själv med automatsäkring",
+       "Gult kort 495 kr, ca 30 min, från 15 år."
+      ],
+      [
+       "Säkra en kompis på topprep",
+       "Grönt kort 1 350 kr, 2 × 2 h."
+      ],
+      [
+       "Komma med barnen",
+       "Familjekurs 1 595 kr vuxen / 250 kr barn."
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Första gången? Vad roligt! Bouldern här till vänster kan du klättra direkt — skor hyr du här. Klättra ner i stället för att hoppa från toppen. Vill du prova rep sen finns gult kort, det tar bara en halvtimme.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: informationsdumpen",
+     "text": "Läs inte upp alla regler på en gång. Ge de två–tre viktigaste — och säg att du finns här. Det andra tar du när kunden kommer tillbaka."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Ska förstagångsbesökare godkänna regler eller ett villkor i Zoezi eller på papper innan de klättrar? Vem visar bouldern vid hög belastning?"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=00abe9d0-d8c9-4766-a75d-23641b5b0fd8&size=1600",
+     "alt": "En boulderyta där en väska ligger kvar på mattan.",
+     "caption": "Riskexempel: väskor och vattenflaskor hör inte hemma på mattan."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör en egen ”välkomstrunda” på max 60 sekunder: vad säger du, och vart pekar du? Testa den på en kollega som låtsas vara ny."
+    }
+   ]
+  },
+  {
+   "id": "rec-zoezi-grunder",
+   "label": "2.1",
+   "title": "Zoezi — grunder",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klätterverket använder **Zoezi** som bokningssystem för kurser, kort och medlemskap. Kunderna har en egen kundportal, GoActive. Kan du Zoezi går kön snabbt — och kunden får rätt kvitto och rätt kort."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8865b521-c4e0-4a94-bd79-982995030a0c&size=1600",
+     "alt": "En bouldergrupp sedd ovanifrån.",
+     "caption": "Allt kunderna gör — entré, kort, kurs — registreras i Zoezi."
+    },
+    {
+     "type": "heading",
+     "text": "Så fungerar kassan i Zoezi — generellt"
+    },
+    {
+     "type": "richtext",
+     "text": "Det här kommer från Zoezis egna hjälpsidor. Exakt hur det ser ut hos oss beror på våra inställningar."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Öppna kassan** — vid dagens start anger du beloppet i [[dagskassa|dagskassan]]. Hanteras inga kontanter anger du 0 kr.",
+      "**Koppla kunden till köpet** — Zoezi rekommenderar det. Då sparas kvittot på kundens profil och kan skickas med mejl eller sms.",
+      "**Välj produkt** — produkterna ligger i kategorier så att de går snabbt att hitta.",
+      "**Ta betalt** — till exempel kort i terminal eller Swish.",
+      "**Stäng kassan** — automatiskt vid midnatt eller manuellt med ”Stäng kassa”. Då skapas dagrapporterna."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Varför koppla kunden?",
+     "text": "Ett köp utan kund går inte att hitta igen. Ett köp med kund syns på profilen — då kan du hjälpa kunden om kvittot försvinner eller något blir fel."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Har du köpt något hos oss förut? Då letar jag upp dig, så hamnar kvittot på ditt konto.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: anonyma köp i stressen",
+     "text": "När det är kö är det frestande att sälja utan kund. Men då kommer inget kvitto med mejl eller sms, och köpet syns inte på kundens profil. Koppla kunden — det tar fem sekunder."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Hur Klätterverkets kassa är inställd: vilka produkter som finns i vilka kategorier, vilka betalsätt vi tar, hur dagskassan räknas och om kassan stängs automatiskt. Vem är superanvändare i Zoezi på respektive hall?"
+    },
+    {
+     "type": "task",
+     "instruction": "Logga in i Zoezi med en kollega bredvid dig. Leta upp en testkund eller dig själv och titta på vad som syns på profilen: kort, köp och kvitton.",
+     "hint": "Sälj inget skarpt förrän du gjort det tillsammans med någon."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Zoezi Wiki — Hur fungerar din kassa?",
+     "url": "https://zoezi.atlassian.net/wiki/spaces/SUP/pages/342622215/Hur+fungerar+din+kassa"
+    }
+   ]
+  },
+  {
+   "id": "rec-zoezi-fortsattning",
+   "label": "2.2",
+   "title": "Zoezi — fortsättning",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "När grunderna sitter kommer frågorna som tar tid: frysa ett kort, ta betalt med friskvårdsbidrag, lösa in ett presentkort, eller en kund som inte kommer in. Här är hur Zoezi fungerar generellt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e9331293-2984-4e01-9abc-dc8005430601&size=1600",
+     "alt": "En grupp klättrare passar varandra i bouldern.",
+     "caption": "Bakom varje kund finns en profil i Zoezi."
+    },
+    {
+     "type": "heading",
+     "text": "Vanliga ärenden — så fungerar Zoezi"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Ärende",
+      "Enligt Zoezis hjälpsidor"
+     ],
+     "rows": [
+      [
+       "Frysa ett kort",
+       "Görs av personal på kundens profil, under träningskortet. Kunden kan inte frysa själv. Förbetalda kort förlängs med frysningens längd. Klippkort kan frysas, men antalet klipp ändras inte. Utgångna kort kan inte frysas."
+      ],
+      [
+       "Friskvårdsbidrag",
+       "Epassi har direkt integration. Andra portaler läggs upp som egna betalsätt. Kunden behöver ha bidrag kvar i sin portal."
+      ],
+      [
+       "Presentkort",
+       "Säljs i kassan som en kod. Löses in med ”+ Ange presentkort”. Räcker inte värdet betalas resten med ett annat betalsätt."
+      ],
+      [
+       "Värdekort",
+       "Ett tillgodo kopplat till en kund, utan kod. Skapas t.ex. vid dubbelbetalning eller avbokad kurs."
+      ],
+      [
+       "Kunden kommer inte in",
+       "En vanlig orsak är att kortet inte är inställt för inpassering. Det ändras av den som administrerar korten."
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "vardekort"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Du ska vara borta i sex veckor? Då kan jag frysa ditt kort, så förlängs det lika länge. Vilka datum gäller?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att fixa betalningar på egen hand",
+     "text": "Frysning påverkar inte betalningar som redan skickats — de måste hanteras separat. Är du osäker: skriv ner ärendet och lämna till den som har hand om ekonomin, i stället för att kreditera själv."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilka friskvårdsportaler tar vi i kassan (ePassi, Wellnet, Benefits) och hur går det till hos oss? Vilken behörighet har receptionen — får du frysa kort, kreditera, ge rabatt? Vem tar ärenden du inte får lösa?"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b2ba3bdb-4beb-467b-be22-20b8ddb3293f&size=1600",
+     "alt": "En hand håller ett grönt klätterkort.",
+     "caption": "Klätterkort, träningskort, presentkort — håll isär dem."
+    },
+    {
+     "type": "task",
+     "instruction": "Be din platsansvarige visa dig en frysning och en friskvårdsbetalning i Zoezi. Skriv en egen lathund med stegen så som de ser ut hos oss."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Zoezi Wiki — Frysning av träningskort",
+     "url": "https://zoezi.atlassian.net/wiki/spaces/SUP/pages/188448785/Ekonomi+-+Frysning+av+tr+ningskort"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Zoezi Wiki — Din guide till friskvårdsbidrag",
+     "url": "https://zoezi.atlassian.net/wiki/spaces/SUP/pages/4718593/Din+guide+till+friskv+rdsbidrag"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Zoezi Wiki — Kund kan inte passera in",
+     "url": "https://zoezi.atlassian.net/wiki/spaces/SUP/pages/41320483/Kund+kan+inte+passera+in+m+jliga+l+sningar."
+    }
+   ]
+  },
+  {
+   "id": "rec-medlemskap-kort",
+   "label": "2.3",
+   "title": "Medlemskap & träningskort",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "I receptionen pratar vi om två sorters kort som lätt blandas ihop. **Träningskort** är det kunden betalar för att komma in: entré, klippkort, månadskort, årskort. **Klätterkort** — gult, grönt och rött — visar vad kunden har lärt sig och får göra i hallen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=61d7de4a-0bb9-4d35-9517-03a0aa5618b0&size=1600",
+     "alt": "Ett grönt klätterkort i handen.",
+     "caption": "Klätterkortet ska synas på selen."
+    },
+    {
+     "type": "heading",
+     "text": "Klätterkorten — vad de ger"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kort",
+      "Kurs och pris",
+      "Vad kortet ger"
+     ],
+     "rows": [
+      [
+       "**Gult kort**",
+       "Ca 30 min, 495 kr. Från 15 år.",
+       "Klättra med [[autosakring|automatsäkring]]. Får vara ansvarig vuxen för barn under 13 i boulder."
+      ],
+      [
+       "**Grönt kort**",
+       "2 × 2 h, max 4 per grupp, 1 350 kr. Enligt SKF:s normer.",
+       "Topprepssäkring — klättra och säkra topprep. Även automatsäkring."
+      ],
+      [
+       "**Rött kort**",
+       "1 650 kr. Kräver grönt kort.",
+       "Ledklättring och ledsäkring. Även topprep och automatsäkring."
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "klatterkort"
+    },
+    {
+     "type": "heading",
+     "text": "Träningskort och priser"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "Vuxen",
+      "Ungdom"
+     ],
+     "rows": [
+      [
+       "Entré",
+       "190 kr",
+       "130 kr"
+      ],
+      [
+       "10-klipp",
+       "1 650 kr",
+       "1 100 kr"
+      ],
+      [
+       "25-klipp",
+       "3 500 kr",
+       "2 200 kr"
+      ],
+      [
+       "Månadskort Guld / Silver",
+       "590 / 510 kr",
+       "—"
+      ],
+      [
+       "Månadskort Dagtid Guld / Silver",
+       "450 / 390 kr",
+       "—"
+      ],
+      [
+       "Årskort Guld / Silver",
+       "6 400 / 5 500 kr",
+       "—"
+      ],
+      [
+       "Årskort Dagtid Guld / Silver",
+       "4 900 / 4 200 kr",
+       "—"
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "Studenter: 10 % rabatt.",
+      "Medlemsförmåner: bjud med en vän, och 10 % i butiken, på kurser och på Matkafé Mätarhuset.",
+      "Betala med [[friskvardsbidrag|friskvårdsbidrag]]: ePassi, Wellnet och Benefits."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Exempel: kunden vill klättra rep men har inget kort"
+    },
+    {
+     "type": "richtext",
+     "text": "Johan, 28, kommer en lördag. Han vill klättra rep, har bara bouldrat och har inget klätterkort."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Utan kort kan du inte klättra rep på egen hand. Vill du prova i dag finns prova på med instruktör, 90 minuter. Vill du klättra rep själv är gult kort snabbast — en halvtimme, sedan kan du använda automatsäkringen. Och vill du säkra en kompis är det grönt kort som gäller.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: ”jag har kort från en annan hall”",
+     "text": "Kunden ska kunna visa kortet, och det ska synas på selen. Är du osäker på ett kort från en annan hall — fråga en instruktör innan kunden går upp i väggen."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vad ingår i Guld respektive Silver, vilka tider gäller för Dagtid och vilken ålder gäller för ungdomspris? Hur gör vi med klätterkort från andra hallar — godkänns de direkt eller krävs en kontroll? Priserna ska kontrolleras mot hemsidan innan publicering."
+    },
+    {
+     "type": "task",
+     "instruction": "Leta upp prislistan för din hall och jämför med tabellerna här. Skriv ner om något skiljer sig och lämna till din platsansvarige."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Grönt & rött kort",
+     "url": "https://www.klatterforbundet.se/utbildning/gront-och-rott-kort/"
+    }
+   ]
+  },
+  {
+   "id": "rec-prova-pa",
+   "label": "2.4",
+   "title": "Prova-på-klättring",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Prova på är för många det allra första mötet med repklättring. Det är också den vanligaste vägen till gult och grönt kort. Du som bokar ska veta vad som ingår och vem det passar."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4c21624b-cc32-43ac-a12f-0f7bb958bdcd&size=1600",
+     "alt": "Ett glatt barn klättrar på klätterväggen.",
+     "caption": "Barn kan prova på från 120 cm."
+    },
+    {
+     "type": "heading",
+     "text": "Prova på i korthet"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "När",
+       "Helger"
+      ],
+      [
+       "Längd",
+       "90 minuter, med instruktör"
+      ],
+      [
+       "Pris",
+       "350 kr (höstlov: 275 kr)"
+      ],
+      [
+       "Barn",
+       "Minst 120 cm långa"
+      ],
+      [
+       "Utrustning",
+       "Fråga om hyrutrustning ingår — se rutan nedan"
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Andra sätt att prova"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Familjekurs** — 1 595 kr vuxen, 250 kr barn.",
+      "**Privat instruktör** — 1 695 kr, max 6 personer.",
+      "**Företag** — 495 kr ex moms per person, 90 min.",
+      "**Möhippa** — 1 495 kr.",
+      "**Barnkalas** — från 290 kr per barn, 10–18 barn, helger 10:15 och 15:15."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Prova på är perfekt för er — en instruktör visar allt och ni klättrar rep i 90 minuter. Är din dotter minst 120 cm kan hon vara med.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att lova för mycket",
+     "text": "Prova på ger inget klätterkort. Säg det tydligt vid bokningen, så blir ingen besviken när de vill komma tillbaka och klättra rep själva."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Ingår hyrutrustning i prova på? Hur bokas det i Zoezi, hur många platser finns per tillfälle, vad gäller vid sen avbokning och hur hanteras väntelista?"
+    },
+    {
+     "type": "video",
+     "title": "Barnkalas på Klätterverket (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aae86f15-b037-4504-bebd-15f1526f3f51&_ignore=.mp4"
+    },
+    {
+     "type": "task",
+     "instruction": "Ta reda på när nästa prova-på-tillfälle är på din hall och hur många platser som är kvar. Öva på att boka en låtsaskund tillsammans med en kollega."
+    }
+   ]
+  },
+  {
+   "id": "rec-telefon-mejl",
+   "label": "3.1",
+   "title": "Telefon & mejl",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Många kunder möter Klätterverket först i telefon eller mejl. Rösten och texten är vårt ansikte då. Svara vänligt, kort och korrekt — och lova aldrig något du inte kan hålla."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=04c99843-b114-4fab-8057-6f13f118c427&size=1600",
+     "alt": "En grupp personal eller företagsgäster i hallen.",
+     "caption": "Företag och grupper hör ofta av sig via mejl först."
+    },
+    {
+     "type": "heading",
+     "text": "Telefon — 08-641 10 48"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Svara med hälsning och hall: ”Klätterverket Gasverket, det är Sara.”",
+      "Lyssna klart innan du svarar.",
+      "Vet du inte — säg det, och lova återkoppling med en tid.",
+      "Avsluta med en sammanfattning: ”Då har jag bokat…”"
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Mejl — info@klatterverket.se"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Börja med svaret, inte med bakgrunden.",
+      "Ge länk eller pris direkt när kunden frågar om kurs eller kort.",
+      "Skriv som du pratar: ”du”, korta meningar, vänligt.",
+      "Skicka aldrig ut uppgifter om en annan kund — inte ens till någon som säger sig vara anhörig."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Hej Maria! Grönt kort kostar 1 350 kr och är två tillfällen à två timmar, max fyra per grupp. Du bokar direkt på hemsidan. Hör av dig om du vill ha hjälp att välja datum! Vänliga hälsningar, Ali, Klätterverket”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att gissa i telefon",
+     "text": "”Jag tror att det går bra” blir lätt ett löfte. Kontrollera i Zoezi eller med en kollega — och ring upp. En kund som får rätt svar senare är nöjdare än en som fått fel svar direkt."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem svarar på info@ och hur snabbt ska vi svara? Finns färdiga mallar? Hur hanteras företags- och gruppförfrågningar — vem får dem?"
+    },
+    {
+     "type": "task",
+     "instruction": "Skriv ett svar på det här mejlet och visa en kollega: ”Hej! Vi är fyra kollegor som vill klättra en eftermiddag. Vad kostar det och vad behöver vi ha med oss?”",
+     "hint": "Företag: 495 kr ex moms per person, 90 min."
+    }
+   ]
+  },
+  {
+   "id": "rec-svara-kundsituationer",
+   "label": "3.2",
+   "title": "Svåra kundsituationer",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "De flesta kunder är glada och nyfikna. Men ibland blir någon arg, besviken eller bryter mot reglerna. Då gäller det att vara lugn, tydlig och snäll — och att aldrig stå ensam om det blir hotfullt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8d821414-296f-4164-bb6a-706e4da44ebb&size=1600",
+     "alt": "En instruktör kontrollerar en klättrares säkring.",
+     "caption": "Säkerhetsregler är inte förhandlingsbara — men de kan förklaras vänligt."
+    },
+    {
+     "type": "heading",
+     "text": "Så lugnar du en upprörd kund"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Lyssna klart** — avbryt inte.",
+      "**Bekräfta känslan** — ”Jag förstår att det är irriterande.”",
+      "**Förklara kort** — varför regeln finns, utan att försvara dig.",
+      "**Erbjud en väg framåt** — ett alternativ, en kontakt, ett löfte om återkoppling.",
+      "**Hämta stöd** — en kollega eller platsansvarig om det inte löser sig."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Vanliga lägen"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Situation",
+      "Gör så här"
+     ],
+     "rows": [
+      [
+       "Kunden vill säkra utan grönt kort",
+       "Var vänlig och tydlig: nej. Erbjud boulder, gult kort eller kurs."
+      ],
+      [
+       "En förälder lämnar barn under 13 ensamma i bouldern",
+       "Förklara regeln: en ansvarig person över 15 år med minst gult kort, max 2 barn per vuxen."
+      ],
+      [
+       "Kunden verkar påverkad",
+       "Ingen alkohol eller droger i hallen. Släpp inte in — hämta kollega."
+      ],
+      [
+       "Kränkande kommentarer mot personal eller besökare",
+       "Nolltolerans mot sexism, rasism och kränkningar. Säg ifrån lugnt, hämta stöd."
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Jag förstår att du har klättrat mycket utomhus. Här gäller grönt kort för att säkra på topprep — för allas säkerhet. Vill du ta kortet kan vi boka en tid i dag.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att stå kvar ensam",
+     "text": "Blir en kund hotfull: backa, skapa avstånd och hämta en kollega. Vid hot eller våld — ring 112. Din säkerhet går före försäljning och regler."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vad är Klätterverkets rutin vid hot eller våld: vem larmas, hur, och hur rapporteras händelsen efteråt? Vem får neka eller avvisa en besökare? Finns ett sätt att spärra en kund från inpassering?"
+    },
+    {
+     "type": "task",
+     "instruction": "Prata med en kollega om en svår situation ni varit med om i receptionen. Vad fungerade? Vad skulle ni göra annorlunda?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — Våld och hot om våld",
+     "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/"
+    }
+   ]
+  },
+  {
+   "id": "rec-reklamationer",
+   "label": "3.3",
+   "title": "Reklamationer",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ibland är något fel: en klätterko som går sönder efter två veckor, en kurs som ställdes in, ett dubbelt köp. En [[reklamation|reklamation]] som hanteras snabbt och vänligt kan göra en arg kund till en lojal kund."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=0d313a5b-919c-4a72-8704-fc292dacd10c&size=1600",
+     "alt": "Kritade händer.",
+     "caption": "Utrustning slits — men ett fel som fanns från början ska åtgärdas."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "reklamation"
+    },
+    {
+     "type": "heading",
+     "text": "Varor i butiken — konsumentköplagen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Kunden har **3 års** reklamationsrätt från köpet.",
+      "Kunden ska klaga inom **2 månader** från att hen upptäckt felet.",
+      "Felet ska ha funnits vid köpet, men behöver inte ha synts direkt.",
+      "De första **2 åren** är det företaget som måste visa att felet beror på kunden eller normalt slitage.",
+      "I första hand: laga eller byta. Annars prisavdrag eller hävning (pengarna tillbaka)."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Tjänster — kurser, kort och entréer"
+    },
+    {
+     "type": "richtext",
+     "text": "Konsumenttjänstlagen gäller främst arbete på saker och fastigheter samt förvaring. För kurser och kort gäller i första hand våra villkor. Oavsett vad: lyssna, dokumentera och lös det generöst."
+    },
+    {
+     "type": "heading",
+     "text": "Så tar du emot en reklamation"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Tacka för att kunden säger till.",
+      "Fråga vad som hänt, när det köptes och se kvittot — leta upp köpet på kundens profil i Zoezi.",
+      "Skriv ner ärendet: namn, kontakt, vara eller tjänst, vad som är fel.",
+      "Lös direkt om du får — annars lova återkoppling med en tid och lämna vidare."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Tack för att du kommer in med den. Jag skriver ner vad som hänt och ser till att du får besked senast på fredag. Har du kvar kvittot, eller köpte du den på ditt konto?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: ”det är nog slitage”",
+     "text": "Säg inte nej på stående fot. Under de första två åren är det företaget som ska visa att felet beror på slitage eller kunden. Ta emot ärendet och lämna det vidare."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem beslutar om reklamationer på butiksvaror och om återbetalning av kurser och kort? Vilka villkor gäller vid inställd kurs eller sjukdom? Var dokumenteras ärendet?"
+    },
+    {
+     "type": "task",
+     "instruction": "Leta upp hur en reklamation dokumenteras på din hall. Finns ingen rutin: skriv ett förslag på vad som ska noteras och lämna till din platsansvarige."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — Reklamationsrätt, så reklamerar du en vara",
+     "url": "https://www.konsumentverket.se/konsumentratt-process/reklamera-vara/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — Reklamera felaktig tjänst",
+     "url": "https://www.konsumentverket.se/konsumentratt-process/reklamera-tjanst/"
+    }
+   ]
+  },
+  {
+   "id": "rec-rekommendera-kurs",
+   "label": "4.1",
+   "title": "Rekommendera kurs",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klätterverket var först i Sverige med standardiserade kurser och klätterkort. Kurserna är vägen till att klättra själv — och därmed till en trogen kund. Du ska kunna välja rätt kurs efter några frågor."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce074c19-48de-4842-8666-a8a59450709e&size=1600",
+     "alt": "En instruktör visar en grupp hur man knyter en knut.",
+     "caption": "Grönt kort: max fyra per grupp, enligt SKF:s normer."
+    },
+    {
+     "type": "heading",
+     "text": "Fråga först"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Hur gammal är du (eller barnet)?",
+      "Har du klättrat förut — boulder, rep, utomhus?",
+      "Vill du säkra någon, eller bara klättra själv?",
+      "Ensam, med familjen, med jobbet?"
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Kursguide"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kunden",
+      "Rekommendera",
+      "Pris"
+     ],
+     "rows": [
+      [
+       "Vuxen, aldrig klättrat rep, vill testa",
+       "Prova på (helg, 90 min)",
+       "350 kr"
+      ],
+      [
+       "Från 15 år, vill klättra rep själv",
+       "[[gult-kort|Gult kort]]",
+       "495 kr"
+      ],
+      [
+       "Vill säkra en kompis på topprep",
+       "[[gront-kort|Grönt kort]]",
+       "1 350 kr"
+      ],
+      [
+       "Har grönt kort, vill leda",
+       "[[rott-kort|Rött kort]]",
+       "1 650 kr"
+      ],
+      [
+       "Förälder med barn",
+       "Familjekurs",
+       "1 595 kr vuxen / 250 kr barn"
+      ],
+      [
+       "Barn 6–10 år som vill träna regelbundet",
+       "Klätterakademin",
+       "2 595 kr/termin"
+      ],
+      [
+       "Ungdom 11–17 år",
+       "Klätterakademin",
+       "2 995 kr/termin"
+      ],
+      [
+       "Vill bli starkare och bättre",
+       "PT nivå 1 / nivå 2 eller Gruppträning grundkurs (8 tillfällen)",
+       "695 / 895 kr, 2 500 kr"
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Exempel"
+    },
+    {
+     "type": "richtext",
+     "text": "Lena ringer: hon och hennes 9-åriga son vill börja klättra tillsammans."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Familjekursen passar er perfekt — ni lär er tillsammans. Vill han sedan träna mer finns Klätterakademin för 6–10 år.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att hoppa över gult kort",
+     "text": "Gult kort gäller från 15 år. En 13-åring kan alltså inte ta gult kort — föreslå prova på, familjekurs eller Klätterakademin i stället."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilken ålder gäller för grönt och rött kort hos oss? Hur bokas privat instruktör och företagsevent — via Zoezi eller via mejl?"
+    },
+    {
+     "type": "task",
+     "instruction": "Gå igenom kursutbudet i Zoezi eller på hemsidan för kommande månad. Hitta nästa grönt kort-kurs med lediga platser på din hall."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Grönt & rött kort",
+     "url": "https://www.klatterforbundet.se/utbildning/gront-och-rott-kort/"
+    }
+   ]
+  },
+  {
+   "id": "rec-merforsaljning",
+   "label": "4.2",
+   "title": "Merförsäljning utan att vara pushig",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "[[merforsaljning|Merförsäljning]] är att ge kunden något mer som hen faktiskt har nytta av. Gör du det rätt känns det som service — inte som försäljning."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b874dc0b-d974-4f8b-843f-a8b68a815af2&size=1600",
+     "alt": "En kvinna klättrar på väggen.",
+     "caption": "Nöjda kunder kommer tillbaka — och tar med vänner."
+    },
+    {
+     "type": "heading",
+     "text": "Tre regler"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Utgå från kunden** — vad har hen sagt att hen vill?",
+      "**Ett förslag i taget** — och bara om det passar.",
+      "**Ett nej är ett nej** — tacka och gå vidare."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Naturliga tillfällen"
+    },
+    {
+     "type": "table",
+     "head": [
+      "När kunden…",
+      "Kan du nämna…"
+     ],
+     "rows": [
+      [
+       "köper sin tredje entré den här månaden",
+       "Månadskortet — Guld är betalt efter drygt tre besök."
+      ],
+      [
+       "hyr skor för femte gången",
+       "Butiken — egna skor. Medlemmar får 10 % i butiken."
+      ],
+      [
+       "har klättrat boulder ett tag",
+       "Gult eller grönt kort."
+      ],
+      [
+       "tränar på Gasverket på helgen",
+       "Brunch på Matkafé Mätarhuset."
+      ],
+      [
+       "är medlem och kommer med en vän",
+       "Medlemsförmånen bjud med en vän."
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Jag ser att du har varit här tre gånger den här månaden — då hade månadskortet redan lönat sig. Vill du att jag berättar hur det funkar?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att fortsätta efter ett nej",
+     "text": "Säger kunden ”nej tack” — släpp det helt. Att tjata förstör förtroendet, och kunden undviker dig nästa gång."
+    },
+    {
+     "type": "video",
+     "title": "Matkafé Mätarhuset (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=44d2bd37-2a07-4797-b628-ecb1e526dad1&_ignore=.mp4"
+    },
+    {
+     "type": "task",
+     "instruction": "Lägg märke till en kund under ditt nästa pass som skulle ha nytta av något mer. Ge ett förslag på ett naturligt sätt och berätta för en kollega hur det gick."
+    }
+   ]
+  },
+  {
+   "id": "rec-presentkort-rabatter",
+   "label": "4.3",
+   "title": "Presentkort, rabatter och kampanjer",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Presentkort, rabatter och kampanjer ger nya kunder och glada stamkunder. Men de skapar också frågor i kassan. Du ska veta vad som gäller och hur det fungerar."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e3a01834-a1b7-4646-a075-05789ef4d76a&size=1600",
+     "alt": "Ett presentkort från Klätterverket.",
+     "caption": "Klätterverkets presentkort gäller i 2 år."
+    },
+    {
+     "type": "heading",
+     "text": "Presentkort"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Klätterverkets presentkort gäller **2 år**.",
+      "Företaget bestämmer giltighetstiden. Står ingen tid angiven gäller presentkort i tio år, enligt Konsumentverket.",
+      "Presentkort löses som huvudregel inte in mot kontanter.",
+      "I Zoezi säljs presentkortet som en kod. Vid inlösen anges koden, och räcker inte värdet betalas resten med ett annat betalsätt."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Rabatter vi har"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Vem",
+      "Rabatt"
+     ],
+     "rows": [
+      [
+       "Studenter",
+       "10 %"
+      ],
+      [
+       "Medlemmar",
+       "10 % i butiken, på kurser och på Matkafé Mätarhuset. Bjud med en vän."
+      ],
+      [
+       "Kampanj, t.ex. höstlov",
+       "Prova på 275 kr i stället för 350 kr"
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Generellt i Zoezi: en rabatt kan vara i kronor eller procent och begränsas till vissa produkter och en viss period. På löpande kort kan rabatten bara vara i procent."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Presentkortet gäller i två år från köpet, så det finns gott om tid. Vill du ha det digitalt eller utskrivet?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: rabatter på känn",
+     "text": "Ge inte rabatt ”för att vara snäll”. Rabatter ska vara samma för alla och synas i kassan. Är du osäker — fråga."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Hur säljs presentkort hos oss: digitalt, utskrivet eller båda? Hur kontrollerar receptionen studentrabatt? Hur fungerar bjud med en vän i praktiken? Vilka kampanjer är aktiva och vem lägger in rabattkoder?"
+    },
+    {
+     "type": "task",
+     "instruction": "Ta reda på hur ett presentkort säljs och löses in på din hall. Gör det tillsammans med en kollega i Zoezi, med en testkund om det finns."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — Presentkort och tillgodokvitto",
+     "url": "https://www.konsumentverket.se/konsumentratt/presentkort-och-tillgodokvitto/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Zoezi Wiki — Guide till presentkort i Zoezi",
+     "url": "https://zoezi.atlassian.net/wiki/spaces/SUP/pages/72417285/Guide+till+Presentkort+i+Zoezi"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Zoezi Wiki — Rabatt, rabattkoder",
+     "url": "https://zoezi.atlassian.net/wiki/spaces/SUP/pages/186056705/Ekonomi+-+Rabatt+rabattkoder"
+    }
+   ]
+  },
+  {
+   "id": "rec-faq",
+   "label": "4.4",
+   "title": "FAQ — vanliga frågor",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Det här är frågorna du får varje dag. Svaren kommer från Klätterverkets egna regler och priser. Kan du dem går det snabbt — och alla i receptionen säger samma sak."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=90d0b063-f3e8-423e-951a-55c2cfc72fff&size=1600",
+     "alt": "Ett barn klättrar och ler.",
+     "caption": "Frågor om barn är bland de vanligaste."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Fråga",
+      "Svar"
+     ],
+     "rows": [
+      [
+       "Vilka tider har ni öppet?",
+       "Gasverket: mån/ons/fre 10–22, tis/tors 07–22, helg 10–20. Sickla: vardagar 10–22, helg 10–20."
+      ],
+      [
+       "Kan jag hyra utrustning?",
+       "Ja: skor, sele, repbroms och kritpåse."
+      ],
+      [
+       "Kan jag klättra rep utan kort?",
+       "Inte på egen hand. Prova på med instruktör, eller ta gult kort (automatsäkring) eller grönt kort (topprep)."
+      ],
+      [
+       "Vad är skillnaden på gult, grönt och rött kort?",
+       "Gult: automatsäkring. Grönt: topprep. Rött: led. Kortet ska synas på selen."
+      ],
+      [
+       "Hur gammal måste man vara för gult kort?",
+       "Från 15 år."
+      ],
+      [
+       "Från vilken ålder får barn prova på?",
+       "Barn ska vara minst 120 cm långa."
+      ],
+      [
+       "Får barn bouldra själva?",
+       "Barn under 13 år ska ha en ansvarig person över 15 år med minst gult kort. Max 2 barn per vuxen."
+      ],
+      [
+       "Får man åka i tunneln i Sickla?",
+       "Nej, ingen rutschkana eller åkning i tunneln."
+      ],
+      [
+       "Vilken åldersgräns har gymmet?",
+       "Sickla: 10 år (under 13 med vuxen). Gasverket: 15 år."
+      ],
+      [
+       "Kan jag betala med friskvårdsbidrag?",
+       "Ja: ePassi, Wellnet och Benefits."
+      ],
+      [
+       "Har ni studentrabatt?",
+       "Ja, 10 %."
+      ],
+      [
+       "Hur länge gäller presentkortet?",
+       "2 år."
+      ],
+      [
+       "Kan vi ha barnkalas?",
+       "Ja, helger 10:15 och 15:15. Från 290 kr per barn, min 10 och max 18 barn."
+      ],
+      [
+       "Har ni mat?",
+       "Matkafé Mätarhuset på Gasverket, tis–sön 10–16, brunch helger 10:30–15:30."
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Bra fråga! Barn under 13 år får bouldra med en vuxen över 15 som har minst gult kort — max två barn per vuxen.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att svara på frågor om allergener",
+     "text": "Frågor om allergener i Matkafé Mätarhuset ska kaféets personal svara på. Skicka kunden dit i stället för att gissa."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Lägg till fler frågor som är vanliga hos er, t.ex. om skåp, parkering, dusch och om man får ta med egen mat. Kontrollera öppettiderna inför helgdagar."
+    },
+    {
+     "type": "task",
+     "instruction": "Be en kollega ställa fem slumpvisa frågor ur tabellen till dig. Svara utan att titta. Upprepa tills du kan alla."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Grönt & rött kort",
+     "url": "https://www.klatterforbundet.se/utbildning/gront-och-rott-kort/"
+    }
+   ]
+  },
+  {
+   "id": "rec-oppning",
+   "label": "4.5",
+   "title": "Öppningsrutiner",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En bra öppning gör att första kunden möts av en hall som är redo: kassan igång, mattorna fria och utrustningen på plats. Gör samma sak varje gång, i samma ordning."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce4b1cd3-65f3-4586-ab8a-ea928d327f5d&size=1600",
+     "alt": "Klätterhallen sedd underifrån.",
+     "caption": "Gå igenom hallen innan dörrarna öppnas."
+    },
+    {
+     "type": "heading",
+     "text": "Öppning — branschpraxis"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Lås upp, slå av larmet och tänd belysningen.",
+      "Gå en runda i hallen: är mattorna fria och hela? Ligger något kvar i fallzonerna?",
+      "Kontrollera att hyrutrustningen ligger på plats och ser hel ut.",
+      "Kontrollera att första hjälpen och hjärtstartaren finns på plats.",
+      "Starta datorn, logga in i Zoezi och öppna kassan med [[dagskassa|dagskassan]].",
+      "Läs dagens bokningar: kurser, prova på, barnkalas, företag.",
+      "Öppna dörrarna i tid."
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Kom ihåg: på Gasverket öppnar vi 07 på tisdagar och torsdagar."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”God morgon! Du är först i dag — välkommen. Bouldern är nyborstad.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att hoppa över hallrundan",
+     "text": "Det är frestande att öppna kassan direkt när det står någon utanför. Men en väska eller ett föremål på mattan kan orsaka en skada. Hallrundan går först."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Klätterverkets egen öppningschecklista för respektive hall: larm, nycklar, vem som öppnar, vad som kontrolleras i hallen och var avvikelser rapporteras. Ska den som öppnar vara ensam? Vad gäller i så fall?"
+    },
+    {
+     "type": "task",
+     "instruction": "Följ med vid en öppning på din hall. Skriv ner varje steg i den ordning det görs och jämför med listan ovan."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — Ensamarbete",
+     "url": "https://www.av.se/halsa-och-sakerhet/ensamarbete/"
+    }
+   ]
+  },
+  {
+   "id": "rec-stangning",
+   "label": "4.6",
+   "title": "Stängningsrutiner",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En bra stängning gör att alla kunder kommer ut säkert, att pengarna stämmer och att nästa pass kan öppna utan överraskningar."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=24ef1768-ec3b-40ab-b984-1911936c43e1&size=1600",
+     "alt": "Höga klätterväggar med klättrare.",
+     "caption": "Säg till i god tid innan stängning."
+    },
+    {
+     "type": "heading",
+     "text": "Stängning — branschpraxis"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Säg till i god tid att hallen stänger snart — t.ex. 15 minuter innan.",
+      "Gå en runda: är alla klättrare nere? Är rep och automatsäkringar lediga? Är omklädningsrummen tomma?",
+      "Samla in och räkna hyrutrustningen. Lägg undan det som behöver kontrolleras.",
+      "Plocka upp det som ligger kvar och lägg det i hittegods.",
+      "Stäng kassan i Zoezi och stäm av dagskassan.",
+      "Släck, lås och larma."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "”Hej! Vi stänger om en kvart, så ta gärna sista leden nu.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att stänga med kunder kvar",
+     "text": "Lås aldrig innan du har gått hela hallen — även toaletter och omklädningsrum. Det är lätt att missa någon i en hall med 17 m höga väggar och tunnlar."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Klätterverkets egen stängningschecklista för respektive hall: kassarutin och avstämning, hur hyrutrustning kontrolleras, hittegods, larm och vem som stänger. Vad gör du om någon vägrar gå?"
+    },
+    {
+     "type": "video",
+     "title": "Sickla (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=3e2a3a74-73a2-49b5-bc40-7442d4b8403a&_ignore=.mp4"
+    },
+    {
+     "type": "task",
+     "instruction": "Följ med vid en stängning. Skriv ner stegen och kontrollera att du vet var hittegods och avvikelser ska lämnas."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Zoezi Wiki — Hur fungerar din kassa?",
+     "url": "https://zoezi.atlassian.net/wiki/spaces/SUP/pages/342622215/Hur+fungerar+din+kassa"
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu har du gått igenom hela kursen. Provet har 15 frågor ur en större frågebank. Du behöver 80 % rätt och har tre försök."
+    }
+   ]
+  }
+ ],
+ "terms": {
+  "kamratkontroll": {
+   "term": "Kamratkontroll",
+   "definition": "Partnercheck: klättrare och säkrare kontrollerar varandras knut, sele och säkringsutrustning innan varje klättring. Ska alltid göras."
+  },
+  "klatterkort": {
+   "term": "Klätterkort",
+   "definition": "Gult, grönt eller rött kort som visar vad kunden får göra i hallen. Kortet ska synas på selen."
+  },
+  "gult-kort": {
+   "term": "Gult kort",
+   "definition": "Kort för klättring med automatsäkring. Kursen tar ca 30 minuter och gäller från 15 år."
+  },
+  "gront-kort": {
+   "term": "Grönt kort",
+   "definition": "Licens för topprepssäkring inomhus, enligt Svenska Klätterförbundets normer. Kursen är 2 × 2 timmar."
+  },
+  "rott-kort": {
+   "term": "Rött kort",
+   "definition": "Licens för ledklättring och ledsäkring. Nästa steg efter grönt kort."
+  },
+  "autosakring": {
+   "term": "Automatsäkring",
+   "definition": "En automatisk säkringsanordning (autobelay) som tar hem repet och sänker klättraren. Kräver minst gult kort."
+  },
+  "aktivt-lyssnande": {
+   "term": "Aktivt lyssnande",
+   "definition": "Att lyssna klart, ställa följdfrågor och kort upprepa det kunden sagt, så att hen känner sig förstådd."
+  },
+  "behovsanalys": {
+   "term": "Behovsanalys",
+   "definition": "Några öppna frågor som tar reda på vad kunden vill och hur ofta hen ska klättra — innan du föreslår något."
+  },
+  "merforsaljning": {
+   "term": "Merförsäljning",
+   "definition": "Att erbjuda något mer som kunden har nytta av, till exempel ett månadskort i stället för en entré."
+  },
+  "friskvardsbidrag": {
+   "term": "Friskvårdsbidrag",
+   "definition": "Pengar från arbetsgivaren till motion. Hos oss kan kunden betala via ePassi, Wellnet och Benefits."
+  },
+  "reklamation": {
+   "term": "Reklamation",
+   "definition": "När en kund klagar på ett fel i en vara eller tjänst och kräver att det rättas till."
+  },
+  "vardekort": {
+   "term": "Värdekort",
+   "definition": "I Zoezi ett tillgodo som är kopplat till en kund och saknar kod — till skillnad från ett presentkort."
+  },
+  "dagskassa": {
+   "term": "Dagskassa",
+   "definition": "Beloppet i kontanter som kassan startar dagen med. I Zoezi anges det när kassan öppnas, 0 kr om inga kontanter hanteras."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Reception & kundbemötande",
+  "passScore": 0.8,
+  "draw": 15,
+  "attempts": 3,
+  "items": [
+   {
+    "type": "single",
+    "stem": "En kund kommer in och vill klättra rep. Hen har inget klätterkort och är 30 år. Vad är det snabbaste sättet att klättra rep på egen hand?",
+    "options": [
+     "Gult kort — ca 30 min, sedan automatsäkring",
+     "Grönt kort — då får hen klättra direkt",
+     "Rött kort",
+     "Hen får klättra topprep om en vän säkrar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-medlemskap-kort",
+    "why": "Gult kort tar ca 30 minuter och ger rätt att klättra med automatsäkring. Grönt kort är en längre kurs, 2 × 2 h."
+   },
+   {
+    "type": "single",
+    "stem": "Vad ger grönt kort rätt till?",
+    "options": [
+     "Topprepssäkring",
+     "Ledklättring",
+     "Bara boulder",
+     "Att vara instruktör"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-medlemskap-kort",
+    "why": "Grönt kort är licensen för topprepssäkring. Led kräver rött kort."
+   },
+   {
+    "type": "single",
+    "stem": "Från vilken ålder kan man ta gult kort?",
+    "options": [
+     "15 år",
+     "10 år",
+     "13 år",
+     "18 år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-rekommendera-kurs",
+    "why": "Gult kort gäller från 15 år."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka regler gäller för barn under 13 år i bouldern? Välj alla som stämmer.",
+    "options": [
+     "De ska ha en ansvarig person över 15 år",
+     "Den ansvariga ska ha minst gult kort",
+     "Max 2 barn per vuxen",
+     "Barnen får bouldra ensamma om de har hjälm"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "rec-faq",
+    "why": "Barn under 13 år ska ha en ansvarig över 15 år med minst gult kort, max 2 barn per vuxen."
+   },
+   {
+    "type": "single",
+    "stem": "Hur lång måste ett barn vara för att få prova på?",
+    "options": [
+     "Minst 120 cm",
+     "Minst 100 cm",
+     "Minst 140 cm",
+     "Det finns ingen gräns"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-prova-pa",
+    "why": "Barn ska vara minst 120 cm för prova på."
+   },
+   {
+    "type": "single",
+    "stem": "En kund klättrar ungefär fyra gånger i månaden och betalar entré varje gång. Vad är bäst att föreslå?",
+    "options": [
+     "Månadskort — Guld är betalt efter drygt tre besök",
+     "25-klipp",
+     "Fortsätta med entré",
+     "Årskort direkt, oavsett"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-saljmetoder",
+    "why": "Fyra entréer kostar 760 kr. Månadskort Guld kostar 590 kr — det lönar sig redan efter drygt tre besök."
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt stegen i ett säljsamtal i rätt ordning.",
+    "options": [
+     "Fråga",
+     "Lyssna",
+     "Föreslå",
+     "Avsluta"
+    ],
+    "lesson": "rec-saljmetoder",
+    "why": "Först förstår du behovet, sedan föreslår du — och gör det enkelt att säga ja."
+   },
+   {
+    "type": "single",
+    "stem": "Två vänner kommer in. En har grönt kort, den andra har aldrig klättrat. De vill klättra topprep och säkra varandra. Vad säger du?",
+    "options": [
+     "Den utan kort kan inte säkra — föreslå boulder i dag eller grönt kort-kurs",
+     "Det går bra om den med grönt kort övervakar",
+     "De får klättra om de lovar att vara försiktiga",
+     "Be dem fråga en instruktör om lov"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-kundmote",
+    "why": "Bara den med grönt kort får säkra topprep. Erbjud ett alternativ i stället för bara ett nej."
+   },
+   {
+    "type": "single",
+    "stem": "Vad är den största fallgropen när du tar emot en förstagångsbesökare?",
+    "options": [
+     "Att läsa upp alla regler på en gång",
+     "Att fråga om hen varit här förut",
+     "Att visa var bouldern börjar",
+     "Att nämna hyrutrustningen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-forsta-gangen",
+    "why": "Ge de två–tre viktigaste sakerna och säg att du finns här. För mycket information på en gång fastnar inte."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilken hyrutrustning finns? Välj alla som stämmer.",
+    "options": [
+     "Skor",
+     "Sele",
+     "Repbroms",
+     "Kritpåse"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "lesson": "rec-faq",
+    "why": "Klätterverket hyr ut skor, sele, repbroms och kritpåse."
+   },
+   {
+    "type": "single",
+    "stem": "Varför ska du koppla kunden till köpet i Zoezis kassa?",
+    "options": [
+     "Kvittot sparas på profilen och kan skickas med mejl eller sms",
+     "Annars går det inte att ta betalt",
+     "Det ger kunden automatiskt rabatt",
+     "Det krävs för att öppna kassan"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-zoezi-grunder",
+    "why": "Enligt Zoezi sparas kvittot på kundens profil och kan skickas digitalt. Ett anonymt köp går inte att hitta igen."
+   },
+   {
+    "type": "trueFalse",
+    "stem": "En kund kan själv frysa sitt träningskort i Zoezi.",
+    "options": [
+     "Sant",
+     "Falskt"
+    ],
+    "correct": [
+     "b"
+    ],
+    "lesson": "rec-zoezi-fortsattning",
+    "why": "Enligt Zoezis hjälpsidor görs frysning av personal, inte av kunden själv."
+   },
+   {
+    "type": "single",
+    "stem": "En kund med 10-klipp fryser kortet i en månad. Vad händer med klippen enligt Zoezi?",
+    "options": [
+     "Antalet klipp ändras inte",
+     "Kunden får ett extra klipp",
+     "Klippen försvinner",
+     "Kortet kan inte frysas"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-zoezi-fortsattning",
+    "why": "Klippkort kan frysas, men antalet kvarvarande klipp ändras inte."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka friskvårdsportaler kan kunderna betala med hos Klätterverket? Välj alla som stämmer.",
+    "options": [
+     "ePassi",
+     "Wellnet",
+     "Benefits",
+     "Swish Friskvård"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "rec-faq",
+    "why": "Klätterverket tar ePassi, Wellnet och Benefits."
+   },
+   {
+    "type": "single",
+    "stem": "Vad gäller för ett barn på prova på?",
+    "options": [
+     "Barnet ska vara minst 120 cm",
+     "Barnet ska ha gult kort",
+     "Barnet ska vara minst 15 år",
+     "Barnet måste ha egen sele"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-prova-pa",
+    "why": "Prova på är för barn som är minst 120 cm."
+   },
+   {
+    "type": "single",
+    "stem": "En kund frågar om prova på ger ett klätterkort. Vad svarar du?",
+    "options": [
+     "Nej, prova på ger inget klätterkort",
+     "Ja, grönt kort",
+     "Ja, gult kort",
+     "Ja, om instruktören godkänner"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-prova-pa",
+    "why": "Prova på är en introduktion med instruktör. För att klättra rep själv krävs gult, grönt eller rött kort."
+   },
+   {
+    "type": "single",
+    "stem": "Du är osäker på svaret på en fråga i telefon. Vad gör du?",
+    "options": [
+     "Säger att du tar reda på det och ringer upp med en tid",
+     "Gissar så att kunden får svar direkt",
+     "Ber kunden ringa en annan dag",
+     "Hänvisar kunden till hemsidan och lägger på"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-telefon-mejl",
+    "why": "Ett korrekt svar lite senare är bättre än ett felaktigt direkt. Lova återkoppling med en tid."
+   },
+   {
+    "type": "single",
+    "stem": "En person ringer och säger sig vara pappa till en medlem. Han vill veta när dottern senast var i hallen. Vad gör du?",
+    "options": [
+     "Lämnar inte ut uppgifter om en annan kund",
+     "Svarar, eftersom han är förälder",
+     "Läser upp hennes besök i Zoezi",
+     "Mejlar uppgifterna till honom"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-telefon-mejl",
+    "why": "Uppgifter om en kund lämnas inte ut till någon annan — inte ens till den som säger sig vara anhörig."
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt stegen för att lugna en upprörd kund i rätt ordning.",
+    "options": [
+     "Lyssna klart",
+     "Bekräfta känslan",
+     "Förklara kort",
+     "Erbjud en väg framåt",
+     "Hämta stöd om det inte löser sig"
+    ],
+    "lesson": "rec-svara-kundsituationer",
+    "why": "Kunden behöver först bli hörd. Sedan förklarar du och erbjuder en lösning — och tar hjälp om det behövs."
+   },
+   {
+    "type": "single",
+    "stem": "En kund blir hotfull i receptionen. Vad är viktigast?",
+    "options": [
+     "Din egen säkerhet — skapa avstånd, hämta kollega, ring 112 vid hot eller våld",
+     "Att hålla fast vid regeln till varje pris",
+     "Att lösa det själv utan att störa kollegor",
+     "Att erbjuda en rabatt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-svara-kundsituationer",
+    "why": "Din säkerhet går före försäljning och regler. Stå aldrig ensam i en hotfull situation."
+   },
+   {
+    "type": "single",
+    "stem": "En kund kommer tillbaka med en klättersele som gått sönder efter fyra månader. Du tror att det är slitage. Vad gäller?",
+    "options": [
+     "De första två åren är det företaget som ska visa att felet beror på kunden eller slitage",
+     "Kunden ska bevisa att felet fanns vid köpet",
+     "Reklamationsrätten gäller bara 30 dagar",
+     "Slitage är aldrig ett fel"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-reklamationer",
+    "why": "Enligt konsumentköplagen, som Konsumentverket beskriver, ligger bevisbördan på företaget under de första två åren."
+   },
+   {
+    "type": "single",
+    "stem": "Hur länge har en kund reklamationsrätt på en vara enligt konsumentköplagen?",
+    "options": [
+     "3 år",
+     "1 år",
+     "6 månader",
+     "2 månader"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-reklamationer",
+    "why": "Reklamationsrätten är 3 år. Kunden ska klaga inom 2 månader från att hen upptäckt felet."
+   },
+   {
+    "type": "single",
+    "stem": "Lena och hennes 9-åriga son vill börja klättra tillsammans. Vad rekommenderar du?",
+    "options": [
+     "Familjekurs",
+     "Gult kort för båda",
+     "Rött kort",
+     "PT nivå 2"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-rekommendera-kurs",
+    "why": "Familjekursen är gjord för vuxna och barn tillsammans. Gult kort gäller från 15 år."
+   },
+   {
+    "type": "single",
+    "stem": "En 13-åring vill klättra rep. Vad kan du INTE föreslå?",
+    "options": [
+     "Gult kort",
+     "Prova på",
+     "Klätterakademin 11–17 år",
+     "Familjekurs med en förälder"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-rekommendera-kurs",
+    "why": "Gult kort gäller från 15 år."
+   },
+   {
+    "type": "single",
+    "stem": "Kunden säger ”nej tack” till ditt förslag om månadskort. Vad gör du?",
+    "options": [
+     "Tackar och släpper det helt",
+     "Förklarar en gång till",
+     "Erbjuder en rabatt",
+     "Tar upp det igen nästa besök"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-merforsaljning",
+    "why": "Ett nej är ett nej. Att tjata förstör förtroendet."
+   },
+   {
+    "type": "single",
+    "stem": "Hur länge gäller Klätterverkets presentkort?",
+    "options": [
+     "2 år",
+     "1 år",
+     "10 år",
+     "Så länge saldot räcker"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-presentkort-rabatter",
+    "why": "Klätterverkets presentkort gäller i 2 år."
+   },
+   {
+    "type": "single",
+    "stem": "Ett presentkort på 500 kr ska användas till grönt kort (1 350 kr). Hur fungerar det i Zoezi?",
+    "options": [
+     "Presentkortet dras av och resten betalas med ett annat betalsätt",
+     "Det går inte — presentkortet måste täcka hela beloppet",
+     "Kunden får 500 kr kontant och betalar allt med kort",
+     "Presentkortet blir ett värdekort först"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-presentkort-rabatter",
+    "why": "Räcker inte presentkortets värde betalas resten med ett annat betalsätt."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka rabatter och förmåner finns? Välj alla som stämmer.",
+    "options": [
+     "Studenter: 10 %",
+     "Medlemmar: 10 % i butiken, på kurser och på Matkafé",
+     "Medlemmar: bjud med en vän",
+     "Pensionärer: 50 % på entré"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "rec-presentkort-rabatter",
+    "why": "Studentrabatt och medlemsförmånerna finns i underlaget. Någon pensionärsrabatt finns inte där."
+   },
+   {
+    "type": "single",
+    "stem": "Vilken åldersgräns gäller för gymmet på Gasverket?",
+    "options": [
+     "15 år",
+     "10 år",
+     "13 år",
+     "18 år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-faq",
+    "why": "Gasverket: 15 år. Sickla: 10 år, och under 13 år med vuxen."
+   },
+   {
+    "type": "single",
+    "stem": "När öppnar Gasverket på en tisdag?",
+    "options": [
+     "07",
+     "10",
+     "08",
+     "06"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-oppning",
+    "why": "Gasverket öppnar 07 på tisdagar och torsdagar, annars 10."
+   },
+   {
+    "type": "single",
+    "stem": "Vad ska du göra innan du öppnar kassan och släpper in första kunden?",
+    "options": [
+     "Gå en runda och kontrollera att mattor och fallzoner är fria",
+     "Ingenting — kunden går före",
+     "Lägga upp kampanjer i Zoezi",
+     "Ringa platsansvarig"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "rec-oppning",
+    "why": "En hallrunda gör att ingen kund skadas av något som ligger kvar på mattan."
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt stegen i stängningen i rätt ordning.",
+    "options": [
+     "Säg till kunderna i god tid",
+     "Gå en runda och kontrollera att alla är nere och ute",
+     "Samla in hyrutrustningen",
+     "Stäng kassan och stäm av",
+     "Släck, lås och larma"
+    ],
+    "lesson": "rec-stangning",
+    "why": "Kunderna först, sedan utrustning och kassa — och lås aldrig innan hela hallen är kontrollerad."
+   }
+  ]
+ }
+}

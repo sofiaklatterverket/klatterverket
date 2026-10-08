@@ -1,0 +1,2246 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "klatterverket-for-alla",
+  "title": "Klätterverket – för alla",
+  "summary": "Introduktionen för dig som är ny på Klätterverket: vår historia, Gasverket och Sickla, vem som gör vad, hur vi möter kunder och allt vi säljer. Plus Matkafé Mätarhuset, event, hållbarhet och sociala medier.",
+  "audience": [
+   "all"
+  ],
+  "estimatedMinutes": 92,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24
+  },
+  "modules": [
+   {
+    "title": "Välkommen till Klätterverket",
+    "lessons": [
+     "alla-valkommen",
+     "alla-historia",
+     "alla-gasverket",
+     "alla-sickla",
+     "alla-vem-gor-vad"
+    ]
+   },
+   {
+    "title": "Möta kunden",
+    "lessons": [
+     "alla-bemota-kunder",
+     "alla-sprak-tonalitet",
+     "alla-kund-till-medlem"
+    ]
+   },
+   {
+    "title": "Det vi säljer",
+    "lessons": [
+     "alla-vad-saljer-vi",
+     "alla-kurser",
+     "alla-medlemskap"
+    ]
+   },
+   {
+    "title": "Platsen, maten och gemenskapen",
+    "lessons": [
+     "alla-matarhuset-historia",
+     "alla-matkafe",
+     "alla-event",
+     "alla-hallbarhet",
+     "alla-sociala-medier"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "alla-valkommen",
+   "label": "1.1",
+   "title": "Välkommen till Klätterverket",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Välkommen! Från och med i dag är du en del av Klätterverket. För många besökare är du den första människan de möter i hallen. Hur du hälsar, svarar och hjälper till blir deras bild av hela Klätterverket."
+    },
+    {
+     "type": "richtext",
+     "text": "Den här kursen ger dig grunden: vår historia, våra två hallar, vem som gör vad, hur vi pratar med kunder och allt vi säljer. Säkerhet och hallregler har egna kurser — här får du helheten."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "Medarbetare i Klätterverket-hoodie i hallen",
+     "caption": "Du är Klätterverkets ansikte utåt — i receptionen, i hallen och i kaféet."
+    },
+    {
+     "type": "heading",
+     "text": "Klätterverket på en minut"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Grundat 1994 i Nacka** — en av Sveriges första kommersiella klätterhallar.",
+      "**Två hallar i Stockholm:** Gasverket (Gasverksvägen 15, Norra Djurgårdsstaden) och Sickla (Marcusplatsen 17, Nacka).",
+      "**Rep, boulder och gym** i båda hallarna. På Gasverket finns också Matkafé Mätarhuset.",
+      "**Säkerheten går först.** Alla som klättrar med rep har ett [[klatterkort|klätterkort]] och gör [[kamratkontroll|kamratkontroll]] före varje klättring.",
+      "**Alla ska känna sig välkomna.** Vi har nolltolerans mot sexism, rasism och kränkningar. Ingen alkohol eller droger i hallen.",
+      "**Kontakt:** 08-641 10 48, info@klatterverket.se."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kamratkontroll"
+    },
+    {
+     "type": "heading",
+     "text": "Din första vecka"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Gå en runda i hallen** med en kollega: reception, nödutgångar, första hjälpen-väska, hjärtstartare och personalrum.",
+      "**Logga in** i Klätterverket Academy och i [[zoezi|Zoezi]], vårt boknings- och kassasystem.",
+      "**Gå kurserna** din roll kräver — den här först.",
+      "**Fråga hellre en gång för mycket.** Ingen förväntar sig att du kan allt första veckan."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Hej och välkommen till Klätterverket! Jag är ny här, så jag kollar med min kollega så att du får rätt svar.” — Det är helt okej att säga. Kunder uppskattar ärlighet mer än en gissning."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att gissa",
+     "text": "När du är ny är det lockande att svara snabbt för att verka säker. Ett felaktigt svar om pris, ålder eller säkerhetsregel kan bli både dyrt och farligt. Säg att du kollar — och kolla."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem är den nyanställdas fadder eller handledare första veckan? Finns ett schema för introduktionen (skuggpass, inloggningar, nycklar, arbetskläder)? Var finns nödutgångar, återsamlingsplats, första hjälpen och hjärtstartare i respektive hall?"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aad640c6-f322-43eb-be4f-a954a98af0fd&size=1600",
+     "alt": "Instruktörer som står och pratar i klätterhallen",
+     "caption": "Dina nya kollegor — fråga dem om allt."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå en runda i din hall tillsammans med en kollega. Peka ut: receptionen, alla nödutgångar, första hjälpen-väskan och hjärtstartaren. Skriv ner var de finns.",
+     "hint": "Ta en bild med telefonen på utrymningsplanen så har du den nära till hands."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — klatterverket.se",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-historia",
+   "label": "1.2",
+   "title": "Vår historia",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klätterverket har funnits i mer än 30 år. Det är en historia som kunder ofta är nyfikna på — och den förklarar varför vi jobbar som vi gör med kurser och klätterkort."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce4b1cd3-65f3-4586-ab8a-ea928d327f5d&size=1600",
+     "alt": "Klätterhallen fotograferad underifrån med höga väggar och klättrare",
+     "caption": "Från en hall i Nacka 1994 till två hallar i dag."
+    },
+    {
+     "type": "heading",
+     "text": "Det viktiga i korthet"
+    },
+    {
+     "type": "table",
+     "head": [
+      "När",
+      "Vad hände"
+     ],
+     "rows": [
+      [
+       "1994",
+       "Klätterverket grundas i **Nacka** — en av Sveriges första kommersiella klätterhallar."
+      ],
+      [
+       "Tidigt",
+       "Klätterverket blir **först med standardiserade kurser och säkringslicenser** — ett kort som visar att du kan säkra."
+      ],
+      [
+       "2019",
+       "**Gasverket** öppnar i den gamla gasverksmiljön i Norra Djurgårdsstaden, med upp till 17 meter höga väggar."
+      ],
+      [
+       "I dag",
+       "Två hallar — **Gasverket och Sickla** — med rep, boulder, gym, kurser för alla åldrar och Matkafé Mätarhuset."
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Idén med säkringslicenser lever kvar. I dag använder vi [[klatterkort|klätterkort]] i tre nivåer: gult, grönt och rött. Grönt och rött kort följer Svenska Klätterförbundets (SKF) normer och visar vad du får göra i hallen."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "klatterkort"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b2ba3bdb-4beb-467b-be22-20b8ddb3293f&size=1600",
+     "alt": "En hand som håller upp ett grönt klätterkort",
+     "caption": "Säkringslicensen lever vidare som klätterkortet."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund frågar: ”Hur länge har ni funnits?” — ”Sedan 1994! Vi började i Nacka och var en av de första klätterhallarna i Sverige. Vi var också först med säkringskort, så det du har på selen har en lång historia.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att brodera ut historien",
+     "text": "Det är roligt att berätta, men håll dig till det du vet. Hitta inte på årtal eller namn. Är du osäker: ”Det vet jag inte exakt — fråga gärna någon som varit här länge.”"
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Viktiga milstolpar mellan 1994 och 2019: när öppnade hallen i Sickla, vilka grundade Klätterverket, och finns det berättelser eller bilder som personalen gärna får dela?"
+    },
+    {
+     "type": "task",
+     "instruction": "Fråga en kollega som jobbat länge på Klätterverket om en händelse eller tradition från förr. Berätta den för en annan ny kollega i veckan."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Grönt & rött kort",
+     "url": "https://www.klatterforbundet.se/utbildning/gront-och-rott-kort/"
+    }
+   ]
+  },
+  {
+   "id": "alla-gasverket",
+   "label": "1.3",
+   "title": "Gasverket",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Gasverket är vår största hall. Här möter du klättrare på alla nivåer — från barn på prova på till ledklättrare på 17 meter. Du behöver kunna hallen så bra att du kan visa vägen och svara på frågor direkt."
+    },
+    {
+     "type": "video",
+     "title": "Gasverket (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e81568f0-2357-43f9-a7ab-3eb092fd2c63&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "text": "Fakta om Gasverket"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Adress:** Gasverksvägen 15, i Norra Djurgårdsstaden/Hjorthagen.",
+      "**Öppnade 2019** i den gamla gasverksmiljön.",
+      "**Upp till 17 meter höga väggar** och ca 1 000 m² klätteryta.",
+      "**[[topprep|Topprep]], [[ledklattring|led]], [[boulder|boulder]] och gym.**",
+      "**Gymmet:** åldersgräns 15 år.",
+      "**Matkafé Mätarhuset** och konferensrummet Kontrollrummet (14 personer) ligger här."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Öppettider"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Dag",
+      "Gasverket"
+     ],
+     "rows": [
+      [
+       "Måndag, onsdag, fredag",
+       "10–22"
+      ],
+      [
+       "Tisdag, torsdag",
+       "**07**–22"
+      ],
+      [
+       "Lördag, söndag",
+       "10–20"
+      ]
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=24ef1768-ec3b-40ab-b984-1911936c43e1&size=1600",
+     "alt": "Höga klätterväggar med flera klättrare på olika höjd",
+     "caption": "Upp till 17 meter — de högsta väggarna hos Klätterverket."
+    },
+    {
+     "type": "richtext",
+     "text": "Lederna byts regelbundet. Filmen nedan, från Klätterverkets egen kanal, visar hur ledbyggandet på Gasverket går till."
+    },
+    {
+     "type": "video",
+     "title": "Future of routesetting at Klätterverket Gasverket (Klätterverket, YouTube)",
+     "src": "https://www.youtube.com/watch?v=jAwyLZF_isY"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund ringer en måndag: ”Kan jag komma och klättra före jobbet i morgon klockan sju?” — ”Ja, på tisdagar och torsdagar öppnar Gasverket redan klockan 7. Välkommen!”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att blanda ihop hallarna",
+     "text": "Öppettider och åldersgränser skiljer sig mellan Gasverket och Sickla. Morgonöppet kl. 07 finns bara på Gasverket, tisdag och torsdag. Gymmet på Gasverket har 15-årsgräns, Sickla 10 år."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Karta över Gasverket: var finns reception, omklädning, boulderyta, gym, förråd och nödutgångar? Hur tar man sig dit med kollektivtrafik och var kan besökare parkera?"
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt på Gasverket och hitta: den högsta väggen, boulderytan, gymmet, Matkafé Mätarhuset och Kontrollrummet. Öva på att förklara vägen till varje plats med en mening.",
+     "hint": "Jobbar du bara i Sickla? Gör övningen nästa gång du är på Gasverket."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — Gasverket",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-sickla",
+   "label": "1.4",
+   "title": "Sickla",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Sickla är vår hall i Nacka, nära där Klätterverket en gång började. Den är populär hos familjer, barngrupper och stamgäster som bor eller jobbar i närheten."
+    },
+    {
+     "type": "video",
+     "title": "Sickla (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=3e2a3a74-73a2-49b5-bc40-7442d4b8403a&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "text": "Fakta om Sickla"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Adress:** Marcusplatsen 17, Nacka.",
+      "**Ca 40 topprepsleder.**",
+      "**Gym på loftet.** Åldersgräns 10 år; barn under 13 år klättrar och tränar med en vuxen.",
+      "**Boulder med tunnel** — ingen rutschkana eller åkning i tunneln.",
+      "**Barnkalas** med mat från Bricks Burgers.",
+      "**Öppettider:** vardagar 10–22, helger 10–20."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4510a3c9-0a4d-414a-9d80-06268d59a5e9&size=1600",
+     "alt": "Kvinna som bouldrar på ett överhäng",
+     "caption": "Boulder i Sickla — mattorna ska vara fria från föremål."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6b7d2a6a-b3aa-491b-8b97-f1f480ea1aca&size=1600",
+     "alt": "Glada barn som klättrar",
+     "caption": "Många familjer och barngrupper hittar till Sickla."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En förälder frågar: ”Får min elvaåring följa med in i gymmet?” — ”I Sickla går det bra från 10 år, men under 13 år behöver hen ha dig med. På Gasverket är gränsen 15 år.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: tunneln",
+     "text": "Tunneln i boulderytan lockar barn att åka och leka. Det är inte tillåtet — det finns ingen rutschkana där. Säg till vänligt men direkt, och prata med den vuxna som ansvarar för barnet."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Karta över Sickla: reception, loftet, tunneln, omklädning och nödutgångar. Hur hittar besökare till hallen från Sickla köpkvarter och tvärbanan?"
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt i Sickla med en kollega. Hitta loftet, tunneln och alla nödutgångar. Förklara för kollegan vilka regler som gäller i tunneln och på loftet.",
+     "hint": "Jobbar du bara på Gasverket? Gör övningen nästa gång du är i Sickla."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — Sickla",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-vem-gor-vad",
+   "label": "1.5",
+   "title": "Vem gör vad",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En kund bryr sig inte om vem som har vilken roll — hen vill ha hjälp. Därför behöver du veta vem som kan vad, så att du snabbt kan lämna över till rätt person."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aad640c6-f322-43eb-be4f-a954a98af0fd&size=1600",
+     "alt": "Två instruktörer i klätterhallen",
+     "caption": "Olika roller, samma mål: en trygg och rolig klättring."
+    },
+    {
+     "type": "heading",
+     "text": "Rollerna på Klätterverket"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Roll",
+      "Gör bland annat",
+      "Vem hos oss"
+     ],
+     "rows": [
+      [
+       "**Reception**",
+       "Tar emot, säljer entré, kort, kurser och hyrutrustning i [[zoezi|Zoezi]], kontrollerar klätterkort.",
+       "Att fylla i"
+      ],
+      [
+       "**[[hallvard|Hallvärd]]**",
+       "Går runt i hallen, ser till att regler följs, hjälper och svarar på frågor.",
+       "Att fylla i"
+      ],
+      [
+       "**Instruktör**",
+       "Håller kurser, prova på, företag och barngrupper.",
+       "Att fylla i"
+      ],
+      [
+       "**Shop**",
+       "Säljer och ger råd om skor, selar och annan utrustning.",
+       "Att fylla i"
+      ],
+      [
+       "**Barn & ungdom**",
+       "Klätterakademin, barnkalas, skolklasser och lovaktiviteter.",
+       "Att fylla i"
+      ],
+      [
+       "**PT**",
+       "Personlig träning på olika nivåer, t.ex. nivå 3 med Peter Bosma.",
+       "Att fylla i"
+      ],
+      [
+       "**Café**",
+       "Matkafé Mätarhuset: mat, kaffe, brunch och konferens.",
+       "Att fylla i"
+      ],
+      [
+       "**Platsansvarig**",
+       "Ansvarar för hallen och personalen på plats, tar svåra beslut och avvikelser.",
+       "Att fylla i"
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "hallvard"
+    },
+    {
+     "type": "richtext",
+     "text": "Instruktörer är timanställda och jobbar minst 4 pass i månaden. De har minst grönt kort och 6 månaders säkringsvana och är 18 år (ibland 16)."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8d821414-296f-4164-bb6a-706e4da44ebb&size=1600",
+     "alt": "Instruktör som kontrollerar en klättrares säkring",
+     "caption": "Instruktörer och hallvärdar har extra koll på säkringen."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund i receptionen: ”Jag kommer inte upp för överhänget, har du tips?” — ”Bra fråga! Våra instruktörer och PT:er är grymma på teknik. Jag kan visa dig vilka PT-pass och kurser vi har, eller så frågar vi hallvärden som är ute i hallen nu.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: ”Det är inte mitt bord”",
+     "text": "Även om frågan hör till en annan roll är det du som tar emot den. Lämna aldrig en kund utan svar — ta reda på vem som vet och lämna över personligt."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Namn och kontaktvägar för varje roll i båda hallarna: vem är platsansvarig, vem bokar barnkalas, vem svarar på företagsförfrågningar, vem ansvarar för shopen och vem når man vid akuta problem när platsansvarig inte är på plats?"
+    },
+    {
+     "type": "task",
+     "instruction": "Fyll i tabellen ovan för din hall: skriv namnet på minst en person för varje roll. Fråga platsansvarig om du inte vet.",
+     "hint": "Spara listan i mobilen — du kommer att använda den."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — klatterverket.se",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-bemota-kunder",
+   "label": "2.1",
+   "title": "Bemöta kunder",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Vissa besökare har klättrat i 20 år. Andra har aldrig varit i en klätterhall och är lite nervösa. Alla ska känna sig sedda och välkomna — och veta vad som gäller för att klättra säkert."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1bf8f05d-7675-4c79-b568-563ec45119ca&size=1600",
+     "alt": "Leende kvinna med rep över axeln",
+     "caption": "Ett leende och ett ”Hej!” gör mycket."
+    },
+    {
+     "type": "heading",
+     "text": "Så tar du emot en kund"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Hälsa direkt** — ögonkontakt och ett ”Hej!” även om du är mitt i något.",
+      "**Fråga:** ”Har du klättrat hos oss förut?”",
+      "**Ny kund:** förklara kort vad hen kan göra — boulder, [[autobelay|automatsäkring]] eller topprep med [[klatterkort|klätterkort]] — och vilken kurs som passar.",
+      "**Van kund:** kontrollera kortet och ge ett tips om något nytt (nya leder, event).",
+      "**Avsluta:** ”Ha det så kul — säg till om du behöver något!”"
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "När du behöver säga till"
+    },
+    {
+     "type": "richtext",
+     "text": "Ibland behöver du ingripa: en väska på mattan, en kund som står i fallzonen eller barn utan vuxen i boulderytan. Gör det **vänligt, kort och tydligt** — och förklara varför."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=00abe9d0-d8c9-4766-a75d-23641b5b0fd8&size=1600",
+     "alt": "Boulderyta med en väska kvarglömd på fallmattan",
+     "caption": "Riskexempel: en väska på mattan. Någon kan landa på den."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Hej! Får jag flytta din väska från mattan? Om någon faller kan de landa på den och skada sig. Där borta vid bänken står den bra.”"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Vid ett klagomål: ”Vad tråkigt att det blev så. Tack för att du säger till. Jag tar reda på det och återkommer till dig i dag.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: tillsägelse inför publik i hård ton",
+     "text": "En skarp tillsägelse kan få kunden att skämmas eller bli arg — och då lyssnar hen inte. Gå fram, prata i normal ton, förklara varför. Gäller det kränkningar, hot eller berusning: hämta platsansvarig. Vi har nolltolerans mot sexism, rasism och kränkningar."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Rutin för klagomål och ersättning: vad får receptionen själv erbjuda (t.ex. nytt besök) och vad ska gå till platsansvarig? Hur dokumenteras avvikelser och incidenter?"
+    },
+    {
+     "type": "task",
+     "instruction": "Öva med en kollega: ta emot en helt ny kund och en kund som har en väska på boulderytan. Byt roller. Ge varandra feedback på ton och tydlighet."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — regler och säkerhet",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-sprak-tonalitet",
+   "label": "2.2",
+   "title": "Språk & tonalitet",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klätterverkets röst ska kännas likadan oavsett om kunden pratar med dig i receptionen, läser en skylt eller får ett mejl. Varm, konkret och enkel — som en kompis som kan klättring."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c77c88a8-1932-47d4-a468-022a5ec09263&size=1600",
+     "alt": "Kvinna som klättrar på en färgglad vägg",
+     "caption": "Vi pratar så att alla förstår — även den som aldrig klättrat."
+    },
+    {
+     "type": "heading",
+     "text": "Fem tumregler"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Säg ”du”** — aldrig ”Ni” till en person.",
+      "**Korta meningar.** En sak i taget.",
+      "**Aktiv form:** ”Visa ditt kort” i stället för ”Kortet ska uppvisas”.",
+      "**Förklara klätterord** för nybörjare: crux, beta, dyno, topprep.",
+      "**Var positiv:** säg vad kunden *kan* göra, inte bara vad som är förbjudet."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "I stället för …",
+      "… säg hellre"
+     ],
+     "rows": [
+      [
+       "”Klättring utan giltigt kort är ej tillåten.”",
+       "”För att klättra med rep behöver du grönt kort. Vill du boka en kurs?”"
+      ],
+      [
+       "”Det där är fel.”",
+       "”Får jag visa ett säkrare sätt?”"
+      ],
+      [
+       "”Vi har ingen info om det.”",
+       "”Det vet jag inte, men jag tar reda på det.”"
+      ],
+      [
+       "”Ni måste ta av er skorna.”",
+       "”Klätterskor eller strumpor på mattan, tack — då håller den sig ren.”"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Till en nybörjare som undrar vad ”topprep” är: ”Det betyder att repet redan sitter i toppen av väggen. Du knyter in dig, och din kompis säkrar nerifrån. Det är så de flesta börjar.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: klätterjargong",
+     "text": "Det är lätt att glida in i klätterspråk: ”Kör flash på den gröna, betan är ett dyno i cruxet.” För en nybörjare är det obegripligt. Anpassa språket efter vem du pratar med."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Finns det en grafisk profil eller tonalitetsguide för Klätterverket (färger, skyltmallar, ord vi alltid eller aldrig använder)? Ska personalen skriva mejl till kunder, och i så fall med vilken signatur?"
+    },
+    {
+     "type": "task",
+     "instruction": "Hitta en skylt eller ett meddelande i hallen. Skriv om den enligt de fem tumreglerna och visa en kollega. Vilken version är tydligast?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — klatterverket.se",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-kund-till-medlem",
+   "label": "2.3",
+   "title": "Från kund till medlem",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Den bästa försäljningen är att hjälpa kunden till nästa steg. En nöjd förstagångsbesökare som får ett bra tips blir ofta en stamgäst — och en stamgäst blir ofta medlem."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=37efb447-b316-44a6-b556-aabfd145d393&size=1600",
+     "alt": "Kvinna som klättrar koncentrerat på väggen",
+     "caption": "Varje stamgäst var en gång ny."
+    },
+    {
+     "type": "heading",
+     "text": "Kundresan på Klätterverket"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Första besöket:** prova på (350 kr helg, 90 min), boulder med entré eller [[autobelay|automatsäkring]] med gult kort.",
+      "**Lär dig säkra:** gult kort (495 kr), sedan grönt kort (1 350 kr) för topprep.",
+      "**Kom tillbaka:** 10-klipp (1 650 kr) eller 25-klipp (3 500 kr).",
+      "**Bli medlem:** månadskort eller årskort, med medlemsförmåner.",
+      "**Utvecklas:** rött kort (1 650 kr) för led, PT, gruppträning eller event som Crush."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Ett räkneexempel"
+    },
+    {
+     "type": "richtext",
+     "text": "En kund har betalat entré (190 kr) tre gånger den här månaden: 570 kr. Månadskort Silver kostar 510 kr. Hen hade alltså sparat pengar med ett månadskort — och kunnat klättra hur mycket som helst."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Jag ser att du har varit här tre gånger den här månaden — kul! Visste du att månadskortet hade blivit billigare för dig? Som medlem kan du också bjuda med en vän och får 10 % rabatt i butiken, på kurser och i Matkaféet.”"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e9331293-2984-4e01-9abc-dc8005430601&size=1600",
+     "alt": "Grupp som passar varandra i boulderytan",
+     "caption": "Klättring är socialt — tipsa om event och gruppträning."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att pressa",
+     "text": "Kunden ska känna sig hjälpt, inte såld till. Ge ett tips, en gång, med kundens fördel i centrum. Säger kunden nej: ”Inga problem — säg till om du vill veta mer.”"
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Har Klätterverket mål eller kampanjer för att omvandla besökare till medlemmar (t.ex. ”kursdeltagare får rabatt på första månadskortet”)? Hur ser personalen i Zoezi hur ofta en kund har besökt hallen?"
+    },
+    {
+     "type": "task",
+     "instruction": "Under ditt nästa pass: hitta en kund som är på väg till nästa steg (t.ex. har gult kort, eller har köpt flera entréer). Ge ett konkret tips om kurs eller kort."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — priser och kort",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-vad-saljer-vi",
+   "label": "3.1",
+   "title": "Vad säljer vi",
+   "estimatedMinutes": 10,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Kunder frågar om allt — från entrépris till tårta på barnkalaset. Den här lektionen är ditt fusklapp. Du behöver inte kunna varje siffra utantill, men du ska veta **att** vi säljer det och var du hittar svaret."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e3a01834-a1b7-4646-a075-05789ef4d76a&size=1600",
+     "alt": "Klätterverkets presentkort",
+     "caption": "Presentkort gäller i 2 år."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Kontrollera priserna",
+     "text": "Priserna nedan är hämtade från klatterverket.se 2026-10-07. Priser ändras — kontrollera alltid i [[zoezi|Zoezi]] eller på hemsidan innan du lovar något."
+    },
+    {
+     "type": "heading",
+     "text": "Entré och kort"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Produkt",
+      "Vuxen",
+      "Ungdom",
+      "Kommentar"
+     ],
+     "rows": [
+      [
+       "Entré",
+       "190 kr",
+       "130 kr",
+       "Ett besök."
+      ],
+      [
+       "10-klipp",
+       "1 650 kr",
+       "1 100 kr",
+       ""
+      ],
+      [
+       "25-klipp",
+       "3 500 kr",
+       "2 200 kr",
+       ""
+      ],
+      [
+       "Månadskort Guld / Silver",
+       "590 / 510 kr",
+       "",
+       "Medlemskap."
+      ],
+      [
+       "Månadskort Dagtid Guld / Silver",
+       "450 / 390 kr",
+       "",
+       "Klättring dagtid."
+      ],
+      [
+       "Årskort Guld / Silver",
+       "6 400 / 5 500 kr",
+       "",
+       ""
+      ],
+      [
+       "Årskort Dagtid Guld / Silver",
+       "4 900 / 4 200 kr",
+       "",
+       ""
+      ],
+      [
+       "Studentrabatt",
+       "10 %",
+       "",
+       ""
+      ],
+      [
+       "Presentkort",
+       "",
+       "",
+       "Gäller i 2 år."
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Kurser och träning"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Produkt",
+      "Pris",
+      "Kommentar"
+     ],
+     "rows": [
+      [
+       "Gult kort",
+       "495 kr",
+       "Från 15 år, ca 30 min. Automatsäkring."
+      ],
+      [
+       "Grönt kort",
+       "1 350 kr",
+       "2 × 2 h, max 4 per grupp. Topprep."
+      ],
+      [
+       "Rött kort",
+       "1 650 kr",
+       "Ledklättring och ledsäkring."
+      ],
+      [
+       "Familjekurs",
+       "1 595 kr vuxen / 250 kr barn",
+       ""
+      ],
+      [
+       "Prova på (helg)",
+       "350 kr",
+       "90 min, barn minst 120 cm. Höstlov: 275 kr."
+      ],
+      [
+       "Privat instruktör",
+       "1 695 kr",
+       "Max 6 personer."
+      ],
+      [
+       "PT nivå 1 / nivå 2",
+       "695 / 895 kr",
+       "Duo: 1 250 / 1 550 kr."
+      ],
+      [
+       "PT nivå 3 (Peter Bosma)",
+       "1 495 / 1 995 kr",
+       ""
+      ],
+      [
+       "Gruppträning grundkurs",
+       "2 500 kr",
+       "8 tillfällen."
+      ],
+      [
+       "Klätterakademin 6–10 år / 11–17 år",
+       "2 595 / 2 995 kr",
+       "Terminsavgift."
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Grupper, kalas och företag"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Produkt",
+      "Pris",
+      "Kommentar"
+     ],
+     "rows": [
+      [
+       "Företag",
+       "495 kr ex moms/person",
+       "90 min."
+      ],
+      [
+       "Möhippa",
+       "1 495 kr",
+       ""
+      ],
+      [
+       "Skolklass",
+       "100 / 150 kr per elev",
+       ""
+      ],
+      [
+       "Barnkalas",
+       "från 290 kr/barn",
+       "Min 10, max 18 barn. Helger 10:15 och 15:15."
+      ],
+      [
+       "Barnkalas Gasverket med tårta",
+       "370 / 370 / 480 kr",
+       "Prinsesstårta / chokladmousse / frukt."
+      ],
+      [
+       "Barnkalas Sickla",
+       "",
+       "Med Bricks Burgers."
+      ],
+      [
+       "Konferens Kontrollrummet",
+       "",
+       "Gasverket, 14 personer."
+      ]
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Företag hos Klätterverket (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=f40e7ce0-601c-4b64-a620-e85f8e27b7f7&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "text": "Övrigt"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Hyrutrustning:** skor, sele, repbroms och kritpåse.",
+      "**Shop:** klätterutrustning. Medlemmar får 10 % rabatt.",
+      "**Matkafé Mätarhuset (Gasverket):** veckans lunch 160 kr, bowl 175 kr, brunch helger, barnmeny.",
+      "**[[friskvard|Friskvård]]:** vi tar emot ePassi, Wellnet och Benefits."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc73d0a2-82df-460c-9a77-edd32db978c1&size=1600",
+     "alt": "Kvinna som tar på sig klätterskor",
+     "caption": "Hyrskor finns för alla som inte har egna."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund vill ge bort något till en kompis som aldrig klättrat: ”Ett presentkort är perfekt — det gäller i två år. Eller ge bort en prova på-tur på helgen, 90 minuter med instruktör för 350 kr.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att lova ett pris från minnet",
+     "text": "Priser och paket ändras. Kolla alltid i Zoezi innan du tar betalt eller skriver ett pris i ett mejl. Ett felaktigt löfte är svårt att ta tillbaka."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Priser för hyrutrustning, shopens sortiment och prissättning, vad presentkort kan laddas med, vad som skiljer Guld från Silver och dagtidskort (tider, hallar), och vilka priser som gäller för friskvårdsbetalning."
+    },
+    {
+     "type": "task",
+     "instruction": "Öppna Zoezi i receptionen och hitta fem produkter ur tabellerna: ett 10-klipp, gult kort, prova på, ett månadskort och ett barnkalas. Jämför priset med tabellen.",
+     "hint": "Skiljer något sig? Säg till platsansvarig så att kursen kan uppdateras."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — priser",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-kurser",
+   "label": "3.2",
+   "title": "Kurser snabbguide",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Den vanligaste frågan i receptionen är: ”Vilken kurs ska jag gå?” Med den här guiden kan du svara på några sekunder."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce074c19-48de-4842-8666-a8a59450709e&size=1600",
+     "alt": "Instruktör som visar en knut för en grupp",
+     "caption": "På grönt kort lär man sig knyta in sig och säkra i topprep."
+    },
+    {
+     "type": "heading",
+     "text": "Vilket kort ger vad?"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kort",
+      "Vad du får göra",
+      "Kurs"
+     ],
+     "rows": [
+      [
+       "**Gult kort**",
+       "Klättra i [[autobelay|automatsäkring]].",
+       "495 kr, från 15 år, ca 30 min."
+      ],
+      [
+       "**Grönt kort**",
+       "Klättra och säkra i [[topprep|topprep]] (och automatsäkring).",
+       "1 350 kr, 2 × 2 h, max 4 per grupp. Enligt SKF:s normer."
+      ],
+      [
+       "**Rött kort**",
+       "[[ledklattring|Ledklättring]] och ledsäkring (och allt ovan).",
+       "1 650 kr."
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "topprep"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "autobelay"
+    },
+    {
+     "type": "heading",
+     "text": "Snabbguide: vem ska gå vad?"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Vill bara testa?** Prova på på helgen, 350 kr, 90 min. Barn minst 120 cm.",
+      "**Vill klättra på egen hand utan partner?** Gult kort + automatsäkring, eller boulder.",
+      "**Vill klättra med en kompis med rep?** Grönt kort.",
+      "**Har grönt kort och vill vidare?** Rött kort.",
+      "**Familj?** Familjekurs: 1 595 kr vuxen, 250 kr barn.",
+      "**Barn som vill klättra varje vecka?** Klätterakademin (6–10 eller 11–17 år).",
+      "**Vill bli starkare?** PT eller gruppträning."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=04cb99c4-7f9a-4545-b924-8f7971386c0e&size=1600",
+     "alt": "Klättrare som knyter en åttaknut i selen",
+     "caption": "Åttaknuten — en av de första sakerna man lär sig på grönt kort."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Vill du klättra med rep tillsammans med en kompis behöver ni grönt kort. Det är två träffar på två timmar, max fyra i gruppen, så du får mycket tid med instruktören. Vill du bara testa först kan du boulda eller köra automatsäkring med gult kort.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: kortet ska synas",
+     "text": "Klätterkortet ska sitta synligt på selen. Säg till vänligt om du ser någon som klättrar med rep utan synligt kort — och kontrollera att kortet passar det de gör."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Rutin för kunder som har grönt eller rött kort från en annan hall eller klubb: hur kontrolleras och registreras det i Zoezi? Vilka dagar och tider går kurserna i respektive hall?"
+    },
+    {
+     "type": "task",
+     "instruction": "Fråga en instruktör om du får titta på de första tio minuterna av en grönt kort-kurs. Notera vad deltagarna lär sig först."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Grönt & rött kort",
+     "url": "https://www.klatterforbundet.se/utbildning/gront-och-rott-kort/"
+    }
+   ]
+  },
+  {
+   "id": "alla-medlemskap",
+   "label": "3.3",
+   "title": "Medlemskap",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Medlemmarna är hjärtat i Klätterverket. De kommer ofta, känner personalen och tar med sig vänner. Du behöver kunna förklara korten tydligt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=852e9bab-dcbf-4a57-9113-6e2d2234b44f&size=1600",
+     "alt": "Ledklättrare högt upp på väggen",
+     "caption": "Många medlemmar klättrar flera gånger i veckan."
+    },
+    {
+     "type": "heading",
+     "text": "Korten"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kort",
+      "Månad",
+      "År"
+     ],
+     "rows": [
+      [
+       "Guld",
+       "590 kr",
+       "6 400 kr"
+      ],
+      [
+       "Silver",
+       "510 kr",
+       "5 500 kr"
+      ],
+      [
+       "Dagtid Guld",
+       "450 kr",
+       "4 900 kr"
+      ],
+      [
+       "Dagtid Silver",
+       "390 kr",
+       "4 200 kr"
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Medlemsförmåner"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Bjud med en vän.**",
+      "**10 % rabatt** i butiken, på kurser och i Matkafé Mätarhuset.",
+      "**Studenter** får 10 % rabatt.",
+      "**[[friskvard|Friskvård]]:** betala med ePassi, Wellnet eller Benefits.",
+      "Kunden ser sitt kort och sina bokningar i kundportalen **GoActive**; du hanterar dem i [[zoezi|Zoezi]]."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "zoezi"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Om du klättrar varje månad året runt blir årskortet billigare: Guld kostar 590 kr i månaden, alltså 7 080 kr på ett år, och årskortet kostar 6 400 kr. Du sparar 680 kr.”"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cfe795ae-bf1b-4e0c-b787-7841b2d318f5&size=1600",
+     "alt": "Ledklättrare som klipper repet i ett expressband",
+     "caption": "Medlemmar blir ofta kvar länge — och utvecklas."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att lova villkor du inte vet",
+     "text": "Bindningstid, uppsägning, frysning vid skada och vad som skiljer Guld från Silver är frågor där fel svar skapar konflikter senare. Kolla villkoren i Zoezi eller fråga platsansvarig."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vad som ingår i Guld respektive Silver, vilka tider dagtidskorten gäller, bindningstid och uppsägningsregler, frysning, hur ”bjud med en vän” fungerar i praktiken, och hur friskvårdsbetalning registreras i kassan."
+    },
+    {
+     "type": "task",
+     "instruction": "Be en kollega visa hur ett månadskort säljs och registreras i Zoezi. Gör sedan en testförsäljning själv (eller titta på en riktig) med kollegan bredvid."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — medlemskap",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-matarhuset-historia",
+   "label": "4.1",
+   "title": "Gasverket & Mätarhusets historia",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Gasverket är inte bara en klätterhall — det är en del av Stockholms industrihistoria. Många kunder frågar om byggnaderna. Med lite fakta kan du ge dem en extra upplevelse."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c248835a-6103-4a4c-8e82-405f3083762a&size=1600",
+     "alt": "Gamla kontrollpaneler med mätare och reglage från gasverkstiden",
+     "caption": "Spår av gasverkstiden — de gamla kontrollpanelerna."
+    },
+    {
+     "type": "heading",
+     "text": "Värtagasverket i korthet"
+    },
+    {
+     "type": "table",
+     "head": [
+      "När",
+      "Vad hände"
+     ],
+     "rows": [
+      [
+       "1 april 1890",
+       "Första spadtaget för Värtagasverket i Hjorthagen."
+      ],
+      [
+       "1893",
+       "Den första delen tas i bruk, och verket invigs den 25 november. Byggnaderna ritades av **Ferdinand Boberg**. Mätarhuset är från samma år."
+      ],
+      [
+       "1900–1932",
+       "Fler gasklockor byggs: 1900, 1912 och 1932."
+      ],
+      [
+       "1970-talet",
+       "Gasen börjar tillverkas av nafta i stället för kol."
+      ],
+      [
+       "18 januari 2011",
+       "Gasproduktionen upphör — efter mer än hundra år."
+      ],
+      [
+       "2019",
+       "Klätterverket öppnar på Gasverket."
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Bobergs byggnader blev mer utsmyckade ju längre fram i processen de låg. Gasklockorna, där den färdiga gasen lagrades, ansågs finast. Många av byggnaderna är klassade som kulturhistoriskt värdefulla av Stockholms stadsmuseum."
+    },
+    {
+     "type": "heading",
+     "text": "Från industri till stadsdel"
+    },
+    {
+     "type": "richtext",
+     "text": "I dag är området en del av **Norra Djurgårdsstaden**, där Stockholms stad bygger bostäder och arbetsplatser. De gamla industribyggnaderna bevaras och får nya användningar — som klätterhall, kafé och kultur."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6bca5cc9-d8d3-42d5-ade5-fa1107eaea82&size=1600",
+     "alt": "Översikt över klätterhallen på Gasverket",
+     "caption": "Industribyggnaden som i dag är Klätterverket Gasverket."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund på kaféet: ”Vad var det här för hus från början?” — ”Det här är Mätarhuset från 1893, ritat av Ferdinand Boberg. Det var en del av Värtagasverket, där Stockholm tillverkade gas i över hundra år, fram till 2011.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att blanda ihop fakta",
+     "text": "Det finns många myter om gasverket. Håll dig till fakta du kan peka på en källa för. Mätarhusets exakta ursprungliga funktion och vilken byggnad klätterhallen låg i: kontrollera innan du berättar."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilken av gasverkets byggnader klätterhallen ligger i och vad den användes till, vad Mätarhuset användes till, och om det finns historiska bilder eller skyltar i huset som personalen kan visa."
+    },
+    {
+     "type": "task",
+     "instruction": "Hitta minst en historisk detalj i Gasverkets byggnader — t.ex. kontrollpanelerna, tegelfasaden eller gamla skyltar. Berätta för en kollega vad den kan säga om gasverkstiden."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Wikipedia — Värtagasverket",
+     "url": "https://sv.wikipedia.org/wiki/V%C3%A4rtagasverket"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: SVT Nyheter — Historia blir framtid i Hjorthagen",
+     "url": "https://www.svt.se/nyheter/lokalt/stockholm/historia-blir-framtid-i-hjorthagen"
+    }
+   ]
+  },
+  {
+   "id": "alla-matkafe",
+   "label": "4.2",
+   "title": "Matkafé Mätarhuset",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Matkafé Mätarhuset på Gasverket är en mötesplats för klättrare, grannar, familjer och företag. Även om du inte jobbar i kaféet får du frågor om det."
+    },
+    {
+     "type": "video",
+     "title": "Matkafé Mätarhuset (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=44d2bd37-2a07-4797-b628-ecb1e526dad1&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "text": "Det viktiga"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Öppet:** tisdag–söndag 10–16. **Måndag stängt.**",
+      "**Brunch:** helger 10:30–15:30.",
+      "**Veckans lunch** 160 kr, **bowl** 175 kr, brunchrätter och barnmeny.",
+      "**Kaffe** från Johan & Nyström.",
+      "**Kontrollrummet:** konferensrum för 14 personer.",
+      "**Medlemmar** får 10 % rabatt.",
+      "**Instagram:** @matkafematarhuset."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=86addc6e-36e7-4944-ab02-470e4da86e21&size=1600",
+     "alt": "Tallrik med sallad och färgglada grönsaker",
+     "caption": "Lunch på Matkafé Mätarhuset."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=5d161c05-652b-457e-93ef-bd4e545a0cd8&size=1600",
+     "alt": "Konferensrummet Kontrollrummet med bord och stolar",
+     "caption": "Kontrollrummet — konferens för upp till 14 personer."
+    },
+    {
+     "type": "heading",
+     "text": "Allergener"
+    },
+    {
+     "type": "richtext",
+     "text": "På menyn står ”Fråga personalen om allergener”. Enligt Livsmedelsverket ska information om allergener finnas även för mat som inte är förpackad, och den ska vara korrekt. Därför gissar vi aldrig."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En gäst frågar: ”Finns det nötter i bowlen?” — ”Jag vill ge dig ett säkert svar, så jag frågar köket direkt. Ett ögonblick!”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att gissa om allergener",
+     "text": "”Det tror jag inte” kan vara livsfarligt för en allergiker. Fråga alltid den som lagat maten eller kolla innehållsförteckningen."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Var finns allergeninformationen för dagens rätter? Vem bokar Kontrollrummet och vad kostar det? Kan klätterpersonal ta emot betalning för kaféet eller lämna över till kaféet?"
+    },
+    {
+     "type": "task",
+     "instruction": "Besök Matkafé Mätarhuset. Ta reda på veckans lunch och var allergeninformationen finns. Fråga kaféets personal hur de vill att du lämnar över en allergifråga."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket — Allergeninformation",
+     "url": "https://www.livsmedelsverket.se/foretagande-regler-kontroll/regler-for-livsmedelsforetag/information-markning-och-pastaenden/allergeninformation/"
+    }
+   ]
+  },
+  {
+   "id": "alla-event",
+   "label": "4.3",
+   "title": "Event",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Event skapar gemenskap och lockar nya klättrare. När du vet vad som är på gång kan du tipsa rätt kund om rätt kväll."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c948880f-5490-405d-a9b0-091e3d520e4c&size=1600",
+     "alt": "Affisch för Blocs & Bass",
+     "caption": "Blocs & Bass — boulder och musik."
+    },
+    {
+     "type": "heading",
+     "text": "Våra återkommande event"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Event",
+      "Vad",
+      "För vem"
+     ],
+     "rows": [
+      [
+       "**Crush**",
+       "Klätterträff för kvinnor, på onsdagar.",
+       "Kvinnor på alla nivåer."
+      ],
+      [
+       "**Blocs & Bass**",
+       "Boulderevent med musik. Sponsorer: Hydro Flask, Chimpanzee, Red Chili, Edelrid och Chalk Cartel.",
+       "Alla som gillar boulder och musik."
+      ],
+      [
+       "**Barnkalas**",
+       "Helger 10:15 och 15:15, 10–18 barn, från 290 kr/barn.",
+       "Familjer."
+      ],
+      [
+       "**Företag och möhippa**",
+       "Klättring med instruktör, 90 min för företag.",
+       "Grupper."
+      ]
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=56288310-c424-4dce-b037-695ac2568b4e&size=1600",
+     "alt": "Crush-loggan",
+     "caption": "Crushs logga — klätterträff för kvinnor på onsdagar."
+    },
+    {
+     "type": "video",
+     "title": "Barnkalas på Klätterverket (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aae86f15-b037-4504-bebd-15f1526f3f51&_ignore=.mp4"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=688affd2-2f1b-4c13-939a-87553a410499&size=1600",
+     "alt": "Dukat barnkalasbord med ballonger",
+     "caption": "Barnkalasbordet är dukat."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kvinna säger att hon känner sig osäker i hallen: ”Har du hört om Crush? Det är en klätterträff för kvinnor på onsdagar. Ett jättebra sätt att hitta klätterkompisar.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att lova en plats",
+     "text": "Event och kalas kan bli fullbokade. Kolla bokningsläget i Zoezi innan du säger ”Det finns plats”."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Kommande datum och tider för Crush och Blocs & Bass, i vilken hall de hålls, om man behöver anmäla sig och vad det kostar. Vilka andra event (tävlingar, filmkvällar, lovaktiviteter) planeras?"
+    },
+    {
+     "type": "task",
+     "instruction": "Ta reda på när nästa Crush och Blocs & Bass är och vad som gäller för anmälan. Skriv upp det och tipsa minst en kund om ett event under veckan."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — event",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "alla-hallbarhet",
+   "label": "4.4",
+   "title": "Hållbarhet & återvinning",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klättring är en sport nära naturen. Vi vill att hallen tar ansvar för miljön — och det börjar med små saker i vardagen som du kan påverka varje pass."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=0d313a5b-919c-4a72-8704-fc292dacd10c&size=1600",
+     "alt": "Kritade händer redo att klättra",
+     "caption": "Utrustning som används länge är bättre för både plånbok och miljö."
+    },
+    {
+     "type": "heading",
+     "text": "Tre sätt vi jobbar med hållbarhet"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Återvinning:** sortera förpackningar, papper, matavfall och annat på rätt ställe — i hallen och i kaféet.",
+      "**[[hyrutrustning|Hyrutrustning]]:** skor, sele, repbroms och kritpåse som många delar på. Den som klättrar några gånger behöver inte köpa nytt.",
+      "**[[skolagning|Skolagning]] av klätterskor:** en sliten sula kan bytas så att skon håller längre. Tillverkare som La Sportiva beskriver det som att ge skorna ”ett andra liv”."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "skolagning"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc871eb2-b666-47c6-8e22-3a5fb3bc8b70&size=1600",
+     "alt": "Kvinna som klättrar i klätterskor",
+     "caption": "Klätterskor slits mest i tån — där kan de ofta lagas."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund visar en sko med hål i tån: ”Den går ofta att skolaga i stället för att köpa nya. Då byter man sulan och ibland tårandet, och skon fungerar som förut.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att slänga i fel kärl",
+     "text": "Ett felsorterat kärl kan förstöra en hel insamling. Är du osäker på var något ska — fråga hellre än att slänga det i närmaste kärl."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Klätterverkets egna miljöåtgärder: var finns sorteringsstationerna och vilka fraktioner sorteras? Tar shopen emot skor för skolagning, och i så fall hur och till vilken verkstad? Hur länge används hyrutrustning och vad händer med den när den kasseras? Finns ett miljömål eller en hållbarhetspolicy?"
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt i din hall och hitta alla sorteringskärl. Skriv upp vad som sorteras var. Titta också på hyrskorna: hittar du ett par som borde skolagas eller kasseras? Meddela ansvarig."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: La Sportiva — For your mountain, for our planet (om skolagning)",
+     "url": "https://www.lasportiva.com/en/blog/post/for-your-mountain-for-our-planet"
+    }
+   ]
+  },
+  {
+   "id": "alla-sociala-medier",
+   "label": "4.5",
+   "title": "Sociala medier",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Sociala medier är ett av de bästa sätten att visa hur kul det är att klättra hos oss. Men bilder på människor är personuppgifter. Den här lektionen handlar om vad du får dela — och vad du inte får."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8865b521-c4e0-4a94-bd79-982995030a0c&size=1600",
+     "alt": "Bouldergrupp fotograferad ovanifrån",
+     "caption": "Grupper syns gärna i bild — men bara med samtycke."
+    },
+    {
+     "type": "heading",
+     "text": "Klätterverkets konton"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Instagram @matkafematarhuset** — Matkafé Mätarhuset.",
+      "**YouTube** — Klätterverkets egen kanal, t.ex. filmen om ledbyggandet på Gasverket.",
+      "**Övriga konton** (Instagram, Facebook m.fl.) — se rutan nedan."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Om du lägger upp något"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Fråga först.** Syns en kund tydligt i bilden behöver du hens [[samtycke|samtycke]] innan du publicerar.",
+      "**Barn kräver extra försiktighet.** Fråga vårdnadshavaren — och lägg hellre upp bilder där barnen inte går att känna igen.",
+      "**Tänk på bakgrunden.** Syns andra kunder, en dator med kunduppgifter eller en kassa?",
+      "**Säkerhet i bild.** Visa aldrig något som bryter mot hallreglerna, t.ex. klättring utan kamratkontroll eller väskor på mattan.",
+      "**Svara inte i Klätterverkets namn** på kritik eller frågor i dina egna kanaler — hänvisa till de officiella kontona."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "samtycke"
+    },
+    {
+     "type": "richtext",
+     "text": "Enligt Integritetsskyddsmyndigheten (IMY) är bilder där personer kan identifieras personuppgifter. Ett samtycke ska vara frivilligt och kunna återkallas."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=7eb21af8-0c0f-4aa4-8766-b38f43409fa5&size=1600",
+     "alt": "Barn med hjälm som klättrar utomhus",
+     "caption": "Bilder på barn: alltid vårdnadshavarens samtycke."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Vilken snygg klättring! Får jag ta en bild och lägga upp den på Klätterverkets Instagram? Säg gärna nej om du inte vill — och vill du att vi tar bort den senare är det bara att säga till.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: ”Det är ju bara en story”",
+     "text": "En story försvinner efter ett dygn, men den kan skärmdumpas och spridas. Samma regler gäller som för vanliga inlägg — särskilt när barn syns."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Klätterverkets officiella konton och vem som ansvarar för dem. Personalpolicy för sociala medier: får personal lägga upp bilder från hallen på egna konton, i arbetskläder, på kollegor? Hur dokumenteras samtycke (t.ex. vid barnkalas, kurser och event)? Finns skyltar om fotografering i hallen?"
+    },
+    {
+     "type": "task",
+     "instruction": "Leta upp Klätterverkets och Matkafé Mätarhusets konton i sociala medier och följ dem. Titta på de senaste tio inläggen: hur många visar personer som går att känna igen? Diskutera med en kollega hur samtycke borde ha frågats."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: IMY — Publicera bilder, filmer och ljud på internet",
+     "url": "https://www.imy.se/verksamhet/dataskydd/vi-guidar-dig/publicera-bilder-filmer-och-ljud-pa-internet/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: IMY — Samtycke som rättslig grund",
+     "url": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/rattslig-grund/samtycke"
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu har du gått igenom hela introduktionen. Provet har 15 frågor som dras ur en större frågebank. Du behöver 80 % rätt och har tre försök. Lycka till!"
+    }
+   ]
+  }
+ ],
+ "terms": {
+  "klatterkort": {
+   "term": "Klätterkort",
+   "definition": "Kort som visar vad du får göra i hallen: gult för automatsäkring, grönt för topprep och rött för led. Ska synas på selen."
+  },
+  "kamratkontroll": {
+   "term": "Kamratkontroll",
+   "definition": "Partnercheck: klättraren och säkraren kontrollerar varandras knut, sele och säkringsbroms före varje klättring."
+  },
+  "topprep": {
+   "term": "Topprep",
+   "definition": "Klättring där repet redan sitter förankrat i toppen av väggen. Kräver grönt kort."
+  },
+  "ledklattring": {
+   "term": "Ledklättring",
+   "definition": "Klättraren tar med sig repet upp och klipper in det i expressbanden längs vägen. Kräver rött kort."
+  },
+  "autobelay": {
+   "term": "Automatsäkring",
+   "definition": "Autobelay: en automatisk säkringsanordning som tar hem repet och sänker klättraren. Kräver minst gult kort."
+  },
+  "boulder": {
+   "term": "Boulder",
+   "definition": "Klättring utan rep på låga väggar med tjocka fallmattor under."
+  },
+  "zoezi": {
+   "term": "Zoezi",
+   "definition": "Klätterverkets boknings- och kassasystem för kurser, kort och medlemskap. Kunderna använder kundportalen GoActive."
+  },
+  "hallvard": {
+   "term": "Hallvärd",
+   "definition": "Medarbetare som rör sig i hallen, hjälper besökare och ser till att säkerhets- och ordningsreglerna följs."
+  },
+  "friskvard": {
+   "term": "Friskvård",
+   "definition": "Arbetsgivarens friskvårdsbidrag. Hos oss kan kunden betala via ePassi, Wellnet eller Benefits."
+  },
+  "hyrutrustning": {
+   "term": "Hyrutrustning",
+   "definition": "Skor, sele, repbroms och kritpåse som kunder kan hyra i stället för att köpa egen."
+  },
+  "skolagning": {
+   "term": "Skolagning",
+   "definition": "Resole: en sliten sula på klätterskon byts ut så att skon kan användas längre."
+  },
+  "samtycke": {
+   "term": "Samtycke",
+   "definition": "Ett frivilligt, tydligt ja från personen (för barn: vårdnadshavaren) till att en bild publiceras. Kan återkallas."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Klätterverket – för alla",
+  "passScore": 0.8,
+  "draw": 15,
+  "attempts": 3,
+  "items": [
+   {
+    "type": "single",
+    "stem": "Vilket år grundades Klätterverket?",
+    "options": [
+     "1994",
+     "1984",
+     "2004",
+     "2019"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-historia",
+    "why": "Klätterverket grundades 1994 i Nacka. 2019 öppnade Gasverket."
+   },
+   {
+    "type": "single",
+    "stem": "Vad var Klätterverket först med i Sverige?",
+    "options": [
+     "Standardiserade kurser och säkringslicenser",
+     "Automatsäkring",
+     "Boulder med tunnel",
+     "Klätterkafé"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-historia",
+    "why": "Klätterverket var först med standardiserade kurser och säkringslicenser — det som i dag är klätterkorten."
+   },
+   {
+    "type": "single",
+    "stem": "Hur höga är de högsta väggarna på Gasverket?",
+    "options": [
+     "17 meter",
+     "12 meter",
+     "22 meter",
+     "8 meter"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-gasverket",
+    "why": "Gasverket har upp till 17 meter höga väggar och ca 1 000 m² klätteryta."
+   },
+   {
+    "type": "single",
+    "stem": "En kund vill klättra kl. 07 före jobbet. Vilken dag och hall stämmer?",
+    "options": [
+     "Gasverket på en tisdag",
+     "Sickla på en måndag",
+     "Gasverket på en lördag",
+     "Sickla på en torsdag"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-gasverket",
+    "why": "Gasverket öppnar kl. 07 på tisdagar och torsdagar. Sickla öppnar 10 på vardagar."
+   },
+   {
+    "type": "single",
+    "stem": "Vad är åldersgränsen för gymmet på Gasverket?",
+    "options": [
+     "15 år",
+     "10 år",
+     "13 år",
+     "18 år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-gasverket",
+    "why": "Gasverkets gym har 15-årsgräns. I Sickla är gränsen 10 år, och barn under 13 ska ha en vuxen med."
+   },
+   {
+    "type": "multi",
+    "stem": "Vad stämmer om Sickla? Välj alla som stämmer.",
+    "options": [
+     "Det finns ca 40 topprepsleder",
+     "Gymmet ligger på loftet",
+     "Barn får åka rutschkana i tunneln",
+     "Barnkalasen serveras med Bricks Burgers"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ],
+    "lesson": "alla-sickla",
+    "why": "Sickla har ca 40 topprepsleder, gym på loftet och barnkalas med Bricks Burgers. Tunneln är ingen rutschkana."
+   },
+   {
+    "type": "single",
+    "stem": "En elvaåring vill träna i gymmet i Sickla. Vad gäller?",
+    "options": [
+     "Det går bra om en vuxen är med",
+     "Det går inte, gränsen är 15 år",
+     "Det går bra utan vuxen",
+     "Bara med PT"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-sickla",
+    "why": "Gymmet i Sickla har 10-årsgräns, och barn under 13 år ska ha en vuxen med."
+   },
+   {
+    "type": "single",
+    "stem": "Vilka krav finns för att jobba som instruktör?",
+    "options": [
+     "Minst grönt kort, 6 månaders säkringsvana och 18 år (ibland 16)",
+     "Rött kort och 25 år",
+     "Bara gult kort",
+     "Ingen erfarenhet krävs"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-vem-gor-vad",
+    "why": "Instruktörer behöver minst grönt kort och 6 månaders säkringsvana och vara 18 år (ibland 16)."
+   },
+   {
+    "type": "single",
+    "stem": "En kund ställer en fråga som hör till en annan roll. Vad gör du?",
+    "options": [
+     "Tar reda på vem som vet och lämnar över personligt",
+     "Säger att det inte är ditt bord",
+     "Gissar för att spara tid",
+     "Ber kunden mejla info@"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-vem-gor-vad",
+    "why": "Kunden ska aldrig lämnas utan svar. Du tar emot frågan och ser till att rätt person får den."
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt stegen när du tar emot en kund i rätt ordning.",
+    "options": [
+     "Hälsa direkt",
+     "Fråga om kunden klättrat hos oss förut",
+     "Förklara vad kunden kan göra eller kontrollera kortet",
+     "Avsluta med ”Säg till om du behöver något”"
+    ],
+    "lesson": "alla-bemota-kunder",
+    "why": "Först hälsar du, sedan tar du reda på om kunden är ny, sedan anpassar du informationen, och till sist avslutar du vänligt."
+   },
+   {
+    "type": "single",
+    "stem": "Du ser en väska på boulderytans fallmatta. Vad gör du?",
+    "options": [
+     "Går fram och ber vänligt att få flytta den, och förklarar varför",
+     "Ropar högt över hallen",
+     "Låter den ligga — det är kundens ansvar",
+     "Tar väskan till receptionen utan att säga något"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-bemota-kunder",
+    "why": "Mattorna ska vara fria från föremål. Säg till vänligt, kort och tydligt och förklara risken.",
+    "intro": "En lördag eftermiddag är det fullt i boulderytan."
+   },
+   {
+    "type": "trueFalse",
+    "stem": "Klätterverket har nolltolerans mot sexism, rasism och kränkningar.",
+    "options": [
+     "Sant",
+     "Falskt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-bemota-kunder",
+    "why": "Det står i Klätterverkets ordningsregler. Vid kränkningar hämtar du platsansvarig."
+   },
+   {
+    "type": "single",
+    "stem": "Vilken mening följer Klätterverkets tonalitet bäst?",
+    "options": [
+     "”För att klättra med rep behöver du grönt kort. Vill du boka en kurs?”",
+     "”Klättring utan giltigt kort är ej tillåten.”",
+     "”Ni måste uppvisa licens.”",
+     "”Kör flash på den gröna, betan är ett dyno.”"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-sprak-tonalitet",
+    "why": "Vi säger du, skriver kort och aktivt och berättar vad kunden kan göra."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka tumregler gäller för hur vi pratar och skriver? Välj alla som stämmer.",
+    "options": [
+     "Säg du",
+     "Korta meningar",
+     "Använd klätterjargong för att låta proffsig",
+     "Förklara klätterord för nybörjare"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ],
+    "lesson": "alla-sprak-tonalitet",
+    "why": "Jargong utan förklaring gör det svårt för nybörjare. Vi säger du, skriver kort och förklarar."
+   },
+   {
+    "type": "single",
+    "stem": "En kund har köpt entré tre gånger den här månaden. Vad är ett bra tips?",
+    "options": [
+     "Månadskort Silver (510 kr) hade varit billigare än tre entréer (570 kr)",
+     "Köp ett 25-klipp direkt",
+     "Inget — man ska aldrig prata om kort",
+     "Gå ett rött kort"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-kund-till-medlem",
+    "why": "3 × 190 kr = 570 kr, vilket är mer än månadskortet Silver på 510 kr."
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt kundresan i en rimlig ordning.",
+    "options": [
+     "Prova på eller boulder",
+     "Gult eller grönt kort",
+     "Klippkort",
+     "Månads- eller årskort"
+    ],
+    "lesson": "alla-kund-till-medlem",
+    "why": "De flesta testar först, lär sig säkra, kommer tillbaka med klippkort och blir sedan medlemmar."
+   },
+   {
+    "type": "single",
+    "stem": "Vad kostar en vuxenentré?",
+    "options": [
+     "190 kr",
+     "130 kr",
+     "350 kr",
+     "165 kr"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-vad-saljer-vi",
+    "why": "Entré vuxen kostar 190 kr, ungdom 130 kr."
+   },
+   {
+    "type": "single",
+    "stem": "Hur länge gäller ett presentkort?",
+    "options": [
+     "2 år",
+     "1 år",
+     "6 månader",
+     "För alltid"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-vad-saljer-vi",
+    "why": "Klätterverkets presentkort gäller i 2 år."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka friskvårdslösningar tar Klätterverket emot? Välj alla som stämmer.",
+    "options": [
+     "ePassi",
+     "Wellnet",
+     "Benefits",
+     "Swish Friskvård"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "alla-vad-saljer-vi",
+    "why": "Klätterverket tar emot ePassi, Wellnet och Benefits."
+   },
+   {
+    "type": "single",
+    "stem": "Hur många barn kan vara med på ett barnkalas?",
+    "options": [
+     "Minst 10 och högst 18",
+     "Minst 5 och högst 10",
+     "Högst 25",
+     "Exakt 12"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-vad-saljer-vi",
+    "why": "Barnkalas är för minst 10 och högst 18 barn, helger 10:15 och 15:15."
+   },
+   {
+    "type": "single",
+    "stem": "Vilket kort behövs för att klättra och säkra i topprep?",
+    "options": [
+     "Grönt kort",
+     "Gult kort",
+     "Rött kort krävs alltid",
+     "Inget kort"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-kurser",
+    "why": "Grönt kort ger rätt till topprep. Gult räcker för automatsäkring, rött krävs för led."
+   },
+   {
+    "type": "single",
+    "stem": "Vad gäller för grönt kort-kursen?",
+    "options": [
+     "2 × 2 timmar, max 4 per grupp, enligt SKF:s normer",
+     "30 minuter, från 15 år",
+     "En kväll på 90 minuter",
+     "8 tillfällen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-kurser",
+    "why": "Grönt kort är två träffar på två timmar med max fyra deltagare och följer Svenska Klätterförbundets normer."
+   },
+   {
+    "type": "single",
+    "stem": "Vad krävs för prova på på helgen?",
+    "options": [
+     "Barn ska vara minst 120 cm",
+     "Grönt kort",
+     "Man måste vara 15 år",
+     "Egen utrustning"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-kurser",
+    "why": "Prova på är 90 minuter, 350 kr, och barn ska vara minst 120 cm."
+   },
+   {
+    "type": "single",
+    "stem": "Hur mycket sparar en kund på årskort Guld jämfört med tolv månadskort Guld?",
+    "options": [
+     "680 kr",
+     "190 kr",
+     "1 200 kr",
+     "Inget"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-medlemskap",
+    "why": "12 × 590 kr = 7 080 kr. Årskort Guld kostar 6 400 kr. Skillnaden är 680 kr."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka förmåner har medlemmar? Välj alla som stämmer.",
+    "options": [
+     "Bjuda med en vän",
+     "10 % rabatt i butik, på kurser och i Matkaféet",
+     "Gratis rött kort",
+     "Fri hyrutrustning"
+    ],
+    "correct": [
+     "a",
+     "b"
+    ],
+    "lesson": "alla-medlemskap",
+    "why": "Medlemsförmånerna är bjud med en vän och 10 % i butik, på kurser och i Matkafé Mätarhuset."
+   },
+   {
+    "type": "single",
+    "stem": "Vem ritade Värtagasverkets byggnader, som Mätarhuset?",
+    "options": [
+     "Ferdinand Boberg",
+     "Ragnar Östberg",
+     "Gunnar Asplund",
+     "Sigurd Lewerentz"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-matarhuset-historia",
+    "why": "Ferdinand Boberg ritade gasverkets byggnader. Mätarhuset är från 1893."
+   },
+   {
+    "type": "single",
+    "stem": "När upphörde gasproduktionen på Värtagasverket?",
+    "options": [
+     "2011",
+     "1972",
+     "1993",
+     "2019"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-matarhuset-historia",
+    "why": "Gasproduktionen upphörde den 18 januari 2011, efter mer än hundra år."
+   },
+   {
+    "type": "single",
+    "stem": "När har Matkafé Mätarhuset stängt?",
+    "options": [
+     "Måndagar",
+     "Söndagar",
+     "Lördagar",
+     "Onsdagar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-matkafe",
+    "why": "Matkaféet har öppet tisdag–söndag 10–16 och är stängt på måndagar."
+   },
+   {
+    "type": "single",
+    "stem": "En gäst frågar om det finns nötter i bowlen. Vad gör du?",
+    "options": [
+     "Frågar köket eller kollar innehållet innan du svarar",
+     "Säger ”Det tror jag inte”",
+     "Rekommenderar en annan rätt",
+     "Hänvisar till Instagram"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-matkafe",
+    "why": "Allergeninformation måste vara korrekt. Gissa aldrig — fråga den som lagat maten."
+   },
+   {
+    "type": "single",
+    "stem": "Vad är Crush?",
+    "options": [
+     "En klätterträff för kvinnor på onsdagar",
+     "En boulderfest med DJ",
+     "En tävling för barn",
+     "Ett PT-program"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-event",
+    "why": "Crush är Klätterverkets klätterträff för kvinnor på onsdagar. Blocs & Bass är boulder och musik."
+   },
+   {
+    "type": "single",
+    "stem": "Vad betyder att skolaga en klätterko?",
+    "options": [
+     "Att byta den slitna sulan så att skon håller längre",
+     "Att tvätta skon",
+     "Att byta storlek",
+     "Att sälja den begagnad"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-hallbarhet",
+    "why": "Skolagning (resole) betyder att sulan byts — skon får ett längre liv."
+   },
+   {
+    "type": "multi",
+    "stem": "Hur bidrar Klätterverket till hållbarhet i vardagen? Välj alla som stämmer.",
+    "options": [
+     "Återvinning och sortering",
+     "Hyrutrustning som många delar på",
+     "Skolagning av klätterskor",
+     "Engångsselar"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "alla-hallbarhet",
+    "why": "Återvinning, delad hyrutrustning och skolagning är tre sätt. Engångsutrustning finns inte."
+   },
+   {
+    "type": "single",
+    "stem": "Du vill lägga upp en bild på ett barn som klättrar. Vad krävs?",
+    "options": [
+     "Vårdnadshavarens samtycke",
+     "Inget, om bilden är tagen i hallen",
+     "Att barnet säger ja",
+     "Att bilden bara ligger ute i 24 timmar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-sociala-medier",
+    "why": "Bilder där personer kan kännas igen är personuppgifter. För barn frågar du vårdnadshavaren."
+   },
+   {
+    "type": "trueFalse",
+    "stem": "En Instagram-story behöver inte samtycke eftersom den försvinner efter ett dygn.",
+    "options": [
+     "Sant",
+     "Falskt"
+    ],
+    "correct": [
+     "b"
+    ],
+    "lesson": "alla-sociala-medier",
+    "why": "Stories kan skärmdumpas och spridas. Samma regler gäller som för vanliga inlägg."
+   },
+   {
+    "type": "single",
+    "stem": "Vad gör du om någon kritiserar Klätterverket i en kommentar på ditt privata konto?",
+    "options": [
+     "Hänvisar till Klätterverkets officiella kanaler",
+     "Svarar i Klätterverkets namn",
+     "Lovar ersättning",
+     "Raderar och blockerar direkt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "alla-sociala-medier",
+    "why": "Svara inte i Klätterverkets namn i egna kanaler — hänvisa till de officiella kontona."
+   }
+  ]
+ }
+}

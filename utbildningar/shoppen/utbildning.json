@@ -1,0 +1,1528 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "shoppen",
+  "title": "Shoppen",
+  "summary": "Sälj rätt sko, sele och säkringsutrustning med ärliga råd — och sköt butiken: leverans, prismärkning, inventering och exponering. För dig som jobbar i Klätterverkets shop.",
+  "audience": [
+   "shop"
+  ],
+  "estimatedMinutes": 68,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24
+  },
+  "modules": [
+   {
+    "title": "Grunden och klätterskor",
+    "lessons": [
+     "shop-grund",
+     "shop-salja-skor",
+     "shop-hitta-sko"
+    ]
+   },
+   {
+    "title": "Utrustning",
+    "lessons": [
+     "shop-selar",
+     "shop-sakring",
+     "shop-krita"
+    ]
+   },
+   {
+    "title": "Försäljning och sortiment",
+    "lessons": [
+     "shop-merforsaljning",
+     "shop-varumarken"
+    ]
+   },
+   {
+    "title": "Butiksdrift",
+    "lessons": [
+     "shop-leverans",
+     "shop-pris",
+     "shop-inventering",
+     "shop-exponering"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "shop-grund",
+   "label": "1.1",
+   "title": "Grundutbildning i shoppen",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Shoppen är ofta det sista en besökare ser innan hen går hem — och det första hen ser när hen kommer tillbaka med nya skor. Här blir en entrébesökare en klättrare med egen utrustning. Ditt jobb är att ge **ärliga råd**, sälja rätt sak och hålla butiken i ordning."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "Medarbetare i Klätterverket-hoodie i hallen",
+     "caption": "Du är både säljare och klätterkunnig kollega. Kunden litar på ditt råd."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Det här ingår i ditt pass"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Ta emot kunden.** Hälsa, fråga vad hen klättrar och vad hen behöver.",
+      "**Ge råd och sälj.** Skor, selar, säkringsutrustning, krita och tillbehör.",
+      "**Hyrutrustning.** Klätterverket hyr ut skor, sele, repbroms och kritpåse. Hyr kunden ofta? Berätta vad egen utrustning ger.",
+      "**Kassan.** Rätt pris, rätt rabatt. Medlemmar får **10 % i butiken**.",
+      "**Ordning.** Fyll på, rätta prisetiketter, plocka upp skor efter provning.",
+      "**Butiksdrift.** Ta emot leveranser, prismärk, inventera och exponera varor."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Byten, öppet köp och reklamation"
+    },
+    {
+     "type": "richtext",
+     "text": "Det finns ingen lag om [[oppet-kop|öppet köp]] eller bytesrätt i butik. Det bestämmer butiken själv. Men kunden har alltid rätt att [[reklamation|reklamera]] en vara som är felaktig, enligt konsumentköplagen."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "reklamation"
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Klätterverkets egna villkor för öppet köp och byte (antal dagar, oanvänd vara, kvitto, gäller provade klätterskor?), vem som beslutar om reklamationer och hur en reklamation registreras i kassasystemet. Vilket kassasystem används i shoppen och hur lägger man in medlemsrabatten?"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund vill lämna tillbaka skor hen klättrat i en vecka för att de gör ont: \"Jag förstår, det är surt när skorna inte sitter. Eftersom de är använda kan vi inte ta tillbaka dem som öppet köp — men om det är ett fel på skon reklamerar vi den självklart. Ska vi titta på dem tillsammans?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att lova något du inte kan hålla",
+     "text": "Säg aldrig \"det är inga problem att byta\" om du inte vet vad som gäller. Kolla villkoren först — ett löfte i kassan är svårt att ta tillbaka."
+    },
+    {
+     "type": "video",
+     "title": "Klätterverket Sickla (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=3e2a3a74-73a2-49b5-bc40-7442d4b8403a&_ignore=.mp4"
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt i shoppen i din hall. Hitta: kassan, hyrutrustningen, lagret och var villkoren för byte och öppet köp står. Fråga din platsansvarige om det du inte hittar.",
+     "hint": "Skriv upp tre saker du vill lära dig mer om under dina första pass."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — Öppet köp och bytesrätt",
+     "url": "https://www.konsumentverket.se/konsumentratt/oppet-kop-och-bytesratt/"
+    }
+   ]
+  },
+  {
+   "id": "shop-salja-skor",
+   "label": "1.2",
+   "title": "Sälja klätterskor",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klätterskon är den viktigaste utrustningen en klättrare köper — och den svåraste att välja. En sko som sitter fel används inte. En sko som sitter rätt gör att kunden kommer tillbaka och vill klättra mer. Bra skoförsäljning är **att lyssna först och föreslå sedan**."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc73d0a2-82df-460c-9a77-edd32db978c1&size=1600",
+     "alt": "Kvinna sitter och tar på sig klätterskor",
+     "caption": "Låt kunden prova i lugn och ro — gärna flera par och båda fötterna."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Fem frågor att börja med"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Hur länge har du klättrat?** Och hur ofta?",
+      "**Vad klättrar du mest?** Boulder, topprep, led, inne eller ute?",
+      "**Vilka skor har du nu?** Hyrskor, ett gammalt par — vad var bra och dåligt?",
+      "**Vilken storlek har du i vanliga skor?** Det är en startpunkt, inte ett svar.",
+      "**Vad är viktigast för dig?** Komfort, prestation, pris, snabbt av och på?"
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Utifrån svaren väljer du **två–tre par** att prova. Färre val gör det lättare för kunden."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Du har klättrat i hyrskor i ett halvår, mest boulder och topprep? Då skulle jag börja med en bekväm, ganska platt sko. Vi provar tre par — och du får gärna stå på kanten här och känna hur de sitter på en liten fotgrepp.\""
+    },
+    {
+     "type": "richtext",
+     "text": "Låt kunden ställa sig på tårna, gärna på en liten list eller ett grepp. Fråga **var** det trycker, inte bara **om** det trycker."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=5c2ddeb3-c294-4ecf-a9fc-e70d5223da41&size=1600",
+     "alt": "Kvinna bouldrar på ett överhäng i Klätterverkets hall",
+     "caption": "Den som bouldrar brant mycket har ofta nytta av en mer nedåtböjd sko."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att sälja din egen favoritsko",
+     "text": "Den aggressiva sko du själv klättrar i passar sällan en nybörjare. Sälj det kunden behöver — inte det du själv tycker är roligast."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Får kunder prova skor i klätterväggen eller bara i butiken? Finns strumpregler, desinfektion av provskor eller en provlist i shoppen?"
+    },
+    {
+     "type": "task",
+     "instruction": "Välj en kollega som får spela kund. Ställ de fem frågorna och föreslå tre par ur sortimentet. Byt sedan roller.",
+     "hint": "Var noga med att lyssna klart innan du plockar fram skor."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: La Sportiva — How to choose the best climbing shoes",
+     "url": "https://www.lasportiva.com/en/blog/post/how-to-choose-the-best-climbing-shoes"
+    }
+   ]
+  },
+  {
+   "id": "shop-hitta-sko",
+   "label": "1.3",
+   "title": "Hitta rätt klättersko",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "När du vet vad kunden behöver ska du hitta en sko som passar foten. Här går vi igenom form, passform, storlek och material — enligt tillverkarnas egna råd."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Formen: platt, nedåtböjd och asymmetrisk"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "downturn"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "asymmetri"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "Platt (neutral)",
+      "Mellan",
+      "Kraftigt nedåtböjd/asymmetrisk"
+     ],
+     "rows": [
+      [
+       "Passar",
+       "Nybörjare, långa pass, topprep",
+       "Allround, boulder och led",
+       "Brant boulder och led, små fotsteg"
+      ],
+      [
+       "Känsla",
+       "Bekväm, stabil",
+       "Balans mellan kraft och komfort",
+       "Kraft i tån, mindre komfort"
+      ],
+      [
+       "Typiskt",
+       "Styvare sula",
+       "Varierar",
+       "Ofta mjukare sula"
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Scarpa delar in sina skor efter [[asymmetri|asymmetri]] och profil ([[downturn|downturn]]) i tre nivåer: neutral, mellan och kraftig. Ju mer, desto mer kraft i tån — och desto mindre komfort."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4510a3c9-0a4d-414a-9d80-06268d59a5e9&size=1600",
+     "alt": "Klättrare på ett kraftigt överhäng",
+     "caption": "På överhäng hjälper en nedåtböjd sko tån att dra i greppen."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Passform och storlek"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Tight men inte smärtsam.** Foten ska fylla skon utan tomrum och inte glida runt (Scarpa, La Sportiva).",
+      "**Tårna lätt böjda**, inte helt utsträckta (La Sportiva).",
+      "**Bredd först.** La Sportiva säger att fotens bredd är det första att titta på: smal eller bred fot.",
+      "**Storlek skiljer mellan märken.** Utgå inte från att kunden har samma storlek i alla märken. Mät och prova.",
+      "**Nybörjare:** en styvare, bekväm sko, ungefär i vanlig storlek (La Sportiva). Scarpa skriver att det inte ska vara utgångspunkten att gå ner i storlek."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Läder eller syntet?"
+    },
+    {
+     "type": "richtext",
+     "text": "Läder töjer sig i regel mer än syntet, om skorna i övrigt är byggda på samma sätt. Ju tightare skon sitter, desto mer töjer den sig. Skor med mycket gummi på ovansidan töjer sig mindre (Scarpa)."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Den här är i läder, så den ger sig lite efter några pass. Den ska kännas tight nu — men inte göra ont. Gör det ont när du står still här på golvet tar vi en halv storlek upp.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: \"de töjer sig ändå\"",
+     "text": "Lova aldrig att en för liten sko ska bli bra. Syntetskor töjer sig lite, och en sko som gör ont används inte. Smärta är ett tecken på fel storlek eller fel modell."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b874dc0b-d974-4f8b-843f-a8b68a815af2&size=1600",
+     "alt": "Kvinna klättrar i Klätterverkets hall",
+     "caption": "Rätt sko gör att kunden kan stå på små steg — och vill klättra mer."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilka skomärken och modeller som finns i sortimentet, vilka som passar smal respektive bred fot, och om shoppen har tillverkarnas storlekstabeller tillgängliga vid provningen."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta fram tre skor ur sortimentet: en neutral, en mellan och en kraftigt nedåtböjd. Lägg dem bredvid varandra och förklara skillnaden för en kollega på under en minut.",
+     "hint": "Titta på tån och sulan från sidan — då syns downturn tydligt."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Scarpa — How to choose a climbing shoe",
+     "url": "https://www.scarpa.co.uk/blogs/blog/how-to-choose-a-climbing-shoe"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Scarpa — Fit, asymmetry and profile",
+     "url": "https://scarpa.com/pages/climbing-collection-structure"
+    }
+   ]
+  },
+  {
+   "id": "shop-selar",
+   "label": "2.1",
+   "title": "Selar",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Selen är personlig skyddsutrustning. Den ska passa kroppen och vara godkänd för klättring. I hallen syns också klätterkortet på selen — så selen är både säkerhet och biljett."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=04cb99c4-7f9a-4545-b924-8f7971386c0e&size=1600",
+     "alt": "Klättrare knyter en åttaknut i selen",
+     "caption": "Åttaknuten knyts genom båda inknytningspunkterna på selen."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Det här ska stämma"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**CE-märkt enligt EN 12277.** Det är den europeiska standarden för klätterselar. En vanlig sittsele är märkt typ C, till exempel Petzl Corax: \"CE EN 12277 type C\".",
+      "**UIAA-märkning** (UIAA 105) finns på många selar och är ett extra kvitto.",
+      "**Midjebandet** ska sitta ovanför höftbenet och inte kunna dras ner över höfterna.",
+      "**Benslingor** ska sitta skönt utan att klämma. Justerbara benslingor passar fler kroppar och kläder.",
+      "**Läs bruksanvisningen.** Hur selen spänns, kontrolleras och när den ska kasseras står där."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "ce-markning"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Låt kunden ta på selen och spänna midjebandet.",
+      "Kontrollera att midjebandet sitter ovanför höftbenet.",
+      "Justera benslingorna.",
+      "Låt kunden hänga i selen om ni har möjlighet — det är då man känner om den skaver.",
+      "Visa var inknytningspunkterna och säkringsöglan sitter."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Den här är bekväm att hänga i länge, bra för topprep. Klättrar du mycket led och vill ha något lätt finns en tunnare modell. Häng gärna i den en stund — det är det bästa testet.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: begagnat och tillbakalämnat",
+     "text": "Sälj aldrig vidare en sele som någon har använt och lämnat tillbaka. Du vet inte hur den har använts eller förvarats. Ta inte heller emot säkringsutrustning för att \"kolla om den är ok\" — hänvisa till tillverkarens bruksanvisning."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=d99e1676-6370-4b62-aa0c-7dcc3db2bb4b&size=1600",
+     "alt": "Gul åttaknut i närbild",
+     "caption": "Kunden behöver kunna knyta åttaknuten — selen är bara halva jobbet."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilka selmodeller och storlekar som finns, om kunder får prova att hänga i selen och var, och hur tillbakalämnad säkringsutrustning hanteras."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta fram en sele ur sortimentet. Hitta CE-märkningen och EN-numret på selen eller i bruksanvisningen. Visa en kollega var de sitter.",
+     "hint": "Märkningen sitter ofta på en etikett på insidan av midjebandet."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Petzl — CORAX (certifiering CE EN 12277 typ C)",
+     "url": "https://www.petzl.com/US/en/Sport/Harnesses/CORAX"
+    }
+   ]
+  },
+  {
+   "id": "shop-sakring",
+   "label": "2.2",
+   "title": "Rep, karbiner och säkringsutrustning",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Rep, karbiner och bromsar håller fast någon som faller. Du behöver inte kunna standarderna i detalj, men du ska veta **vad som ska vara märkt** och vad Klätterverket tillåter i hallen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=58651d57-2625-4c69-a377-bd00dcf638e2&size=1600",
+     "alt": "Säkrare som tittar upp mot klättraren",
+     "caption": "En bra broms gör säkrarens jobb tryggare — men den ersätter aldrig uppmärksamhet."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Standarderna i korthet"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Utrustning",
+      "EN-standard",
+      "UIAA"
+     ],
+     "rows": [
+      [
+       "Klättersele",
+       "EN 12277",
+       "UIAA 105"
+      ],
+      [
+       "Dynamiskt rep",
+       "EN 892",
+       "UIAA 101"
+      ],
+      [
+       "Karbin (koppling)",
+       "EN 12275",
+       "UIAA 121"
+      ],
+      [
+       "Broms med assisterad låsning",
+       "EN 15151-1",
+       "UIAA 129"
+      ],
+      [
+       "Manuell broms",
+       "EN 15151-2",
+       "UIAA 129"
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "dynamiskt-rep"
+    },
+    {
+     "type": "richtext",
+     "text": "Klätterutrustning är personlig skyddsutrustning och ska vara CE-märkt. UIAA-märkning är ett frivilligt extra kvitto. Kontrollera alltid märkningen och att bruksanvisningen följer med."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Klätterverkets regler"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Hjälplåsande broms rekommenderas** i hallen.",
+      "**Firningsåtta och HMS-säkring är förbjudet** i hallen.",
+      "Grönt kort för topprep, rött kort för led."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "hjalplasande"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Om du ska köpa din första broms rekommenderar vi en hjälplåsande. Det är också den typ vi rekommenderar i hallen. En firningsåtta får du inte säkra med här, så den skulle jag inte köpa för inomhusklättring.\""
+    },
+    {
+     "type": "richtext",
+     "text": "Kolla alltid att bromsen passar repets diameter. Den tillåtna diametern står på bromsen eller i bruksanvisningen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8d821414-296f-4164-bb6a-706e4da44ebb&size=1600",
+     "alt": "Instruktör kontrollerar en klättrares säkring",
+     "caption": "Kunden ska kunna använda bromsen hen köper — tipsa om kurs om hen är osäker."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att instruera i stället för att hänvisa",
+     "text": "Lär inte ut säkringsteknik vid kassan. Visa produkten, men hänvisa till bruksanvisningen och till Klätterverkets kurser (grönt och rött kort) för hur den används."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilka rep, karbiner och bromsar som säljs, om rep säljs i meter eller färdiga längder, och vilka bromsmodeller Klätterverket själv använder i kurser och hyr ut."
+    },
+    {
+     "type": "task",
+     "instruction": "Plocka fram en broms ur sortimentet. Hitta EN-märkningen och den tillåtna repdiametern. Kontrollera sedan att repet bredvid i hyllan passar.",
+     "hint": "Står det inte på bromsen finns det i bruksanvisningen."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: UIAA — Safety standards",
+     "url": "https://www.theuiaa.org/safety-standards/"
+    }
+   ]
+  },
+  {
+   "id": "shop-krita",
+   "label": "2.3",
+   "title": "Krita och kritpåsar",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Krita håller händerna torra och ger bättre grepp. Det är en liten vara som nästan alla klättrare köper — om och om igen. Därför är krita en bra väg in till en pratstund med kunden."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=0d313a5b-919c-4a72-8704-fc292dacd10c&size=1600",
+     "alt": "Kritade händer i närbild",
+     "caption": "Krita är magnesiumkarbonat som tar bort fukt från huden."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Typerna"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Typ",
+      "Bra för",
+      "Tänk på"
+     ],
+     "rows": [
+      [
+       "Lös krita",
+       "De flesta, fyll på kritpåsen",
+       "Dammar mest"
+      ],
+      [
+       "Kritboll",
+       "Inomhus, mindre spill",
+       "Ger lite mindre krita per tag"
+      ],
+      [
+       "Block",
+       "Den som vill smula själv",
+       "Smula i påsen, inte på mattan"
+      ],
+      [
+       "Flytande krita",
+       "Bas före passet, svettiga händer",
+       "Mindre damm — Black Diamond kallar sin dammfri"
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Kritpåsar"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Kritpåse** hänger i midjan — för rep och led.",
+      "**Kritbunke (boulderhink)** står på golvet — för boulder.",
+      "Påsen ska ha en stängning så att kritan inte rinner ut."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Bouldrar du mest? Då är en kritbunke skön, den står på golvet. Om du blir svettig om händerna kan du testa flytande krita som bas och lös krita ovanpå.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: krita på mattan",
+     "text": "Kritbunkar och påsar som står på fallmattan är snubbel- och landningsrisk. Påminn kunden om att ställa dem vid sidan av."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ae37d2cf-ef28-4a54-ba66-858c229373a8&size=1600",
+     "alt": "Klättrare på överhäng i boulderhallen",
+     "caption": "Svettiga händer på överhäng — här gör krita skillnad."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilka kritsorter och påsar som finns, om lös krita säljs i olika storlekar, och om det finns regler för krita i hallen (t.ex. kritboll eller flytande krita vid vissa tillfällen)."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå till kritsortimentet. Gör en lista: vilka typer finns, och vilken skulle du rekommendera en ny boulderkund? Fyll på hyllan om något saknas.",
+     "hint": "Kontrollera samtidigt att varje vara har ett pris."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Black Diamond — Eco Gold Liquid Chalk",
+     "url": "https://blackdiamondequipment.com/products/eco-gold-liquid-chalk"
+    }
+   ]
+  },
+  {
+   "id": "shop-merforsaljning",
+   "label": "3.1",
+   "title": "Merförsäljning",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Bra [[merforsaljning|merförsäljning]] är service: du hjälper kunden att få med sig det hen faktiskt behöver. Dålig merförsäljning är att trycka på saker. Skillnaden är om kunden blir gladare när hen kommer hem."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "merforsaljning"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1bf8f05d-7675-4c79-b568-563ec45119ca&size=1600",
+     "alt": "Leende kvinna med rep",
+     "caption": "Den som köper sitt första rep behöver ofta mer än bara repet."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Naturliga par"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kunden köper",
+      "Fråga om"
+     ],
+     "rows": [
+      [
+       "Klätterskor",
+       "Krita och kritpåse, skobag"
+      ],
+      [
+       "Sele",
+       "Broms och karbin — och kurs om hen saknar kort"
+      ],
+      [
+       "Rep",
+       "Repsäck, karbiner"
+      ],
+      [
+       "Entré flera gånger i veckan",
+       "Medlemskap — 10 % i butiken"
+      ],
+      [
+       "Presentkort",
+       "Att det gäller 2 år"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Du har köpt sele och broms — har du ett grönt kort sedan tidigare? Annars finns grönt kort-kursen, där lär du dig använda bromsen. Och om du ska klättra ofta kan ett medlemskap löna sig, då får du 10 % här i butiken också.\""
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Fråga hur kunden ska använda varan.",
+      "Föreslå **en** sak som hör ihop.",
+      "Säg varför i en mening.",
+      "Tar kunden inte erbjudandet — släpp det."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att lova rabatt fel",
+     "text": "Medlemsrabatten är 10 % i butiken. Lova inte andra rabatter (t.ex. studentrabatt i butiken) om du inte vet att de gäller."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=62645ce0-4d39-491f-af1a-9e7bd8786005&size=1600",
+     "alt": "Kvinna bouldrar på överhäng",
+     "caption": "Ny klättrare? Sko, krita och kort — och lusten att komma tillbaka."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Pågående kampanjer i shoppen, om rabatter kan kombineras och om studenter eller friskvårdskort ger något i butiken."
+    },
+    {
+     "type": "task",
+     "instruction": "Välj tre varor i shoppen. Skriv för varje vara en sak som passar ihop med den och en mening om varför. Testa på en kollega.",
+     "hint": "Tänk: vad saknade du själv när du köpte din första utrustning?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — Prisinformation, regler för företag",
+     "url": "https://www.konsumentverket.se/for-foretag/prissattning-och-ta-betalt/prisinformationslagen/"
+    }
+   ]
+  },
+  {
+   "id": "shop-varumarken",
+   "label": "3.2",
+   "title": "Varumärken",
+   "estimatedMinutes": 4,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Kunder frågar ofta om märken. Du behöver inte kunna allt — men känna till de märken som finns i shoppen och de som Klätterverket samarbetar med."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c948880f-5490-405d-a9b0-091e3d520e4c&size=1600",
+     "alt": "Affisch för Blocs & Bass",
+     "caption": "Blocs & Bass har sponsorer som kunderna känner igen från butiken och eventen."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Sponsorer vid Blocs & Bass"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Märke",
+      "Känt för"
+     ],
+     "rows": [
+      [
+       "Edelrid",
+       "Klätterutrustning: rep, selar, säkringsutrustning"
+      ],
+      [
+       "Red Chili",
+       "Klätterskor"
+      ],
+      [
+       "Chalk Cartel",
+       "Krita"
+      ],
+      [
+       "Chimpanzee",
+       "Energibars och sportnutrition"
+      ],
+      [
+       "Hydro Flask",
+       "Vattenflaskor"
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Det betyder inte automatiskt att alla märkena finns i shoppen. Vilka märken och modeller som säljs är **att fylla i** för Klätterverket."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Hela varumärkessortimentet i shoppen per kategori (skor, selar, rep, säkring, krita, kläder, tillbehör), vilka märken som är huvudmärken och om det finns avtal som påverkar vad personalen får rekommendera."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund frågar vilket skomärke som är bäst: \"Det finns inget bästa märke — det handlar om vilken läst som passar din fot. Märkena har olika former, så vi provar några och känner efter.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att tycka illa om andra märken",
+     "text": "Prata inte ner märken som inte finns i shoppen. Var saklig: berätta vad som passar kunden bland det vi har."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=852e9bab-dcbf-4a57-9113-6e2d2234b44f&size=1600",
+     "alt": "Ledklättrare i Klätterverkets hall",
+     "caption": "Kunder ser utrustningen i hallen och frågar sedan i shoppen."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt i shoppen och lista alla märken du hittar, per kategori. Jämför med listan ovan och fråga din platsansvarige om något saknas.",
+     "hint": "Spara listan i telefonen — du kommer att få frågan ofta."
+    }
+   ]
+  },
+  {
+   "id": "shop-leverans",
+   "label": "4.1",
+   "title": "Ta emot leverans",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En leverans som tas emot slarvigt ger fel lagersaldo, fel priser och varor som försvinner. En noggrann mottagning tar tio minuter extra och sparar timmar senare."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=bb2e4678-c1cd-48b6-b111-f52283d67cf2&size=1600",
+     "alt": "Man med ett klätterrep",
+     "caption": "Rep och säkringsutrustning kontrolleras extra noga vid leverans."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så tar du emot en leverans (branschpraxis)"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Räkna kollin** mot fraktsedeln innan föraren går. Skriv avvikelser på fraktsedeln.",
+      "**Titta efter skador** på kartongerna. Fotografera skadat gods.",
+      "**Packa upp och jämför** varorna mot [[foljesedel|följesedeln]]: artikel, storlek, färg, antal.",
+      "**Kontrollera säkringsutrustning:** obruten förpackning, CE-märkning och bruksanvisning med.",
+      "**Registrera** leveransen i kassasystemet så att saldot stämmer.",
+      "**Prismärk** innan varan ställs ut.",
+      "**Lägg i lager eller ställ ut** — och släng emballaget."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "foljesedel"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Till föraren: \"Vänta lite, jag räknar kollina. Det står sex på fraktsedeln men här är fem — jag skriver det på sedeln innan jag skriver under.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: lyfta fel",
+     "text": "Kartonger med rep och krita är tunga. Lyft nära kroppen, undvik att vrida ryggen och ta hjälp eller kärra vid tunga kollin. Arbetsmiljöverket beskriver hur du minskar riskerna."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aad640c6-f322-43eb-be4f-a954a98af0fd&size=1600",
+     "alt": "Instruktörer samtalar i hallen",
+     "caption": "Hjälp varandra — särskilt när leveransen kommer mitt i ett pass."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem som får ta emot och skriva under leveranser, var godset ställs, hur leveranser registreras i kassasystemet, vem som tar hand om avvikelser och reklamationer till leverantören."
+    },
+    {
+     "type": "task",
+     "instruction": "Leta upp var leveranser ställs och var följesedlar sparas i din hall. Gå igenom de senaste följesedlarna med en kollega.",
+     "hint": "Fråga hur ni gjorde senast något saknades."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — Lyfta och bära laster",
+     "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/manuell-hantering-och-annan-kraftutovning/lyfta-och-bara-laster/"
+    }
+   ]
+  },
+  {
+   "id": "shop-pris",
+   "label": "4.2",
+   "title": "Prissättning och prismärkning",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Kunden ska kunna se vad en vara kostar innan hen går till kassan. Det är inte bara service — det är lag. Prisinformationslagen säger hur priser ska visas, och Konsumentverket har tillsyn."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e3a01834-a1b7-4646-a075-05789ef4d76a&size=1600",
+     "alt": "Klätterverkets presentkort",
+     "caption": "Presentkort gäller i 2 år — berätta det när du säljer ett."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Det här kräver lagen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Priset ska stå skriftligt** och moms och andra skatter ska vara inräknade.",
+      "**Var:** på varan eller förpackningen, på en hyllkantsetikett eller i en prislista.",
+      "**[[jamforpris|Jämförpris]]** per kilo, liter eller meter för vissa varor. Säljer ni något per meter eller i lösvikt ska priset per enhet framgå.",
+      "**Rea:** när du skriver rea, kampanj eller erbjudande ska det tidigare priset visas. Det är det **lägsta priset de senaste 30 dagarna**."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "jamforpris"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "När priset är fel"
+    },
+    {
+     "type": "richtext",
+     "text": "Enligt Konsumentverket är det **priset i kassan som gäller**. Kunden kan inte kräva hyllpriset, men får välja att inte köpa. Rätta skylten direkt."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Det står 349 på hyllan men kassan säger 399. Tack för att du sa till! Jag kollar med ansvarig om vi kan sälja den för 349 — och jag rättar skylten nu.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: rea på fel ursprungspris",
+     "text": "Skriv aldrig ett \"tidigare pris\" som inte är det lägsta priset de senaste 30 dagarna. Det är ett vanligt fel som Konsumentverket agerar mot."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1b0cde1d-0469-4f49-968a-d360443e892e&size=1600",
+     "alt": "Ledklättrare högt upp på väggen",
+     "caption": "En kund som vet priset handlar tryggare."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem som sätter priser och beslutar om rea, om butiken säljer till hyllpris när det är fel (en vanlig kundvänlig policy), hur prisetiketter skrivs ut och hur priser ändras i kassasystemet."
+    },
+    {
+     "type": "task",
+     "instruction": "Välj tio varor i shoppen. Kontrollera att alla har pris och att priset på hyllan stämmer med priset i kassan.",
+     "hint": "Hittar du ett fel: rätta skylten och säg till ansvarig."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — Prisinformationslagen, regler för företag",
+     "url": "https://www.konsumentverket.se/for-foretag/prissattning-och-ta-betalt/prisinformationslagen/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — Felaktig prisinformation",
+     "url": "https://www.konsumentverket.se/konsumentratt/felaktig-prisinformation/"
+    }
+   ]
+  },
+  {
+   "id": "shop-inventering",
+   "label": "4.3",
+   "title": "Inventering",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Inventering betyder att räkna det som faktiskt finns och jämföra med vad systemet säger. Då ser vi [[svinn|svinn]], beställer rätt och vet vad shoppen är värd."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "svinn"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=04c99843-b114-4fab-8057-6f13f118c427&size=1600",
+     "alt": "Grupp med Klätterverkets personal",
+     "caption": "Inventering går snabbare och blir säkrare när ni är två."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så räknar du (branschpraxis)"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Planera:** välj en tid med få kunder. Inga leveranser ska tas emot under räkningen.",
+      "**Dela upp ytan:** butik, lager och hyrutrustning för sig.",
+      "**Räkna två och två:** en räknar, en skriver eller skannar.",
+      "**Räkna storlek för storlek** på skor och selar.",
+      "**Jämför med systemet** och räkna om där det skiljer.",
+      "**Notera skadat och utgånget** separat."
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Mellan de stora inventeringarna kan du göra **stickprov**: räkna en hylla i veckan. Då upptäcks fel tidigt."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Till en kollega: \"Systemet säger fyra par i storlek 40 men jag räknar tre. Kan du räkna samma hylla? Om vi får samma siffra noterar vi avvikelsen.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: hyrskor i fel hög",
+     "text": "Hyrutrustning är inte till salu och ska inte räknas in i butikslagret. Håll isär dem — både på hyllan och i räkningen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cfe795ae-bf1b-4e0c-b787-7841b2d318f5&size=1600",
+     "alt": "Ledklättrare på väggen",
+     "caption": "Rätt saldo gör att rätt sko finns i rätt storlek när kunden kommer."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Hur ofta Klätterverket inventerar, med vilket system eller vilken skanner, vem som godkänner avvikelser och hur hyrutrustning räknas och kasseras."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör ett stickprov: räkna en hylla (t.ex. en skomodell i alla storlekar) och jämför med saldot i kassasystemet. Rapportera eventuella avvikelser.",
+     "hint": "Be en kollega räkna samma hylla utan att se din siffra."
+    }
+   ]
+  },
+  {
+   "id": "shop-exponering",
+   "label": "4.4",
+   "title": "Visual merchandising",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "[[visual-merchandising|Visual merchandising]] är hur butiken ser ut: vad som syns först, hur varorna står och hur lätt det är att hitta. En välordnad shop säljer mer och kräver mindre förklaring."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "visual-merchandising"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=24ef1768-ec3b-40ab-b984-1911936c43e1&size=1600",
+     "alt": "Höga väggar med klättrare",
+     "caption": "Hallen är den bästa reklamen — låt butiken spegla det kunderna klättrar i."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Grundprinciper (branschpraxis)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Ögonhöjd säljer.** Placera nyheter och det du vill lyfta i ögonhöjd.",
+      "**Gruppera det som hör ihop:** skor nära krita, sele nära broms och karbiner.",
+      "**Färre varor syns bättre.** En full men ordnad hylla, inte en överfull.",
+      "**Pris på allt.** Varje vara ska ha synligt pris.",
+      "**Lätt att prova:** sittplats och sko-horn vid skoväggen.",
+      "**Byt ofta.** Ett nytt blickfång varje månad gör att stamkunder upptäcker något nytt."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Till en kollega: \"Krita säljer när man precis köpt skor. Ska vi flytta kritan närmare skoväggen och testa i två veckor?\""
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Gå in i shoppen som om du var en kund.",
+      "Vad ser du först? Är det det vi vill visa?",
+      "Rätta det som är stökigt, saknar pris eller står fel.",
+      "Ta ett foto före och efter."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: exponering som skymmer",
+     "text": "Ställ aldrig varor eller skyltar så att de blockerar nödutgångar, brandsläckare eller gångar. Säkerhet går före exponering."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c77c88a8-1932-47d4-a468-022a5ec09263&size=1600",
+     "alt": "Kvinna klättrar i Klätterverkets hall",
+     "caption": "Bilder från den egna hallen fungerar bra i shoppen."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem som ansvarar för shoppens exponering, om det finns en planskiss eller grafisk profil att följa, och hur ofta exponeringen byts."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör \"före och efter\": fotografera en del av shoppen, förbättra den enligt principerna ovan och fotografera igen. Visa din platsansvarige.",
+     "hint": "Börja med det som syns först när man kommer in."
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu är du klar med alla lektioner. Provet har 12 frågor och du behöver 80 % rätt."
+    }
+   ]
+  }
+ ],
+ "terms": {
+  "oppet-kop": {
+   "term": "Öppet köp",
+   "definition": "Att kunden får lämna tillbaka en vara och få pengarna tillbaka. Det är inget lagkrav i butik — butiken bestämmer själv villkoren."
+  },
+  "reklamation": {
+   "term": "Reklamation",
+   "definition": "När kunden klagar på en vara som är felaktig. Rätten att reklamera finns i konsumentköplagen och gäller alltid, oavsett butikens egna villkor."
+  },
+  "downturn": {
+   "term": "Downturn (nedåtböjd profil)",
+   "definition": "Hur mycket klätterskon böjer sig nedåt från häl till tå, som en banan. Mer downturn ger mer kraft i tån på brant klättring men mindre komfort."
+  },
+  "asymmetri": {
+   "term": "Asymmetri",
+   "definition": "Hur mycket skons tå pekar mot stortån i stället för rakt fram. Hög asymmetri samlar kraften i stortån, neutral ger mer komfort."
+  },
+  "ce-markning": {
+   "term": "CE-märkning",
+   "definition": "Märkning som visar att produkten uppfyller EU:s krav. Klätterutrustning som sele, rep, karbiner och bromsar är personlig skyddsutrustning och ska vara CE-märkt."
+  },
+  "dynamiskt-rep": {
+   "term": "Dynamiskt rep",
+   "definition": "Klätterrep som töjer sig och tar upp energin när någon faller. Det ska vara testat enligt EN 892."
+  },
+  "hjalplasande": {
+   "term": "Hjälplåsande broms",
+   "definition": "Säkringsbroms som hjälper till att låsa repet när det belastas hårt. Klätterverket rekommenderar sådana i hallen. Den ersätter aldrig säkrarens hand på bromsrepet."
+  },
+  "merforsaljning": {
+   "term": "Merförsäljning",
+   "definition": "Att föreslå en vara som hör ihop med det kunden redan köper, så att hen får med sig det hen behöver."
+  },
+  "foljesedel": {
+   "term": "Följesedel",
+   "definition": "Dokumentet som följer med leveransen och visar vilka varor och hur många som ska finnas i den."
+  },
+  "jamforpris": {
+   "term": "Jämförpris",
+   "definition": "Pris per kilo, liter, meter eller annan enhet, så att kunden kan jämföra varor i olika storlekar."
+  },
+  "svinn": {
+   "term": "Svinn",
+   "definition": "Skillnaden mellan vad som borde finnas i lager och vad som faktiskt finns — till exempel på grund av stöld, skador eller felregistreringar."
+  },
+  "visual-merchandising": {
+   "term": "Visual merchandising",
+   "definition": "Hur varor exponeras i butiken så att de syns, är lätta att hitta och säljer."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Shoppen",
+  "passScore": 0.8,
+  "draw": 12,
+  "attempts": 3,
+  "items": [
+   {
+    "id": "q-shop-1",
+    "type": "single",
+    "stem": "Vilken rabatt får medlemmar i butiken?",
+    "options": [
+     "10 %",
+     "5 %",
+     "15 %",
+     "Ingen rabatt i butiken"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-grund",
+    "why": "Medlemmar får 10 % i butik, på kurser och i Matkafé."
+   },
+   {
+    "id": "q-shop-2",
+    "type": "single",
+    "stem": "En kund vill ha öppet köp på skor hen klättrat i en vecka. Vad stämmer?",
+    "options": [
+     "Öppet köp är inget lagkrav — butikens villkor avgör, men en felaktig vara kan alltid reklameras",
+     "Kunden har alltid 14 dagars ångerrätt i butik",
+     "Kunden har inga rättigheter alls",
+     "Använda varor får alltid lämnas tillbaka"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-grund",
+    "why": "Enligt Konsumentverket finns ingen lag om öppet köp i butik, men reklamationsrätten för fel gäller alltid."
+   },
+   {
+    "id": "q-shop-3",
+    "type": "ordering",
+    "stem": "Ställ frågorna i en bra ordning när du börjar sälja skor.",
+    "options": [
+     "Hur länge och hur ofta klättrar du?",
+     "Vad klättrar du mest?",
+     "Vilka skor har du nu?",
+     "Vilken storlek har du i vanliga skor?",
+     "Föreslå två–tre par att prova"
+    ],
+    "lesson": "shop-salja-skor",
+    "why": "Lyssna först: erfarenhet, klättring och nuvarande skor — sedan storlek och förslag."
+   },
+   {
+    "id": "q-shop-4",
+    "type": "single",
+    "stem": "En nybörjare som klättrat i hyrskor vill köpa sitt första par. Vad passar oftast bäst?",
+    "options": [
+     "En bekväm, ganska platt sko med styvare sula",
+     "En kraftigt nedåtböjd och asymmetrisk sko",
+     "Den sko du själv klättrar i",
+     "Den minsta storleken kunden kommer i"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-salja-skor",
+    "why": "Tillverkarna rekommenderar en bekväm, stödjande sko för nybörjare."
+   },
+   {
+    "id": "q-shop-5",
+    "type": "multi",
+    "stem": "Hur ska en klättersko sitta? Välj alla som stämmer.",
+    "options": [
+     "Tight men inte smärtsam",
+     "Foten ska fylla skon utan tomrum",
+     "Tårna lätt böjda",
+     "Den ska göra ont första veckan för att töja sig"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "shop-hitta-sko",
+    "why": "Scarpa och La Sportiva: tight men inte smärtsam, utan tomrum, tårna inte helt utsträckta."
+   },
+   {
+    "id": "q-shop-6",
+    "type": "single",
+    "stem": "Vad stämmer om läder och syntet?",
+    "options": [
+     "Läder töjer sig i regel mer än syntet",
+     "Syntet töjer sig mest",
+     "Ingen av dem töjer sig",
+     "Alla skor töjer sig en hel storlek"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-hitta-sko",
+    "why": "Enligt Scarpa töjer läder sig i regel mer än syntet vid liknande konstruktion."
+   },
+   {
+    "id": "q-shop-7",
+    "type": "single",
+    "stem": "Vad är det första La Sportiva säger att du ska titta på vid val av sko?",
+    "options": [
+     "Fotens bredd",
+     "Skons färg",
+     "Priset",
+     "Sulans tjocklek"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-hitta-sko",
+    "why": "La Sportiva: bredden på foten är det första att fokusera på."
+   },
+   {
+    "id": "q-shop-8",
+    "type": "single",
+    "stem": "Vilken standard gäller för klätterselar?",
+    "options": [
+     "EN 12277",
+     "EN 892",
+     "EN 12275",
+     "EN 15151"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-selar",
+    "why": "EN 12277 gäller selar. EN 892 är rep, EN 12275 karbiner och EN 15151 bromsar."
+   },
+   {
+    "id": "q-shop-9",
+    "type": "single",
+    "stem": "En kund lämnar tillbaka en använd sele. Vad gör du?",
+    "options": [
+     "Säljer inte vidare den — du vet inte hur den använts",
+     "Säljer den som ny om den ser hel ut",
+     "Säljer den till rabatterat pris",
+     "Lägger den bland hyrutrustningen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-selar",
+    "why": "Säkringsutrustning med okänd historik ska inte säljas vidare."
+   },
+   {
+    "id": "q-shop-10",
+    "type": "single",
+    "stem": "Vilken standard gäller för dynamiska klätterrep?",
+    "options": [
+     "EN 892",
+     "EN 12277",
+     "EN 12275",
+     "EN 15151-2"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-sakring",
+    "why": "Dynamiska rep testas enligt EN 892 (UIAA 101)."
+   },
+   {
+    "id": "q-shop-11",
+    "type": "multi",
+    "stem": "Vad gäller i Klätterverkets hallar? Välj alla som stämmer.",
+    "options": [
+     "Hjälplåsande broms rekommenderas",
+     "Firningsåtta är förbjuden för säkring",
+     "HMS-säkring är förbjuden",
+     "Alla bromsar är tillåtna om de är CE-märkta"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "shop-sakring",
+    "why": "Klätterverket förbjuder firningsåtta och HMS och rekommenderar hjälplåsande broms."
+   },
+   {
+    "id": "q-shop-12",
+    "type": "single",
+    "stem": "Vad ska du kontrollera när en kund köper broms och rep?",
+    "options": [
+     "Att bromsen är godkänd för repets diameter",
+     "Att de har samma färg",
+     "Att repet är kortare än 30 m",
+     "Inget, alla rep passar alla bromsar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-sakring",
+    "why": "Den tillåtna repdiametern står på bromsen eller i bruksanvisningen."
+   },
+   {
+    "id": "q-shop-13",
+    "type": "single",
+    "stem": "Vilken kritsort dammar minst?",
+    "options": [
+     "Flytande krita",
+     "Lös krita",
+     "Krita i block",
+     "Alla dammar lika mycket"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-krita",
+    "why": "Flytande krita ger minst damm och fungerar som bas, särskilt för svettiga händer."
+   },
+   {
+    "id": "q-shop-14",
+    "type": "single",
+    "stem": "En kund har köpt sele och broms men har inget klätterkort. Vad är bra merförsäljning?",
+    "options": [
+     "Berätta om grönt kort-kursen",
+     "Sälj ett andra rep",
+     "Säg inget",
+     "Ge 20 % rabatt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-merforsaljning",
+    "why": "Föreslå det kunden faktiskt behöver: för topprep krävs grönt kort i hallen."
+   },
+   {
+    "id": "q-shop-15",
+    "type": "single",
+    "stem": "Vilket märke var sponsor vid Blocs & Bass?",
+    "options": [
+     "Edelrid",
+     "Ett märke som inte står i underlaget",
+     "Ingen",
+     "Alla märken i shoppen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-varumarken",
+    "why": "Sponsorerna var Hydro Flask, Chimpanzee, Red Chili, Edelrid och Chalk Cartel."
+   },
+   {
+    "id": "q-shop-16",
+    "type": "ordering",
+    "stem": "Ordna stegen när du tar emot en leverans.",
+    "options": [
+     "Räkna kollin mot fraktsedeln",
+     "Kontrollera skador på kartongerna",
+     "Jämför varorna mot följesedeln",
+     "Registrera leveransen i systemet",
+     "Prismärk och ställ ut"
+    ],
+    "lesson": "shop-leverans",
+    "why": "Först kollin och skador medan föraren är kvar, sedan innehållet, registrering och prismärkning."
+   },
+   {
+    "id": "q-shop-17",
+    "type": "single",
+    "stem": "Hyllkanten säger 349 kr men kassan säger 399 kr. Vad gäller enligt Konsumentverket?",
+    "options": [
+     "Priset i kassan gäller, men kunden kan välja att inte köpa",
+     "Hyllpriset gäller alltid",
+     "Kunden får varan gratis",
+     "Det lägsta priset gäller alltid enligt lag"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-pris",
+    "why": "Kassapriset gäller. Kunden kan avstå köpet. Rätta skylten direkt."
+   },
+   {
+    "id": "q-shop-18",
+    "type": "multi",
+    "stem": "Vad kräver prisinformationslagen? Välj alla som stämmer.",
+    "options": [
+     "Priset ska stå skriftligt med moms inräknad",
+     "Vid rea ska tidigare pris vara lägsta priset de senaste 30 dagarna",
+     "Priset får stå på hyllkant eller i prislista",
+     "Priset behöver bara finnas i kassan"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "shop-pris",
+    "why": "Kunden ska kunna se priset före kassan. Vid prissänkning gäller 30-dagarsregeln."
+   },
+   {
+    "id": "q-shop-19",
+    "type": "single",
+    "stem": "Varför räknar man två och två vid inventering?",
+    "options": [
+     "Det minskar risken för fel",
+     "Det är ett lagkrav",
+     "Så att butiken kan vara stängd kortare tid",
+     "Det spelar ingen roll"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-inventering",
+    "why": "Två personer upptäcker felräkningar och felskrivningar."
+   },
+   {
+    "id": "q-shop-20",
+    "type": "single",
+    "stem": "Var hör hyrutrustningen hemma vid inventering?",
+    "options": [
+     "Den hålls isär från butikslagret",
+     "Den räknas som butiksvaror",
+     "Den räknas inte alls",
+     "Den säljs vid inventering"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "shop-inventering",
+    "why": "Hyrutrustning är inte till salu och ska inte blandas med butikslagret."
+   },
+   {
+    "id": "q-shop-21",
+    "type": "multi",
+    "stem": "Vilka är bra principer för exponering? Välj alla som stämmer.",
+    "options": [
+     "Gruppera varor som hör ihop",
+     "Nyheter i ögonhöjd",
+     "Synligt pris på allt",
+     "Ställ kampanjvaror framför nödutgången"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "shop-exponering",
+    "why": "Säkerhet går före exponering: nödutgångar och gångar ska vara fria."
+   }
+  ]
+ }
+}

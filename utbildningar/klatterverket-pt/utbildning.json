@@ -1,0 +1,1697 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "klatterverket-pt",
+  "title": "Klätterverket PT",
+  "summary": "En serie i 10 delar för dig som är PT på Klätterverket — från första kundmötet och behovsanalysen till teknik, styrka, program, coaching och återbokning. När hela serien och provet är klara får du intyget Klätterverket PT.",
+  "audience": [
+   "pt"
+  ],
+  "estimatedMinutes": 76,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24,
+   "title": "Klätterverket PT"
+  },
+  "modules": [
+   {
+    "title": "Kunden och målet",
+    "lessons": [
+     "pt-intro",
+     "pt-kundmote",
+     "pt-behovsanalys"
+    ]
+   },
+   {
+    "title": "Analys och träning",
+    "lessons": [
+     "pt-rorelseanalys",
+     "pt-teknik",
+     "pt-styrka",
+     "pt-program"
+    ]
+   },
+   {
+    "title": "Coaching och relation",
+    "lessons": [
+     "pt-coaching",
+     "pt-uppfoljning",
+     "pt-salj"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "pt-intro",
+   "label": "Del 1",
+   "title": "PT på Klätterverket",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Välkommen till serien **Klätterverket PT**. Den har tio delar. När du har gått alla och klarat provet får du intyget Klätterverket PT."
+    },
+    {
+     "type": "richtext",
+     "text": "Varför finns PT i en klätterhall? För att många kunder kommer till en platå. De klättrar varje vecka men kommer inte vidare — eller så vill de börja men vet inte hur. En bra PT ger dem en plan, ögon utifrån och trygghet. Det ger glada kunder som stannar."
+    },
+    {
+     "type": "video",
+     "title": "Gasverket — 17 meter vägg, boulder och gym (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e81568f0-2357-43f9-a7ab-3eb092fd2c63&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "text": "Vad vi erbjuder"
+    },
+    {
+     "type": "richtext",
+     "text": "Priserna nedan kommer från Klätterverkets hemsida. Kontrollera alltid aktuellt pris i Zoezi innan du lovar något till en kund."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Tjänst",
+      "Pris",
+      "Passar för"
+     ],
+     "rows": [
+      [
+       "PT nivå 1",
+       "695 kr",
+       "Nya klättrare och den som vill komma igång med grunderna"
+      ],
+      [
+       "PT nivå 2",
+       "895 kr",
+       "Den som klättrat ett tag och vill ha mer specifik träning"
+      ],
+      [
+       "PT Duo",
+       "1250 kr / 1550 kr",
+       "Två personer som tränar ihop — vänner, par, kollegor"
+      ],
+      [
+       "PT nivå 3 (Peter Bosma)",
+       "1495 kr / 1995 kr",
+       "Erfarna klättrare med tydliga prestationsmål"
+      ],
+      [
+       "Gruppträning grundkurs",
+       "2500 kr för 8 tillfällen",
+       "Den som vill träna i grupp med en tränare över tid"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta vad prisparen betyder (Duo 1250/1550 kr och nivå 3 1495/1995 kr — till exempel nivå eller passlängd), hur långt ett PT-pass är, om klippkort eller paket finns, och om medlemmarnas 10 % rabatt på kurser också gäller PT. Bekräfta också vad som skiljer nivå 1, 2 och 3 för tränaren (krav, erfarenhet)."
+    },
+    {
+     "type": "heading",
+     "text": "Din roll som PT"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Du är **tränare**, inte vårdgivare. Du ställer inga diagnoser.",
+      "Du är **instruktör**. Klätterverkets säkerhetsregler gäller i varje pass: kamratkontroll, rätt klätterkort, fri fallzon.",
+      "Du är **ansiktet utåt**. Kunden minns hur passet kändes — och berättar det för andra."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "En medarbetare i Klätterverket-hoodie står i hallen.",
+     "caption": "Som PT representerar du Klätterverket i varje pass."
+    },
+    {
+     "type": "heading",
+     "text": "Seriens tio delar"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "PT på Klätterverket",
+      "Första kundmötet",
+      "Behovsanalys & mål",
+      "Rörelseanalys",
+      "Teknikträning",
+      "Styrka & fysisk träning",
+      "Träningsprogram",
+      "Coaching & feedback",
+      "Uppföljning",
+      "Sälj & återbokning"
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Röd tråd: ett PT-uppdrag följer en kedja. Du lär känna kunden, gör en [[behovsanalys|behovsanalys]], analyserar rörelserna, tränar, följer upp och bokar nästa steg."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En kund i receptionen undrar vad PT är. **Så kan du säga:** \"Det är en timme där du och jag fokuserar bara på din klättring. Vi börjar med att prata om vad du vill uppnå, sedan tittar jag på hur du rör dig och ger dig konkreta saker att jobba med.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att lova resultat",
+     "text": "Lova aldrig en grad på en viss tid (\"du klättrar 6B till sommaren\"). Det beror på mycket du inte styr över. Lova i stället en plan, ett tydligt fokus och att ni följer upp."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1bf8f05d-7675-4c79-b568-563ec45119ca&size=1600",
+     "alt": "En leende kvinna med rep över axeln i klätterhallen.",
+     "caption": "Målet med PT: kunden går hem gladare och med en plan."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta reda på i Zoezi hur PT-pass bokas och vilka PT-tjänster som syns för kunderna i din hall. Jämför med tabellen ovan.",
+     "hint": "Hittar du skillnader — säg till din platsansvarige så att utbildningen kan uppdateras."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Tränare",
+     "url": "https://www.klatterforbundet.se/tranare/"
+    }
+   ]
+  },
+  {
+   "id": "pt-kundmote",
+   "label": "Del 2",
+   "title": "Första kundmötet",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "De första fem minuterna avgör mycket. Kunden är ofta lite nervös — hen har betalt för att bli tittad på. Din uppgift är att skapa trygghet, ta reda på vem kunden är och sätta ramarna för passet."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc73d0a2-82df-460c-9a77-edd32db978c1&size=1600",
+     "alt": "En kvinna sätter på sig klätterskor på en bänk.",
+     "caption": "Medan kunden byter om har du tid att börja samtalet."
+    },
+    {
+     "type": "heading",
+     "text": "Så lägger du upp första mötet"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Möt kunden i receptionen i tid. Presentera dig med namn och berätta kort vem du är som klättrare och tränare.",
+      "Kontrollera klätterkortet. Topprep kräver grönt kort, led rött kort. Har kunden inget kort: håll er till boulder eller planera kurs först.",
+      "Gå igenom hälsodeklarationen (mer i Del 3). Förklara varför du frågar.",
+      "Fråga öppet: \"Vad fick dig att boka?\" och \"Hur ser din klättring ut i dag?\"",
+      "Berätta hur passet ser ut: uppvärmning, lite analys, träning, sammanfattning.",
+      "Gör kamratkontroll innan ni klättrar i rep — varje gång, även med erfarna kunder."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Konkret exempel: Sara, 34 år",
+     "text": "Sara har bokat PT nivå 1. Hon har gått grönt kort men klättrar mest boulder och tycker att hon \"fastnar på samma problem\". **Så kan du säga:** \"Vad roligt att du är här! Innan vi börjar vill jag höra lite om dig. Vad klättrar du helst, och vad skulle göra att du går härifrån nöjd i dag?\""
+    },
+    {
+     "type": "heading",
+     "text": "Lyssna mer än du pratar"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Ställ öppna frågor: vad, hur, berätta.",
+      "Upprepa med egna ord: \"Om jag förstår dig rätt …\"",
+      "Anteckna kort — inte under hela samtalet.",
+      "Fråga om tidigare skador, men låt kunden välja hur mycket hen berättar."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Anteckningar och GDPR"
+    },
+    {
+     "type": "richtext",
+     "text": "Det kunden berättar om sin hälsa och sina skador är en [[kanslig-personuppgift|känslig personuppgift]]. Enligt GDPR är det i grunden förbjudet att behandla sådana uppgifter, om inte ett undantag gäller — till exempel att kunden har gett ett **uttryckligt samtycke**. Integritetsskyddsmyndigheten (IMY) har vägledning."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kanslig-personuppgift"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Skriv bara det du behöver för att träna kunden säkert. \"Tidigare skada vänster ringfinger, tränar utan smärta\" räcker.",
+      "Spara anteckningar där Klätterverket har bestämt — aldrig i din privata telefon, i chattar eller på lösa papper.",
+      "Kunden har rätt att få veta vad du har skrivit och be dig ta bort det."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta var PT-anteckningar och hälsodeklarationer ska sparas (system, behörighet), hur kundens samtycke inhämtas och dokumenteras, och hur länge uppgifterna sparas innan de raderas."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: Smalltalk om skador i receptionen",
+     "text": "Fråga inte om kundens skador eller sjukdomar där andra hör. Ta det samtalet en bit bort, till exempel vid en bänk i hallen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aad640c6-f322-43eb-be4f-a954a98af0fd&size=1600",
+     "alt": "Två instruktörer står och pratar i klätterhallen.",
+     "caption": "Förbered dig: läs bokningen och eventuella anteckningar innan kunden kommer."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva första mötet med en kollega. En är kund, en är PT. Kör de sex stegen ovan på fem minuter. Byt roller.",
+     "hint": "Be kollegan säga en sak du gjorde bra och en sak du kan göra tydligare."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: IMY — Känsliga personuppgifter",
+     "url": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/personuppgifter/kansliga-personuppgifter/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: IMY — Samtycke som rättslig grund",
+     "url": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/rattslig-grund/samtycke/"
+    }
+   ]
+  },
+  {
+   "id": "pt-behovsanalys",
+   "label": "Del 3",
+   "title": "Behovsanalys & mål",
+   "estimatedMinutes": 8,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Utan mål blir PT bara ett trevligt klätterpass. Med en [[behovsanalys|behovsanalys]] och ett tydligt mål vet både du och kunden vad ni jobbar mot — och kan se framstegen."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "behovsanalys"
+    },
+    {
+     "type": "heading",
+     "text": "Hälsodeklarationen kommer först"
+    },
+    {
+     "type": "richtext",
+     "text": "Innan ni tränar hårdare frågar du om hälsan. Ett vanligt verktyg är [[par-q|PAR-Q+]], ett internationellt frågeformulär. Det börjar med sju allmänna frågor om hälsan. Svarar kunden ja på någon av dem följer fler frågor, och ibland ett råd om att först rådgöra med vården eller en kvalificerad träningsexpert."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "par-q"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Du ställer ingen diagnos",
+     "text": "Om kunden berättar om bröstsmärta, yrsel, svimning, en färsk skada eller smärta som inte går över: träna inte vidare på det. Säg vänligt att det behöver bedömas av vården — vårdcentral, fysioterapeut eller 1177. Vid akuta symtom ringer du 112. Du gissar aldrig vad det är."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta vilken hälsodeklaration Klätterverket använder (PAR-Q+ eller en egen), om den fylls i digitalt eller på papper, och vad PT ska göra när kunden svarar ja på en fråga."
+    },
+    {
+     "type": "heading",
+     "text": "Frågor i behovsanalysen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Bakgrund:** Hur länge har du klättrat? Hur ofta? Boulder, topprep eller led?",
+      "**Nuläge:** Vad känns lätt? Var tar det stopp?",
+      "**Mål:** Vad vill du kunna om tre månader?",
+      "**Tid:** Hur många pass i veckan har du realistiskt?",
+      "**Kropp:** Tidigare skador? Något som gör ont i dag?",
+      "**Motivation:** Varför är det här viktigt för dig?"
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Gör målet SMART"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "smart-mal"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Bokstav",
+      "Betyder",
+      "Exempel"
+     ],
+     "rows": [
+      [
+       "S",
+       "Specifikt",
+       "Klättra den lila 6A-ledden i Sickla utan att vila i repet"
+      ],
+      [
+       "M",
+       "Mätbart",
+       "Toppa utan vila — ja eller nej"
+      ],
+      [
+       "A",
+       "Accepterat / attraktivt",
+       "Kunden har själv valt målet"
+      ],
+      [
+       "R",
+       "Realistiskt",
+       "Kunden klättrar 5C i dag och tränar två gånger i veckan"
+      ],
+      [
+       "T",
+       "Tidsbestämt",
+       "Före 15 december"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Konkret exempel: Johan, 45 år",
+     "text": "Johan säger: \"Jag vill bli bättre på led.\" **Så kan du säga:** \"Vad skulle 'bättre' betyda för dig? Finns det en led här i hallen du skulle vilja toppa?\" Efter en stund har ni ett [[smart-mal|SMART-mål]]: toppa en bestämd 6A-led i Gasverket utan att vila, före jul, med två pass i veckan."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: tränarens mål i stället för kundens",
+     "text": "Det är lätt att styra mot det du själv tycker är roligt — till exempel hårda överhäng. Om kunden vill känna sig tryggare på höga väggar är det målet. Fråga, lyssna och skriv ner kundens egna ord."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=852e9bab-dcbf-4a57-9113-6e2d2234b44f&size=1600",
+     "alt": "En ledklättrare klipper repet högt upp på väggen.",
+     "caption": "Ett tydligt mål: en bestämd led, före ett bestämt datum."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör en behovsanalys på en kollega med frågorna ovan. Formulera tillsammans ett SMART-mål och skriv ner det.",
+     "hint": "Kontrollera varje bokstav: går målet att mäta? Finns ett datum?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: PAR-Q+ Collaboration — PAR-Q+ (på engelska)",
+     "url": "https://eparmedx.com/"
+    }
+   ]
+  },
+  {
+   "id": "pt-rorelseanalys",
+   "label": "Del 4",
+   "title": "Rörelseanalys",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Kunden ser inte sig själv klättra. Det gör du. En [[rorelseanalys|rörelseanalys]] hjälper dig att hitta det som gör störst skillnad — oftast en eller två saker, inte tio."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "rorelseanalys"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=5c2ddeb3-c294-4ecf-a9fc-e70d5223da41&size=1600",
+     "alt": "En kvinna bouldrar på ett överhäng.",
+     "caption": "Titta på hela kroppen, inte bara händerna."
+    },
+    {
+     "type": "heading",
+     "text": "Så gör du en rörelseanalys"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Välj 2–3 leder eller boulderproblem en bit under kundens maxnivå. Då syns vanorna, inte paniken.",
+      "Titta från flera håll: från sidan, bakifrån och lite på avstånd.",
+      "Börja med fötterna: tittar kunden på foten innan den placeras? Blir det tyst eller skrapar det?",
+      "Titta på höften och [[tyngdpunkt|tyngdpunkten]]: är den nära väggen eller hänger kunden ut?",
+      "Titta på armarna: är de raka när kunden vilar, eller böjda hela tiden?",
+      "Titta på rytmen: stannar kunden länge på dåliga grepp? Skyndar hen förbi bra vilor?",
+      "Välj **en** sak att börja med. Den som ger mest effekt."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "tyngdpunkt"
+    },
+    {
+     "type": "heading",
+     "text": "Vanliga mönster"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Det du ser",
+      "Det kan betyda",
+      "Första åtgärd"
+     ],
+     "rows": [
+      [
+       "Fötter som glider eller skrapar",
+       "Kunden tittar inte på foten",
+       "Tyst fot-övning (Del 5)"
+      ],
+      [
+       "Böjda armar hela tiden",
+       "Kunden håller sig upp med armarna",
+       "Raka armar och sjunka i benen"
+      ],
+      [
+       "Höften långt från väggen",
+       "Tyngdpunkten hamnar utanför fötterna",
+       "Vrid in höften, prova att vända på sidan"
+      ],
+      [
+       "Pumpad efter halva leden",
+       "Klättrar för långsamt eller missar vilor",
+       "Öva läsa leden och vila på raka armar"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Ge feedback som kunden kan använda direkt. **Så kan du säga:** \"Dina armar är riktigt starka. Men jag ser att du nästan alltid har dem böjda. Om vi får dem raka när du vilar kommer du orka mycket längre. Ska vi prova på nästa?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: för mycket på en gång",
+     "text": "Tio rättelser efter en led ger ingen effekt — kunden kommer inte ihåg någon av dem. Välj en sak. När den sitter tar ni nästa."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Filma — men fråga först",
+     "text": "En kort film i mobilen gör analysen tydlig för kunden. Fråga alltid om lov, filma bara kunden och radera filmen när ni har tittat — eller skicka den till kunden och radera din kopia."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta om PT får filma kunder med egen mobil eller med en mobil/surfplatta som tillhör Klätterverket, och hur filmer ska hanteras efteråt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce4b1cd3-65f3-4586-ab8a-ea928d327f5d&size=1600",
+     "alt": "Klätterväggen sedd underifrån med klättrare högt upp.",
+     "caption": "Ställ dig så att du ser höft och fötter — inte bara ryggen."
+    },
+    {
+     "type": "task",
+     "instruction": "Titta på en kollega eller en bekant som klättrar två boulderproblem. Skriv ner tre saker du ser om fötter, höft och armar. Välj sedan den **en** sak du skulle börja med.",
+     "hint": "Jämför med en annan PT. Valde ni samma sak?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Utvecklingsmodellen",
+     "url": "https://www.klatterforbundet.se/tranare/utvecklingsmodellen/"
+    }
+   ]
+  },
+  {
+   "id": "pt-teknik",
+   "label": "Del 5",
+   "title": "Teknikträning",
+   "estimatedMinutes": 8,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Teknik är det som oftast gör störst skillnad, särskilt för nya klättrare. Bättre fotarbete sparar fingrar och armar. Därför börjar teknik före styrka i nästan varje PT-plan."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4510a3c9-0a4d-414a-9d80-06268d59a5e9&size=1600",
+     "alt": "En kvinna bouldrar med fötterna högt på ett överhäng.",
+     "caption": "Bra fötter avlastar armarna."
+    },
+    {
+     "type": "heading",
+     "text": "Tre grundpelare"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Fotarbete:** titta på foten tills den står. Placera den exakt, tyst. Använd tån (insidan av stortån) på små steg.",
+      "**Tyngdpunkt:** håll höften nära väggen. Flytta tyngden över foten innan du står upp.",
+      "**Raka armar:** häng i skelettet, inte i musklerna. Böj benen i stället för armarna när du vilar."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Övningar du kan använda"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Övning",
+      "Så går den till",
+      "Tränar"
+     ],
+     "rows": [
+      [
+       "Tysta fötter",
+       "Klättra en lätt led utan att det hörs när fötterna sätts",
+       "Exakta fotplaceringar"
+      ],
+      [
+       "Hand-fot-matchning",
+       "Varje fot får bara stå på grepp som händerna nyss använt",
+       "Planering och precision"
+      ],
+      [
+       "Raka armar-traversering",
+       "Traversera med raka armar, flytta dig med benen",
+       "Vila och tyngdpunkt"
+      ],
+      [
+       "Höftvridning",
+       "Klättra med höften mot väggen, vänd sidan in vid långa drag",
+       "Räckvidd och balans"
+      ],
+      [
+       "Långsam klättring",
+       "Klättra en led i halvfart, stanna innan varje drag",
+       "Kontroll och läsning"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Konkret exempel: Sara igen",
+     "text": "Sara (från Del 2) fastnar på boulder. Rörelseanalysen visar att hon tittar upp mot nästa grepp medan foten fortfarande letar. Ni kör \"tysta fötter\" på tre lätta problem. **Så kan du säga:** \"Titta ner tills foten står helt still. Först då får du titta upp.\" Efter tio minuter går ett av hennes \"omöjliga\" problem."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: tekniköva på för svåra leder",
+     "text": "Teknik lärs in på lätta leder. Är leden för svår tar ovanan över — kunden kämpar och glömmer övningen. Välj leder flera grader under kundens max."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Säkerheten gäller också i övningar",
+     "text": "Vid boulder: fri fallzon, mattorna fria från väskor och flaskor, klättra ner i stället för att hoppa från toppen. Vid topprep och led: kamratkontroll före varje klättring."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=0d313a5b-919c-4a72-8704-fc292dacd10c&size=1600",
+     "alt": "Kritade händer redo att klättra.",
+     "caption": "Krita hjälper greppet — men fötterna gör jobbet."
+    },
+    {
+     "type": "task",
+     "instruction": "Klättra själv tre lätta leder med var sin övning: tysta fötter, raka armar-traversering och långsam klättring. Skriv ner vilken som var svårast att göra rätt.",
+     "hint": "Det du tycker är svårt är ofta det som kunden behöver mest förklaring på."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Utvecklingsmodellen",
+     "url": "https://www.klatterforbundet.se/tranare/utvecklingsmodellen/"
+    }
+   ]
+  },
+  {
+   "id": "pt-styrka",
+   "label": "Del 6",
+   "title": "Styrka & fysisk träning",
+   "estimatedMinutes": 9,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klättring kräver styrka i fingrar, överkropp och bål. Men fingrarnas senor och ringband anpassar sig långsammare än musklerna. Därför är [[progression|gradvis progression]] det viktigaste ordet i den här lektionen."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "progression"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ae37d2cf-ef28-4a54-ba66-858c229373a8&size=1600",
+     "alt": "En kvinna håller i små grepp på ett överhäng.",
+     "caption": "Fingrarna är klätterns mest belastade — och skadekänsliga — del."
+    },
+    {
+     "type": "heading",
+     "text": "Fingerstyrka: klättra först"
+    },
+    {
+     "type": "richtext",
+     "text": "För nya klättrare är klättring den bästa fingerträningen. En [[hangboard|hangboard]] (fingerbräda) är ett kraftfullt verktyg, men de flesta tränare — till exempel Lattice Training och den spanska forskaren och tränaren Eva López — ser den som något för den som redan har klättrat regelbundet en tid. En studie av López visade att de som var svagare från början blev mycket starkare av fingerträning, medan de starkaste knappt förbättrades. Det betyder: rätt dos vid rätt tid."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "hangboard"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Var försiktig med siffror",
+     "text": "Ge inga fasta regler som \"hangboard efter exakt X år\" eller \"häng Y sekunder\". Det beror på kundens bakgrund, ålder och skadehistorik. Börja försiktigt, öka lite i taget och följ hur fingrarna mår dagen efter."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta Klätterverkets egen riktlinje för när en PT-kund får börja med hangboard och vilka nivåer (1, 2, 3) som arbetar med det."
+    },
+    {
+     "type": "heading",
+     "text": "Förebygg belastningsskador"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "belastningsskada"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Öka **en sak i taget**: antal pass, svårighet eller tid — inte allt samtidigt.",
+      "Värm upp fingrarna gradvis: lätta grepp först, små grepp sist.",
+      "Var försiktig med små kanter och hårt crimpgrepp, särskilt när kunden är trött.",
+      "Lyssna på signaler: smärta i fingret, en \"pop\" eller svullnad betyder stopp för dagen.",
+      "Vid misstänkt skada: klättra inte vidare på det. Hänvisa till vården (vårdcentral, fysioterapeut, 1177). Du ställer ingen diagnos."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Fysisk träning utanför väggen"
+    },
+    {
+     "type": "richtext",
+     "text": "Gymmet i Gasverket och loftet i Sickla passar för kompletterande styrketräning. Svenska Klätterförbundets tidning BergSport har publicerat funktionella övningar för klättrare av en idrottsfysioterapeut. Där nämns minskad styrka och stora skillnader mellan höger och vänster sida som riskfaktorer för skador."
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Drag:** till exempel chins och rodd.",
+      "**Tryck:** till exempel armhävningar — för balans mot all dragträning.",
+      "**Bål:** plankan och rotationsövningar.",
+      "**Rörlighet:** höft och axlar, för högre fötter och bättre räckvidd."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Åldersgränser i gymmet",
+     "text": "Sickla: från 10 år (under 13 år med vuxen). Gasverket: från 15 år."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Kunden vill köpa en hangboard efter tre månaders klättring. **Så kan du säga:** \"Bra driv! Just nu bygger du fingerstyrka snabbast genom att klättra mycket och variera. Låt oss ta upp hangboard igen när du har klättrat regelbundet ett tag — då får du mer nytta och mindre risk.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: kunden som vill för mycket för snabbt",
+     "text": "Motiverade kunder ökar ofta allt på en gång — och får ont i fingrarna efter några veckor. Din uppgift är att bromsa vänligt och förklara varför."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8865b521-c4e0-4a94-bd79-982995030a0c&size=1600",
+     "alt": "En grupp klättrare på bouldermattor sedda ovanifrån.",
+     "caption": "Variation och vila är också träning."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå till gymmet i din hall. Välj en övning för drag, en för tryck och en för bål som du kan visa en kund. Testa dem själv och skriv ner hur du förklarar dem kort.",
+     "hint": "Tänk: vilken övning kan en nybörjare göra säkert redan första passet?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Lattice Training — Research Discussion: Eva López-Rivera Finger Strength (på engelska)",
+     "url": "https://latticetraining.com/blog/research-discussion-eva-lopez-rivera-finger-strength/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet, BergSport 174 — Träningsbanken (fysioterapeut Anna Wänerhag)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2021/07/Bergsport-174-Traningsbanken.pdf"
+    }
+   ]
+  },
+  {
+   "id": "pt-program",
+   "label": "Del 7",
+   "title": "Träningsprogram",
+   "estimatedMinutes": 8,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ett träningsprogram gör PT-passet till mer än en timme. Kunden vet vad hen ska göra mellan passen, och ni kan se om det fungerar. Ett bra program är enkelt, realistiskt och kopplat till kundens SMART-mål."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b874dc0b-d974-4f8b-843f-a8b68a815af2&size=1600",
+     "alt": "En kvinna klättrar topprep på en hög vägg.",
+     "caption": "Programmet ska leda mot kundens mål — en led, en grad, en känsla."
+    },
+    {
+     "type": "heading",
+     "text": "Passets struktur"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Uppvärmning** (10–15 minuter): puls, rörlighet för axlar och höft, sedan lätt klättring med gradvis svårare grepp.",
+      "**Teknik:** när kroppen är varm och huvudet fräscht.",
+      "**Huvuddel:** projekt, styrka eller uthållighet — beroende på målet.",
+      "**Avslutning:** lätt nedvarvning och en kort sammanfattning: vad gick bra, vad tar du med dig?"
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Uppvärmningen är inte valfri",
+     "text": "Lattice Training påpekar att det är lätt att hoppa över uppvärmningen när man är ivrig att klättra — därför lönar det sig att ha en fast rutin. Låt kunden lära sig en uppvärmning hen kan göra själv."
+    },
+    {
+     "type": "heading",
+     "text": "Vecka och återhämtning"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "aterhamtning"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Planera [[aterhamtning|återhämtning]] lika noga som träningen: sömn, mat och vilodagar.",
+      "Lägg inte hårda fingerpass flera dagar i rad.",
+      "Variera: ett pass teknik, ett pass projekt, ett pass lättare volym.",
+      "Var realistisk: hellre två pass i veckan som blir av än fyra som inte blir av."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Exempel: Johan (Del 3)",
+      "Fokus"
+     ],
+     "rows": [
+      [
+       "Tisdag",
+       "Teknik på led: raka armar, vila, läsa leden. Avsluta med två längre leder."
+      ],
+      [
+       "Lördag",
+       "Försök på mål-leden. Därefter lätt gym: drag, tryck, bål."
+      ],
+      [
+       "Övriga dagar",
+       "Vila eller annan lätt aktivitet."
+      ],
+      [
+       "Var fjärde vecka",
+       "Lugnare vecka med färre och lättare pass."
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "**Så kan du säga:** \"Här är din plan för de närmaste fyra veckorna. Två pass i veckan. Om något känns för mycket, eller om fingrarna gör ont dagen efter, skriv till mig så justerar vi. Planen ska passa dig — inte tvärtom.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: kopiera ditt eget program",
+     "text": "Ditt eget träningsupplägg passar inte en kund som klättrar två gånger i veckan och har ett heltidsjobb. Utgå alltid från kundens tid, nivå och mål."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta hur program lämnas till kunden (papper, e-post, app) och om Klätterverket har en mall för träningsprogram."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cfe795ae-bf1b-4e0c-b787-7841b2d318f5&size=1600",
+     "alt": "En ledklättrare på väg upp längs en lång led.",
+     "caption": "Uthållighet byggs över veckor, inte på ett pass."
+    },
+    {
+     "type": "task",
+     "instruction": "Skriv ett fyraveckorsprogram för Johan från Del 3 (toppa en 6A-led före jul, två pass i veckan). Använd passstrukturen ovan och planera in en lugnare vecka.",
+     "hint": "Visa det för en erfaren PT-kollega och fråga: är det realistiskt?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Lattice Training — The fastest and best way to warm up for climbing (på engelska)",
+     "url": "https://latticetraining.com/blog/the-fastest-and-best-way-to-warm-up-for-climbing"
+    }
+   ]
+  },
+  {
+   "id": "pt-coaching",
+   "label": "Del 8",
+   "title": "Coaching & feedback",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Det du säger — och hur du säger det — avgör om kunden lär sig. Bra coaching gör kunden självständig. Målet är att kunden till slut hör din röst i huvudet även när du inte är där."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=58651d57-2625-4c69-a377-bd00dcf638e2&size=1600",
+     "alt": "En säkrare står vid väggen och tittar upp mot sin klättrare.",
+     "caption": "Var nära, se det kunden gör, och ge rätt ord i rätt läge."
+    },
+    {
+     "type": "heading",
+     "text": "Före, under och efter"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Före klättringen:** ge ett enda fokus. \"Den här gången: tysta fötter.\"",
+      "**Under klättringen:** korta ord. \"Höften in.\" \"Raka armar.\" Säg inte för mycket — kunden ska fokusera.",
+      "**Efter klättringen:** fråga först: \"Hur kändes det?\" Lägg sedan till det du såg."
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Feedback som fungerar"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Börja med något som var bra — konkret, inte bara \"bra jobbat\".",
+      "Säg en sak att förbättra, och hur.",
+      "Låt kunden prova direkt igen.",
+      "Bekräfta när det blir bättre."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Konkret exempel: Duo-pass",
+     "text": "Två kollegor har bokat PT Duo. Den ena klättrar snabbt men slarvigt, den andra försiktigt och långsamt. **Så kan du säga:** \"Ni är bra på olika saker. Mikael, titta på hur Anna placerar fötterna. Anna, titta på hur Mikael vågar fortsätta. Sen byter ni och provar varandras stil.\" Duo-passet blir mer än två halva PT-pass."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att coacha rädsla bort",
+     "text": "Är kunden rädd för höjd eller fall hjälper det inte att säga \"det är ingen fara\". Ta rädslan på allvar, gå långsamt, låt kunden bestämma takten. Falltrening ska vara frivillig och stegvis — och följa Klätterverkets regler."
+    },
+    {
+     "type": "heading",
+     "text": "Anpassa dig efter kunden"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Några vill ha detaljer och förklaringar. Andra vill bara klättra.",
+      "Några motiveras av siffror och grader. Andra av känslan.",
+      "Fråga: \"Vill du att jag säger till under klättringen, eller väntar jag till du är nere?\""
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=37efb447-b316-44a6-b556-aabfd145d393&size=1600",
+     "alt": "En kvinna klättrar och tittar uppåt mot nästa grepp.",
+     "caption": "Låt kunden hitta lösningen själv innan du säger den."
+    },
+    {
+     "type": "task",
+     "instruction": "Under ditt nästa pass (som PT, instruktör eller med en klätterkompis): ge feedback enligt de fyra stegen minst tre gånger. Skriv efteråt ner vilken mening som fungerade bäst.",
+     "hint": "Fråga den du coachade vad som var lättast att ta till sig."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Tränare",
+     "url": "https://www.klatterforbundet.se/tranare/"
+    }
+   ]
+  },
+  {
+   "id": "pt-uppfoljning",
+   "label": "Del 9",
+   "title": "Uppföljning",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Uppföljning är det som skiljer en bra PT från en bra klätterkompis. Den visar kunden att framstegen är riktiga, och den visar dig när planen behöver ändras."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc871eb2-b666-47c6-8e22-3a5fb3bc8b70&size=1600",
+     "alt": "En kvinna klättrar med fokus på en vertikal vägg.",
+     "caption": "Framsteg syns ofta i små saker: lugnare andning, tystare fötter."
+    },
+    {
+     "type": "heading",
+     "text": "Vad följer du upp?"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Område",
+      "Fråga eller test"
+     ],
+     "rows": [
+      [
+       "Målet",
+       "Hur nära SMART-målet är kunden? Behöver målet justeras?"
+      ],
+      [
+       "Teknik",
+       "Filma samma boulder som första gången och jämför (med kundens tillåtelse)."
+      ],
+      [
+       "Programmet",
+       "Hur många pass blev av? Vad var svårt att genomföra?"
+      ],
+      [
+       "Kroppen",
+       "Ont någonstans? Fingrar, axlar, armbågar? Hur är sömnen?"
+      ],
+      [
+       "Motivationen",
+       "Vad är roligast just nu? Vad känns tungt?"
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Så gör du ett uppföljningssamtal"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Läs dina anteckningar innan kunden kommer.",
+      "Börja med kundens upplevelse: \"Hur har det gått sedan sist?\"",
+      "Gör samma test som förra gången och jämför.",
+      "Lyft framstegen tydligt.",
+      "Justera programmet: lägg till, ta bort eller sänk.",
+      "Sätt ett nytt delmål och boka nästa uppföljning."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Konkret exempel: Johan efter fyra veckor",
+     "text": "Johan har klättrat sju av åtta planerade pass. Han kommer högre på mål-leden men pumpar fortfarande vid sista tredjedelen. **Så kan du säga:** \"Kolla här: förra månaden vilade du fyra gånger, i dag en gång. Det är riktiga framsteg. Nu jobbar vi med vilan på raka armar högt upp.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: smärta som \"hör till\"",
+     "text": "Säger kunden att ett finger eller en armbåge har gjort ont i flera veckor — vänta inte och se. Sänk belastningen och hänvisa till vården för bedömning. Notera kort vad ni har bestämt."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Anteckningar efter uppföljningen",
+     "text": "Samma regler som i Del 2: skriv kort och sakligt, bara det som behövs, och spara där Klätterverket har bestämt. Hälsouppgifter är känsliga personuppgifter."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1b0cde1d-0469-4f49-968a-d360443e892e&size=1600",
+     "alt": "En ledklättrare högt upp på väggen i Gasverket.",
+     "caption": "Mål-leden: varje försök säger något om framstegen."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör en uppföljningsmall för dig själv med de fem områdena i tabellen. Använd den på nästa kund eller kollega du tränar.",
+     "hint": "Spara inte kunduppgifter i mallen — bara frågorna."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: IMY — När får ni behandla känsliga personuppgifter?",
+     "url": "https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/personuppgifter/kansliga-personuppgifter/nar-far-ni-behandla-kansliga-personuppgifter/"
+    }
+   ]
+  },
+  {
+   "id": "pt-salj",
+   "label": "Del 10",
+   "title": "Sälj & återbokning",
+   "estimatedMinutes": 8,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Sälj är inte att pressa på. Det är att hjälpa kunden ta nästa steg mot sitt mål. En kund som får en plan och märker framsteg vill ofta fortsätta — din uppgift är att göra det enkelt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1bf8f05d-7675-4c79-b568-563ec45119ca&size=1600",
+     "alt": "En leende kvinna med rep i klätterhallen.",
+     "caption": "En nöjd kund är den bästa reklamen för PT."
+    },
+    {
+     "type": "heading",
+     "text": "Återbokning i slutet av passet"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "aterbokning"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Sammanfatta passet: vad kunden gjorde bra och vad hen ska jobba med.",
+      "Koppla till målet: \"Till målet har du ungefär X kvar.\"",
+      "Föreslå ett konkret nästa steg: ett nytt pass om två veckor, en Duo med en vän eller gruppträning.",
+      "Boka direkt i Zoezi medan kunden står bredvid — eller berätta exakt hur hen bokar själv.",
+      "Tacka och önska lycka till med programmet."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "**Så kan du säga:** \"Du har fått bra koll på fötterna i dag. Nästa steg är vilan på raka armar. Jag föreslår att vi ses om två veckor, så hinner du köra programmet först. Passar tisdag kväll?\""
+    },
+    {
+     "type": "heading",
+     "text": "Vilket erbjudande passar?"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kunden …",
+      "Föreslå"
+     ],
+     "rows": [
+      [
+       "… är ny och vill komma igång",
+       "PT nivå 1 eller gruppträning grundkurs (8 tillfällen)"
+      ],
+      [
+       "… har klättrat ett tag och står still",
+       "PT nivå 2"
+      ],
+      [
+       "… vill träna med en vän eller partner",
+       "PT Duo"
+      ],
+      [
+       "… är erfaren med tydliga prestationsmål",
+       "PT nivå 3 med Peter Bosma"
+      ],
+      [
+       "… har inget klätterkort",
+       "Grönt kort först, sedan PT"
+      ],
+      [
+       "… vill ha mer klättring mellan passen",
+       "Månadskort eller klippkort — se receptionens prislista"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att sälja det kunden inte behöver",
+     "text": "Sälj aldrig ett dyrare paket än kunden behöver. En nybörjare som köper nivå 3 för att det \"låter bäst\" får sämre värde. Ärlighet bygger förtroende — och fler återbokningar."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta hur PT-pass bokas och betalas i Zoezi (enstaka pass, paket, avbokningsregler), om friskvårdsbidrag (ePassi, Wellnet, Benefits) kan användas för PT, om presentkort kan användas till PT, och om PT får provision eller mål för återbokning."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Tänk på konsumentreglerna",
+     "text": "Kunden ska alltid veta pris och villkor innan hen bokar. Säg aldrig villkor du inte är säker på — hänvisa till receptionen eller bokningsbekräftelsen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "En medarbetare i Klätterverket-hoodie.",
+     "caption": "Du och receptionen jobbar tillsammans: de möter kunderna varje dag."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva återbokningen med en kollega i rollen som kund. Kör de fem stegen. Kollegan får vara tveksam en gång (\"jag vet inte om jag har råd\") — svara ärligt och föreslå ett alternativ som passar.",
+     "hint": "Kontrollera i Zoezi att du vet exakt hur du bokar ett PT-pass åt en kund på under en minut."
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu har du gått igenom alla tio delar av Klätterverket PT. Provet har 15 frågor. Klarar du 80 % får du intyget Klätterverket PT."
+    }
+   ]
+  }
+ ],
+ "terms": {
+  "behovsanalys": {
+   "term": "Behovsanalys",
+   "definition": "Ett strukturerat samtal där du tar reda på kundens bakgrund, nuläge, mål, tid och hälsa. Grunden för hela PT-uppdraget."
+  },
+  "smart-mal": {
+   "term": "SMART-mål",
+   "definition": "Ett mål som är Specifikt, Mätbart, Accepterat, Realistiskt och Tidsbestämt. Gör det tydligt för både kund och PT när målet är nått."
+  },
+  "par-q": {
+   "term": "PAR-Q+",
+   "definition": "Ett internationellt frågeformulär om hälsan inför ökad fysisk aktivitet. Det börjar med sju allmänna frågor. Ett ja leder till fler frågor och ibland ett råd att först rådgöra med vården."
+  },
+  "rorelseanalys": {
+   "term": "Rörelseanalys",
+   "definition": "När du systematiskt tittar på hur kunden klättrar — fötter, höft, armar och rytm — för att hitta det som ger störst effekt att träna på."
+  },
+  "tyngdpunkt": {
+   "term": "Tyngdpunkt",
+   "definition": "Punkten där kroppens vikt samlas, ungefär vid höften. När tyngdpunkten är nära väggen och över fötterna avlastas armarna."
+  },
+  "progression": {
+   "term": "Gradvis progression",
+   "definition": "Att öka belastningen lite i taget — en sak åt gången — så att kroppen hinner anpassa sig. Särskilt viktigt för fingrarnas senor och ringband."
+  },
+  "hangboard": {
+   "term": "Hangboard",
+   "definition": "En fingerbräda med lister och fickor för att träna fingerstyrka genom att hänga. Ett effektivt men belastande verktyg, för den som redan har klättrat regelbundet en tid."
+  },
+  "belastningsskada": {
+   "term": "Belastningsskada",
+   "definition": "En skada som kommer av för mycket belastning över tid snarare än en olycka, till exempel i fingrar, armbågar eller axlar. Förebyggs med gradvis progression och vila."
+  },
+  "aterhamtning": {
+   "term": "Återhämtning",
+   "definition": "Tiden då kroppen bygger upp sig efter träning: sömn, mat och vilodagar. Utan återhämtning blir träningen inte effekt — bara trötthet."
+  },
+  "kanslig-personuppgift": {
+   "term": "Känslig personuppgift",
+   "definition": "Enligt GDPR bland annat uppgifter om hälsa. Det är i grunden förbjudet att behandla dem om inte ett undantag gäller, till exempel uttryckligt samtycke."
+  },
+  "aterbokning": {
+   "term": "Återbokning",
+   "definition": "När kunden bokar nästa pass eller tjänst innan hen går. Fungerar bäst när nästa steg är konkret kopplat till kundens mål."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Klätterverket PT",
+  "passScore": 0.8,
+  "draw": 15,
+  "attempts": 3,
+  "items": [
+   {
+    "id": "pt-q1",
+    "type": "single",
+    "stem": "Vad är rätt sätt att prata om resultat med en ny PT-kund?",
+    "options": [
+     "Lova en plan, ett tydligt fokus och uppföljning",
+     "Lova en viss grad inom tre månader",
+     "Inte prata om mål alls",
+     "Lova pengarna tillbaka om kunden inte blir bättre"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-intro",
+    "why": "Du styr inte allt som påverkar resultatet. Du kan lova en plan, fokus och uppföljning."
+   },
+   {
+    "id": "pt-q2",
+    "type": "single",
+    "stem": "Vilken PT-tjänst passar bäst för två vänner som vill träna tillsammans?",
+    "options": [
+     "PT Duo",
+     "PT nivå 3",
+     "Gult kort",
+     "Privat instruktör för sex personer"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-intro",
+    "why": "PT Duo är gjord för två personer som tränar ihop."
+   },
+   {
+    "id": "pt-q3",
+    "type": "multi",
+    "stem": "Vilka roller har du som PT på Klätterverket? Välj alla som stämmer.",
+    "options": [
+     "Tränare",
+     "Instruktör som följer säkerhetsreglerna",
+     "Ansiktet utåt för Klätterverket",
+     "Vårdgivare som ställer diagnos"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "pt-intro",
+    "why": "Du tränar, ansvarar för säkerheten och representerar Klätterverket — men du ställer aldrig diagnos."
+   },
+   {
+    "id": "pt-q4",
+    "type": "single",
+    "stem": "En PT-kund vill klättra topprep i passet men har inget klätterkort. Vad gör du?",
+    "options": [
+     "Håller er till boulder eller planerar grönt kort först",
+     "Säkrar själv, det räcker att PT har kort",
+     "Låter kunden klättra om hen lovar att vara försiktig",
+     "Ger kunden ett gult kort på plats"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-kundmote",
+    "why": "Topprep kräver grönt kort enligt Klätterverkets regler. Utan kort blir det boulder eller kurs först."
+   },
+   {
+    "id": "pt-q5",
+    "type": "single",
+    "stem": "Vad räcker att skriva i en PT-anteckning om en kunds skada?",
+    "options": [
+     "Kort och sakligt det du behöver för att träna säkert",
+     "Hela kundens sjukdomshistoria",
+     "Din egen gissning på diagnos",
+     "Ingenting — men berätta för kollegorna muntligt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-kundmote",
+    "why": "Hälsouppgifter är känsliga personuppgifter. Skriv bara det som behövs för träningen."
+   },
+   {
+    "id": "pt-q6",
+    "type": "trueFalse",
+    "stem": "Uppgifter om en kunds hälsa är känsliga personuppgifter enligt GDPR.",
+    "options": [
+     "Sant",
+     "Falskt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-kundmote",
+    "why": "Hälsa hör till de känsliga personuppgifterna. De får bara behandlas om ett undantag gäller, till exempel uttryckligt samtycke."
+   },
+   {
+    "id": "pt-q7",
+    "type": "single",
+    "stem": "Var ska du INTE spara anteckningar om PT-kunder?",
+    "options": [
+     "I din privata telefon eller i chattar",
+     "I det system Klätterverket har bestämt",
+     "Där bara behöriga kommer åt dem",
+     "Någonstans där de kan raderas när de inte behövs"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-kundmote",
+    "why": "Privata telefoner och chattar saknar kontroll över vem som ser uppgifterna."
+   },
+   {
+    "id": "pt-q8",
+    "type": "single",
+    "stem": "Kunden berättar i hälsodeklarationen att hen fått bröstsmärta vid ansträngning. Vad gör du?",
+    "options": [
+     "Tränar inte vidare på det och hänvisar vänligt till vården",
+     "Kör ett lättare pass och ser hur det går",
+     "Bedömer själv om det är farligt",
+     "Ber kunden ta en värktablett"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-behovsanalys",
+    "why": "PT ställer ingen diagnos. Symtom som bröstsmärta ska bedömas av vården — vid akuta symtom ringer du 112."
+   },
+   {
+    "id": "pt-q9",
+    "type": "single",
+    "stem": "Vilket mål är ett SMART-mål?",
+    "options": [
+     "Toppa den lila 6A-leden i Sickla utan vila före 15 december",
+     "Bli bättre på led",
+     "Bli starkare i fingrarna",
+     "Klättra mer i år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-behovsanalys",
+    "why": "Det är specifikt, mätbart, tidsbestämt — och realistiskt om kunden själv valt det."
+   },
+   {
+    "id": "pt-q10",
+    "type": "single",
+    "stem": "Vad står T för i SMART?",
+    "options": [
+     "Tidsbestämt",
+     "Tekniskt",
+     "Tufft",
+     "Tränat"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-behovsanalys",
+    "why": "Ett SMART-mål har ett datum, så att ni vet när ni utvärderar."
+   },
+   {
+    "id": "pt-q11",
+    "type": "single",
+    "stem": "Vad är PAR-Q+?",
+    "options": [
+     "Ett frågeformulär om hälsan inför ökad fysisk aktivitet",
+     "Ett fysiskt test av fingerstyrka",
+     "Ett diagnosverktyg för PT",
+     "Ett system för att boka PT-pass"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-behovsanalys",
+    "why": "PAR-Q+ börjar med sju allmänna hälsofrågor. Ett ja leder till fler frågor — inte till en diagnos."
+   },
+   {
+    "id": "pt-q12",
+    "type": "single",
+    "stem": "Du gör en rörelseanalys och ser fem saker kunden kan förbättra. Vad gör du?",
+    "options": [
+     "Väljer den en sak som ger störst effekt och börjar där",
+     "Berättar alla fem direkt",
+     "Väntar till nästa pass med att säga något",
+     "Ber kunden läsa på själv"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-rorelseanalys",
+    "why": "Kunden kan bara fokusera på en sak i taget. När den sitter tar ni nästa."
+   },
+   {
+    "id": "pt-q13",
+    "type": "single",
+    "stem": "Vilka leder väljer du för en rörelseanalys?",
+    "options": [
+     "Leder en bit under kundens maxnivå",
+     "Kundens svåraste projekt",
+     "De allra lättaste lederna i hallen",
+     "Leder kunden aldrig sett förut på maxnivå"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-rorelseanalys",
+    "why": "En bit under max syns kundens vanor — inte bara kampen."
+   },
+   {
+    "id": "pt-q14",
+    "type": "single",
+    "stem": "Kunden har nästan alltid böjda armar. Vad är en bra första åtgärd?",
+    "options": [
+     "Öva raka armar och att sjunka i benen när hen vilar",
+     "Mer chins i gymmet",
+     "Hangboard direkt",
+     "Klättra snabbare"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-rorelseanalys",
+    "why": "Raka armar gör att kunden hänger i skelettet i stället för musklerna — det sparar kraft."
+   },
+   {
+    "id": "pt-q15",
+    "type": "multi",
+    "stem": "Vilka är grundpelarna i klätterteknik som tas upp i serien? Välj alla som stämmer.",
+    "options": [
+     "Fotarbete",
+     "Tyngdpunkt nära väggen",
+     "Raka armar",
+     "Att hoppa ner från toppen av bouldern"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "pt-teknik",
+    "why": "Hoppa inte från toppen — klättra ner. De tre grundpelarna är fötter, tyngdpunkt och raka armar."
+   },
+   {
+    "id": "pt-q16",
+    "type": "single",
+    "stem": "Varför ska teknikövningar göras på lätta leder?",
+    "options": [
+     "På svåra leder tar ovanan över och kunden glömmer övningen",
+     "Lätta leder är säkrare att falla på",
+     "Det är roligare för kunden",
+     "Svåra leder är upptagna"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-teknik",
+    "why": "Ny teknik lärs in när kunden har kapacitet över. På max kämpar kunden och gör som vanligt."
+   },
+   {
+    "id": "pt-q17",
+    "type": "single",
+    "stem": "En kund som klättrat i tre månader vill börja med hangboard. Vad är det bästa rådet?",
+    "options": [
+     "Klättra mycket och varierat först, ta upp hangboard när hen klättrat regelbundet en tid",
+     "Börja direkt med maxhäng varje dag",
+     "Hangboard är förbjudet för alla PT-kunder",
+     "Häng så länge det går tills det gör ont"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-styrka",
+    "why": "För nya klättrare är klättring den bästa fingerträningen. Senor och ringband behöver tid och gradvis progression."
+   },
+   {
+    "id": "pt-q18",
+    "type": "multi",
+    "stem": "Vilka signaler betyder stopp i fingerträningen för dagen? Välj alla som stämmer.",
+    "options": [
+     "Smärta i fingret",
+     "Ett \"pop\"",
+     "Svullnad",
+     "Trötta underarmar efter ett bra pass"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "pt-styrka",
+    "why": "Smärta, pop och svullnad kan tyda på skada och ska bedömas av vården. Trötta underarmar är normalt."
+   },
+   {
+    "id": "pt-q19",
+    "type": "single",
+    "stem": "Hur ökar du belastningen säkrast för en kund?",
+    "options": [
+     "En sak i taget: antal pass, svårighet eller tid",
+     "Allt på en gång för snabba resultat",
+     "Bara svårighet, aldrig vila",
+     "Dubbla allt varje vecka"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-styrka",
+    "why": "Gradvis progression ger kroppen tid att anpassa sig och minskar risken för belastningsskador."
+   },
+   {
+    "id": "pt-q20",
+    "type": "ordering",
+    "stem": "Sätt delarna i ett PT-pass i rätt ordning.",
+    "options": [
+     "Uppvärmning",
+     "Teknik",
+     "Huvuddel: projekt, styrka eller uthållighet",
+     "Avslutning och sammanfattning"
+    ],
+    "lesson": "pt-program",
+    "why": "Teknik tränas när kroppen är varm och huvudet fräscht, före den tunga huvuddelen."
+   },
+   {
+    "id": "pt-q21",
+    "type": "single",
+    "stem": "Kunden har tid för två pass i veckan. Hur planerar du?",
+    "options": [
+     "Ett realistiskt program med två pass och vilodagar",
+     "Fyra pass i veckan — det ger snabbare resultat",
+     "Samma program som du själv kör",
+     "Inget program, bara PT-passen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-program",
+    "why": "Ett program som blir av är bättre än ett ambitiöst som inte blir av."
+   },
+   {
+    "id": "pt-q22",
+    "type": "trueFalse",
+    "stem": "Hårda fingerpass flera dagar i rad är ett bra sätt att snabbt bli starkare.",
+    "options": [
+     "Sant",
+     "Falskt"
+    ],
+    "correct": [
+     "b"
+    ],
+    "lesson": "pt-program",
+    "why": "Fingrarna behöver återhämtning mellan hårda pass. Utan den ökar risken för belastningsskador."
+   },
+   {
+    "id": "pt-q23",
+    "type": "ordering",
+    "stem": "Sätt stegen för feedback i rätt ordning.",
+    "options": [
+     "Börja med något konkret som var bra",
+     "Säg en sak att förbättra, och hur",
+     "Låt kunden prova direkt igen",
+     "Bekräfta när det blir bättre"
+    ],
+    "lesson": "pt-coaching",
+    "why": "Det positiva först öppnar för förbättringen, och att prova direkt gör att det fastnar."
+   },
+   {
+    "id": "pt-q24",
+    "type": "single",
+    "stem": "Under klättringen — hur coachar du bäst?",
+    "options": [
+     "Korta ord som \"höften in\"",
+     "Långa förklaringar av teorin",
+     "Inget alls, aldrig",
+     "Ropar flera rättelser samtidigt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-coaching",
+    "why": "Kunden ska fokusera på klättringen. Korta ord räcker — förklaringen tar ni när hen är nere."
+   },
+   {
+    "id": "pt-q25",
+    "type": "single",
+    "stem": "En kund är rädd för att falla i led. Vad gör du?",
+    "options": [
+     "Tar rädslan på allvar och låter kunden styra takten stegvis",
+     "Säger att det inte är någon fara",
+     "Tvingar fram ett långt fall för att vänja kunden",
+     "Byter till ett annat ämne"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-coaching",
+    "why": "Rädsla försvinner inte av att man säger att den är onödig. Stegvis och frivilligt fungerar."
+   },
+   {
+    "id": "pt-q26",
+    "type": "single",
+    "stem": "En kund säger att armbågen gjort ont i flera veckor. Vad gör du?",
+    "options": [
+     "Sänker belastningen och hänvisar till vården för bedömning",
+     "Kör på — det hör till klättring",
+     "Ger kunden en egen diagnos",
+     "Ignorerar det och följer programmet"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-uppfoljning",
+    "why": "Långvarig smärta ska bedömas av vården. Du sänker belastningen och noterar kort vad ni bestämt."
+   },
+   {
+    "id": "pt-q27",
+    "type": "multi",
+    "stem": "Vad följer du upp vid ett uppföljningssamtal? Välj alla som stämmer.",
+    "options": [
+     "Hur nära målet kunden är",
+     "Hur många pass som blev av",
+     "Om något gör ont",
+     "Kundens lön"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "pt-uppfoljning",
+    "why": "Mål, program, kropp, teknik och motivation hör till uppföljningen."
+   },
+   {
+    "id": "pt-q28",
+    "type": "single",
+    "stem": "En erfaren klättrare med tydliga prestationsmål frågar vad du rekommenderar. Vad föreslår du?",
+    "options": [
+     "PT nivå 3 med Peter Bosma",
+     "Gult kort",
+     "Prova på-klättring",
+     "Gruppträning grundkurs för nybörjare"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-salj",
+    "why": "Nivå 3 med Peter Bosma riktar sig till erfarna klättrare med tydliga mål."
+   },
+   {
+    "id": "pt-q29",
+    "type": "single",
+    "stem": "Vad är det bästa sättet att få en återbokning?",
+    "options": [
+     "Föreslå ett konkret nästa steg kopplat till målet och boka direkt",
+     "Sälja det dyraste paketet",
+     "Vänta på att kunden hör av sig",
+     "Erbjuda rabatt till alla"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-salj",
+    "why": "Ett konkret nästa steg som hänger ihop med kundens mål är lätt att säga ja till."
+   },
+   {
+    "id": "pt-q30",
+    "type": "single",
+    "stem": "Vad kostar gruppträning grundkurs enligt Klätterverkets prislista?",
+    "options": [
+     "2500 kr för 8 tillfällen",
+     "695 kr per tillfälle",
+     "1350 kr för 2 tillfällen",
+     "495 kr"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "pt-salj",
+    "why": "Gruppträning grundkurs kostar 2500 kr för 8 tillfällen. Kontrollera alltid aktuellt pris i Zoezi."
+   }
+  ]
+ }
+}

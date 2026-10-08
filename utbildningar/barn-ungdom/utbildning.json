@@ -1,0 +1,1322 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "barn-ungdom",
+  "title": "Barn & ungdom",
+  "summary": "Led barnkalas, barnkurser och ungdomsträning tryggt och roligt. Regler, lekar, bemötande av barn och föräldrar — och vad du gör när ett barn är rädd.",
+  "audience": [
+   "kids",
+   "instructor"
+  ],
+  "estimatedMinutes": 68,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24
+  },
+  "modules": [
+   {
+    "title": "Barnkalas",
+    "lessons": [
+     "barn-kalasinstruktor",
+     "barn-perfekta-kalaset",
+     "barn-kalas-sakerhet",
+     "barn-stokig-grupp",
+     "barn-foraldrar"
+    ]
+   },
+   {
+    "title": "Barnkurser och ungdomsträning",
+    "lessons": [
+     "barn-kurs-rutiner",
+     "barn-kurs-pedagogik",
+     "barn-ungdomstraning",
+     "barn-lekar"
+    ]
+   },
+   {
+    "title": "Trygghet och säkerhet",
+    "lessons": [
+     "barn-radd-ledsen",
+     "barn-sakerhet"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "barn-kalasinstruktor",
+   "label": "1.1",
+   "title": "Barnkalasinstruktör",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ett barnkalas är för många barn första gången i en klätterhall. Du som kalasinstruktör bestämmer om de går hem och vill komma tillbaka. Din uppgift är enkel att säga och svår att göra bra: **trygghet, glädje och klättring — i den ordningen**."
+    },
+    {
+     "type": "richtext",
+     "text": "Kalasen körs på helgerna, med start **10:15** och **15:15**. Ett kalas är från **10 till 18 barn**. Du har ansvaret för gruppen från att barnen kommer tills de lämnas över till de vuxna igen."
+    },
+    {
+     "type": "video",
+     "title": "Barnkalas på Klätterverket (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aae86f15-b037-4504-bebd-15f1526f3f51&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "text": "Din roll under ett kalas"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Värd:** du hälsar, lär dig namn och ser till att födelsedagsbarnet känner sig firat.",
+      "**Säkerhetsansvarig:** du har koll på hela gruppen hela tiden och sköter all säkring och alla knutar.",
+      "**Ledare:** du ger tydliga, korta instruktioner och håller ihop gruppen.",
+      "**Kontakt med föräldrarna:** du vet vem som är ansvarig vuxen för kalaset och vem du vänder dig till."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6b7d2a6a-b3aa-491b-8b97-f1f480ea1aca&size=1600",
+     "alt": "Glada barn som klättrar på en klättervägg",
+     "caption": "Glädje först — då vågar barnen mer."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "ansvarig-vuxen"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Hej och välkomna! Jag heter Sara och är er klätterledare i dag. Vem fyller år? Grattis, Alva! Nu ska vi göra tre saker: lära oss reglerna, klättra massor och ha kul. Är ni med?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att börja klättra direkt",
+     "text": "Barnen vill upp på väggen med en gång. Men utan en kort genomgång vet de inte var de får vara och vad som gäller på [[fallzon|fallzonen]]. Två minuters regler i början sparar dig mycket stress senare."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Hur länge ett kalas pågår, hur tiden delas mellan klättring och fika, var gruppen samlas, vilken vägg eller del av hallen kalaset använder och om det finns en kalasinstruktör per grupp eller fler vid stora grupper. Bekräfta också vilka krav (kort, säkringsvana, ålder) som gäller för att leda kalas."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå igenom ett kalas med en erfaren kalasinstruktör: var samlas gruppen, var hänger selarna, och vilken vägg används? Skriv ned kalasets upplägg minut för minut.",
+     "hint": "Fråga också hur hen lär sig 18 namn snabbt."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Juniorklättring",
+     "url": "https://www.klatterforbundet.se/for-klubben/juniorklattring/"
+    }
+   ]
+  },
+  {
+   "id": "barn-perfekta-kalaset",
+   "label": "1.2",
+   "title": "Det perfekta barnkalaset",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Det perfekta kalaset handlar inte om att alla når toppen. Det handlar om att varje barn får lyckas med något, att födelsedagsbarnet får glänsa och att föräldrarna får en lugn stund. Bra förberedelser gör det möjligt."
+    },
+    {
+     "type": "heading",
+     "text": "Fakta om kalasen"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "Gasverket",
+      "Sickla"
+     ],
+     "rows": [
+      [
+       "Pris",
+       "från 290 kr/barn",
+       "från 290 kr/barn"
+      ],
+      [
+       "Antal barn",
+       "10–18",
+       "10–18"
+      ],
+      [
+       "Tider",
+       "helger 10:15 och 15:15",
+       "helger 10:15 och 15:15"
+      ],
+      [
+       "Mat",
+       "Paket med tårta: 370, 370 eller 480 kr (prinsesstårta, chokladmousse eller frukt)",
+       "Kalas med Bricks Burgers"
+      ]
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=688affd2-2f1b-4c13-939a-87553a410499&size=1600",
+     "alt": "Dukat kalasbord med ballonger",
+     "caption": "Fikat är en del av kalaset — se till att bordet är klart i tid."
+    },
+    {
+     "type": "heading",
+     "text": "Så blir det ett riktigt bra kalas"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Före:** läs bokningen i [[zoezi|Zoezi]]. Hur många barn, vilken ålder, vilket paket, finns allergier?",
+      "**Ta emot:** möt gruppen i receptionen. Sätt namnlapp om det behövs.",
+      "**Genomgång:** visa reglerna kort och visuellt.",
+      "**Klättring:** blanda klättring och lek. Låt alla få många försök.",
+      "**Höjdpunkt:** ge födelsedagsbarnet något extra — första försöket, välja lek eller ett jubel från gruppen.",
+      "**Fika:** lämna över till fikat på avtalad tid.",
+      "**Avslut:** tacka, samla utrustningen, säg hej då till varje barn."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Alva, du får välja den första leden i dag. Vilken färg vill du ha?” — och efteråt: ”Ett jättejubel för Alva som klättrade högst upp!”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: allergier som ingen frågat om",
+     "text": "Tårta och hamburgare kan innehålla allergener. Fråga om allergier vid bokning och igen när kalaset kommer. Är du osäker — fråga personalen i kaféet. Lova aldrig att något är fritt från ett ämne om du inte vet."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilket paket (370/370/480 kr) som hör till vilken tårta, vad som ingår i 290 kr-kalaset, vad som ingår i kalaset med Bricks Burgers i Sickla, hur allergier förs in i bokningen och vem som dukar fram."
+    },
+    {
+     "type": "task",
+     "instruction": "Öppna en kommande kalasbokning i Zoezi tillsammans med en kollega. Hitta antal barn, ålder, paket och eventuella allergier.",
+     "hint": "Finns inte allergier noterade: ta reda på hur du frågar."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket — Allergimärkning",
+     "url": "https://www.livsmedelsverket.se/livsmedel-och-innehall/text-pa-forpackning-markning/allergimarkning/"
+    }
+   ]
+  },
+  {
+   "id": "barn-kalas-sakerhet",
+   "label": "1.3",
+   "title": "Säkerhet på barnkalas",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Barn har svårare än vuxna att bedöma risker. Därför är det **du** som har ansvaret för säkerheten under hela kalaset — inte barnen och inte föräldrarna."
+    },
+    {
+     "type": "heading",
+     "text": "Grundreglerna under ett kalas"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Räkna barnen när de kommer — och räkna igen vid varje byte av station.",
+      "Visa var man får vara: ingen går eller står i [[fallzon|fallzonen]] under någon som klättrar.",
+      "Du sätter på och kontrollerar alla selar. Spänn, dra och titta.",
+      "Du knyter eller kopplar in varje barn och gör [[kamratkontroll|kamratkontroll]] innan varje start.",
+      "I boulder: klättra ner, hoppa inte från toppen. Mattorna ska vara fria från föremål.",
+      "Vid paus eller fika: alla barn ut från klätterytan."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8d821414-296f-4164-bb6a-706e4da44ebb&size=1600",
+     "alt": "Instruktör kontrollerar säkringen",
+     "caption": "Du kontrollerar — varje gång, varje barn."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kamratkontroll"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=00abe9d0-d8c9-4766-a75d-23641b5b0fd8&size=1600",
+     "alt": "Boulderyta med en väska kvarglömd på mattan",
+     "caption": "Riskexempel: en väska på mattan. Flytta den innan någon landar på den."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Stopp! Den röda linjen på golvet — där bakom väntar vi. Ingen går under någon som klättrar. Visa mig med handen var ni ska stå.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: föräldrar som hjälper till med säkringen",
+     "text": "En hjälpsam förälder vill gärna säkra sitt barn. Har föräldern inte rätt kort för det, är svaret nej. Klätterkortet ska synas på selen. Ge föräldern en annan uppgift, till exempel att heja."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Max antal barn per instruktör på kalas, vilka säkringsformer som används på kalas (topprep, [[autobelay|automatsäkring]] eller boulder), om hjälm används, och var första hjälpen-väskan finns i varje hall."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt kalasytan i din hall och leta efter risker: föremål på mattor, fri fallzon, slitna selar. Notera vad du hittar och vem du lämnar det till.",
+     "hint": "Titta särskilt under och bakom bänkar där barn lägger saker."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Normer",
+     "url": "https://www.klatterforbundet.se/utbildning/normer/"
+    }
+   ]
+  },
+  {
+   "id": "barn-stokig-grupp",
+   "label": "1.4",
+   "title": "Stökig barngrupp",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Alla kalas har en stund då det blir stökigt. Barn är förväntansfulla, trötta eller sockerpigga. Det är normalt. Det viktiga är att du har några verktyg för att få tillbaka lugnet — snabbt och vänligt."
+    },
+    {
+     "type": "heading",
+     "text": "Verktyg som fungerar"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**En fast samlingssignal:** samma ord eller klapp varje gång. Öva den i början.",
+      "**Gå ner på barnens nivå:** sätt dig på huk. Tala lugnt och lågt.",
+      "**Ge uppgifter:** ett barn som springer runt kan bli ”rephjälpare” eller ”mattvakt”.",
+      "**Byt aktivitet:** när fokus tar slut — byt till en lek.",
+      "**Beröm det som går bra:** ”Vad bra att du väntade bakom linjen!”",
+      "**Säkerhet går först:** när någon gör något farligt stoppar du klättringen direkt."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8865b521-c4e0-4a94-bd79-982995030a0c&size=1600",
+     "alt": "Bouldergrupp sedd ovanifrån",
+     "caption": "En samlad grupp är en trygg grupp."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4c21624b-cc32-43ac-a12f-0f7bb958bdcd&size=1600",
+     "alt": "Barn som klättrar",
+     "caption": "Ett barn med uppgift har sällan tid att busa."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Alla som hör mig — klappa två gånger!” … ”Bra! Nu sätter vi oss i en ring. Den som sitter först får starta nästa lek.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att höja rösten",
+     "text": "Skrik smittar. Ju högre du pratar, desto högre blir gruppen. Använd hellre signalen, tystnaden och ditt kroppsspråk. Skäll aldrig ut ett enskilt barn inför gruppen."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Om det inte går",
+     "text": "Om ett barn gång på gång bryter mot säkerhetsreglerna: ta barnet åt sidan och prata lugnt. Hjälper det inte — kontakta den ansvariga vuxna för kalaset. Du behöver inte lösa allt själv."
+    },
+    {
+     "type": "task",
+     "instruction": "Välj en samlingssignal och testa den med nästa grupp du har. Fråga en kollega vilken signal hen använder och varför.",
+     "hint": "Samma signal i hela hallen gör det lättare för barn som kommer tillbaka."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Riksidrottsförbundet — Riktlinjer för barn- och ungdomsidrott",
+     "url": "https://rf.se/download/18.bb2bb9e1900fe9007258a4/1718272991496/Riktlinjer_barn_ung_utskrift.pdf"
+    }
+   ]
+  },
+  {
+   "id": "barn-foraldrar",
+   "label": "1.5",
+   "title": "Bemötande av föräldrar",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Föräldrarna lämnar över det dyrbaraste de har. De vill känna att barnet är i goda händer. Ett bra bemötande gör dem trygga — och gör ditt jobb lättare."
+    },
+    {
+     "type": "heading",
+     "text": "Så möter du föräldrar"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Hälsa och presentera dig. Visa att det är du som ansvarar för gruppen.",
+      "Ta reda på vem som är [[ansvarig-vuxen|ansvarig vuxen]] för kalaset och hur du når hen.",
+      "Fråga om det finns något du behöver veta: allergier, rädslor, behov av stöd.",
+      "Förklara var föräldrar får vara och varför (fallzon, fokus för barnen).",
+      "Ge en kort återkoppling efteråt: något positivt om gruppen eller barnet."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "Personal i Klätterverket-hoodie",
+     "caption": "Visa vem du är — då vet föräldrarna vem de ska vända sig till."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Hej, jag heter Ali och har hand om kalaset i dag. Finns det något jag ska veta om något av barnen? … Toppen. Ni får gärna titta från bänken där borta. Där står ni säkert och barnen lyssnar bättre på mig.”"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga när en förälder pressar",
+     "text": "”Jag förstår att du vill att Ella ska prova en gång till. Hon har sagt att hon vill vila nu, så vi låter henne välja. Hon kan försöka igen sen om hon vill.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att diskutera ett barn inför andra",
+     "text": "Ta samtal om ett enskilt barn åt sidan, inte inför gruppen eller andra föräldrar. Prata om vad som hänt, inte om hur barnet ”är”."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem på plats föräldrar hänvisas till vid klagomål, frågor om pris eller ombokning, och om föräldrar under kalaset får klättra eller bouldra själva (regler, kort, kostnad)."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva med en kollega: hen spelar en förälder som vill säkra sitt barn utan rätt kort. Säg nej på ett vänligt sätt och ge ett alternativ.",
+     "hint": "Byt roller efteråt."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Barnombudsmannen — Barnets rätt att bli hörd",
+     "url": "https://www.barnombudsmannen.se/stod-och-verktyg/genomfora-barnkonventionen/barns-delaktighet-och-inflytande/barnkonventionen-om-barnets-ratt-att-bli-hord/"
+    }
+   ]
+  },
+  {
+   "id": "barn-kurs-rutiner",
+   "label": "2.1",
+   "title": "Barnkurs grundrutiner",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En barnkurs är en grupp som kommer tillbaka vecka efter vecka. Fasta rutiner gör barnen trygga och ger mer tid till klättring. Det gäller både [[klatterakademin|Klätterakademin]] och prova på-tillfällena."
+    },
+    {
+     "type": "heading",
+     "text": "Våra barnaktiviteter"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Aktivitet",
+      "Vem",
+      "Fakta"
+     ],
+     "rows": [
+      [
+       "Klätterakademin",
+       "6–10 år",
+       "Terminsavgift 2 595 kr"
+      ],
+      [
+       "Klätterakademin",
+       "11–17 år",
+       "Terminsavgift 2 995 kr"
+      ],
+      [
+       "Prova på (helg)",
+       "Barn minst 120 cm",
+       "350 kr, 90 min"
+      ],
+      [
+       "Prova på höstlov",
+       "Barn",
+       "275 kr"
+      ],
+      [
+       "Familjekurs",
+       "Vuxen + barn",
+       "1 595 kr vuxen, 250 kr barn"
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "text": "Rutin vid varje tillfälle"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Var på plats i god tid. Kolla deltagarlistan i [[zoezi|Zoezi]].",
+      "Ta emot barnen. Pricka av närvaro.",
+      "Samling: dagens plan på en minut.",
+      "Uppvärmning med lek.",
+      "Klättring och teknik, med [[kamratkontroll|kamratkontroll]] före varje start.",
+      "Avslutning: vad lärde vi oss? Vad gjorde du bra?",
+      "Lämna över till en vuxen. Inget barn går innan det är hämtat eller har lov att gå själv."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=90d0b063-f3e8-423e-951a-55c2cfc72fff&size=1600",
+     "alt": "Barn klättrar i hallen",
+     "caption": "Samma upplägg varje gång gör barnen trygga."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Välkomna tillbaka! I dag ska vi träna på att stå på tårna. Först lek, sedan klättring, sist en utmaning. Vem kommer ihåg vad vi gör innan vi klättrar? … Precis, kamratkontroll!”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: barnet som är under 120 cm",
+     "text": "Till prova på gäller att barn ska vara minst 120 cm. Mät hellre en gång för mycket. Det är en säkerhetsgräns, inte en förhandlingsfråga — men säg det vänligt och erbjud ett alternativ."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Hur närvaro registreras, rutin för hämtning (vem får hämta, vad göra om ingen kommer), vilka äldre barn som får gå hem själva, och hur man når vårdnadshavare under kursen."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta fram deltagarlistan för en barnkurs i Zoezi och gå igenom den med kursansvarig. Var syns kontaktuppgifter till vårdnadshavare?",
+     "hint": "Notera var listan ska ligga under passet."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Juniorklättring",
+     "url": "https://www.klatterforbundet.se/for-klubben/juniorklattring/"
+    }
+   ]
+  },
+  {
+   "id": "barn-kurs-pedagogik",
+   "label": "2.2",
+   "title": "Barnkurs pedagogik",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Barn lär sig genom att göra, leka och lyckas. Riksidrottsförbundets riktlinjer säger att barn ska få idrotta allsidigt och lekfullt, i sin egen takt — och att misslyckanden är en naturlig del av lärandet. Svenska Klätterförbundet säger det kort: **klättring ska vara roligt**."
+    },
+    {
+     "type": "heading",
+     "text": "Fem principer för barnkurser"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Lek först:** lär ut teknik genom lekar och utmaningar, inte långa förklaringar.",
+      "**Visa, säg, gör:** visa rörelsen, säg en sak att tänka på, låt barnet prova.",
+      "**En sak i taget:** en teknikpunkt per tillfälle räcker.",
+      "**Jämför inte barn med varandra:** jämför med hur barnet klättrade förra gången.",
+      "**Låt barnen vara med och bestämma:** välja led, lek eller utmaning."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "lekande-klattring"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce074c19-48de-4842-8666-a8a59450709e&size=1600",
+     "alt": "Instruktör visar en knut för en grupp",
+     "caption": "Visa — säg — gör."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=9a7e8594-c321-43b7-893f-3426f0e6c1d6&size=1600",
+     "alt": "Barn som klättrar och ler",
+     "caption": "Beröm försöket, inte bara toppen."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Jag såg att du provade att sätta foten högt — snyggt! Vill du testa att göra likadant på nästa grepp?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att prata för länge",
+     "text": "Barn tappar fokus snabbt. Över en minut av förklaringar är ofta för långt. Säg en sak, låt dem prova, och rätta i farten."
+    },
+    {
+     "type": "task",
+     "instruction": "Planera ett 15-minuterspass med en teknikpunkt (till exempel ”tysta fötter”). Skriv: lek, visa, prova, avsluta. Testa planen med en kollega som ”elev”.",
+     "hint": "Använd gärna en lek från lektionen Lekar & övningar."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Riksidrottsförbundet — Riktlinjer för barn- och ungdomsidrott",
+     "url": "https://rf.se/download/18.bb2bb9e1900fe9007258a4/1718272991496/Riktlinjer_barn_ung_utskrift.pdf"
+    }
+   ]
+  },
+  {
+   "id": "barn-ungdomstraning",
+   "label": "2.3",
+   "title": "Ungdomsträning",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ungdomar i 11–17-årsgruppen i [[klatterakademin|Klätterakademin]] vill både ha kul och bli bättre. De vill bli tagna på allvar. Enligt Riksidrottsförbundets riktlinjer ska elitinriktad verksamhet inte förekomma före 13 år, och tidig utslagning ska motverkas även efter det."
+    },
+    {
+     "type": "heading",
+     "text": "Så leder du ungdomar"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Delaktighet:** låt ungdomarna sätta egna mål och vara med och planera.",
+      "**Allsidighet:** blanda boulder, rep, teknik och rörlighet. Klätterförbundet rekommenderar att barn håller på med mer än en idrott.",
+      "**Ansvar steg för steg:** ungdomar som har rätt kort kan få ta mer ansvar, alltid under din uppsikt.",
+      "**Respekt för kroppen:** vila och återhämtning är en del av träningen. Kommentera aldrig vikt eller kroppsform.",
+      "**Ingen jämförelse:** varje ungdom utvecklas i sin egen takt."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=58651d57-2625-4c69-a377-bd00dcf638e2&size=1600",
+     "alt": "Säkrare som tittar upp mot klättraren",
+     "caption": "Ungdomar kan lära sig säkra — med rätt kort och under uppsikt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=0cce8ac8-8df5-478f-b7a0-ac6a484471a7&size=1600",
+     "alt": "Ung klättrare på väggen",
+     "caption": "Egna mål ger egen motivation."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kort",
+      "Vad det gäller"
+     ],
+     "rows": [
+      [
+       "[[gult-kort|Gult kort]]",
+       "Från 15 år. Automatsäkring/grundkontroll."
+      ],
+      [
+       "Grönt kort",
+       "Topprepssäkring, enligt SKF:s normer."
+      ],
+      [
+       "Rött kort",
+       "Ledklättring och ledsäkring."
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Vad vill du klara till slutet av terminen? … En 6a i boulder? Bra mål. Vad tror du är det första steget dit?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att bara träna de bästa",
+     "text": "Det är lätt att lägga all tid på de som redan är duktiga. Fördela din uppmärksamhet. Den som kämpar mest behöver ofta ditt stöd mest."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilka åldersregler och kortkrav som gäller för att ungdomar ska få säkra varandra under Klätterakademin, och om ungdomar får tävla eller åka på läger genom Klätterverket."
+    },
+    {
+     "type": "task",
+     "instruction": "Prata med två ungdomar i Klätterakademin om vad de vill bli bättre på. Skriv ned ett mål för var och en och följ upp nästa gång.",
+     "hint": "Ställ öppna frågor: ”vad”, ”hur”, ”varför”."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Utvecklingsmodellen",
+     "url": "https://www.klatterforbundet.se/tranare/utvecklingsmodellen/"
+    }
+   ]
+  },
+  {
+   "id": "barn-lekar",
+   "label": "2.4",
+   "title": "Lekar & övningar",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Leken är barnens sätt att lära sig. En bra klätterlek tränar teknik, balans och samarbete — utan att barnen märker att de tränar. Här är lekar du kan använda direkt. Alla görs på låg höjd i boulder (traversering) eller med säkring på topprep."
+    },
+    {
+     "type": "heading",
+     "text": "Klätterlekar"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Lek",
+      "Så går den till",
+      "Tränar"
+     ],
+     "rows": [
+      [
+       "**Lägg till ett grepp**",
+       "Första barnet gör ett drag på låg höjd. Nästa gör samma drag plus ett nytt. Fortsätt tills någon glömmer.",
+       "Minne, rörelseplanering"
+      ],
+      [
+       "**Tysta fötter (ninjafötter)**",
+       "Traversera så tyst du kan. Gruppen lyssnar. Hörs en fot får man börja om.",
+       "Precisa fotplaceringar"
+      ],
+      [
+       "**Statyn**",
+       "Barnen traverserar. När du säger ”staty!” fryser de på tre kontaktpunkter i fem sekunder.",
+       "Balans, tre kontaktpunkter"
+      ],
+      [
+       "**Färgjakt**",
+       "Barnet får bara använda grepp i en viss färg. Svårare: händer i en färg, fötter i en annan.",
+       "Läsa leder"
+      ],
+      [
+       "**Klädnypejakten**",
+       "Sätt klädnypor på grepp. Barnen klättrar och samlar dem. På topprep: en nypa högt upp.",
+       "Mod, rörelse uppåt"
+      ],
+      [
+       "**Spegeln**",
+       "Två barn bredvid varandra. Ett gör ett drag, det andra härmar.",
+       "Samarbete, kroppskontroll"
+      ],
+      [
+       "**Enhandsklättring**",
+       "Traversera kort sträcka med en hand bakom ryggen (låg höjd).",
+       "Balans, fotarbete"
+      ],
+      [
+       "**Gosedjursräddningen**",
+       "Ett gosedjur är ”fast” högt upp. Klättraren på topprep räddar det och firar ner det.",
+       "Mod, firning"
+      ]
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4057bd02-a1cd-46fa-85ff-47984ab83155&size=1600",
+     "alt": "Glada barn som klättrar",
+     "caption": "Leken gör att barnen glömmer att de tränar."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e9331293-2984-4e01-9abc-dc8005430601&size=1600",
+     "alt": "Grupp som passar en klättrare",
+     "caption": "Lekar i boulder sker på låg höjd, med fria mattor."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Nu kör vi Statyn! När jag säger staty fryser ni — två fötter och en hand på väggen. Den som står still längst får välja nästa färg.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: tävling som blir farlig",
+     "text": "Lekar med tid eller vinnare kan få barn att stressa och hoppa ner. Håll lekarna på låg höjd, påminn om att klättra ner, och se till att väntande barn står utanför fallzonen."
+    },
+    {
+     "type": "task",
+     "instruction": "Testa två lekar från tabellen med en kollega eller en grupp. Skriv ned vad som fungerade och vilken ålder leken passar.",
+     "hint": "Tänk på hur leken kan göras lättare och svårare."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Riksidrottsförbundet — Riktlinjer för barn- och ungdomsidrott (lek och allsidighet)",
+     "url": "https://rf.se/download/18.bb2bb9e1900fe9007258a4/1718272991496/Riktlinjer_barn_ung_utskrift.pdf"
+    }
+   ]
+  },
+  {
+   "id": "barn-radd-ledsen",
+   "label": "3.1",
+   "title": "Barn rädd/ledsen",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Det är helt normalt att vara rädd på hög höjd — för barn och vuxna. Ett barn som vågar lite och känner sig tryggt kommer tillbaka. Ett barn som tvingats kommer kanske aldrig tillbaka. **Ingen ska tvingas.**"
+    },
+    {
+     "type": "heading",
+     "text": "När ett barn är rädd eller ledset"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Stanna upp. Gå ner på barnets nivå och prata lugnt.",
+      "Bekräfta känslan: ”Det känns läskigt. Det är okej.”",
+      "Ge barnet valet: fortsätta en bit, komma ner, eller vila.",
+      "Om barnet sitter i repet: berätta vad som händer, steg för steg, medan du firar ner lugnt.",
+      "Ge en mindre utmaning: en meter upp, eller boulder på låg höjd.",
+      "Beröm modet, inte höjden.",
+      "Berätta för den vuxna efteråt — utan att göra en stor sak av det."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4c21624b-cc32-43ac-a12f-0f7bb958bdcd&size=1600",
+     "alt": "Barn som klättrar med instruktör nära",
+     "caption": "Trygghet först — höjden kommer sen."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Du har klättrat jättebra. Vill du gå upp ett grepp till, eller vill du komma ner? Du bestämmer. Jag håller i repet hela tiden.”"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga till ett ledset barn",
+     "text": "”Det är okej att vara ledsen. Vill du sitta här med mig en stund? Vi kan titta på när de andra klättrar.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: ”Kom igen, du klarar det!”",
+     "text": "Det låter peppigt, men för ett rädd barn kan det kännas som press. Låt barnet bestämma. Barnkonventionen säger att barn har rätt att bli hörda i frågor som rör dem — det gäller också i klätterhallen."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Oro för ett barn",
+     "text": "Ser eller hör du något som gör dig orolig för hur ett barn har det — kontakta **alltid** [[platsansvarig|platsansvarig]]. Du ska inte utreda något själv."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Klätterverkets rutin vid oro för ett barn: vem som är platsansvarig, hur du når hen, och vad som dokumenteras."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva med en kollega: hen spelar ett barn som fastnat mitt på väggen och är rädd. Prata hen ner lugnt medan du säkrar (på låg höjd).",
+     "hint": "Fokusera på rösten: lugn, långsam, konkret."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: 1177 — Ångest och fobier hos barn och tonåringar",
+     "url": "https://www.1177.se/sjukdomar--besvar/psykiska-sjukdomar-och-besvar/angest/angest-och-fobier-hos-barn-och-tonaringar/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Barnombudsmannen — Barnets rätt att bli hörd",
+     "url": "https://www.barnombudsmannen.se/stod-och-verktyg/genomfora-barnkonventionen/barns-delaktighet-och-inflytande/barnkonventionen-om-barnets-ratt-att-bli-hord/"
+    }
+   ]
+  },
+  {
+   "id": "barn-sakerhet",
+   "label": "3.2",
+   "title": "Barn och säkerhet",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Barn rör sig snabbt, glömmer regler och har svårt att bedöma risker. Därför har Klätterverket särskilda regler för barn — framför allt i boulder. Du ska kunna dem och kunna förklara dem för både barn och vuxna."
+    },
+    {
+     "type": "heading",
+     "text": "Klätterverkets regler för barn"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Område",
+      "Regel"
+     ],
+     "rows": [
+      [
+       "Boulder",
+       "Barn under 13 år ska ha en ansvarig person över 15 år med minst [[gult-kort|gult kort]]. Max 2 barn per vuxen."
+      ],
+      [
+       "Boulder",
+       "Mattorna ska vara fria från föremål. Klättra ner — hoppa inte från toppen."
+      ],
+      [
+       "Sickla",
+       "Ingen rutschkana eller åkning i tunneln."
+      ],
+      [
+       "Gym",
+       "Sickla: från 10 år (under 13 med vuxen). Gasverket: från 15 år."
+      ],
+      [
+       "Rep",
+       "Grönt kort för topprep, rött för led. [[autobelay|Automatsäkring]]: gult, grönt eller rött kort."
+      ],
+      [
+       "Alla",
+       "Kamratkontroll före varje klättring. Fri fallzon."
+      ]
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4510a3c9-0a4d-414a-9d80-06268d59a5e9&size=1600",
+     "alt": "Klättrare bouldrar på ett överhäng",
+     "caption": "I boulder landar man på mattan — därför måste den vara fri."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=7eb21af8-0c0f-4aa4-8766-b38f43409fa5&size=1600",
+     "alt": "Barn med hjälm",
+     "caption": "Barn behöver vuxna som tänker på riskerna åt dem."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "fallzon"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Hej! Hur gamla är barnen? … För barn under 13 i boulder behöver det finnas en vuxen över 15 år med gult kort, och högst två barn per vuxen. Har du gult kort? Annars kan jag hjälpa dig boka ett.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: barn som springer över mattorna",
+     "text": "Ett barn som springer över bouldermattan kan krocka med någon som faller. Stoppa vänligt och förklara varför — barnen förstår oftast när de får veta skälet."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Vid oro för ett barn",
+     "text": "Kontakta alltid platsansvarig. Det gäller både säkerhetsrisker och om du är orolig för hur ett barn har det."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Rutin om ett barn lämnas utan ansvarig vuxen i hallen, var olycks- och tillbudsrapporter fylls i, och hur incidenter med barn följs upp."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt i boulderdelen i din hall i 10 minuter. Räkna hur många barn under 13 som är där och kontrollera att varje barn har en ansvarig vuxen enligt reglerna.",
+     "hint": "Säg till vänligt om något inte stämmer — och be en kollega följa med första gången."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Trygg klättring",
+     "url": "https://www.klatterforbundet.se/om-forbundet/trygg-klattring/"
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu är du klar med alla lektioner. Provet har 12 frågor som dras ur en frågebank. Du behöver 80 % rätt och har tre försök."
+    }
+   ]
+  }
+ ],
+ "terms": {
+  "ansvarig-vuxen": {
+   "term": "Ansvarig vuxen",
+   "definition": "Den vuxna som har ansvaret för barnen när de inte är hos instruktören — på kalas oftast den som bokat. Du ska veta vem det är och hur du når hen."
+  },
+  "fallzon": {
+   "term": "Fallzon",
+   "definition": "Ytan under och runt en klättrare där hen kan landa eller pendla vid ett fall. Ingen ska stå, sitta eller lägga saker där."
+  },
+  "kamratkontroll": {
+   "term": "Kamratkontroll",
+   "definition": "Kontrollen av sele, knut och säkringsutrustning som alltid görs innan man klättrar. Kallas också partnercheck."
+  },
+  "autobelay": {
+   "term": "Automatsäkring",
+   "definition": "En automatisk säkringsanordning (autobelay) som drar in repet och firar ner klättraren. Kräver gult, grönt eller rött kort på Klätterverket."
+  },
+  "gult-kort": {
+   "term": "Gult kort",
+   "definition": "Klätterverkets kort för automatsäkring och grundkontroll. Från 15 år, ca 30 minuter. Krävs för vuxna som ansvarar för barn i boulder."
+  },
+  "klatterakademin": {
+   "term": "Klätterakademin",
+   "definition": "Klätterverkets terminskurser för barn och ungdomar, i grupperna 6–10 år och 11–17 år."
+  },
+  "zoezi": {
+   "term": "Zoezi",
+   "definition": "Klätterverkets bokningssystem för kurser, kalas, kort och medlemskap."
+  },
+  "lekande-klattring": {
+   "term": "Lekande klättring",
+   "definition": "Första steget i Svenska Klätterförbundets utvecklingsmodell. Fokus på att prova, leka och ha kul — och gärna andra idrotter också."
+  },
+  "platsansvarig": {
+   "term": "Platsansvarig",
+   "definition": "Den person som har ansvaret för hallen under passet. Du kontaktar alltid platsansvarig vid olycka eller oro för ett barn."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Barn & ungdom",
+  "passScore": 0.8,
+  "draw": 12,
+  "attempts": 3,
+  "items": [
+   {
+    "type": "single",
+    "stem": "Hur många barn kan ett barnkalas på Klätterverket ha?",
+    "options": [
+     "10–18 barn",
+     "5–10 barn",
+     "8–24 barn",
+     "Hur många som helst"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-kalasinstruktor",
+    "why": "Ett kalas är från minst 10 till högst 18 barn."
+   },
+   {
+    "type": "single",
+    "stem": "När startar barnkalasen?",
+    "options": [
+     "Helger 10:15 och 15:15",
+     "Vardagar 16:00",
+     "Helger 09:00 och 13:00",
+     "Alla dagar 14:00"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-kalasinstruktor",
+    "why": "Kalasen körs på helgerna med start 10:15 och 15:15."
+   },
+   {
+    "type": "single",
+    "stem": "Vad erbjuds kalasgäster i Sickla?",
+    "options": [
+     "Kalas med Bricks Burgers",
+     "Prinsesstårta från Mätarhuset",
+     "Brunch i Kontrollrummet",
+     "Inget fika alls"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-perfekta-kalaset",
+    "why": "I Sickla kombineras kalaset med Bricks Burgers. Tårtpaketen finns på Gasverket."
+   },
+   {
+    "type": "multi",
+    "stem": "Vad ska du ta reda på innan kalaset börjar? Välj alla som stämmer.",
+    "options": [
+     "Antal barn",
+     "Allergier",
+     "Vilket paket som bokats",
+     "Barnens betyg i idrott"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "barn-perfekta-kalaset",
+    "why": "Antal, allergier och paket står i bokningen och behövs för planeringen."
+   },
+   {
+    "type": "single",
+    "stem": "En förälder på kalaset vill säkra sitt barn men har inget kort. Vad gör du?",
+    "options": [
+     "Säger vänligt nej och ger föräldern en annan roll",
+     "Låter föräldern säkra om du står bredvid",
+     "Låter föräldern säkra eftersom det är hens barn",
+     "Avbryter kalaset"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-kalas-sakerhet",
+    "why": "Den som säkrar ska ha rätt kort, och kortet ska synas på selen.",
+    "intro": "Kalaset har precis börjat."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka regler gäller i boulder? Välj alla som stämmer.",
+    "options": [
+     "Klättra ner, hoppa inte från toppen",
+     "Mattorna ska vara fria från föremål",
+     "Väskor kan stå på mattan om de är små",
+     "Barn under 13 ska ha en ansvarig person över 15 år med minst gult kort"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ],
+    "lesson": "barn-sakerhet",
+    "why": "Inga föremål på mattorna — oavsett storlek."
+   },
+   {
+    "type": "single",
+    "stem": "Hur många barn under 13 år får en ansvarig vuxen ha med sig i boulder?",
+    "options": [
+     "Högst 2",
+     "Högst 4",
+     "Högst 6",
+     "Obegränsat"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-sakerhet",
+    "why": "Klätterverkets regel är max 2 barn per vuxen i boulder."
+   },
+   {
+    "type": "single",
+    "stem": "Gruppen är stökig och ingen lyssnar. Vad är bäst att göra först?",
+    "options": [
+     "Använda gruppens samlingssignal",
+     "Höja rösten tills alla hör",
+     "Skälla ut barnet som stör mest",
+     "Låta barnen hålla på tills de tröttnar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-stokig-grupp",
+    "why": "En inövad signal fungerar bättre än att höja rösten. Skrik smittar."
+   },
+   {
+    "type": "single",
+    "stem": "Ett barn springer runt i stället för att vänta på sin tur. Vilket verktyg passar bra?",
+    "options": [
+     "Ge barnet en uppgift, t.ex. mattvakt",
+     "Skicka hem barnet",
+     "Ignorera det",
+     "Låta barnet klättra före alla andra"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-stokig-grupp",
+    "why": "En uppgift ger barnet något meningsfullt att göra och håller det borta från fallzonen."
+   },
+   {
+    "type": "single",
+    "stem": "En förälder säger åt sitt rädda barn att ”bara klättra upp”. Vad gör du?",
+    "options": [
+     "Låter barnet själv välja och förklarar det lugnt för föräldern",
+     "Håller med föräldern",
+     "Tar ner barnet utan att säga något",
+     "Säger till föräldern att gå"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-foraldrar",
+    "why": "Ingen ska tvingas. Du kan vara vänlig mot föräldern och samtidigt låta barnet bestämma."
+   },
+   {
+    "type": "single",
+    "stem": "Hur lång måste ett barn vara för att delta i prova på?",
+    "options": [
+     "Minst 120 cm",
+     "Minst 100 cm",
+     "Minst 140 cm",
+     "Det finns ingen gräns"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-kurs-rutiner",
+    "why": "Barn ska vara minst 120 cm för prova på."
+   },
+   {
+    "type": "single",
+    "stem": "Vilka åldersgrupper finns i Klätterakademin?",
+    "options": [
+     "6–10 år och 11–17 år",
+     "4–8 år och 9–15 år",
+     "7–12 år och 13–18 år",
+     "Bara 11–17 år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-kurs-rutiner",
+    "why": "Klätterakademin har grupperna 6–10 år och 11–17 år."
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt grundrutinen för ett barnkurstillfälle i rätt ordning.",
+    "options": [
+     "Kolla deltagarlistan",
+     "Ta emot och pricka av",
+     "Samling med dagens plan",
+     "Uppvärmning med lek",
+     "Klättring med kamratkontroll",
+     "Avslutning och överlämning till vuxen"
+    ],
+    "lesson": "barn-kurs-rutiner",
+    "why": "Fasta rutiner i samma ordning gör barnen trygga."
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka principer gäller för barnkurser? Välj alla som stämmer.",
+    "options": [
+     "Lek först",
+     "En teknikpunkt i taget",
+     "Jämför barnen med varandra för att sporra dem",
+     "Låt barnen vara med och bestämma"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ],
+    "lesson": "barn-kurs-pedagogik",
+    "why": "Enligt RF:s riktlinjer ska barn inte jämföras med varandra."
+   },
+   {
+    "type": "single",
+    "stem": "Enligt Riksidrottsförbundets riktlinjer: från vilken ålder får elitinriktad verksamhet förekomma?",
+    "options": [
+     "13 år",
+     "8 år",
+     "10 år",
+     "18 år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-ungdomstraning",
+    "why": "Före 13 år ska elitinriktad verksamhet inte förekomma."
+   },
+   {
+    "type": "single",
+    "stem": "Vad är rätt sätt att prata om kropp med ungdomar i träning?",
+    "options": [
+     "Prata om vila och återhämtning, aldrig om vikt eller kroppsform",
+     "Tipsa om att gå ner i vikt för att klättra bättre",
+     "Jämföra kroppar i gruppen",
+     "Undvika allt prat om återhämtning"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-ungdomstraning",
+    "why": "RF:s riktlinjer säger att ledare inte ska kommentera barns vikt eller kroppsform."
+   },
+   {
+    "type": "single",
+    "stem": "I leken Statyn fryser barnen på väggen. Vad tränar leken främst?",
+    "options": [
+     "Balans och tre kontaktpunkter",
+     "Snabbhet",
+     "Uthållighet på hög höjd",
+     "Att hoppa ner"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-lekar",
+    "why": "Statyn tränar balans och att hålla tre kontaktpunkter."
+   },
+   {
+    "type": "single",
+    "stem": "Hur gör du lekar med tävlingsmoment säkra i boulder?",
+    "options": [
+     "Låg höjd, klättra ner och väntande utanför fallzonen",
+     "Längre tid så att alla hinner",
+     "Låta vinnaren hoppa från toppen",
+     "Inga regler — det är ju en lek"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-lekar",
+    "why": "Tävling kan stressa barn. Låg höjd, nedklättring och fri fallzon gör leken säker."
+   },
+   {
+    "type": "single",
+    "stem": "Ett barn sitter i repet halvvägs upp och gråter. Vad säger du?",
+    "options": [
+     "”Du bestämmer — vill du gå ett grepp till eller komma ner?”",
+     "”Kom igen, du klarar det!”",
+     "”Titta inte ner, bara fortsätt.”",
+     "Ingenting, du firar ner direkt utan att förklara"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-radd-ledsen",
+    "why": "Ge barnet valet och förklara vad som händer. Ingen ska tvingas."
+   },
+   {
+    "type": "single",
+    "stem": "Du blir orolig för hur ett barn har det hemma. Vad gör du?",
+    "options": [
+     "Kontaktar platsansvarig",
+     "Frågar ut barnet",
+     "Pratar med de andra föräldrarna",
+     "Väntar och ser"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-radd-ledsen",
+    "why": "Vid oro för ett barn kontaktar du alltid platsansvarig. Du utreder inte själv."
+   },
+   {
+    "type": "single",
+    "stem": "Vilken åldersgräns gäller för gymmet på Gasverket?",
+    "options": [
+     "15 år",
+     "10 år",
+     "13 år",
+     "18 år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "barn-sakerhet",
+    "why": "Gasverket: 15 år. Sickla: 10 år, och under 13 med vuxen."
+   }
+  ]
+ }
+}

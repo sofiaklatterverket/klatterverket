@@ -1,0 +1,1850 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "instruktor",
+  "title": "Instruktör",
+  "summary": "Allt du behöver för att leda Klätterverkets kurser tryggt och inspirerande — från rutiner och säkerhetsansvar enligt SKF:s normer till pedagogik, svåra situationer och att hjälpa deltagaren vidare. Avslutas med prov och intyg.",
+  "audience": [
+   "instructor"
+  ],
+  "estimatedMinutes": 90,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24
+  },
+  "modules": [
+   {
+    "title": "Före och i början av kursen",
+    "lessons": [
+     "ins-rutiner",
+     "ins-saljmetoder",
+     "ins-valkomna",
+     "ins-sakerhetsansvar"
+    ]
+   },
+   {
+    "title": "Leda och lära ut",
+    "lessons": [
+     "ins-grupphantering",
+     "ins-pedagogik",
+     "ins-barn",
+     "ins-vuxna",
+     "ins-radd",
+     "ins-foljer-inte"
+    ]
+   },
+   {
+    "title": "Utrustning, avslut och nästa steg",
+    "lessons": [
+     "ins-utrustning",
+     "ins-avsluta",
+     "ins-till-kund",
+     "ins-feedback",
+     "ins-avancerat"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "ins-rutiner",
+   "label": "1.1",
+   "title": "Rutiner",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Som instruktör är du gruppens trygghet från första minuten. Bra rutiner gör att du kan lägga energin på deltagarna i stället för att leta efter selar eller undra vem som är anmäld. Den här lektionen handlar om ramarna runt varje kurs: före, under och efter."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aad640c6-f322-43eb-be4f-a954a98af0fd&size=1600",
+     "alt": "Två instruktörer i Klätterverkets hall",
+     "caption": "Kom i tid, så hinner du förbereda och stämma av med kollegan."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Före kursen"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Kom i god tid**, gärna 15–20 minuter före start. Byt om och gör dig synlig i Klätterverket-kläder.",
+      "**Hämta deltagarlistan i Zoezi.** Kolla antal, ålder och om någon skrivit något om hälsa eller tidigare erfarenhet.",
+      "**Stäm av med receptionen**: har alla betalat och checkat in? Behöver någon hyrutrustning — skor, sele, repbroms, kritpåse?",
+      "**Välj och kontrollera leder och utrustning** innan gruppen kommer (se lektion 3.1).",
+      "**Kolla gruppstorleken.** Grönt kort har max 4 deltagare per grupp och instruktör enligt [[skf-norm|SKF:s norm]]."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Under och efter kursen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Håll tiden. Grönt kort är **2 × 2 timmar** — SKF:s norm kräver minst 4 timmar kurstid för högst 4 elever.",
+      "Lämna aldrig gruppen ensam vid väggen. Måste du gå: stoppa all klättring först.",
+      "Registrera resultat (godkänd uppklättring, utfärdat kort) i Zoezi samma dag.",
+      "Lämna tillbaka utrustning, häng upp rep och rapportera trasig utrustning direkt."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kurs",
+      "Längd",
+      "Pris"
+     ],
+     "rows": [
+      [
+       "Gult kort (från 15 år)",
+       "ca 30 min",
+       "495 kr"
+      ],
+      [
+       "Grönt kort (topprep)",
+       "2 × 2 h, max 4 per grupp",
+       "1350 kr"
+      ],
+      [
+       "Rött kort (led)",
+       "enligt kursupplägg",
+       "1650 kr"
+      ],
+      [
+       "Prova på (helg)",
+       "90 min",
+       "350 kr"
+      ],
+      [
+       "Privat instruktör",
+       "max 6 pers",
+       "1695 kr"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel från Gasverket",
+     "text": "Lördag 09:45. Ida öppnar Zoezi och ser att en deltagare på grönt kort-kursen är 14 år. Hon tar en extra titt på hen under kursen och är noga vid uppklättringen — SKF rekommenderar 13 år som lägsta ålder och extra noggrann kontroll av tonåringar."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: \"Jag hinner förbereda när de kommer\"",
+     "text": "Då står fyra förväntansfulla deltagare och väntar medan du letar efter en sele i rätt storlek. Första intrycket blir stress. Förbered allt innan gruppen syns."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta exakt rutin för: hur instruktören hittar sina pass och deltagarlistor i Zoezi, var kursutrustningen förvaras på Gasverket respektive Sickla, hur trasig utrustning rapporteras, och var den interna kursmanualen för gult, grönt och rött kort finns."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå igenom ditt nästa pass i Zoezi. Ta reda på var kursutrustningen förvaras i din hall och räkna att det finns selar och repbromsar till en full grupp.",
+     "hint": "Fråga en erfaren kollega om deras egen checklista inför start."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm kurs i topprepsklättring inomhus (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-saljmetoder",
+   "label": "1.2",
+   "title": "Säljmetoder",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Försäljning för en instruktör handlar inte om att pracka på någon något. Det handlar om att hjälpa deltagaren att fortsätta klättra. Den som har roligt på kursen vill ofta veta \"vad gör jag nu?\" — och då ska du ha ett bra svar."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1bf8f05d-7675-4c79-b568-563ec45119ca&size=1600",
+     "alt": "Leende kvinna med rep efter klättring",
+     "caption": "Glädjen efter första toppen är det bästa säljläget som finns."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Tre principer"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Lyssna först.** Fråga vad deltagaren vill: träna regelbundet, klättra med en kompis, bli starkare, klättra utomhus?",
+      "**Föreslå ett nästa steg** som passar svaret — inte hela prislistan.",
+      "**Gör det enkelt.** Berätta var och hur: receptionen, Zoezi eller kundportalen GoActive."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Nästa steg-trappan"
+    },
+    {
+     "type": "richtext",
+     "text": "Kurserna bygger på varandra. Det kallar vi [[nasta-steg|nästa steg-trappan]]: gult → grönt → rött kort, och sedan regelbunden klättring och träning."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "nasta-steg"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Steg",
+      "Vad",
+      "Pris"
+     ],
+     "rows": [
+      [
+       "Gult kort",
+       "Automatsäkring, ca 30 min, från 15 år",
+       "495 kr"
+      ],
+      [
+       "Grönt kort",
+       "Topprep, 2 × 2 h",
+       "1350 kr"
+      ],
+      [
+       "Rött kort",
+       "Ledklättring och ledsäkring",
+       "1650 kr"
+      ],
+      [
+       "Gruppträning grundkurs",
+       "8 tillfällen",
+       "2500 kr"
+      ],
+      [
+       "Månadskort Guld / Silver",
+       "Klättra fritt",
+       "590 / 510 kr"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Ni har säkrat jättefint idag. Många som tar grönt kort vill sedan klättra ett par gånger i veckan — då blir ett månadskort snabbt billigare än enstaka entréer. Och om du vill bli en tryggare klättrare finns gruppträning grundkurs, åtta tillfällen. Vill du att jag visar var du hittar det?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att sälja innan säkerheten sitter",
+     "text": "Prata inte nästa kurs mitt i säkringsövningen. Fokus ska ligga på säkerheten. Säljsamtalet hör hemma i slutet, när deltagaren känner sig trygg och nöjd."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta aktuella priser mot hemsidan innan publicering, om instruktörer får erbjuda rabatt eller kampanj, och om försäljning ska registreras på instruktören (t.ex. i Zoezi)."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva \"Så kan du säga\"-repliken högt med en kollega. Kollegan spelar en deltagare som vill klättra med sin partner. Vilket nästa steg föreslår du?",
+     "hint": "Svar som passar: grönt kort för partnern, eller månadskort för båda."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm kurs i ledklättring inomhus (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-ledklattring-inomhus.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-ledklattring-inomhus.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-valkomna",
+   "label": "1.3",
+   "title": "Välkomna ny grupp",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "De första fem minuterna avgör hur gruppen mår resten av kursen. Många är nervösa, en del har aldrig varit i en klätterhall. Ett varmt och tydligt välkomnande sänker axlarna — och gör att de lyssnar när det gäller."
+    },
+    {
+     "type": "video",
+     "title": "Gasverket — så ser hallen ut (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e81568f0-2357-43f9-a7ab-3eb092fd2c63&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så välkomnar du"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Möt gruppen** på en bestämd plats, gärna vid receptionen. Le, presentera dig med namn.",
+      "**Lär dig namnen** direkt och använd dem. Låt alla säga namn och om de klättrat förut.",
+      "**Berätta planen**: vad ni gör idag, när det är paus, hur långt passet är.",
+      "**Gå igenom hallens regler kort**: klätterkortet synligt på selen, alltid [[kamratkontroll|kamratkontroll]], fri [[fallzon|fallzon]], ingen alkohol eller droger.",
+      "**Fråga om skador eller annat** du behöver veta — diskret, gärna en och en."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce074c19-48de-4842-8666-a8a59450709e&size=1600",
+     "alt": "Instruktör med en grupp nybörjare",
+     "caption": "Samla gruppen så att alla ser och hör dig."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Hej och välkomna! Jag heter Sara och är er instruktör idag. Ni behöver inte kunna något alls — det är därför ni är här. Vi börjar med selen och knuten, och innan vi går hem har alla varit uppe på väggen. Är det någon som har en skada jag borde känna till? Säg till mig efteråt om ni vill.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: för mycket information direkt",
+     "text": "En lång föreläsning om allt som kan gå fel skrämmer och glöms bort. Säg det viktigaste nu. Resten lär de sig när de gör momenten."
+    },
+    {
+     "type": "task",
+     "instruction": "Skriv ner din egen välkomstreplik på max 30 sekunder och testa den på en kollega. Klocka den.",
+     "hint": "Namn, plan, regler i korthet, fråga om skador."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm topprepsinstruktörskurs (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-sakerhetsansvar",
+   "label": "1.4",
+   "title": "Säkerhetsansvar",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Under kursen är det du som ansvarar för att deltagarna klättrar och säkrar säkert. SKF:s norm säger att instruktören ska se efter sin egen, elevernas och omgivningens säkerhet — och hålla sin och kursens utrustning i gott skick."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8d821414-296f-4164-bb6a-706e4da44ebb&size=1600",
+     "alt": "Instruktör kontrollerar en deltagares säkring",
+     "caption": "Du kontrollerar varje säkring tills deltagaren klarar det själv."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Klätterverkets regler som du lär ut"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Kortet syns på selen**: [[gult-kort|gult kort]] för automatsäkring, [[gront-kort|grönt kort]] för topprep, [[rott-kort|rött kort]] för led.",
+      "**[[kamratkontroll|Kamratkontroll]] alltid** innan klättring.",
+      "**[[attaknut|Åttaknut]]** för inknytning direkt i selen.",
+      "**[[hjalplasande-broms|Hjälplåsande broms]]** rekommenderas. **Firningsåtta och HMS-säkring är förbjudet** i hallen.",
+      "**Fallzonen ska vara fri.**"
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kamratkontroll"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så kontrollerar du som instruktör"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Låt deltagaren göra kamratkontrollen högt — **sedan kontrollerar du själv**, varje gång, tills hen klarar det felfritt.",
+      "Använd [[svansning|backupsäkring (svansning)]] vid säkringsövning: du håller i den passiva repänden en bit under säkrarens bromshand, tills säkringen sköts korrekt.",
+      "Bromshanden ska alltid hålla om repet — minst en decimeter från bromsen, så att den inte kläms.",
+      "Kontrollera [[stoppknut|stoppknuten]] i repänden, minst 50 cm från änden.",
+      "Ha högst två replag aktiva samtidigt per instruktör vid ledkurs, och aldrig fler än du hinner se."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "svansning"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel från Sickla",
+     "text": "Johan ser att Maja ska börja säkra med repet i bromsen men karbinen olåst. Han säger lugnt: \"Stopp — kolla karbinen en gång till.\" Maja låser, visar honom, och de fortsätter. Ingen skam, bara en vana."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att lita på att \"de har ju gjort kamratkontrollen\"",
+     "text": "Nybörjare kan göra kontrollen utan att se felet. Du kontrollerar själv tills deltagaren är godkänd. Det är ditt ansvar, inte deras."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta hallens krisplan och utrymningsplan, var första hjälpen-väska och hjärtstartare finns på Gasverket och Sickla, vem instruktören larmar internt och hur tillbud och olyckor rapporteras. SKF:s instruktörsnorm förutsätter att instruktören kan grundläggande kris- och utrymningsplan."
+    },
+    {
+     "type": "task",
+     "instruction": "Leta upp första hjälpen-väskan, hjärtstartaren och närmaste nödutgång i din hall. Gör sedan en kamratkontroll med en kollega där kollegan har gömt ett fel — hittar du det?",
+     "hint": "Vanliga fel: olåst karbin, knuten genom bara en ögla, ej dubblerat spänne."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm inomhusinstruktör (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-inomhusinstruktor.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-inomhusinstruktor.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-grupphantering",
+   "label": "2.1",
+   "title": "Grupphantering",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En grupp på fyra kan kännas liten — tills två klättrar, en säkrar och en står och pillar med knuten. Bra grupphantering betyder att du ser alla, att alla är aktiva och att du alltid har överblick över de replag som är igång."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8865b521-c4e0-4a94-bd79-982995030a0c&size=1600",
+     "alt": "En grupp på boulderytan sedd ovanifrån",
+     "caption": "Placera gruppen så att du ser alla på en gång."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Grundregler"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Överblick först.** Ställ dig så att du ser alla aktiva replag. Rygg mot väggen när du pratar, så ser du gruppen och väggen.",
+      "**Aktivitet framför väntan.** SKF:s instruktörsnorm säger att elevernas aktivitet ska prioriteras. Den som väntar kan öva knut eller göra kamratkontroll.",
+      "**Tydliga roller**: klättrare, säkrare, och en som [[svansning|svansar]] eller observerar.",
+      "**Ett replag i taget i början** tills du sett att varje säkrare hanterar säkringen.",
+      "**Samla gruppen** med en bestämd signal när något nytt ska visas."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e9331293-2984-4e01-9abc-dc8005430601&size=1600",
+     "alt": "Grupp som passar varandra vid bouldring",
+     "caption": "Ge den som väntar en uppgift — till exempel att passa eller observera."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel från Gasverket",
+     "text": "Fyra kollegor på grönt kort. Två är snabba, två försiktiga. Instruktören parar ihop en snabb med en försiktig, låter de snabba säkra först och ger de försiktiga uppgiften att göra kamratkontrollen högt. Alla är aktiva, ingen hamnar efter."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att bli stående med en deltagare",
+     "text": "Du hjälper en person med knuten i tre minuter — samtidigt börjar någon annan klättra utan kontroll. Gör det till en regel: ingen klättring startar utan att du har sagt ok."
+    },
+    {
+     "type": "task",
+     "instruction": "Under nästa kurs du går bredvid: rita upp var instruktören står i förhållande till replagen. Ser hen alla? Var skulle du själv ha stått?",
+     "hint": "Prova att stå snett bakom säkrarna, så ser du både bromshand och klättrare."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm topprepsinstruktörskurs (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-pedagogik",
+   "label": "2.2",
+   "title": "Pedagogik",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Nybörjare kommer ihåg det de gör — inte det de hör. Därför bygger våra kurser på att deltagarna gör momenten själva, så tidigt som möjligt, och att du rättar direkt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce074c19-48de-4842-8666-a8a59450709e&size=1600",
+     "alt": "Instruktör visar en knut för gruppen",
+     "caption": "Visa långsamt, en gång i taget."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Visa – gör – rätta"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "visa-gor-ratta"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Visa** momentet i lugnt tempo, i helhet. Säg vad du gör.",
+      "**Visa igen** och dela upp i små delar.",
+      "**Låt deltagaren göra** — direkt, medan du tittar.",
+      "**Rätta** kort och konkret: \"Bromshanden ner, bra!\" Beröm det som är rätt.",
+      "**Repetera** tills det sitter. Byt roller."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Korta instruktioner och kontrollfrågor"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**En sak i taget.** Max tre punkter innan deltagarna får göra.",
+      "**Samma ord varje gång.** Använd kommandona enligt den svenska modellen: \"Säkring klar\", \"Jag klättrar\", \"Ta hem\", \"Slacka\", \"Ta mig\".",
+      "**Ställ [[kontrollfraga|kontrollfrågor]]** i stället för \"Har ni förstått?\": \"Var ska bromshanden vara när du tar hem repet?\"",
+      "**Visa från deltagarens håll**, så att höger och vänster blir rätt."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kontrollfraga"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=d99e1676-6370-4b62-aa0c-7dcc3db2bb4b&size=1600",
+     "alt": "Gul åttaknut på nära håll",
+     "caption": "Åttaknuten är perfekt att lära ut med visa–gör–rätta."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Titta på min knut först. Nu gör ni samma sak. ... Bra! Peka nu på de två öglorna repet ska gå igenom. Och vad gör du om knuten ser annorlunda ut än min?\" (Svar: knyter om och ber instruktören kolla.)"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: \"Har alla förstått?\"",
+     "text": "Alla nickar, ingen vågar säga nej. En kontrollfråga visar på riktigt vad deltagaren kan."
+    },
+    {
+     "type": "task",
+     "instruction": "Lär ut åttaknuten till en kollega med visa–gör–rätta. Ställ minst två kontrollfrågor. Be kollegan säga vad som var tydligt och vad som var otydligt.",
+     "hint": "Klocka dig: hur lång var din första instruktion?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm kurs i topprepsklättring inomhus (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-barn",
+   "label": "2.3",
+   "title": "Instruera barn",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Barn klättrar med hela kroppen och hela hjärtat. De är ofta modiga på väggen men lyssnar kortare stunder. Prova på-kurser, familjekurser, barnkalas och Klätterakademin kräver en annan rytm än en vuxengrupp."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6b7d2a6a-b3aa-491b-8b97-f1f480ea1aca&size=1600",
+     "alt": "Barn som klättrar på väggen",
+     "caption": "Barn lär sig genom lek — gör övningarna till utmaningar."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Fakta du behöver kunna"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Aktivitet",
+      "Ålder/krav",
+      "Pris"
+     ],
+     "rows": [
+      [
+       "Prova på (helg)",
+       "Barn minst 120 cm, 90 min",
+       "350 kr"
+      ],
+      [
+       "Familjekurs",
+       "Vuxen + barn",
+       "1595 kr vuxen / 250 kr barn"
+      ],
+      [
+       "Klätterakademin",
+       "6–10 år / 11–17 år",
+       "2595 / 2995 kr per termin"
+      ],
+      [
+       "Barnkalas",
+       "Min 10, max 18 barn, helger 10:15 och 15:15",
+       "från 290 kr/barn"
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Boulder**: barn under 13 år ska ha en ansvarig person över 15 år med minst gult kort, max 2 barn per vuxen.",
+      "**Topprepskort**: SKF rekommenderar lägst 13 år och extra noggrann kontroll av tonåringar.",
+      "**Sele**: för barn ska [[skf-norm|SKF:s norm]] att helkroppssele visas följas.",
+      "Barn säkrar inte varandra på våra prova på-pass — det gör instruktören eller en vuxen med kort."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så instruerar du barn"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Korta pass**: visa, gör, lek — inom några minuter.",
+      "**Lekfulla regler**: \"Mattan är lava för väskor\", \"Klättra ner som en spindel\".",
+      "**Sitt på huk** när du pratar, i ögonhöjd.",
+      "**Beröm försöket**, inte bara toppen.",
+      "**Räkna barnen** ofta, vid varje byte av aktivitet."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=9a7e8594-c321-43b7-893f-3426f0e6c1d6&size=1600",
+     "alt": "Glatt barn i klättersele",
+     "caption": "Kolla selen på varje barn själv — varje gång."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Den här väggen är som en stege som har tappat sina steg. Vem kan hitta de gröna stegen hela vägen upp? När du kommer upp — sitt i selen som i en gunga, så sänker jag ner dig.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att vuxna föräldrar \"hjälper till\" med säkringen",
+     "text": "Bara den som har rätt kort och är kontrollerad säkrar. Säg vänligt nej och ge föräldern en annan uppgift, till exempel att heja."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta Klätterverkets regler för barn på prova på och barnkalas: vem som säkrar, hur många barn per instruktör, om helkroppssele används och för vilken ålder, samt hur föräldrar ska vara med."
+    },
+    {
+     "type": "task",
+     "instruction": "Leta upp barnselarna i din hall. Prova att justera en helkroppssele på en kollega, och förklara för hen som om hen vore åtta år varför vi sitter i selen när vi sänks ner.",
+     "hint": "Använd högst tre meningar."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm kurs i topprepsklättring inomhus (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-vuxna",
+   "label": "2.4",
+   "title": "Instruera vuxna nybörjare",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Vuxna nybörjare vill förstå varför. De är ofta mer rädda för att göra fel än för höjden. Ge dem logik, tid att öva och tydliga framsteg — då växer självförtroendet snabbt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=37efb447-b316-44a6-b556-aabfd145d393&size=1600",
+     "alt": "Kvinna som klättrar på topprep",
+     "caption": "Vuxna nybörjare växer när de får förstå varför."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så instruerar du vuxna"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Förklara varför** varje moment finns: \"Vi kollar karbinen eftersom en olåst karbin kan öppnas.\"",
+      "**Bygg på det de kan.** Fråga om tidigare erfarenhet — fjällvandring, segling, gym.",
+      "**Låt dem öva fel i trygg miljö**: hålla klättrarens fulla vikt, sänka ner kontrollerat.",
+      "**Ge feedback en och en** — ingen vill bli rättad inför kollegor.",
+      "**Var tydlig med kraven**: för att få grönt kort krävs godkänd [[uppklattring|uppklättring]]."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "uppklattring"
+    },
+    {
+     "type": "video",
+     "title": "Företagsgrupp i hallen (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=f40e7ce0-601c-4b64-a620-e85f8e27b7f7&_ignore=.mp4"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel: företagsgruppen",
+     "text": "Ett företag bokar 90 minuter (495 kr ex moms per person). En chef vill visa sig duktig och vill klättra direkt. Instruktören säger: \"Kul med energin! Först lär vi oss att säkra varandra — det är det som gör att du kan klättra högt sedan.\" Chefen blir den mest noggranna i kamratkontrollen."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att anta att vuxna inte behöver lika mycket kontroll",
+     "text": "Vuxna kan vara självsäkra och snabba — och missa detaljer. Samma kontroll gäller för alla."
+    },
+    {
+     "type": "task",
+     "instruction": "Tänk på en vuxen deltagare du mött (eller ska möta). Skriv ner tre \"varför\"-förklaringar till moment i grönt kort: åttaknuten, låst karbin och stoppknuten.",
+     "hint": "Testa dem på en kollega som inte klättrar."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm uppklättring (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2021/06/Norm-uppklattring.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2021/06/Norm-uppklattring.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-radd",
+   "label": "2.5",
+   "title": "Rädd deltagare",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Rädsla är normalt. Höjd, att lita på repet, att någon annan håller i en — det är mycket nytt på en gång. Din uppgift är inte att ta bort rädslan, utan att göra den hanterbar."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=24ef1768-ec3b-40ab-b984-1911936c43e1&size=1600",
+     "alt": "Höga väggar med klättrare",
+     "caption": "Med 17 meter höga väggar på Gasverket är det naturligt att känna respekt."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så hjälper du"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Ta det på allvar.** Säg \"Det är helt normalt\" — inte \"Det är inget farligt\".",
+      "**Små steg.** Klättra en meter upp, sitt i selen, kom ner. Sedan två meter.",
+      "**Låt deltagaren känna repet hålla** nära marken, innan hen klättrar högt.",
+      "**Bestäm tillsammans** en signal för att komma ner: \"Säg 'ta mig' så stannar vi.\"",
+      "**Fira framsteg**: \"Förra gången vände du på tre meter, nu fem!\""
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=58651d57-2625-4c69-a377-bd00dcf638e2&size=1600",
+     "alt": "Säkrare som tittar upp mot klättraren",
+     "caption": "Ögonkontakt och lugn röst från säkraren hjälper den som är rädd."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Du bestämmer hur högt du går. Prova att sätta dig i selen här, en meter upp. Känner du? Repet håller dig. När du vill komma ner säger du 'ta mig' — och då stannar vi direkt.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att pressa eller skämta bort rädslan",
+     "text": "\"Kom igen, bara lite till!\" kan få en rädd deltagare att låsa sig högt upp. Låt hen bestämma takten. Att komma ner är också en seger."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå upp tre meter på en topprepsled, sätt dig i selen och låt en kollega sänka ner dig långsamt. Tänk på vad du själv skulle vilja höra från säkraren om du var rädd.",
+     "hint": "Skriv ner två meningar du kan använda nästa gång."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm topprepsinstruktörskurs (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-foljer-inte",
+   "label": "2.6",
+   "title": "Deltagare som inte följer instruktioner",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ibland gör någon som hen vill: klättrar innan kontrollen, säkrar med fel teknik eller pratar när du visar. Oftast är det inte trots — det är iver, nervositet eller att instruktionen var otydlig. Men säkerheten förhandlar du inte om."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8d821414-296f-4164-bb6a-706e4da44ebb&size=1600",
+     "alt": "Instruktör går fram och kontrollerar en säkring",
+     "caption": "Gå nära, prata lugnt — det räcker oftast."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Trappan"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Stoppa** direkt om säkerheten påverkas: \"Stopp. Vänta på mig.\"",
+      "**Förklara varför** i en mening.",
+      "**Visa rätt sätt** igen och låt hen göra om.",
+      "**Upprepas det:** ta ett enskilt samtal — \"Jag behöver att du följer mina instruktioner för att du ska kunna klättra här.\"",
+      "**Fortsätter det:** hen får inte klättra eller säkra. Kontakta ansvarig i hallen."
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "Klätterverket har **nolltolerans** mot sexism, rasism och kränkningar.",
+      "**Ingen alkohol eller droger.** Den som är påverkad klättrar inte.",
+      "Firningsåtta och HMS-säkring är förbjudet — även om deltagaren \"alltid gjort så\"."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Jag ser att du kan mycket redan — toppen! Här säkrar vi med hjälplåsande broms, och kamratkontrollen gör vi alltid, även när man kan. Det är samma regel för alla.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att släppa det för att undvika konflikt",
+     "text": "Den som får klättra utan kontroll en gång lär sig att regeln inte gäller. Var vänlig — och konsekvent."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta vem instruktören ska kontakta om en deltagare måste avbryta kursen, om och hur återbetalning sker och hur händelsen dokumenteras."
+    },
+    {
+     "type": "task",
+     "instruction": "Rollspel med en kollega: kollegan spelar en erfaren utomhusklättrare som vill säkra med sin egen firningsåtta. Gå igenom trappan och hitta en vänlig formulering som håller.",
+     "hint": "Hänvisa till hallens regler — inte till din egen åsikt."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm kurs i topprepsklättring inomhus (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-utrustning",
+   "label": "3.1",
+   "title": "Kontroll av utrustning före kurs",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Trasig eller felaktig utrustning är en av riskerna SKF:s norm nämner. Kontrollera allt innan gruppen kommer — då kan du ägna kursen åt deltagarna."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=bb2e4678-c1cd-48b6-b111-f52283d67cf2&size=1600",
+     "alt": "Man som håller ett klätterrep",
+     "caption": "Kör repet genom händerna och känn efter skador."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Checklista före kurs"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Selar**: inga slitna band eller sömmar, spännen hela. Rätt storlekar framme.",
+      "**Repbromsar och låsbara karbiner**: inga vassa kanter eller sprickor, låset fungerar.",
+      "**Rep på lederna**: inga skador på manteln, inte tvinnat i ankaret, [[stoppknut|stoppknut]] i änden.",
+      "**Ankare och bottenankare/viktsäck** för deltagare med stor viktskillnad.",
+      "**Fallzon och mattor** fria från väskor och föremål.",
+      "**Autobelay** (om den används): kontrollera enligt hallens rutin."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=00abe9d0-d8c9-4766-a75d-23641b5b0fd8&size=1600",
+     "alt": "Boulderyta med en väska på mattan",
+     "caption": "En väska på mattan är en klassisk risk — flytta den."
+    },
+    {
+     "type": "list",
+     "items": [
+      "All personlig skyddsutrustning ska vara CE-märkt och ha genomgått periodisk kontroll.",
+      "Utrustning som du är osäker på tas ur bruk direkt och rapporteras."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel från Sickla",
+     "text": "Under kontrollen känner Emma en mjuk punkt i ett rep. Hon tar ner repet, märker det och byter till en annan led. Gruppen märker inget — och kursen startar i tid."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att kontrollera \"när vi ändå går förbi\"",
+     "text": "Det glöms bort när gruppen är på plats. Gör kontrollen som en egen rutin innan start."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta Klätterverkets egen kontrollrutin och checklista för kursutrustning, hur och var trasig utrustning märks och lämnas, vem som ansvarar för periodisk kontroll och hur autobelay ska kontrolleras före användning."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör utrustningskontrollen för en full grönt kort-grupp: fyra selar, två repbromsar med karbiner och två leder. Notera vad du hittade.",
+     "hint": "Be en erfaren kollega gå igenom din kontroll efteråt."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Petzl — Partner check (tillverkarens kontroll före klättring)",
+     "url": "https://www.petzl.com/SE/en/Sport/PARTNER-CHECK"
+    }
+   ],
+   "source": {
+    "url": "https://www.petzl.com/SE/en/Sport/PARTNER-CHECK",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-avsluta",
+   "label": "3.2",
+   "title": "Avsluta kurs",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Slutet är det deltagarna kommer ihåg. En bra avslutning knyter ihop säcken: vad de har lärt sig, om de är godkända, vad kortet betyder — och vad de kan göra nu."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b2ba3bdb-4beb-467b-be22-20b8ddb3293f&size=1600",
+     "alt": "Grönt klätterkort i handen",
+     "caption": "Kortet ska synas på selen när man klättrar."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så avslutar du"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Uppklättring**: för grönt kort krävs godkänd [[uppklattring|uppklättring]] enligt SKF:s norm, med en teoretisk och en praktisk del. Den görs vid sista tillfället.",
+      "**Ge besked en och en.** Godkänd: gratulera. Inte godkänd: förklara vad som saknas och vad nästa steg är.",
+      "**Förklara kortet**: det ska synas på selen. Grönt kort ger topprep och automatsäkring.",
+      "**Repetera de viktigaste reglerna**: kamratkontroll, åttaknut, hjälplåsande broms, fri fallzon.",
+      "**Berätta om nästa steg** (lektion 3.3) och tacka för idag.",
+      "**Registrera** resultatet i Zoezi och städa undan utrustningen."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga (inte godkänd):",
+     "text": "\"Du har kommit långt idag. Men bromshanden släpper fortfarande repet när du tar hem, och det måste sitta innan jag kan ge dig kortet. Vi bokar en ny uppklättring, så hinner du öva med en kompis med kort.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att godkänna \"nästan\"",
+     "text": "Enligt SKF:s uppklättringsnorm rekommenderas underkänt vid minst ett rött resultat. Ett kort är ett löfte till alla i hallen. Är du osäker — godkänn inte."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta Klätterverkets rutin för omprov eller ny uppklättring (pris och bokning), och hur kort registreras och delas ut."
+    },
+    {
+     "type": "task",
+     "instruction": "Läs SKF:s norm för uppklättring. Formulera ett \"inte godkänd\"-besked som är tydligt, vänligt och säger vad nästa steg är.",
+     "hint": "Säg det högt för en kollega."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm uppklättring (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2021/06/Norm-uppklattring.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2021/06/Norm-uppklattring.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-till-kund",
+   "label": "3.3",
+   "title": "Från kursdeltagare till kund",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Den som just tagit grönt kort står vid ett vägskäl: blir klättring en vana, eller ett roligt minne? Du är den som är bäst placerad att hjälpa hen vidare — du vet vad hen kan och vad hen tyckte var roligt."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc871eb2-b666-47c6-8e22-3a5fb3bc8b70&size=1600",
+     "alt": "Kvinna som klättrar självständigt i hallen",
+     "caption": "Målet: att deltagaren kommer tillbaka och klättrar själv."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Nästa steg-trappan i praktiken"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Deltagaren säger …",
+      "Föreslå",
+      "Pris"
+     ],
+     "rows": [
+      [
+       "\"Jag vill bara testa lite till.\"",
+       "Entré eller 10-klipp",
+       "190 / 1650 kr"
+      ],
+      [
+       "\"Jag vill klättra varje vecka.\"",
+       "Månadskort Guld/Silver (Dagtid Guld/Silver om dagtid)",
+       "590 / 510 (450 / 390) kr"
+      ],
+      [
+       "\"Jag vill bli bättre.\"",
+       "Gruppträning grundkurs, 8 tillfällen",
+       "2500 kr"
+      ],
+      [
+       "\"Jag vill leda!\"",
+       "Rött kort",
+       "1650 kr"
+      ],
+      [
+       "\"Jag vill klättra med andra kvinnor.\"",
+       "Crush, klätterträff för kvinnor på onsdagar",
+       "se hemsidan"
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Medlemsförmåner**: bjud med en vän, 10 % rabatt i butik, på kurser och i Matkafé.",
+      "**Årskort**: Guld 6400, Silver 5500 kr.",
+      "**Studenter** får 10 % rabatt. Friskvård via ePassi, Wellnet och Benefits.",
+      "**Ungdom**: entré 130 kr, 10-klipp 1100 kr."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=56288310-c424-4dce-b037-695ac2568b4e&size=1600",
+     "alt": "Crush-loggan",
+     "caption": "Crush — Klätterverkets klätterträff för kvinnor på onsdagar."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Grattis till kortet! Om du klättrar två gånger i veckan är ett månadskort det smartaste — och som medlem får du 10 % på kurser, så rött kort blir billigare sen. Vill du träna teknik med andra på samma nivå finns gruppträning grundkurs. Receptionen hjälper dig direkt, eller så bokar du i kundportalen.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att rabbla prislistan",
+     "text": "Fem erbjudanden på en gång blir inget erbjudande. Lyssna, och föreslå det som passar."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta om friskvårdsbidrag kan användas för kurser och kort, om det finns ett särskilt kurserbjudande för nya kortinnehavare, och aktuella priser för Crush."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta reda på tre saker i receptionen: hur ett månadskort köps, hur gruppträning grundkurs bokas och när nästa Crush är. Skriv ner det så att du kan svara direkt.",
+     "hint": "Kolla också priserna mot hemsidan."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm kurs i ledklättring inomhus (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-ledklattring-inomhus.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-ledklattring-inomhus.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-feedback",
+   "label": "3.4",
+   "title": "Feedback",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Feedback går åt två håll: du ger deltagarna feedback under kursen, och du ber om feedback på din egen undervisning. Båda gör nästa kurs bättre."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "Klätterverkets personal i hoodie",
+     "caption": "Fråga gärna gruppen vad som var bäst — och vad du kan göra bättre."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Ge feedback"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Konkret**: \"Din bromshand var nere hela tiden — perfekt.\"",
+      "**Direkt**: medan momentet är färskt.",
+      "**Mest positivt**: beröm det som är rätt, rätta en sak i taget.",
+      "**Säkerhetsfel rättas alltid** — direkt och tydligt."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Be om feedback"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Fråga i slutet: \"Vad var bäst idag? Vad var svårast?\"",
+      "Lyssna utan att försvara dig.",
+      "Skriv ner en sak att förbättra efter varje kurs.",
+      "Gå bredvid en kollega ibland och ge varandra feedback."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Tack för idag! Innan ni går — vad var det som fick er att känna er trygga? Och var det något som var krångligt att förstå?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: \"Bra jobbat!\" till allt",
+     "text": "Allmänt beröm säger ingenting. Säg vad som var bra, så vet deltagaren vad hen ska fortsätta göra."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta om Klätterverket skickar ut en utvärdering efter kurs (t.ex. via Zoezi), vem som läser den och hur instruktörerna får ta del av resultatet."
+    },
+    {
+     "type": "task",
+     "instruction": "Efter din nästa kurs: skriv ner en sak som gick bra och en sak du vill göra annorlunda. Ta upp det med en kollega eller platsansvarig.",
+     "hint": "Tips: be gruppen säga ett ord om dagen när ni avslutar."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm topprepsinstruktörskurs (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "ins-avancerat",
+   "label": "3.5",
+   "title": "Instruktör del 2: avancerade situationer",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "De flesta kurser går som planerat. Men ibland händer något som kräver att du agerar snabbt och lugnt. SKF:s norm säger att deltagarna ska förstå \"vikten av att våga handla\" — det gäller dig ännu mer. Här är fyra lägen du ska ha tänkt igenom."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=852e9bab-dcbf-4a57-9113-6e2d2234b44f&size=1600",
+     "alt": "Ledklättrare högt upp på väggen",
+     "caption": "Ju högre upp, desto viktigare att säkringen sitter."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "1. Säkraren tappar kontrollen på bromsen"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Grip repet** — den passiva repänden under bromshanden. Därför [[svansning|svansar]] du i början.",
+      "Säg lugnt och högt: \"Håll bromshanden nere!\"",
+      "Låt klättraren hänga still. Sänk ner kontrollerat — själv om det behövs.",
+      "Gå igenom vad som hände innan säkraren försöker igen."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "2. Stoppa all klättring"
+    },
+    {
+     "type": "richtext",
+     "text": "Ser du något du inte hinner hantera — en olåst karbin på väggen, en person i fallzonen, en skadad deltagare — ropa **\"Stopp!\"** så att alla replag håller sin klättrare stilla eller sänker ner. Öva signalen i början av kursen."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "3. Felaktig knut upptäckt"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Klättraren är **på marken**: knyt om, gör om kamratkontrollen.",
+      "Klättraren är **på väg upp**: \"Stanna där du är, ta tag i ett grepp.\" Låt säkraren hålla repet spänt och sänk ner försiktigt till marken om knuten håller tillräckligt — annars få hjälp av kollega direkt.",
+      "Gå igenom med gruppen varför kamratkontrollen inte fångade felet."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=04cb99c4-7f9a-4545-b924-8f7971386c0e&size=1600",
+     "alt": "Person knyter åttaknut på selen",
+     "caption": "Följ repet med fingret genom båda öglorna och hela knuten."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "4. Skadad deltagare"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Stoppa klättringen. Se till att det är säkert för dig och gruppen.",
+      "Bedöm: svarar personen? Andas hen normalt? Vid medvetslöshet — ring 112 och starta HLR.",
+      "Hämta hjälp: kollega, första hjälpen-väska, hjärtstartare.",
+      "Dokumentera händelsen efteråt."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Repetera HLR",
+     "text": "Gå kursen **HLR och hjärtstartare** i Klätterverket Academy. Där finns hur du känner igen ett hjärtstopp, larmar och använder hjärtstartaren."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel från Gasverket",
+     "text": "En säkrare på grönt kort-kursen fryser när klättraren faller på fyra meter och bromshanden åker upp. Instruktören som svansar har redan greppet och klättraren stannar. \"Bra att du stannade och tittade på mig. Nu tar vi det igen, nära marken.\" Efter två försök sitter det."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att vänta och se",
+     "text": "Är du osäker — stoppa klättringen. Det kostar några sekunder. Att vänta kan kosta mycket mer."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Bekräfta Klätterverkets krisplan: vem instruktören larmar internt, vem som möter ambulansen, var hjärtstartare och första hjälpen-väska finns i varje hall, och hur tillbud och olyckor rapporteras och följs upp."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva tillsammans med en kollega: kollegan säkrar och släpper bromshanden med flit på låg höjd medan du svansar. Gör sedan en \"Stopp!\"-övning med en grupp eller kollegor.",
+     "hint": "Öva bara på låg höjd, med en erfaren kollega som klättrare."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm topprepsinstruktörskurs (PDF)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf"
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu är du klar med alla lektioner. Provet har 15 frågor som dras ur en frågebank. Du behöver 80 % rätt och har tre försök."
+    }
+   ],
+   "source": {
+    "url": "https://www.klatterforbundet.se/app/uploads/2018/10/norm-topprepsinstruktorskurs.pdf",
+    "checkedAt": "2026-10-07"
+   }
+  }
+ ],
+ "terms": {
+  "kamratkontroll": {
+   "term": "Kamratkontroll",
+   "definition": "Systematisk kontroll av varandras utrustning innan klättring, från repände till repände: knut, sele, karbin, broms och stoppknut. Görs alltid."
+  },
+  "attaknut": {
+   "term": "Åttaknut",
+   "definition": "Den knut som används för att knyta in sig direkt i selens inknytningsöglor vid topprep och led."
+  },
+  "hjalplasande-broms": {
+   "term": "Hjälplåsande broms",
+   "definition": "Repbroms som hjälper till att låsa repet vid ett fall, till exempel Grigri eller Jul 2. Rekommenderas hos Klätterverket. Firningsåtta och HMS-säkring är förbjudet."
+  },
+  "svansning": {
+   "term": "Svansning (backupsäkring)",
+   "definition": "Instruktören eller en kollega håller i den passiva repänden en bit under säkrarens bromshand, tills säkraren hanterar säkringen korrekt."
+  },
+  "stoppknut": {
+   "term": "Stoppknut",
+   "definition": "Knut i repets ände, minst 50 cm in från änden, som hindrar att repet glider ur bromsen."
+  },
+  "uppklattring": {
+   "term": "Uppklättring",
+   "definition": "Examinationen enligt SKF:s norm, med en teoretisk och en praktisk del, som krävs för att få topprepskort eller ledkort."
+  },
+  "gult-kort": {
+   "term": "Gult kort",
+   "definition": "Klätterverkets kort för automatsäkring (autobelay). Kursen tar ca 30 minuter och gäller från 15 år."
+  },
+  "gront-kort": {
+   "term": "Grönt kort",
+   "definition": "Kort för topprepsklättring och topprepssäkring. Kursen är 2 × 2 timmar med max 4 deltagare, enligt SKF:s norm."
+  },
+  "rott-kort": {
+   "term": "Rött kort",
+   "definition": "Kort för ledklättring och ledsäkring. Kräver grönt kort eller motsvarande kunskap."
+  },
+  "nasta-steg": {
+   "term": "Nästa steg-trappan",
+   "definition": "Vägen från ny till van klättrare: gult → grönt → rött kort, vidare till medlemskap, gruppträning och events som Crush."
+  },
+  "visa-gor-ratta": {
+   "term": "Visa – gör – rätta",
+   "definition": "Undervisningsmetod: instruktören visar, deltagaren gör direkt och instruktören rättar kort och konkret."
+  },
+  "kontrollfraga": {
+   "term": "Kontrollfråga",
+   "definition": "En fråga som visar om deltagaren förstått, till exempel \"Var ska bromshanden vara?\" — i stället för \"Har ni förstått?\"."
+  },
+  "fallzon": {
+   "term": "Fallzon",
+   "definition": "Ytan under och bredvid en klättrare där hen kan landa eller pendla vid ett fall. Ska alltid vara fri."
+  },
+  "skf-norm": {
+   "term": "SKF:s norm",
+   "definition": "Svenska Klätterförbundets minimikrav för kurser och instruktörer, t.ex. kurstid, gruppstorlek och innehåll i topprepskursen."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Instruktör",
+  "passScore": 0.8,
+  "draw": 15,
+  "attempts": 3,
+  "items": [
+   {
+    "type": "single",
+    "stem": "Hur många deltagare får en instruktör ha som mest på grönt kort hos Klätterverket?",
+    "options": [
+     "4",
+     "6",
+     "8",
+     "10"
+    ],
+    "lesson": "ins-rutiner",
+    "why": "Grönt kort har max 4 per grupp. Det följer SKF:s norm: minst 4 timmar kurstid för högst 4 elever.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Hur lång är grönt kort-kursen?",
+    "options": [
+     "2 × 2 timmar",
+     "90 minuter",
+     "ca 30 minuter",
+     "En heldag på 8 timmar"
+    ],
+    "lesson": "ins-rutiner",
+    "why": "Grönt kort är 2 × 2 timmar. 30 minuter är gult kort och 90 minuter prova på.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "En deltagare på grönt kort frågar hur hen kan fortsätta. Vad är ett bra första steg för dig som instruktör?",
+    "options": [
+     "Fråga vad hen vill med sin klättring",
+     "Läsa upp hela prislistan",
+     "Hänvisa till hemsidan",
+     "Erbjuda rött kort direkt till alla"
+    ],
+    "lesson": "ins-saljmetoder",
+    "why": "Lyssna först. Då kan du föreslå ett nästa steg som passar, i stället för alla erbjudanden på en gång.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt nästa steg-trappan för korten i rätt ordning.",
+    "options": [
+     "Gult kort",
+     "Grönt kort",
+     "Rött kort"
+    ],
+    "lesson": "ins-saljmetoder",
+    "why": "Gult kort (automatsäkring) → grönt kort (topprep) → rött kort (led)."
+   },
+   {
+    "type": "multi",
+    "stem": "Vad ska ingå när du välkomnar en ny grupp? Välj alla som stämmer.",
+    "options": [
+     "Presentera dig och lära dig namnen",
+     "Berätta planen för dagen",
+     "Kort genomgång av hallens viktigaste regler",
+     "En lång genomgång av alla olyckor som kan hända"
+    ],
+    "lesson": "ins-valkomna",
+    "why": "Ett varmt, tydligt välkomnande med namn, plan och de viktigaste reglerna. För mycket information direkt skrämmer och glöms bort.",
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka säkringsmetoder är förbjudna i Klätterverkets hallar? Välj alla som stämmer.",
+    "options": [
+     "Firningsåtta",
+     "HMS-säkring",
+     "Hjälplåsande broms",
+     "Automatsäkring med gult kort"
+    ],
+    "lesson": "ins-sakerhetsansvar",
+    "why": "Firningsåtta och HMS-säkring är förbjudet. Hjälplåsande broms rekommenderas.",
+    "correct": [
+     "a",
+     "b"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Deltagarna har gjort kamratkontrollen. Vad gör du som instruktör?",
+    "options": [
+     "Kontrollerar själv, tills deltagaren klarar det felfritt",
+     "Litar på deltagarna — de har ju kontrollerat",
+     "Kontrollerar bara den första klättringen",
+     "Låter den mest erfarna deltagaren kontrollera de andra"
+    ],
+    "lesson": "ins-sakerhetsansvar",
+    "why": "Nybörjare kan göra kontrollen utan att se felet. Instruktören kontrollerar själv tills deltagaren är godkänd.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Hur långt in från repänden ska stoppknuten sitta enligt SKF:s norm?",
+    "options": [
+     "Minst 50 cm",
+     "Minst 5 cm",
+     "Exakt 2 meter",
+     "Det spelar ingen roll"
+    ],
+    "lesson": "ins-sakerhetsansvar",
+    "why": "SKF:s norm anger stoppknut minst 50 cm in från änden av repet.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Vad är svansning (backupsäkring)?",
+    "options": [
+     "Instruktören håller i den passiva repänden under säkrarens bromshand",
+     "Två personer säkrar med var sin broms",
+     "Klättraren knyter en extra knut i selen",
+     "Säkraren står fastknuten i ett bottenankare"
+    ],
+    "lesson": "ins-sakerhetsansvar",
+    "why": "Vid säkringsövning håller instruktören den passiva repänden en bit under bromshanden tills säkringen sköts korrekt.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Två deltagare klättrar och två väntar. Vad är bäst för de som väntar?",
+    "options": [
+     "Ge dem en uppgift, t.ex. svansa, observera eller öva knut",
+     "Låta dem vila tills det är deras tur",
+     "Låta dem börja klättra på egen hand",
+     "Skicka dem till kaféet"
+    ],
+    "lesson": "ins-grupphantering",
+    "why": "SKF:s instruktörsnorm säger att elevernas aktivitet ska prioriteras. Alla ska ha en roll.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Vad gäller innan någon i gruppen börjar klättra?",
+    "options": [
+     "Ingen klättring startar innan instruktören sagt ok",
+     "Den som är klar med knuten får börja",
+     "Det räcker att säkraren är redo",
+     "Deltagarna bestämmer själva"
+    ],
+    "lesson": "ins-grupphantering",
+    "why": "Då behåller du överblicken även när du hjälper någon annan.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt stegen i visa–gör–rätta i rätt ordning.",
+    "options": [
+     "Visa momentet i helhet",
+     "Visa igen i små delar",
+     "Låt deltagaren göra",
+     "Rätta kort och konkret",
+     "Repetera tills det sitter"
+    ],
+    "lesson": "ins-pedagogik",
+    "why": "Först visar du, sedan gör deltagaren, sedan rättar du — och repeterar."
+   },
+   {
+    "type": "single",
+    "stem": "Vilken av följande är en bra kontrollfråga?",
+    "options": [
+     "\"Var ska bromshanden vara när du tar hem repet?\"",
+     "\"Har alla förstått?\"",
+     "\"Är det okej?\"",
+     "\"Några frågor?\""
+    ],
+    "lesson": "ins-pedagogik",
+    "why": "En kontrollfråga visar vad deltagaren faktiskt kan. \"Har alla förstått?\" får bara nickningar.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Vad gäller för barn under 13 år på boulderytan?",
+    "options": [
+     "De ska ha en ansvarig person över 15 år med minst gult kort, max 2 barn per vuxen",
+     "De får bouldra fritt om de har hjälm",
+     "De får bara bouldra med instruktör",
+     "Det finns inga särskilda regler"
+    ],
+    "lesson": "ins-barn",
+    "why": "Klätterverkets regel: barn under 13 ska ha en ansvarig över 15 år med minst gult kort, högst 2 barn per vuxen.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "En förälder på prova på vill säkra sitt barn men har inget kort. Vad gör du?",
+    "options": [
+     "Säger vänligt nej och ger föräldern en annan uppgift",
+     "Låter föräldern säkra med svansning",
+     "Låter föräldern säkra om barnet är lätt",
+     "Låter föräldern säkra om hen klättrat utomhus"
+    ],
+    "lesson": "ins-barn",
+    "why": "Bara den som har rätt kort och är kontrollerad säkrar.",
+    "correct": [
+     "a"
+    ],
+    "intro": "Det är prova på-pass på helgen. Ett barn på 125 cm ska klättra."
+   },
+   {
+    "type": "single",
+    "stem": "Vad krävs för att en deltagare ska få grönt kort?",
+    "options": [
+     "Godkänd uppklättring med teoretisk och praktisk del",
+     "Närvaro på båda tillfällena räcker",
+     "Att hen klättrat till toppen en gång",
+     "Att hen betalat kursavgiften"
+    ],
+    "lesson": "ins-vuxna",
+    "why": "Enligt SKF:s norm krävs godkänd uppklättring för topprepskort.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "multi",
+    "stem": "Vad fungerar ofta bäst för vuxna nybörjare? Välj alla som stämmer.",
+    "options": [
+     "Förklara varför varje moment finns",
+     "Ge rättande feedback enskilt",
+     "Släppa kontrollen eftersom de är vuxna",
+     "Låta dem öva att hålla full kroppsvikt i trygg miljö"
+    ],
+    "lesson": "ins-vuxna",
+    "why": "Vuxna vill förstå varför, vill inte rättas inför andra och behöver öva. Samma kontroll gäller för alla.",
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "En deltagare blir rädd och vill komma ner på tre meters höjd. Vad gör du?",
+    "options": [
+     "Låter hen komma ner och säger att det är en seger att ha provat",
+     "Uppmanar hen att fortsätta lite till",
+     "Skämtar bort rädslan",
+     "Låter hen hänga kvar tills rädslan går över"
+    ],
+    "lesson": "ins-radd",
+    "why": "Låt deltagaren bestämma takten. Att pressa kan göra att hen låser sig högre upp.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Vilket svar är bäst till en rädd deltagare?",
+    "options": [
+     "\"Det är helt normalt. Du bestämmer hur högt du går.\"",
+     "\"Det är inget farligt, kom igen.\"",
+     "\"Alla andra klarar det.\"",
+     "\"Titta inte ner så går det bra.\""
+    ],
+    "lesson": "ins-radd",
+    "why": "Ta rädslan på allvar och ge deltagaren kontroll.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "En erfaren utomhusklättrare vill säkra med sin egen firningsåtta. Vad gör du?",
+    "options": [
+     "Förklarar vänligt att den är förbjuden i hallen och visar hjälplåsande broms",
+     "Låter hen göra det eftersom hen är erfaren",
+     "Låter hen göra det om du svansar",
+     "Ber hen gå hem"
+    ],
+    "lesson": "ins-foljer-inte",
+    "why": "Firningsåtta är förbjudet hos Klätterverket. Var vänlig och konsekvent — samma regel för alla.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "En deltagare börjar klättra igen utan kamratkontroll, trots att du sagt till. Vad är rätt nästa steg?",
+    "options": [
+     "Ta ett enskilt samtal och säg att reglerna måste följas för att få klättra",
+     "Låta det passera för att undvika konflikt",
+     "Skälla ut deltagaren inför gruppen",
+     "Ignorera det om knuten ser bra ut"
+    ],
+    "lesson": "ins-foljer-inte",
+    "why": "Följ trappan: stoppa, förklara, visa, enskilt samtal — och upprepas det får hen inte klättra.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "multi",
+    "stem": "Vad ska du kontrollera före kursen? Välj alla som stämmer.",
+    "options": [
+     "Selar och spännen",
+     "Karbiner och repbromsar",
+     "Repen och stoppknutar",
+     "Att fallzonen och mattorna är fria"
+    ],
+    "lesson": "ins-utrustning",
+    "why": "Allt detta ingår i kontrollen före kurs.",
+    "correct": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Du hittar en mjuk punkt i ett rep under kontrollen. Vad gör du?",
+    "options": [
+     "Tar repet ur bruk, märker det och rapporterar",
+     "Använder det, men bara för lätta deltagare",
+     "Knyter en knut över skadan",
+     "Väntar och ser om det blir värre"
+    ],
+    "lesson": "ins-utrustning",
+    "why": "Utrustning du är osäker på tas ur bruk direkt och rapporteras.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "En deltagare har ett rött resultat på uppklättringen men klarade allt annat. Vad rekommenderar SKF:s norm?",
+    "options": [
+     "Underkänt",
+     "Godkänt",
+     "Godkänt med anmärkning",
+     "Godkänt om deltagaren är vuxen"
+    ],
+    "lesson": "ins-avsluta",
+    "why": "SKF:s uppklättringsnorm rekommenderar underkänt vid minst ett rött resultat.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "En deltagare vill klättra varje vecka efter grönt kort. Vad är det mest passande förslaget?",
+    "options": [
+     "Månadskort",
+     "Ett enstaka entrékort",
+     "Familjekurs",
+     "Barnkalas"
+    ],
+    "lesson": "ins-till-kund",
+    "why": "Den som klättrar regelbundet tjänar ofta på ett månadskort (Guld 590 kr, Silver 510 kr).",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "multi",
+    "stem": "Vilka är medlemsförmåner hos Klätterverket? Välj alla som stämmer.",
+    "options": [
+     "Bjud med en vän",
+     "10 % rabatt på kurser",
+     "10 % i butik och Matkafé",
+     "Gratis rött kort"
+    ],
+    "lesson": "ins-till-kund",
+    "why": "Medlemmar kan bjuda med en vän och får 10 % i butik, på kurser och i Matkafé.",
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "Vilken feedback är mest användbar för deltagaren?",
+    "options": [
+     "\"Din bromshand var nere hela tiden — perfekt.\"",
+     "\"Bra jobbat!\"",
+     "\"Det där var okej.\"",
+     "\"Fortsätt så.\""
+    ],
+    "lesson": "ins-feedback",
+    "why": "Konkret feedback berättar vad deltagaren ska fortsätta göra.",
+    "correct": [
+     "a"
+    ]
+   },
+   {
+    "type": "single",
+    "stem": "En säkrare släpper bromshanden när klättraren faller på fyra meter. Du svansar. Vad gör du först?",
+    "options": [
+     "Håller den passiva repänden och säger lugnt: \"Håll bromshanden nere!\"",
+     "Springer och hämtar en kollega",
+     "Ropar på klättraren att hoppa ner",
+     "Tar över bromsen och skäller på säkraren"
+    ],
+    "lesson": "ins-avancerat",
+    "why": "Genom att svansa har du redan greppet. Håll, instruera lugnt, sänk ner kontrollerat.",
+    "correct": [
+     "a"
+    ],
+    "intro": "Grönt kort, första tillfället. Säkringsövning på topprep."
+   },
+   {
+    "type": "ordering",
+    "stem": "Sätt stegen i rätt ordning när en deltagare skadats vid väggen.",
+    "options": [
+     "Stoppa klättringen och se till att det är säkert",
+     "Bedöm: svarar personen och andas hen normalt?",
+     "Larma 112 vid behov och hämta hjälp och utrustning",
+     "Dokumentera händelsen efteråt"
+    ],
+    "lesson": "ins-avancerat",
+    "why": "Säkerhet först, sedan bedömning, larm och hjälp — och dokumentation efteråt."
+   }
+  ]
+ }
+}

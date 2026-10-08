@@ -1,0 +1,1832 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "restaurang-cafe",
+  "title": "Restaurang & café — Matkafé Mätarhuset",
+  "summary": "Allt du behöver för ett pass i Matkafé Mätarhuset: rutiner, kassa, säker mat och allergier, gästen och menyn, konferens och event — och ansvaret vid alkoholservering.",
+  "audience": [
+   "cafe"
+  ],
+  "estimatedMinutes": 87,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24
+  },
+  "modules": [
+   {
+    "title": "Grunden och dagens rutiner",
+    "lessons": [
+     "cafe-grund",
+     "cafe-oppning",
+     "cafe-stangning",
+     "cafe-kassan"
+    ]
+   },
+   {
+    "title": "Säker mat",
+    "lessons": [
+     "cafe-hygien",
+     "cafe-allergier"
+    ]
+   },
+   {
+    "title": "Gästen, menyn och evenemang",
+    "lessons": [
+     "cafe-servering",
+     "cafe-menyn",
+     "cafe-merforsaljning",
+     "cafe-konferens",
+     "cafe-eventkvall"
+    ]
+   },
+   {
+    "title": "Kök, städ, ute och ansvar",
+    "lessons": [
+     "cafe-disk",
+     "cafe-stad",
+     "cafe-uteservering",
+     "cafe-alkohol"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "cafe-grund",
+   "label": "1.1",
+   "title": "Servitris/servitör — grunden",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "video",
+     "title": "Matkafé Mätarhuset (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=44d2bd37-2a07-4797-b628-ecb1e526dad1&_ignore=.mp4"
+    },
+    {
+     "type": "richtext",
+     "text": "Välkommen till Matkafé Mätarhuset! Kaféet ligger i Gasverket, i det gamla Mätarhuset som ritades av Ferdinand Boberg och är från 1893. Här äter klättrare efter passet, föräldrar väntar medan barnen klättrar, och företag har möte i konferensrummet **Kontrollrummet**."
+    },
+    {
+     "type": "richtext",
+     "text": "Den här utbildningen ger dig grunden för ett pass i kaféet: rutiner, säker mat, gästen och ansvaret. Du blir inte kock av den — men du vet vad du gör, och när du ska fråga."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Ditt jobb på ett pass"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Gästen först:** hälsa, se alla, hjälp till rätt.",
+      "**Säker mat:** rena händer, rätt temperatur, rätt allergeninfo.",
+      "**Ordning:** rena bord, påfylld disk, tom diskbänk.",
+      "**Kassan:** rätt pris, rätt rabatt, kvitto erbjudet.",
+      "**Laget:** säg till när du går på rast, när något tar slut eller när du är osäker."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Fakta du ska kunna utantill"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Vad",
+      "Svar till gästen"
+     ],
+     "rows": [
+      [
+       "Öppettider kaféet",
+       "Tisdag–söndag 10–16. Måndag stängt."
+      ],
+      [
+       "Brunch",
+       "Helger 10:30–15:30."
+      ],
+      [
+       "Lunch",
+       "Veckans lunch 160 kr, bowl 175 kr. Det finns också barnmeny."
+      ],
+      [
+       "Kaffet",
+       "Från Johan & Nyström."
+      ],
+      [
+       "Konferens",
+       "Kontrollrummet, för upp till 14 personer."
+      ],
+      [
+       "Medlemmar",
+       "10 % rabatt på Matkafé."
+      ]
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "En medarbetare i Klätterverket-hoodie i hallen.",
+     "caption": "Du jobbar i kaféet — men gästerna ser dig som Klätterverket."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En förälder med två barn i klätterskor kommer fram: ”Hej! Är ni öppna fast hallen har öppet till tio?” — ”Kaféet stänger klockan fyra idag, men du hinner gott med en fika. Vill du se vad vi har kvar i disken?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: gissa",
+     "text": "Det är lätt att svara något snabbt för att vara hjälpsam. Men ett gissat svar om allergener, priser eller rabatter kan bli fel på riktigt. Säg hellre ”Jag kollar” och fråga en kollega."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem är kaféansvarig på varje pass, hur ser schemat och rasterna ut, och vilka arbetskläder gäller (förkläde, hårskydd)?"
+    },
+    {
+     "type": "task",
+     "instruction": "Gå igenom kaféet med en kollega före ditt första pass. Leta upp handfatet för handtvätt, kylarna, diskmaskinen, kassan och allergenpärmen eller -listan.",
+     "hint": "Skriv upp det du inte hittade och fråga kaféansvarig."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — hemsidan",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "cafe-oppning",
+   "label": "1.2",
+   "title": "Öppningsrutiner Matkafé",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En bra öppning gör hela dagen lugnare. Kaféet öppnar 10 — men hallen öppnar redan 07 på tisdagar och torsdagar och 10 övriga dagar. Gäster kan alltså stå i dörren innan du är klar. Därför följer du samma ordning varje gång."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c248835a-6103-4a4c-8e82-405f3083762a&size=1600",
+     "alt": "Gamla kontrollpaneler från gasverkstiden.",
+     "caption": "Mätarhuset från 1893 — en del av Gasverkets historia. Gäster frågar ofta om huset."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Öppna i den här ordningen"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Tvätta händerna och ta på arbetskläder.",
+      "Kontrollera och skriv upp temperaturen i kylar och frys enligt [[cafe-egenkontroll|egenkontrollen]].",
+      "Gå igenom kylen: datum, lukt, utseende. Först in, först ut — äldst längst fram.",
+      "Gör [[cafe-mise|mise en place]]: fyll på disk, servetter, bestick, mjölk och socker.",
+      "Starta kaffemaskinen och provbrygg. Smaka.",
+      "Starta kassan och kontrollera att kortterminalen fungerar.",
+      "Ställ fram menyn och skylten med allergenhänvisning: ”Fråga personalen om allergener”.",
+      "Torka bord och stolar. Gå ett varv som gäst — ser det välkomnande ut?"
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "cafe-mise"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En tidig gäst knackar 09:50: ”Hej! Vi öppnar om tio minuter — kaffet är på gång. Sätt dig gärna så kommer jag strax.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: hoppa över temperaturen",
+     "text": "När det är stressigt är det temperaturkontrollen som försvinner först. Men den är hela poängen: en kyl som gått sönder under natten märks bara om någon kontrollerar."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Den exakta öppningschecklistan: vem låser upp, var nycklar och växelkassa finns, vilka temperaturer som loggas och var, och vad du gör om en kyl visar för varmt (vem ringer du?)."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör en öppning tillsammans med en erfaren kollega. Bocka av varje steg och skriv in temperaturerna där egenkontrollen ska dokumenteras."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket — Lokaler, hygien och företagens egen kontroll",
+     "url": "https://www.livsmedelsverket.se/foretagande-regler-kontroll/regler-for-livsmedelsforetag/lokaler_hygien_foretagens_egen_kontroll/"
+    }
+   ]
+  },
+  {
+   "id": "cafe-stangning",
+   "label": "1.3",
+   "title": "Stängningsrutiner Matkafé",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Kaféet stänger 16 men hallen fortsätter — till 22 på vardagar och 20 på helger. Kaféet ska alltså stängas snyggt medan klättrare fortfarande rör sig runt omkring. En bra stängning är också nästa persons bra öppning."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6bca5cc9-d8d3-42d5-ade5-fa1107eaea82&size=1600",
+     "alt": "Översikt över Gasverkets klätterhall.",
+     "caption": "Hallen är öppen långt efter att kaféet stängt."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Stäng i den här ordningen"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Säg till gästerna i god tid: sista beställning, enligt den tid ni bestämt.",
+      "Plocka in disken. Kyl ner, märk och förvara rester enligt rutin — eller kassera.",
+      "Skriv upp kyltemperaturer om det ingår i kvällens egenkontroll.",
+      "Diska, torka av ytor och töm diskmaskinen.",
+      "Stäng kaffemaskinen enligt instruktionen och rengör ångröret.",
+      "Gör kassaavslut.",
+      "Töm sopor, sortera och ställ ut.",
+      "Släck, stäng av och lås — kontrollera kylarnas dörrar en extra gång."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En klättrare kommer 15:55: ”Hinner jag köpa en bulle?” — ”Absolut, kassan är öppen fem minuter till. Vill du ha den i påse så du kan ta den med till hallen?”"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "cafe-nedkylning"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: lämna mat framme",
+     "text": "Mat som står framme medan du städar hamnar i rumstemperatur. Kyl ner det som ska sparas direkt — varm mat ska ner i temperatur så snabbt som möjligt."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Sista beställningstid, rutin för rester och märkning, kassaavslutet, larm och låsning — och om något av kaféet (t.ex. kylar med dryck) ska vara tillgängligt för hallen efter 16."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör en stängning tillsammans med en kollega. Öppna kylarna efteråt och kontrollera att allt är täckt, märkt och har rätt temperatur."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket Kontrollwiki — Temperatur",
+     "url": "https://kontrollwiki.livsmedelsverket.se/artikel/349/temperatur"
+    }
+   ]
+  },
+  {
+   "id": "cafe-kassan",
+   "label": "1.4",
+   "title": "Kassan",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Kassan är där gästen möter oss sist. Rätt pris, rätt rabatt och ett erbjudet kvitto — det gör gästen trygg och håller bokföringen rätt."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Det här säger lagen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Den som tar emot kontant- eller kortbetalning måste registrera försäljningen i ett **kassaregister**. Det gäller också till exempel Swish.",
+      "Kassaregistret ska vara kopplat till en kontrollenhet eller ett kontrollsystem.",
+      "Ett **kvitto ska tas fram och erbjudas kunden** (skatteförfarandelagen 39 kap. 7 §). Kvittot får vara på papper eller digitalt.",
+      "Kassaregistret ska alltid användas — ingen försäljning ”vid sidan av”."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Vid kassan"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Slå in varan och säg priset högt.",
+      "Fråga om gästen är medlem — medlemmar har 10 % på Matkafé.",
+      "Ta betalt.",
+      "Erbjud kvitto: ”Vill du ha kvitto?”",
+      "Tacka och berätta var maten serveras eller hämtas."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e3a01834-a1b7-4646-a075-05789ef4d76a&size=1600",
+     "alt": "Ett presentkort från Klätterverket.",
+     "caption": "Presentkort gäller två år. Fråga hur kaféet tar emot dem."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Det blir 160 kronor för veckans lunch. Är du medlem? Då får du 10 procent. … Vill du ha kvittot på mejlen eller på papper?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: rabatt på ord",
+     "text": "Ge inte rabatt bara för att någon säger att de är medlem, om rutinen säger att det ska kontrolleras. Och ge aldrig egna ”personalrabatter” till kompisar. Fråga hellre."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilket kassasystem kaféet har, hur medlemskap kontrolleras (kort, app, Zoezi), om studentrabatt gäller i kaféet, om presentkort tas emot, hur kassaavslut och växelkassa sköts — och om kaféet för personalliggare enligt Skatteverkets regler."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=04c99843-b114-4fab-8057-6f13f118c427&size=1600",
+     "alt": "En grupp i hallen.",
+     "caption": "Företagsgrupper betalar ofta samlat — kolla bokningen innan du tar betalt."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva med en kollega i kassan: en lunch till medlem, en kaffe med digitalt kvitto och en returnering. Kontrollera efteråt att allt syns rätt i kassan."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Skatteverket — Kassaregister",
+     "url": "https://www.skatteverket.se/foretag/drivaforetag/kassaregister.4.121b82f011a74172e5880005263.html"
+    }
+   ]
+  },
+  {
+   "id": "cafe-hygien",
+   "label": "2.1",
+   "title": "Livsmedelshygien",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Matförgiftning syns inte, luktar inte och märks först efteråt. Därför har alla livsmedelsföretag en [[cafe-egenkontroll|egenkontroll]]: rutiner som gör maten säker varje dag. Du är den som gör rutinerna på riktigt."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "cafe-egenkontroll"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=86addc6e-36e7-4944-ab02-470e4da86e21&size=1600",
+     "alt": "En sallad på tallrik i Matkafé Mätarhuset.",
+     "caption": "Oförpackad mat kräver rena händer och rätt temperatur."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Handtvätt"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Tvätta händerna innan du hanterar oförpackad mat.",
+      "Tvätta efter toalettbesök, efter sopor, efter disk av smutsigt och **efter att ha hanterat pengar**.",
+      "Handskar ersätter inte handtvätt. Byt handskar mellan olika moment.",
+      "Täck sår så att maten inte kan förorenas. Ringar och klockor gör det svårt att tvätta händerna ordentligt."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Temperaturer — Livsmedelsverkets riktvärden"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Vad",
+      "Riktvärde"
+     ],
+     "rows": [
+      [
+       "Kylvaror",
+       "Högst +8 °C. Följ förpackningens temperatur om den är lägre."
+      ],
+      [
+       "Frysvaror",
+       "-18 °C eller kallare."
+      ],
+      [
+       "[[cafe-varmhallning|Varmhållning]]",
+       "Minst +60 °C."
+      ],
+      [
+       "Nedkylning av varm mat",
+       "Från +60 °C till +8 °C inom högst sex timmar — och så snabbt som möjligt."
+      ],
+      [
+       "Återuppvärmning",
+       "Till +70 °C eller varmare."
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Siffrorna är riktvärden i Livsmedelsverkets vägledning. Lagkravet är att mat inte får förvaras så att den kan bli farlig — riktvärdena är det säkra sättet att klara det."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Sjuk? Stanna hemma"
+    },
+    {
+     "type": "richtext",
+     "text": "Har du kräkts eller haft diarré, eller har du ett infekterat sår, ska du inte hantera mat. **Säg till direkt** — innan passet, inte efter."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Jag vaknade med magont och har haft diarré i natt. Jag kan inte jobba i kaféet idag — kan vi hitta någon som tar mitt pass?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: soppan som svalnar på bänken",
+     "text": "En stor gryta som får svalna på spisen tar många timmar att komma ner till +8 °C. Dela upp i mindre kärl och kyl ner aktivt."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Kaféets egenkontrollprogram: vilka temperaturer som loggas, när och var, och vad som ska göras vid avvikelse. Vilken tid gäller innan man får komma tillbaka efter magsjuka?"
+    },
+    {
+     "type": "task",
+     "instruction": "Mät temperaturen i alla kylar och i varmhållningen idag. Skriv in värdena i egenkontrollen. Ligger något utanför riktvärdet? Säg till kaféansvarig."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket Kontrollwiki — Temperatur",
+     "url": "https://kontrollwiki.livsmedelsverket.se/artikel/349/temperatur"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket Kontrollwiki — Personlig hygien",
+     "url": "https://kontrollwiki.livsmedelsverket.se/artikel/345/personlig-hygien"
+    }
+   ]
+  },
+  {
+   "id": "cafe-allergier",
+   "label": "2.2",
+   "title": "Allergier & specialkost",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "För en gäst med svår allergi kan ett fel bli livshotande. På menyn står ”Fråga personalen om allergener”. Det betyder att **du** är allergeninformationen. Den ska vara rätt — varje gång."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=3b97bb87-0268-49ac-81d9-a045b58e66ca&size=1600",
+     "alt": "Matkafé Mätarhusets brunchmeny.",
+     "caption": "Menyn hänvisar till personalen. Då måste svaret finnas hos oss."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Reglerna kort"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Information om [[cafe-allergen|allergener]] ska alltid ges, även för mat som inte är förpackad (EU-förordning 1169/2011).",
+      "Den får ges muntligt. Då måste det finnas en tydlig upplysning om att gästen kan fråga — därför skylten.",
+      "Informationen ska stämma med det som faktiskt finns i maten idag."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "De 14 allergenerna"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "",
+      ""
+     ],
+     "rows": [
+      [
+       "Spannmål med gluten (vete, råg, korn, havre m.fl.)",
+       "Kräftdjur",
+       "Ägg"
+      ],
+      [
+       "Fisk",
+       "Jordnötter",
+       "Sojabönor"
+      ],
+      [
+       "Mjölk (även laktos)",
+       "Nötter (mandel, hasselnöt, valnöt, cashew m.fl.)",
+       "Selleri"
+      ],
+      [
+       "Senap",
+       "Sesamfrön",
+       "Svaveldioxid och sulfit (över en viss halt)"
+      ],
+      [
+       "Lupin",
+       "Blötdjur (t.ex. musslor)",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "cafe-kontaminering"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "När en gäst frågar"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Lyssna: vilken allergi, och hur känslig?",
+      "Kontrollera i receptet eller allergenlistan — inte i minnet.",
+      "Fråga köket om [[cafe-kontaminering|kontaminering]]: samma skärbräda, fritös eller sked?",
+      "Svara tydligt. Kan du inte vara säker — säg det.",
+      "Markera beställningen och berätta för den som lagar och serverar."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Jag vill inte gissa när det gäller nötter. Jag vet inte säkert — jag frågar köket och kommer tillbaka på en gång.”"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=688affd2-2f1b-4c13-939a-87553a410499&size=1600",
+     "alt": "Ett dukat barnkalasbord med ballonger.",
+     "caption": "Vid barnkalas: fråga om allergier redan vid bokningen — tårtan är ofta det svåra."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: ”det är nog lugnt”",
+     "text": "Det farligaste svaret är ett snällt gissat ja. **Om du är osäker, säg att du inte vet och fråga köket.** Ett ändrat recept eller en ny leverantör kan ändra allt."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Var allergenlistan för dagens rätter finns, vem som uppdaterar den när menyn ändras, och vad kaféet kan erbjuda för glutenfritt, mjölkfritt och veganskt."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta fram allergeninformationen för veckans lunch och dagens bowl. Kan du svara på vilka av de 14 allergenerna som finns i dem? Stäm av med köket."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket — Livsmedel som inte är färdigförpackade (broschyr)",
+     "url": "https://www.livsmedelsverket.se/globalassets/publikationsdatabas/broschyrer/livsmedel-som-inte-ar-fardigforpackade.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cafe-servering",
+   "label": "3.1",
+   "title": "Servering & bemötande",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Gästerna i Mätarhuset är blandade: klättrare i kritiga byxor, föräldrar med småbarn, företag i möte, turister som vill se huset. Alla ska känna sig välkomna. Bemötandet är ofta det de minns."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=647cb3b3-2d34-4180-b475-a1cf71db8ffd&size=1600",
+     "alt": "En serverad maträtt.",
+     "caption": "Rätt rätt till rätt bord — med ett leende."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Grunderna"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Se gästen inom kort tid** — även om du är upptagen. En blick och ”Jag kommer strax” räcker.",
+      "**Bär rätt:** tallrikar på sidan, aldrig fingrarna på maten.",
+      "**Säg vad du ställer ner:** ”Här är bowlen, och här är barnens pannkakor.”",
+      "**Följ upp** efter en stund: ”Smakar det bra?”",
+      "**Duka av** när gästen är klar — och torka bordet till nästa."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "När något blir fel"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Lyssna utan att avbryta.",
+      "Be om ursäkt — kort och ärligt.",
+      "Laga felet: ny rätt, eller hämta kaféansvarig.",
+      "Tacka för att gästen sa till."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Oj, förlåt — du beställde utan dressing. Jag tar tillbaka den direkt och kommer med en ny. Tack för att du sa till!”"
+    },
+    {
+     "type": "richtext",
+     "text": "Klätterverket har nolltolerans mot sexism, rasism och kränkningar. Det gäller också i kaféet — mot gäster och mot dig. Säg till kaféansvarig eller platsansvarig om något händer."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: tala över huvudet",
+     "text": "Barn är gäster också. Prata med barnet när det beställer från barnmenyn. Och prata aldrig om en gäst med en kollega så att gästen hör."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Är kaféet bordsservering, självservering eller både och? Hur får gästen veta var maten hämtas? Vem hanterar klagomål?"
+    },
+    {
+     "type": "task",
+     "instruction": "Välj en lunchtimme. Räkna hur många gäster du hälsar på inom en minut från att de kommer in. Prata med en kollega efteråt: vad gjorde det svårt?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — hemsidan",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "cafe-menyn",
+   "label": "3.2",
+   "title": "Menyn",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Du säljer bättre och svarar säkrare när du känner menyn. Gästen vill veta vad som är gott idag, vad som mättar efter ett hårt pass och vad barnen kan äta."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=3b97bb87-0268-49ac-81d9-a045b58e66ca&size=1600",
+     "alt": "Brunchmenyn i Matkafé Mätarhuset.",
+     "caption": "Brunch serveras helger 10:30–15:30."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Del av menyn",
+      "När",
+      "Pris"
+     ],
+     "rows": [
+      [
+       "Veckans lunch",
+       "Vardagar som kaféet har öppet",
+       "160 kr"
+      ],
+      [
+       "Bowl",
+       "Under öppettid",
+       "175 kr"
+      ],
+      [
+       "Brunchrätter",
+       "Helger 10:30–15:30",
+       "Se menyn"
+      ],
+      [
+       "Barnmeny",
+       "Under öppettid",
+       "Se menyn"
+      ],
+      [
+       "Kaffe",
+       "Johan & Nyström",
+       "Se menyn"
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Lär dig för varje rätt: **vad den innehåller, hur den tillagas, vilka allergener den har och vad den kan ersättas med.**"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=86addc6e-36e7-4944-ab02-470e4da86e21&size=1600",
+     "alt": "En sallad med grönsaker.",
+     "caption": "Smaka själv — då kan du beskriva rätten med egna ord."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En klättrare frågar vad hen ska ta efter passet: ”Bowlen är mättande — idag är den med … Vill du ha något snabbare finns veckans lunch klar direkt.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: gammal meny i huvudet",
+     "text": "Veckans lunch byter. Brunchen kan ändras. Läs dagens meny och allergenlista innan passet — varje pass."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vad som ingår i veckans lunch och vilka tider lunchen gäller, vem som informerar om veckans rätter, priserna för brunch, barnmeny och kaffe — och hur personalen får smaka nya rätter."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå igenom dagens meny med köket före öppning. Beskriv varje rätt högt för en kollega på högst två meningar, med allergener."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Matkafé Mätarhuset på Instagram (@matkafematarhuset)",
+     "url": "https://www.instagram.com/matkafematarhuset/"
+    }
+   ]
+  },
+  {
+   "id": "cafe-merforsaljning",
+   "label": "3.3",
+   "title": "Merförsäljning",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Bra [[cafe-merforsaljning|merförsäljning]] är service: du tipsar om något gästen faktiskt vill ha. En kaffe till kakan, en smoothie efter passet, en kaka till barnen. Det handlar om att föreslå, inte att trycka på."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "cafe-merforsaljning"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=688affd2-2f1b-4c13-939a-87553a410499&size=1600",
+     "alt": "Ett dukat barnkalasbord.",
+     "caption": "Barnkalas på Gasverket: paket med tårta — prinsesstårta, chokladmousse eller frukt."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så gör du"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Ett förslag per gäst** — det som passar just den gästen.",
+      "**Fråga, påstå inte:** ”Vill du ha en kaffe till?” i stället för ”Du tar väl en kaffe?”",
+      "**Para ihop:** lunch + kaffe, brunch + juice, klättring + fika.",
+      "**Tänk på resten av Klätterverket:** Kontrollrummet för möten, barnkalas, medlemskap med 10 % i kaféet."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Du tränade ett tag där inne va? Vill du ha något att dricka till bowlen?” — eller till en stamgäst: ”Visste du att du får 10 % i kaféet om du är medlem?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: samma fras till alla",
+     "text": "”Något mer?” till alla låter som ett manus. Lyssna på gästen och föreslå en sak som passar."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilka produkter kaféet vill lyfta (t.ex. veckans kaka), om det finns säljmål, och hur kaféet ska hänvisa till barnkalas, konferens och medlemskap — till receptionen eller direkt?"
+    },
+    {
+     "type": "task",
+     "instruction": "Prova att ge ett eget förslag till tio gäster under ett pass. Skriv upp vilka förslag gästerna tackade ja till."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — hemsidan",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "cafe-konferens",
+   "label": "3.4",
+   "title": "Servera vid konferens",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "I **Kontrollrummet** kan upp till 14 personer ha möte. Många företag kombinerar mötet med klättring. Konferensgäster har ett schema, och kaféet ska passa in i det — tyst, i tid och utan att störa."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=5d161c05-652b-457e-93ef-bd4e545a0cd8&size=1600",
+     "alt": "Konferensrummet Kontrollrummet, dukat för möte.",
+     "caption": "Kontrollrummet — för upp till 14 personer."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Före"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Läs bokningen: antal, tider, meny, specialkost och allergier.",
+      "Duka i god tid: vatten, glas, kaffe, anteckningsmaterial om det ingår.",
+      "Kontrollera teknik och temperatur i rummet enligt rutin.",
+      "Märk specialkost tydligt med namn eller lapp."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Under"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Gå in på avtalade tider — knacka lätt och servera tyst.",
+      "Fråga mötesledaren om allt är bra, inte hela gruppen.",
+      "Fyll på kaffe och vatten i pauserna."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Efter"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Duka av, torka bord och vädra.",
+      "Rapportera vad som gick åt och om något extra beställdes."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b7ff4c1d-aa70-4bee-971a-05d21f9523a5&size=1600",
+     "alt": "Kollage från konferenser på Klätterverket.",
+     "caption": "Möte och klättring samma dag — tider är viktiga."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Till mötesledaren i pausen: ”Lunchen står klar 12:00 i kaféet som ni bokat. Två av er har glutenfri, de är märkta med namn.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: missad specialkost",
+     "text": "Specialkost i bokningen måste nå köket. Kontrollera dagen innan, och igen när du dukar fram."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Hur konferensbokningar kommer till kaféet, vilka paket som erbjuds, vad som ingår i rummet (teknik, material) och vem som är kontaktperson för gruppen."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå till Kontrollrummet och gör en dukning för 14 personer enligt en riktig eller påhittad bokning. Be kaféansvarig granska."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — hemsidan",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "cafe-eventkvall",
+   "label": "3.5",
+   "title": "Eventkväll",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klätterverket har event, som **Crush** — en klätterträff för kvinnor på onsdagar — och **Blocs & Bass**. På en eventkväll är det fler gäster, högre ljud och andra tider än vanligt. Planering gör kvällen rolig även för personalen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c948880f-5490-405d-a9b0-091e3d520e4c&size=1600",
+     "alt": "Affisch för eventet Blocs & Bass.",
+     "caption": "Blocs & Bass — fler gäster och andra tider än en vanlig dag."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Inför eventet"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Ta reda på tider, antal gäster och vad kaféet ska servera.",
+      "Förbered mer än vanligt: disk, glas, servetter, sopsäckar.",
+      "Gör klart vem som gör vad: kassa, servering, disk.",
+      "Se till att allergeninformationen finns även för eventmaten."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Under kvällen"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Håll gångar och utrymningsvägar fria.",
+      "Plocka disk löpande — undvik högar.",
+      "Mat och dryck stannar i kaféet. I klätterhallen är det ingen mat på mattorna, och ingen alkohol."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=56288310-c424-4dce-b037-695ac2568b4e&size=1600",
+     "alt": "Logotypen för Crush.",
+     "caption": "Crush — Klätterverkets klätterträff för kvinnor på onsdagar."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En gäst går mot boulderhallen med ett glas: ”Vill du ställa glaset här vid baren så länge? Vi har inga glas eller drycker inne i hallen — det är för allas säkerhet.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: glas i hallen",
+     "text": "Glas och mugg på fallmattan kan ge skärskador eller en vriden fot vid ett fall. Ta det vänligt men direkt."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilka event kaféet är öppet för, öppettider på eventkvällar, menyer, om det serveras alkohol (och i så fall enligt vilket tillstånd), och vem som är ansvarig under kvällen."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå igenom nästa event med kaféansvarig. Skriv en lista över vad som ska förberedas och vem som gör det."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — hemsidan",
+     "url": "https://www.klatterverket.se"
+    }
+   ]
+  },
+  {
+   "id": "cafe-disk",
+   "label": "4.1",
+   "title": "Disk & köksrutiner",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En snabb och ren disk håller kaféet igång. Köket fungerar bara om rent och smutsigt hålls isär — det skyddar mot [[cafe-kontaminering|kontaminering]] och matförgiftning."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=647cb3b3-2d34-4180-b475-a1cf71db8ffd&size=1600",
+     "alt": "En maträtt på tallrik.",
+     "caption": "Ren tallrik, rena händer, rätt temperatur."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Diskflödet"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Skrapa av matrester i sopor eller matavfall.",
+      "Spola av och sortera: glas, bestick, tallrikar, kastruller.",
+      "Diska enligt maskinens program och instruktion.",
+      "Låt det torka. Kontrollera att det är rent — annars diska om.",
+      "Ställ undan på rätt plats. Rent och smutsigt ska aldrig mötas."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Köksrutiner som gäller alla"
+    },
+    {
+     "type": "list",
+     "items": [
+      "[[cafe-fifo|Först in, först ut]]: äldst framåt, nytt bakom.",
+      "Märk det du förvarar: vad och datum.",
+      "Separata skärbrädor och redskap för rått och färdigt — och för allergenfri mat.",
+      "Tvätta händerna när du går från disk till mat."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "cafe-fifo"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Till en kollega: ”Jag har precis tömt smutsdisken — jag tvättar händerna innan jag tar bowlen.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: torka med samma trasa",
+     "text": "En trasa som torkat diskbänken och sedan bordet sprider bakterier. Byt trasa ofta och håll isär trasor för olika ytor."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Diskmaskinens rutiner (program, kemikalier, avkalkning), vem som får hantera kemikalierna, var säkerhetsdatabladen finns och hur matavfall sorteras."
+    },
+    {
+     "type": "task",
+     "instruction": "Kör en hel disk från skrapning till undanställning med en kollega. Ta reda på var diskmedlets säkerhetsdatablad finns."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket — Skapa en god livsmedelssäkerhetskultur",
+     "url": "https://www.livsmedelsverket.se/foretagande-regler-kontroll/regler-for-livsmedelsforetag/lokaler_hygien_foretagens_egen_kontroll/skapa-en-god-livsmedelssakerhetskultur/"
+    }
+   ]
+  },
+  {
+   "id": "cafe-stad",
+   "label": "4.2",
+   "title": "Städrutiner",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ett rent kafé är säkrare och trevligare. Det märks också för hela Klätterverket: kaféet är det många gäster ser först och sist."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "En medarbetare i Klätterverket-hoodie.",
+     "caption": "Städning är allas jobb — varje pass."
+    },
+    {
+     "type": "table",
+     "head": [
+      "När",
+      "Vad"
+     ],
+     "rows": [
+      [
+       "Löpande",
+       "Torka bord och stolar, plocka disk, torka spill direkt."
+      ],
+      [
+       "Varje dag",
+       "Ytor i köket, kaffemaskin, diskbänk, golv, sopor, toalett om det ingår."
+      ],
+      [
+       "Varje vecka",
+       "Kylar invändigt, hyllor, bakom maskiner — enligt schema."
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Rengöra och desinficera"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Ta bort smuts och matrester först.",
+      "Rengör med rengöringsmedel.",
+      "Desinficera bara där rutinen säger det — på ren yta.",
+      "Låt torka."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6bca5cc9-d8d3-42d5-ade5-fa1107eaea82&size=1600",
+     "alt": "Översikt över klätterhallen i Gasverket.",
+     "caption": "Krita från hallen följer med in i kaféet — damma av ofta."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "Till en gäst med barn som spillt: ”Ingen fara, jag tar det! Vill ni ha ett nytt glas?”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: blöt golv utan skylt",
+     "text": "Ett nytorkat golv är halt. Ställ ut en varningsskylt eller torka det torrt — många gäster har klätterskor eller strumpor."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Kaféets städschema, vilka medel som används till vad, vem som städar toaletter och vem som gör storstädning."
+    },
+    {
+     "type": "task",
+     "instruction": "Hitta kaféets städschema. Gör veckans städuppgift tillsammans med en kollega och bocka av den."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Livsmedelsverket — Lokaler, hygien och företagens egen kontroll",
+     "url": "https://www.livsmedelsverket.se/foretagande-regler-kontroll/regler-for-livsmedelsforetag/lokaler_hygien_foretagens_egen_kontroll/"
+    }
+   ]
+  },
+  {
+   "id": "cafe-uteservering",
+   "label": "4.3",
+   "title": "Uteserveringen",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En solig dag vill många sitta ute. En uteservering är trevlig — men det är också mer att hålla koll på: väder, getingar, mat som blir varm och gäster som rör sig in och ut."
+    },
+    {
+     "type": "video",
+     "title": "Gasverket (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e81568f0-2357-43f9-a7ab-3eb092fd2c63&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Ute gäller samma regler — fast svårare"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Temperatur:** kall mat blir snabbt varm i solen. Ta inte ut mer än som hinner ätas.",
+      "**Täck mat** så att insekter inte kommer åt den.",
+      "**Duka av ofta** — disk ute lockar getingar och fåglar.",
+      "**Möbler:** ställ upp när du öppnar, ta in eller lås när du stänger.",
+      "**Alkohol:** om alkohol serveras ute ska uteserveringen vara tydligt avgränsad, och gäster får inte ta med alkohol utanför den."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=647cb3b3-2d34-4180-b475-a1cf71db8ffd&size=1600",
+     "alt": "En maträtt.",
+     "caption": "Ute i solen blir kall mat varm fort."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "En gäst frågar om hen kan ta lunchen ut: ”Absolut, om uteserveringen är öppen idag. Jag kommer ut med besticken.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: glömd uteservering",
+     "text": "Det är lätt att glömma det som står ute när det är rusning inne. Gå ett varv ute var 15:e minut eller enligt rutin."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Om Mätarhuset har uteservering, när säsongen är, hur möbler ställs upp och låses, och om det finns tillstånd för alkoholservering ute."
+    },
+    {
+     "type": "task",
+     "instruction": "Om ni har uteservering: ställ i ordning den en morgon tillsammans med en kollega och gå igenom vad som ska tas in vid stängning."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Folkhälsomyndigheten — Ansvarsfull alkoholservering (utbildningsmaterial)",
+     "url": "https://www.folkhalsomyndigheten.se/contentassets/31e58e8a85ac45afbfdea7b6c9ffc7cb/ansvarsfull-alkoholservering-utbildningsmaterial.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cafe-alkohol",
+   "label": "4.4",
+   "title": "Alkoholservering & ansvar",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Den här lektionen gäller den personal som berörs av alkoholservering, enligt Klätterverkets faktiska tillstånd och rutiner. Alkohol får bara serveras om stället har ett [[cafe-serveringstillstand|serveringstillstånd]] från kommunen, och då gäller [[cafe-alkohollagen|alkohollagen]] (2010:1622)."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=3402ca2e-aa07-4ea7-a733-03e3cabc0164&size=1600",
+     "alt": "Mat och ett glas vin på ett bord.",
+     "caption": "Alkohol får bara serveras med tillstånd, enligt alkohollagen."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Har Matkafé Mätarhuset serveringstillstånd? I så fall: för vilka tider, ytor och tillfällen (t.ex. event, konferens), vem som är serveringsansvarig och vilka egna regler Klätterverket har."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Hallregeln"
+    },
+    {
+     "type": "richtext",
+     "text": "**Ingen alkohol i klätterhallen.** Det gäller alltid, även på eventkvällar. Alkohol och klättring hör inte ihop."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Det här gäller vid servering"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Ingen under **18 år** får serveras alkohol på serveringsställe — inte ens med förälder.",
+      "Be om **legitimation** vid minsta tvekan. Folkhälsomyndigheten rekommenderar att fråga alla som ser ut att vara under 25.",
+      "Servera inte någon som är [[cafe-markbart|märkbart påverkad]]. Sluta servera innan det går så långt.",
+      "Servera inte den som du misstänker ska ge alkoholen till någon under 18 (langning).",
+      "En [[cafe-serveringsansvarig|serveringsansvarig]] ska finnas på plats under hela serveringen. Du ska veta vem det är.",
+      "Lättdrycker ska finnas i bra urval."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "cafe-markbart"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Tecken på märkbar påverkan"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Svårt att fästa blicken, hängande ögonlock.",
+      "Högljudd, överdrivet självsäker, störande.",
+      "Fumlig, har svårt att uppfatta vad du säger."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "”Jag kan tyvärr inte servera mer alkohol till dig ikväll. Men jag tar gärna fram en alkoholfri dryck eller vatten.” — eller vid ålderskontroll: ”Får jag se legitimation? Vi frågar alla som ser ut att vara under 25.”"
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: vara snäll mot fel person",
+     "text": "Att servera ”en sista” till någon som är märkbart påverkad är inte service. Både du och tillståndshavaren kan få ta konsekvenserna. Säg nej vänligt — och hämta serveringsansvarig."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta reda på vem som är serveringsansvarig nästa gång alkohol serveras, och var ni noterar ålderskontroller och avvisningar. Öva repliken ovan högt med en kollega."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Alkohollag (2010:1622) — riksdagen.se",
+     "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/alkohollag-20101622_sfs-2010-1622/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Folkhälsomyndigheten — Ansvarsfull alkoholservering (utbildningsmaterial)",
+     "url": "https://www.folkhalsomyndigheten.se/contentassets/31e58e8a85ac45afbfdea7b6c9ffc7cb/ansvarsfull-alkoholservering-utbildningsmaterial.pdf"
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu är du klar med alla lektioner. Provet har 15 frågor ur en större frågebank. Du behöver 80 % rätt och har tre försök."
+    }
+   ]
+  }
+ ],
+ "terms": {
+  "cafe-egenkontroll": {
+   "term": "Egenkontroll",
+   "definition": "Livsmedelsföretagets egna rutiner för att maten ska vara säker — till exempel temperaturkontroller, rengöring och allergenhantering. Rutinerna ska följas och dokumenteras."
+  },
+  "cafe-mise": {
+   "term": "Mise en place",
+   "definition": "Att allt är på plats innan gästerna kommer: råvaror, redskap, disk och servetter, förberett och påfyllt."
+  },
+  "cafe-nedkylning": {
+   "term": "Nedkylning",
+   "definition": "Att snabbt kyla ner varm mat som ska sparas. Livsmedelsverkets riktvärde är från +60 °C till +8 °C inom högst sex timmar."
+  },
+  "cafe-varmhallning": {
+   "term": "Varmhållning",
+   "definition": "Att hålla färdig mat varm tills den serveras. Livsmedelsverkets riktvärde är minst +60 °C."
+  },
+  "cafe-allergen": {
+   "term": "Allergen",
+   "definition": "Ett ämne som kan ge allergisk reaktion. EU-förordning 1169/2011 listar 14 allergener som alltid ska kunna anges, även för oförpackad mat."
+  },
+  "cafe-kontaminering": {
+   "term": "Kontaminering",
+   "definition": "När något oönskat — bakterier eller en allergen — förs över till maten, till exempel via en skärbräda, en sked, händer eller en trasa."
+  },
+  "cafe-fifo": {
+   "term": "Först in, först ut",
+   "definition": "Det som kom in först används först. Äldre varor ställs längst fram, nya bakom."
+  },
+  "cafe-merforsaljning": {
+   "term": "Merförsäljning",
+   "definition": "Att föreslå något extra som passar gästen, till exempel en dryck till maten. Bra merförsäljning är service, inte påtryckning."
+  },
+  "cafe-serveringstillstand": {
+   "term": "Serveringstillstånd",
+   "definition": "Kommunens tillstånd att servera alkohol. Det gäller för bestämda tider och ytor, och tillståndshavaren ansvarar för att alkohollagen följs."
+  },
+  "cafe-serveringsansvarig": {
+   "term": "Serveringsansvarig",
+   "definition": "Den person som ska finnas på plats under hela alkoholserveringen och ansvara för att reglerna följs. Ska vara minst 20 år och anmäld till kommunen."
+  },
+  "cafe-markbart": {
+   "term": "Märkbart påverkad",
+   "definition": "En gäst som tydligt visar tecken på berusning, i beteende, tal eller rörelser. Den som är märkbart påverkad får inte serveras alkohol."
+  },
+  "cafe-alkohollagen": {
+   "term": "Alkohollagen",
+   "definition": "Alkohollag (2010:1622) — lagen som styr bland annat servering av alkohol, åldersgränser och serveringstillstånd."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Restaurang & café — Matkafé Mätarhuset",
+  "passScore": 0.8,
+  "draw": 15,
+  "attempts": 3,
+  "items": [
+   {
+    "id": "cafe-q1",
+    "type": "single",
+    "stem": "En gäst frågar när Matkafé Mätarhuset har öppet. Vad svarar du?",
+    "options": [
+     "Tisdag–söndag 10–16, måndag stängt",
+     "Varje dag 10–22, som hallen",
+     "Måndag–fredag 07–16",
+     "Helger 10:30–15:30"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-grund",
+    "why": "Kaféet har öppet tis–sön 10–16 och är stängt på måndagar. 10:30–15:30 är brunchtiden på helger."
+   },
+   {
+    "id": "cafe-q2",
+    "type": "single",
+    "stem": "Hur många personer rymmer konferensrummet Kontrollrummet?",
+    "options": [
+     "8",
+     "14",
+     "20",
+     "30"
+    ],
+    "correct": [
+     "b"
+    ],
+    "lesson": "cafe-konferens",
+    "why": "Kontrollrummet är för upp till 14 personer."
+   },
+   {
+    "id": "cafe-q3",
+    "type": "ordering",
+    "stem": "Sätt öppningen i rätt ordning.",
+    "options": [
+     "Tvätta händerna och ta på arbetskläder",
+     "Kontrollera och skriv upp temperaturen i kylar och frys",
+     "Fyll på disk, servetter och bestick",
+     "Starta kassan och kontrollera kortterminalen",
+     "Torka bord och gå ett varv som gäst"
+    ],
+    "lesson": "cafe-oppning",
+    "why": "Händer först, sedan säker mat (temperatur), sedan förberedelser och till sist kassa och en sista koll som gäst."
+   },
+   {
+    "id": "cafe-q4",
+    "type": "single",
+    "stem": "Vad är syftet med att mäta kyltemperaturen varje morgon?",
+    "options": [
+     "Att upptäcka en kyl som blivit för varm innan maten serveras",
+     "Att spara el",
+     "Att veta hur mycket mat som finns",
+     "Att se att dörren är stängd"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-oppning",
+    "why": "Temperaturkontrollen i egenkontrollen fångar upp en kyl som gått sönder, innan maten hinner bli farlig."
+   },
+   {
+    "id": "cafe-q5",
+    "type": "single",
+    "stem": "Kaféet stänger 16 men hallen är öppen till 22. Vad gör du med varm mat som ska sparas till i morgon?",
+    "options": [
+     "Kyler ner den så snabbt som möjligt, gärna uppdelad i mindre kärl",
+     "Låter den svalna på spisen till kvällen",
+     "Ställer den i kylen i den stora grytan direkt",
+     "Lämnar den i varmhållningen till nästa dag"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-stangning",
+    "why": "Varm mat ska kylas ner snabbt. Mindre kärl kyls fortare. Livsmedelsverkets riktvärde är från +60 °C till +8 °C inom högst sex timmar."
+   },
+   {
+    "id": "cafe-q6",
+    "type": "trueFalse",
+    "stem": "Ett kvitto ska tas fram ur kassan och erbjudas kunden, men det får vara digitalt.",
+    "options": [
+     "Sant",
+     "Falskt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-kassan",
+    "why": "Enligt skatteförfarandelagen ska kvitto tas fram och erbjudas kunden. Skatteverket anser att det får vara på papper eller elektroniskt."
+   },
+   {
+    "id": "cafe-q7",
+    "type": "multi",
+    "stem": "Vilka stämmer om kassan? Välj alla som stämmer.",
+    "options": [
+     "Kortbetalningar och Swish ska registreras i kassaregistret",
+     "Medlemmar har 10 % rabatt på Matkafé",
+     "Det går bra att sälja utan kassan om det är mycket kö",
+     "Kvitto ska erbjudas"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ],
+    "lesson": "cafe-kassan",
+    "why": "All kontant- och kortförsäljning (även Swish) registreras i kassaregistret och kvitto erbjuds. Medlemmar får 10 % på Matkafé. Försäljning vid sidan av kassan är inte tillåten."
+   },
+   {
+    "id": "cafe-q8",
+    "type": "single",
+    "stem": "Vilken är Livsmedelsverkets riktvärde för varmhållning?",
+    "options": [
+     "Minst +45 °C",
+     "Minst +60 °C",
+     "Minst +72 °C",
+     "Minst +100 °C"
+    ],
+    "correct": [
+     "b"
+    ],
+    "lesson": "cafe-hygien",
+    "why": "Livsmedelsverket anger +60 °C som lämpligt riktvärde för varmhållning."
+   },
+   {
+    "id": "cafe-q9",
+    "type": "single",
+    "stem": "Vilken temperatur ska kylvaror högst hålla, enligt Livsmedelsverkets riktvärde (om förpackningen inte säger lägre)?",
+    "options": [
+     "+4 °C",
+     "+8 °C",
+     "+12 °C",
+     "+15 °C"
+    ],
+    "correct": [
+     "b"
+    ],
+    "lesson": "cafe-hygien",
+    "why": "Över +8 °C ökar risken för bakterietillväxt väsentligt. Står det en lägre temperatur på förpackningen gäller den."
+   },
+   {
+    "id": "cafe-q10",
+    "type": "multi",
+    "stem": "När ska du tvätta händerna? Välj alla som stämmer.",
+    "options": [
+     "Innan du hanterar oförpackad mat",
+     "Efter att ha tagit betalt och innan du rör mat",
+     "Efter att ha burit ut soporna",
+     "Det räcker att byta handskar"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "cafe-hygien",
+    "why": "Handtvätt före oförpackad mat, efter pengar och efter smutsiga moment. Handskar ersätter inte handtvätt."
+   },
+   {
+    "id": "cafe-q11",
+    "type": "single",
+    "stem": "Du har haft diarré under natten. Vad gör du?",
+    "options": [
+     "Säger till innan passet och hanterar inte mat",
+     "Jobbar men tvättar händerna extra noga",
+     "Jobbar i kassan men hjälper till i köket vid rusning",
+     "Säger till efter passet"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-hygien",
+    "why": "Den som kan bära smitta som förs över till mat ska inte hantera mat, och ska säga till direkt."
+   },
+   {
+    "id": "cafe-q12",
+    "type": "single",
+    "stem": "En gäst frågar om bowlen innehåller nötter. Du är inte säker. Vad gör du?",
+    "options": [
+     "Säger att du inte vet och frågar köket",
+     "Säger ”det är nog lugnt”",
+     "Föreslår att gästen plockar bort nötterna själv",
+     "Läser bara på menyn"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-allergier",
+    "why": "Om du är osäker, säg att du inte vet och fråga köket. Ett gissat svar kan bli farligt.",
+    "intro": "Lunchrusning i Mätarhuset."
+   },
+   {
+    "id": "cafe-q13",
+    "type": "multi",
+    "stem": "Vilka av dessa hör till de 14 allergenerna som alltid ska kunna anges? Välj alla som stämmer.",
+    "options": [
+     "Sesamfrön",
+     "Selleri",
+     "Tomat",
+     "Lupin"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ],
+    "lesson": "cafe-allergier",
+    "why": "Sesam, selleri och lupin finns bland de 14 allergenerna i EU-förordning 1169/2011. Tomat gör det inte."
+   },
+   {
+    "id": "cafe-q14",
+    "type": "trueFalse",
+    "stem": "Allergeninformation för oförpackad mat får ges muntligt, om det finns en tydlig upplysning om att gästen kan fråga personalen.",
+    "options": [
+     "Sant",
+     "Falskt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-allergier",
+    "why": "Därför står det ”Fråga personalen om allergener” på menyn. Då måste personalen kunna ge rätt svar."
+   },
+   {
+    "id": "cafe-q15",
+    "type": "single",
+    "stem": "Vad är kontaminering i ett kök?",
+    "options": [
+     "När bakterier eller allergener förs över till maten, t.ex. via en skärbräda",
+     "När maten blir för kall",
+     "När en vara passerat bäst före-datum",
+     "När menyn ändras"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-allergier",
+    "why": "Kontaminering är överföring via redskap, händer, ytor eller trasor — viktigt både för hygien och allergier."
+   },
+   {
+    "id": "cafe-q16",
+    "type": "single",
+    "stem": "En gäst klagar på att hen fått dressing fast hen bad om att slippa. Vad gör du först?",
+    "options": [
+     "Lyssnar, ber om ursäkt och ordnar en ny rätt",
+     "Förklarar att köket hade bråttom",
+     "Säger att dressingen är god",
+     "Hänvisar till hemsidan"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-servering",
+    "why": "Lyssna, be kort om ursäkt, laga felet och tacka för att gästen sa till."
+   },
+   {
+    "id": "cafe-q17",
+    "type": "single",
+    "stem": "Vad kostar veckans lunch i Matkafé Mätarhuset?",
+    "options": [
+     "140 kr",
+     "160 kr",
+     "175 kr",
+     "190 kr"
+    ],
+    "correct": [
+     "b"
+    ],
+    "lesson": "cafe-menyn",
+    "why": "Veckans lunch kostar 160 kr. Bowlen kostar 175 kr."
+   },
+   {
+    "id": "cafe-q18",
+    "type": "single",
+    "stem": "När serveras brunch?",
+    "options": [
+     "Helger 10:30–15:30",
+     "Varje dag 10–12",
+     "Tisdag–fredag 10–16",
+     "Söndagar 09–13"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-menyn",
+    "why": "Brunch serveras på helger 10:30–15:30."
+   },
+   {
+    "id": "cafe-q19",
+    "type": "single",
+    "stem": "Vad är bra merförsäljning?",
+    "options": [
+     "Ett förslag som passar just den gästen",
+     "Att fråga ”Något mer?” till alla",
+     "Att föreslå tre saker till varje gäst",
+     "Att lägga till kaffe utan att fråga"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-merforsaljning",
+    "why": "Bra merförsäljning är service: lyssna och föreslå en sak som passar gästen."
+   },
+   {
+    "id": "cafe-q20",
+    "type": "multi",
+    "stem": "Du förbereder en konferenslunch i Kontrollrummet. Vad gör du? Välj alla som stämmer.",
+    "options": [
+     "Läser bokningen och kontrollerar specialkost",
+     "Märker specialkosten tydligt",
+     "Går in när det passar dig",
+     "Stämmer av med mötesledaren i pausen"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ],
+    "lesson": "cafe-konferens",
+    "why": "Konferensservering följer gruppens schema. Specialkost kontrolleras och märks, och du pratar med mötesledaren."
+   },
+   {
+    "id": "cafe-q21",
+    "type": "single",
+    "stem": "En gäst på Blocs & Bass går in mot boulderhallen med ett glas. Vad gör du?",
+    "options": [
+     "Ber vänligt gästen att lämna glaset i kaféet",
+     "Låter det vara om gästen är försiktig",
+     "Tar glaset utan att säga något",
+     "Ringer platsansvarig direkt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-eventkvall",
+    "why": "Mat och dryck stannar i kaféet. Glas på fallmattan kan ge skador, och i klätterhallen gäller ingen alkohol."
+   },
+   {
+    "id": "cafe-q22",
+    "type": "ordering",
+    "stem": "Sätt diskflödet i rätt ordning.",
+    "options": [
+     "Skrapa av matrester",
+     "Spola av och sortera",
+     "Diska enligt maskinens program",
+     "Låt torka och kontrollera att det är rent",
+     "Ställ undan på rätt plats"
+    ],
+    "lesson": "cafe-disk",
+    "why": "Skrapa, sortera, diska, torka och kontrollera, ställ undan — och håll rent och smutsigt isär."
+   },
+   {
+    "id": "cafe-q23",
+    "type": "single",
+    "stem": "Vad betyder ”först in, först ut”?",
+    "options": [
+     "Äldst vara används först och ställs längst fram",
+     "Den som kommer först på passet går först hem",
+     "Nya varor ställs längst fram",
+     "Gäster som kommer först serveras först"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-disk",
+    "why": "Först in, först ut minskar svinn och risken att servera för gamla varor."
+   },
+   {
+    "id": "cafe-q24",
+    "type": "single",
+    "stem": "Du har precis torkat golvet i kaféet. Vad gör du?",
+    "options": [
+     "Ställer ut en varningsskylt eller torkar golvet torrt",
+     "Inget, det torkar snabbt",
+     "Ber gästerna gå runt",
+     "Väntar med att torka till stängning"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-stad",
+    "why": "Ett vått golv är halt — särskilt för gäster i klätterskor eller strumpor."
+   },
+   {
+    "id": "cafe-q25",
+    "type": "single",
+    "stem": "Vad är den största matrisken på uteserveringen en varm dag?",
+    "options": [
+     "Kall mat blir för varm i solen",
+     "Att möblerna blir smutsiga",
+     "Att menyn blåser bort",
+     "Att kaffet kallnar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "cafe-uteservering",
+    "why": "Kall mat som står i solen kan snabbt komma över +8 °C. Ta bara ut det som hinner ätas och täck maten."
+   },
+   {
+    "id": "cafe-q26",
+    "type": "multi",
+    "stem": "Vad gäller vid alkoholservering? Välj alla som stämmer.",
+    "options": [
+     "Ingen under 18 år får serveras alkohol, inte heller med förälder",
+     "Be om legitimation vid minsta tvekan",
+     "En märkbart påverkad gäst får en sista om hen ber snällt",
+     "En serveringsansvarig ska finnas på plats"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "d"
+    ],
+    "lesson": "cafe-alkohol",
+    "why": "Åldersgränsen är 18 år på serveringsställe, legitimation begärs vid tvekan, och en serveringsansvarig ska vara på plats. Märkbart påverkade får inte serveras."
+   },
+   {
+    "id": "cafe-q27",
+    "type": "trueFalse",
+    "stem": "På eventkvällar är det okej att ta med en öl in i klätterhallen.",
+    "options": [
+     "Sant",
+     "Falskt"
+    ],
+    "correct": [
+     "b"
+    ],
+    "lesson": "cafe-alkohol",
+    "why": "Hallregeln gäller alltid: ingen alkohol i klätterhallen."
+   }
+  ]
+ }
+}

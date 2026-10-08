@@ -1,0 +1,1474 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "hallvard",
+  "title": "Hallvärd",
+  "summary": "Allt du behöver för att vara hallens ögon: rundor, rondering, felanmälan, säkerhetsregler och barnregler. Och hur du bemöter kunder, hanterar konflikter och stänger hallen tryggt.",
+  "audience": [
+   "hallvard"
+  ],
+  "estimatedMinutes": 64,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24,
+   "title": "Hallvärd"
+  },
+  "modules": [
+   {
+    "id": "mod.hv-1",
+    "title": "Ditt uppdrag",
+    "lessons": [
+     "hv-rutiner",
+     "hv-sakerhetsansvar"
+    ]
+   },
+   {
+    "id": "mod.hv-2",
+    "title": "Rundan",
+    "lessons": [
+     "hv-stadrunda",
+     "hv-rondering",
+     "hv-toaletter",
+     "hv-felanmalan",
+     "hv-ordning"
+    ]
+   },
+   {
+    "id": "mod.hv-3",
+    "title": "Människorna i hallen",
+    "lessons": [
+     "hv-bemotande",
+     "hv-barn",
+     "hv-konflikter"
+    ]
+   },
+   {
+    "id": "mod.hv-4",
+    "title": "Stänga för kvällen",
+    "lessons": [
+     "hv-sista-timmen"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "hv-rutiner",
+   "label": "1.1",
+   "title": "Rutiner",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Som hallvärd är du hallens ögon. Du rör dig där kunderna klättrar, ser det som receptionen inte ser och tar hand om det innan det blir ett problem. Ett pass har en rytm: start, rundor och avslut. När rutinen sitter har du huvudet fritt för det viktigaste — människorna i hallen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "En medarbetare i Klätterverket-hoodie i hallen.",
+     "caption": "Hallvärden syns i hallen — kunderna ska veta vem de kan fråga."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Passets rytm"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Checka in** hos platsansvarig eller receptionen. Vilka kurser, grupper, barnkalas och event finns i dag? På onsdagar är det till exempel **Crush** i hallen.",
+      "**Ta med det du behöver** för passet — telefon eller radio, och det du använder på rundorna.",
+      "**Gå en första runda** genom hela hallen innan det fylls på: repväggar, boulder, gym, toaletter, omklädningsrum.",
+      "**Gå rundor** med jämna mellanrum under passet. Varje runda är både [[rondering|rondering]] och städning — med blicken uppåt.",
+      "**Skriv ner direkt** när du hittar ett fel eller när något nästan händer. Det glömmer du annars.",
+      "**Lämna över** till nästa pass: vad har hänt, vad är felanmält, vad behöver följas upp?"
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "När",
+      "Vad du har extra koll på"
+     ],
+     "rows": [
+      [
+       "Morgon och förmiddag",
+       "Lugnare hall. Bra läge att kontrollera ytor ordentligt. Gasverket öppnar 07 på tisdagar och torsdagar."
+      ],
+      [
+       "Eftermiddag",
+       "Skolklasser, Klätterakademin och familjer. Barnregler i bouldern."
+      ],
+      [
+       "Kväll",
+       "Flest kunder. Trängsel, [[fallzon|fallzoner]] och [[kamratkontroll|kamratkontroller]]."
+      ],
+      [
+       "Helg",
+       "Barnkalas kl. 10:15 och 15:15, familjer och förstagångsbesökare."
+      ]
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Gasverket — så ser hallen ut (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e81568f0-2357-43f9-a7ab-3eb092fd2c63&_ignore=.mp4"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel: överlämningen",
+     "text": "Kvällspasset i Gasverket är slut och morgonpersonalen tar över imorgon. **Så kan du säga** (eller skriva) vid överlämningen: \"Ett grepp snurrade på ett boulderproblem vid överhänget — problemet är avstängt och felanmält. Vatten på golvet vid toaletterna är torkat. En kund vrickade foten lätt i bouldern, tillbudet är rapporterat.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: blicken i golvet",
+     "text": "Rundan blir lätt en ren städrunda där du bara ser golvet och papperskorgarna. Titta upp. Det viktigaste du gör på rundan är att se klättrarna och säkrarna."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Passtider och bemanning per hall, öppnings- och stängningschecklista, vilken utrustning hallvärden bär (telefon, radio), var överlämningen skrivs ner och vem som är platsansvarig på varje pass."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå en hel runda tillsammans med en erfaren kollega i din hall. Skriv ner i vilken ordning ni går igenom ytorna och vad kollegan tittar extra noga på.",
+     "hint": "Fråga också: vad har hänt här som du vill att jag ska veta om?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — planering och organisering av arbetsmiljöarbete (AFS 2023:2)",
+     "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/publikationer/foreskrifter/afs-20232/"
+    }
+   ],
+   "source": {
+    "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/publikationer/foreskrifter/afs-20232/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-sakerhetsansvar",
+   "label": "1.2",
+   "title": "Säkerhetsansvar",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Du behöver inte vara instruktör för att se att något är fel. Som hallvärd är du den som **ser och ingriper**. Det handlar sällan om stora ingripanden. Oftast är det en vänlig fråga i rätt ögonblick."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8d821414-296f-4164-bb6a-706e4da44ebb&size=1600",
+     "alt": "En instruktör kontrollerar en klättrares säkring.",
+     "caption": "Ett extra par ögon på knuten är aldrig fel."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Reglerna du har koll på"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Regel",
+      "Det här tittar du efter"
+     ],
+     "rows": [
+      [
+       "[[klatterkort|Klätterkortet]] syns på selen",
+       "Grönt kort för topprep, rött för led. Gult, grönt eller rött för automatsäkring. Inget kort synligt: fråga."
+      ],
+      [
+       "[[kamratkontroll|Kamratkontroll]] alltid",
+       "Klättrare och säkrare kontrollerar varandra före varje start: knut, sele, säkringsanordning och karbin."
+      ],
+      [
+       "Förbjudna säkringsmetoder",
+       "Firningsåtta och HMS-säkring är förbjudna. En [[hjalplasande|hjälplåsande broms]] rekommenderas."
+      ],
+      [
+       "Fri [[fallzon|fallzon]]",
+       "Ingen står, sitter eller lägger saker under någon som klättrar."
+      ],
+      [
+       "Ingen alkohol eller droger",
+       "Den som verkar påverkad ska inte klättra eller säkra."
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kamratkontroll"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "klatterkort"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b2ba3bdb-4beb-467b-be22-20b8ddb3293f&size=1600",
+     "alt": "En hand håller ett grönt klätterkort.",
+     "caption": "Grönt kort: topprepssäkring enligt Svenska Klätterförbundets norm."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så ingriper du"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Akut fara** — till exempel en knut som inte är färdig eller en säkrare som släppt bromshanden: säg till direkt, högt och tydligt. \"Stopp! Stanna där du är.\"",
+      "**Inte akut:** gå fram, vänta tills klättraren är nere eller i vila, och prata i lugn ton.",
+      "**Förklara varför** med en mening. Folk ändrar sig lättare när de förstår.",
+      "**Visa rätt** — eller hämta en instruktör om det handlar om säkringsteknik.",
+      "**Följ upp.** Titta igen efter en stund.",
+      "**Skriv ner** det som var nära att gå fel, och berätta för platsansvarig om samma sak upprepas."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Hej! Jag ser inte ditt klätterkort — har du det med dig? Det ska sitta synligt på selen, så slipper vi fråga varje gång.\"  —  \"Har ni gjort kamratkontrollen? Toppen. Jag tittar bara på knuten en gång till, det gör vi med alla.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: \"de ser vana ut\"",
+     "text": "Det är lätt att låta bli att säga till när någon ser erfaren ut. Men även vana klättrare glömmer att göra klart knuten. Fråga alltid — det är aldrig fel att kontrollera."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vad hallvärden får besluta själv (till exempel be någon sluta klättra) och vad som kräver instruktör eller platsansvarig, hur man gör när en kund saknar kort, och hur ingripanden och tillbud dokumenteras."
+    },
+    {
+     "type": "task",
+     "instruction": "Ställ dig vid repväggarna i tio minuter en kväll. Räkna hur många kamratkontroller du ser. Säg till vänligt minst en gång — om kortet, kontrollen eller fallzonen.",
+     "hint": "Använd en av replikerna ovan och se hur kunden reagerar."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — Safety and House Rules",
+     "url": "https://klatterverket.se/en/safety-and-house-rules/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — norm för kurs i topprepsklättring inomhus (pdf)",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf"
+    }
+   ],
+   "source": {
+    "url": "https://klatterverket.se/en/safety-and-house-rules/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-stadrunda",
+   "label": "2.1",
+   "title": "Städrunda",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En ren hall är en säkrare hall. Vatten, krita och skräp gör golv hala och mattor smutsiga. Och kunderna märker direkt om hallen känns omhändertagen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=0d313a5b-919c-4a72-8704-fc292dacd10c&size=1600",
+     "alt": "Kritade händer på nära håll.",
+     "caption": "Krita hör till klättringen — men inte på trappsteg och golv i gångarna."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "En städrunda — så brukar det göras i klätterhallar"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Börja där flest går:** entré, gångar och trappor.",
+      "**Plocka bort föremål** på och runt mattorna — flaskor, skor, kläder.",
+      "**Torka spill direkt.** Sätt upp en skylt för vått golv tills det är torrt.",
+      "**Töm papperskorgar** innan de blir överfulla.",
+      "**Torka kontaktytor:** dörrhandtag, bänkar, ledstänger.",
+      "**Avsluta med en blick** över hela ytan. Ser det välkomnande ut?"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "Korta rundor ofta fungerar bättre än en lång runda sällan.",
+      "Under rusningstid: prioritera det som är farligt (spill, föremål på mattor) före det som är fult.",
+      "Städa aldrig under en klättrare. Vänta, eller be klättraren ta en paus."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=8865b521-c4e0-4a94-bd79-982995030a0c&size=1600",
+     "alt": "En grupp bouldrar sedd ovanifrån, mattorna syns.",
+     "caption": "Mattorna ska vara fria — det är grunden i varje runda."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel: spill vid bouldern i Sickla",
+     "text": "En kund välter sin vattenflaska i gången bredvid bouldern. **Så kan du säga:** \"Ingen fara, jag tar det! Kan du stå här en sekund och säga till folk att gå runt?\" Torka, sätt skylten och ta bort den när golvet är torrt."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: fel medel på fel yta",
+     "text": "Mattor, grepp och golv tål olika rengöring. Ett medel som fungerar på golvet kan göra matt-överdraget halt eller förstöra det. Använd bara det som är bestämt för varje yta."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Städschema per hall, vilka rengöringsmedel som gäller för golv, mattor och grepp, var städutrustning och skyltar för vått golv finns, och vad städfirman gör jämfört med hallvärden."
+    },
+    {
+     "type": "task",
+     "instruction": "Leta upp städutrustningen och skylten för vått golv i din hall. Gör sedan en städrunda och skriv ner de tre saker som tog längst tid.",
+     "hint": "Det är ofta där rutinen kan bli bättre."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — säkerhet för tjänster",
+     "url": "https://www.konsumentverket.se/omrade/sakerhet-for-tjanster-for-foretag/"
+    }
+   ],
+   "source": {
+    "url": "https://www.konsumentverket.se/omrade/sakerhet-for-tjanster-for-foretag/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-rondering",
+   "label": "2.2",
+   "title": "Rondering",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Städrundan handlar om att hallen är ren. [[rondering|Ronderingen]] handlar om att hitta risker innan någon skadas. Du går med en enda fråga i huvudet: **vad här kan göra att någon skadas i dag?**"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "rondering"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce4b1cd3-65f3-4586-ab8a-ea928d327f5d&size=1600",
+     "alt": "Klätterhallen sedd underifrån med höga väggar.",
+     "caption": "Titta uppåt också — rep, karbiner och grepp."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Yta",
+      "Kontrollera"
+     ],
+     "rows": [
+      [
+       "Bouldermattor",
+       "Glipor mellan mattorna, trasiga överdrag, föremål på mattan."
+      ],
+      [
+       "Repväggar",
+       "Rep som ser slitna eller skadade ut, rep som snott ihop sig, att topprepen hänger rätt."
+      ],
+      [
+       "Automatsäkring (autobelay)",
+       "Att bandet går in och ut som vanligt och att inget ser skadat ut. Avvikelse: stäng och felanmäl."
+      ],
+      [
+       "Grepp och volymer",
+       "Grepp som snurrar, sitter löst eller har sprickor."
+      ],
+      [
+       "Gym",
+       "Vikter på plats, inga lösa föremål på golvet, inget trasigt."
+      ],
+      [
+       "Utrymningsvägar",
+       "Fria dörrar och gångar, skyltar som syns, brandsläckare och hjärtstartare på sin plats."
+      ]
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Kort klipp från hallen (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=21a55929-dbcc-4d0b-961f-c40fdfa0a438&_ignore=.mp4"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel: ett grepp som snurrar",
+     "text": "På ronderingen i Gasverket tar du i ett grepp på ett boulderproblem och det snurrar. Du spärrar problemet och felanmäler. **Så kan du säga** till dem som väntar: \"Hej, vi stänger det här problemet en stund — ett grepp sitter löst. Det fixas så snart som möjligt. Det finns fler fina problem på väggen bredvid!\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: att laga själv på höjd",
+     "text": "Det är frestande att dra åt ett löst grepp själv. Men arbete på höjd och greppskruvning ska göras av den som har uppdraget och rätt utrustning. Din uppgift är att **upptäcka, spärra och felanmäla**."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=24ef1768-ec3b-40ab-b984-1911936c43e1&size=1600",
+     "alt": "Höga klätterväggar med flera klättrare.",
+     "caption": "Gasverkets väggar är upp till 17 meter höga."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Ronderingslista per hall, hur ofta ronderingen görs, daglig kontroll av automatsäkringarna enligt tillverkarens instruktion, vem som får stänga en led, ett problem eller en autobelay, och hur avstängning märks (tejp, skylt, avspärrning)."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör en rondering med hjälp av tabellen ovan. Skriv ner minst en sak du vill visa platsansvarig — även om det bara är en fråga.",
+     "hint": "Ingenting hittat? Gå samma runda en timme senare. Hallen förändras under dagen."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — mall för säkerhetsplan vid förebyggande säkerhetsarbete",
+     "url": "https://publikationer.konsumentverket.se/produkter-och-tjanster/sport-fritid-och-skyddsutrustning/mall-for-sakerhetsplan-vid-forebyggande-sakerhetsarbete"
+    }
+   ],
+   "source": {
+    "url": "https://publikationer.konsumentverket.se/produkter-och-tjanster/sport-fritid-och-skyddsutrustning/mall-for-sakerhetsplan-vid-forebyggande-sakerhetsarbete",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-toaletter",
+   "label": "2.3",
+   "title": "Toaletter & omklädningsrum",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Toaletter och omklädningsrum är där kunderna blir minst glada om något är fel — och där fel upptäcks sist, eftersom personalen sällan går dit av sig själv. Här gäller också något extra: kundernas integritet."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc73d0a2-82df-460c-9a77-edd32db978c1&size=1600",
+     "alt": "En kvinna sitter och tar på sig klätterskor.",
+     "caption": "Omklädning och förberedelser — en plats där kunden ska få vara ifred."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så går du rundan"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Knacka och säg högt** att det är personal innan du går in i ett omklädningsrum. Vänta på svar.",
+      "**Är det kunder där inne:** fråga om det passar, kom tillbaka senare eller be en kollega.",
+      "**Kontrollera:** toalettpapper, tvål, pappershanddukar, att toaletterna är rena och spolade, att golvet är torrt och att soporna inte är fulla.",
+      "**Kvarglömda saker** lämnas enligt hittegodsrutinen.",
+      "**Stopp eller läckage:** sätt upp en skylt om att toaletten är ur funktion och felanmäl direkt.",
+      "**Tvätta händerna** med tvål och vatten när du är klar."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "När du knackar: \"Hej, personal här! Är det okej att jag kommer in och fyller på papper, eller ska jag komma tillbaka om fem minuter?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: att gå rakt in",
+     "text": "Även om du har bråttom: gå aldrig rakt in i ett omklädningsrum utan att knacka och säga till. Ett ögonblick av slarv kan bli mycket obehagligt för en kund — och för dig."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Städschema för toaletter och omklädningsrum, var förbrukningsmaterial finns, hittegodsrutinen, hur personalen gör med omklädningsrum för ett annat kön än det egna, och vem som kontaktas vid stopp eller vattenläcka."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå igenom ett omklädningsrum och en toalett i din hall. Lista vilket förbrukningsmaterial som finns och leta upp förrådet där påfyllningen står.",
+     "hint": "Kolla också om det finns en skylt för \"ur funktion\" — och var den förvaras."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Folkhälsomyndigheten — Så tvättar du händerna",
+     "url": "https://www.folkhalsomyndigheten.se/publikationer-och-material/publikationsarkiv/s/sa-tvattar-du-handerna/"
+    }
+   ],
+   "source": {
+    "url": "https://www.folkhalsomyndigheten.se/publikationer-och-material/publikationsarkiv/s/sa-tvattar-du-handerna/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-felanmalan",
+   "label": "2.4",
+   "title": "Felanmälan",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ett fel som bara du vet om blir sällan åtgärdat. En bra [[felanmalan|felanmälan]] gör att rätt person kan laga rätt sak snabbt — och ett rapporterat [[tillbud|tillbud]] gör att samma sak inte händer igen, fast värre."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "felanmalan"
+    },
+    {
+     "type": "keyTerm",
+     "termId": "tillbud"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Vad har hänt?",
+      "Så gör du"
+     ],
+     "rows": [
+      [
+       "Något är trasigt (grepp, matta, toalett, gymredskap)",
+       "Spärra eller märk ut platsen. Gör en felanmälan."
+      ],
+      [
+       "Något var nära att hända (ett tillbud)",
+       "Säg till platsansvarig och skriv en tillbudsrapport."
+      ],
+      [
+       "Någon har skadats",
+       "Ge första hjälpen, ring 112 vid behov, säg till platsansvarig. Skriv en rapport."
+      ],
+      [
+       "Allvarlig skada eller allvarligt tillbud för personal",
+       "Platsansvarig ser till att arbetsgivaren anmäler till Arbetsmiljöverket."
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "En bra felanmälan svarar på"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Vad** är fel?",
+      "**Var** — vilken hall, vilken vägg, vilken led eller vilket problem?",
+      "**När** upptäckte du det?",
+      "**Vad har du gjort** — spärrat, satt upp skylt, informerat kunder?",
+      "**Bild**, om det gör det lättare att förstå."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4510a3c9-0a4d-414a-9d80-06268d59a5e9&size=1600",
+     "alt": "En kvinna bouldrar på ett överhäng.",
+     "caption": "Ett löst grepp på ett överhäng ska felanmälas direkt."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel på en bra felanmälan",
+     "text": "\"Sickla, bouldern vid tunneln: matt-överdraget har en reva vid väggfoten. Märkt med tejp och kon kl. 18:40. Bild bifogad.\" Kort, exakt — och den som ska laga det vet direkt vart hen ska gå."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: \"någon har säkert redan anmält\"",
+     "text": "Det tror alla. Därför blir många fel aldrig anmälda. Anmäl hellre en gång för mycket — en dubblett är lätt att stänga."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Var felanmälan görs (formulär, app, bok), hur tillbud och olyckor rapporteras, vem som åtgärdar vad (grepp, mattor, VVS, gym), och vilka fel som ska ringas in direkt i stället för att skrivas."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta reda på var felanmälan och tillbudsrapporter görs i din hall. Skriv en övningsanmälan om något litet du hittar på din nästa runda.",
+     "hint": "Visa den för platsansvarig och fråga om något saknas."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — anmäl svåra personskador, dödsfall och allvarliga tillbud",
+     "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/arbetsgivarens-ansvar-for-arbetsmiljon/anmal-arbetsskada-dodsfall-och-allvarliga-tillbud-till-arbetsmiljoverket/"
+    }
+   ],
+   "source": {
+    "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/arbetsgivarens-ansvar-for-arbetsmiljon/anmal-arbetsskada-dodsfall-och-allvarliga-tillbud-till-arbetsmiljoverket/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-ordning",
+   "label": "2.5",
+   "title": "Ordning i träningsytorna",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "I bouldern faller alla, hela tiden, rakt ner på mattan. Därför måste mattan vara fri. Och under repväggarna måste [[fallzon|fallzonen]] vara tom. Ordning i träningsytorna är inte pedanteri — det är säkerhet."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=00abe9d0-d8c9-4766-a75d-23641b5b0fd8&size=1600",
+     "alt": "En boulderyta där en väska ligger på fallmattan.",
+     "caption": "Riskexempel: väskan på mattan. Den som landar på den kan vricka foten."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Reglerna i träningsytorna"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Mattorna fria** från föremål — väskor, flaskor, skor, telefoner och kläder.",
+      "**Klättra ner** — hoppa inte från toppen av ett boulderproblem.",
+      "**Fri fallzon** — ingen sitter, står eller går under någon som klättrar.",
+      "**Tunneln i Sickla** — ingen rutschkana eller åkning.",
+      "**Barn under 13 år i bouldern** har en ansvarig person över 15 år med minst gult kort. Mer i lektion 3.2.",
+      "**Gymmet:** åldersgräns i Sickla 10 år (under 13 år med vuxen) och i Gasverket 15 år."
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "fallzon"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e9331293-2984-4e01-9abc-dc8005430601&size=1600",
+     "alt": "En grupp står vid boulderväggen och passar en klättrare.",
+     "caption": "Den som passar står nära — alla andra håller sig utanför fallzonen."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Hej! Får jag flytta väskan till bänken? Landar någon på den kan det bli en vriden fot.\"  —  \"Snyggt problem! Klättra gärna ner sista biten i stället för att hoppa, det är skonsammare för knäna.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: en order utan förklaring",
+     "text": "\"Ta bort väskan!\" fungerar — men kunden blir irriterad och gör om det nästa gång. Säg varför. Då flyttar de väskan själva nästa gång."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Var kundernas väskor och flaskor ska stå (hyllor, skåp, bänkar) i varje hall, och gymmets regler i övrigt (till exempel om vikter, krita och skor)."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå en runda i bouldern under en kväll. Räkna hur många föremål som ligger på mattorna, och be ägarna vänligt att flytta dem.",
+     "hint": "Säg varför — använd gärna repliken ovan."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — Safety and House Rules",
+     "url": "https://klatterverket.se/en/safety-and-house-rules/"
+    }
+   ],
+   "source": {
+    "url": "https://klatterverket.se/en/safety-and-house-rules/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-bemotande",
+   "label": "3.1",
+   "title": "Bemötande i hallen",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klätterverket ska kännas välkomnande — för den som klättrar första gången och för den som kommit hit i tjugo år. Som hallvärd är du ofta den i personalen som kunderna möter inne i hallen. Ditt bemötande blir deras bild av Klätterverket."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=1bf8f05d-7675-4c79-b568-563ec45119ca&size=1600",
+     "alt": "En leende kvinna med ett rep över axeln.",
+     "caption": "Ett leende och ett hej gör mer än man tror."
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Hälsa** och ta ögonkontakt. Folk vågar fråga den som hälsat.",
+      "**Fråga hellre än anta.** Den som ser vilsen ut kanske är här första gången.",
+      "**Förklara regler med varför.** En mening räcker.",
+      "**Säg tack** när någon rättar sig efter en tillsägelse.",
+      "**Följ med** till rätt person när du inte kan svara själv, i stället för att peka."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Nolltolerans"
+    },
+    {
+     "type": "richtext",
+     "text": "Klätterverket har [[nolltolerans|nolltolerans]] mot sexism, rasism och kränkningar. Det gäller mellan kunder, från kunder mot personal och mellan kollegor. Alla ska kunna klättra i lugn och ro."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "nolltolerans"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Bryt** — gå dit och säg ifrån, lugnt och tydligt.",
+      "**Stötta** den som blev utsatt. Fråga hur hen mår och vad hen behöver.",
+      "**Säg till** platsansvarig.",
+      "**Skriv ner** vad som hände, så exakt som möjligt."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "Till den som kränker: \"Så pratar vi inte med varandra här. Alla ska kunna klättra i lugn och ro.\"  —  Till den som blev utsatt: \"Hur är det med dig? Vill du att jag hämtar någon mer, eller att vi pratar en stund?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: att låtsas inte höra",
+     "text": "Det känns ofta lättare att skämta bort en kommentar eller låtsas att man inte hörde. Men tystnad säger till alla i hallen att det var okej. Säg ifrån — kort och lugnt räcker."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b874dc0b-d974-4f8b-843f-a8b68a815af2&size=1600",
+     "alt": "En kvinna klättrar på väggen.",
+     "caption": "Alla ska känna sig trygga i hallen — oavsett vem man är."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem som beslutar att en kund ska lämna hallen eller stängas av, hur kränkningar dokumenteras, och vilket stöd personalen får om de själva blir utsatta."
+    },
+    {
+     "type": "task",
+     "instruction": "Under ditt nästa pass: hälsa på minst fem kunder som ser ut att vara nya och fråga om de hittat allt de behöver.",
+     "hint": "Lägg märke till vilka frågor som kommer. Det är ofta samma — och värt att berätta för receptionen."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Diskrimineringsombudsmannen — sexuella trakasserier och trakasserier",
+     "url": "https://www.do.se/diskriminerad/olika-former-av-diskriminering/sexuella-trakasserier-och-trakasserier"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — kränkande särbehandling och mobbning",
+     "url": "https://www.av.se/halsa-och-sakerhet/organisatorisk-och-social-arbetsmiljo/motverka-krankande-sarbehandling/"
+    }
+   ],
+   "source": {
+    "url": "https://www.do.se/diskriminerad/olika-former-av-diskriminering/sexuella-trakasserier-och-trakasserier",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-barn",
+   "label": "3.2",
+   "title": "Barn i klätterhallen",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Barn klättrar fantastiskt — och ser sällan riskerna. I hallen finns barnkalas på helgerna, skolklasser, Klätterakademin och familjer som kommer på egen hand. Din viktigaste uppgift är att se till att barnen har en vuxen som tar ansvar."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6b7d2a6a-b3aa-491b-8b97-f1f480ea1aca&size=1600",
+     "alt": "Ett glatt barn som klättrar.",
+     "caption": "Barn ska få klättra mycket — med en vuxen nära."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Regel",
+      "Det betyder"
+     ],
+     "rows": [
+      [
+       "Barn under 13 år i bouldern",
+       "En [[ansvarig-vuxen|ansvarig person]] över 15 år med minst gult kort är med vid mattan."
+      ],
+      [
+       "Max 2 barn per vuxen",
+       "En vuxen kan inte ha ansvar för en hel grupp i bouldern."
+      ],
+      [
+       "Gymmet",
+       "Sickla: från 10 år, under 13 år med vuxen. Gasverket: från 15 år."
+      ],
+      [
+       "Tunneln i Sickla",
+       "Ingen rutschkana eller åkning i tunneln."
+      ],
+      [
+       "Prova på",
+       "Barn ska vara minst 120 cm långa."
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "ansvarig-vuxen"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Typiska risker att ha koll på"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Barn springer över mattan under någon som klättrar.",
+      "Barn leker och sitter på mattan i fallzonen.",
+      "Barn klättrar högt i bouldern och hoppar ner från toppen.",
+      "Den vuxna sitter med telefonen — eller i kaféet."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=4c21624b-cc32-43ac-a12f-0f7bb958bdcd&size=1600",
+     "alt": "Barn som klättrar på en vägg.",
+     "caption": "Klättra ner samma väg — även för barn."
+    },
+    {
+     "type": "video",
+     "title": "Barnkalas på Klätterverket (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aae86f15-b037-4504-bebd-15f1526f3f51&_ignore=.mp4"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Exempel: barnen är i bouldern, pappa i kaféet",
+     "text": "Två syskon, 8 och 10 år, klättrar i bouldern i Gasverket. Pappan sitter i Mätarhuset. **Så kan du säga** till pappan: \"Hej! Är det dina barn i bouldern? Under 13 år behöver de ha en vuxen med sig vid mattan — vill du följa med in?\" Och till barnen, i ögonhöjd: \"Vad bra du klättrar! Klättra ner samma väg, hoppa inte från toppen.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: att skälla på barnet",
+     "text": "Ansvaret ligger hos den vuxna. Prata med den vuxna om reglerna. Till barnet: vänligt, kort och i ögonhöjd."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vad hallvärden gör om ett barn är i hallen utan ansvarig vuxen (vem kontaktas och hur), vem som ansvarar för barnen under barnkalas och skolklasser, och om hallvärden ska kontrollera den ansvariga vuxnas kort."
+    },
+    {
+     "type": "task",
+     "instruction": "Under en helg eller ett lov: titta efter barn i bouldern och se om varje barn under 13 år har en ansvarig vuxen vid mattan. Prata med minst en vuxen om reglerna.",
+     "hint": "Börja med något positivt om barnets klättring — det öppnar samtalet."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — Safety and House Rules",
+     "url": "https://klatterverket.se/en/safety-and-house-rules/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Konsumentverket — säkerhet när du deltar i upplevelse- och äventyrsaktiviteter",
+     "url": "https://www.konsumentverket.se/sakerhet-varor-tjanster/upplevelse-och-aventyrsaktiviteter-konsument/"
+    }
+   ],
+   "source": {
+    "url": "https://klatterverket.se/en/safety-and-house-rules/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-konflikter",
+   "label": "3.3",
+   "title": "Konflikter mellan kunder",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En kväll med mycket folk blir det trångt. Två vill samma led, någon hoppar före i kön till autobelayen, någon tycker att en annan står i vägen. Oftast är det små saker. Men små saker kan växa — och hallvärden är ofta först på plats."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "lagaffektivt"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så tar du ner det"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Gå dit lugnt.** Sänk tempot och rösten.",
+      "**Ställ dig lite snett**, inte rakt framför någon, och ge utrymme.",
+      "**Lyssna på en i taget.** Låt båda få säga sitt.",
+      "**Gör det till en sakfråga:** vad behöver ni för att kunna fortsätta klättra?",
+      "**Erbjud ett val** — till exempel att ta varannan, eller en ledig led.",
+      "**Avsluta vänligt** och håll ett öga på dem en stund efteråt."
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "Få ord och lugn röst. Den som är arg tar sällan in långa förklaringar.",
+      "Peka inte, hota inte med konsekvenser och ta inte tag i någon.",
+      "Låt personen behålla ansiktet. Ta samtalet en bit bort från publiken om det går."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=37efb447-b316-44a6-b556-aabfd145d393&size=1600",
+     "alt": "En kvinna klättrar på en repvägg.",
+     "caption": "Trängsel vid populära leder är den vanligaste källan till irritation."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Jag ser att det blev trångt här. Hur gör vi så att alla får klättra? Ni kan ta varannan, eller så finns det en ledig vägg där borta.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: att döma inför publik",
+     "text": "Att avgöra vem som hade rätt inför andra kunder gör ofta den ena förödmjukad — och argare. Fokusera på lösningen, inte på skulden."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Om det blir hot eller våld",
+     "text": "Hotar någon, blir någon våldsam eller känner du dig otrygg: backa, skapa avstånd, hämta en kollega och ring 112 vid akut fara. Din säkerhet går först. Hur du agerar lär du dig i kursen **Agerande vid våld** här i Academy."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc871eb2-b666-47c6-8e22-3a5fb3bc8b70&size=1600",
+     "alt": "En kvinna klättrar och tittar uppåt.",
+     "caption": "Målet är att alla kan fortsätta klättra."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vem som beslutar att en kund ska lämna hallen, om det finns ett larm eller en larmknapp och var, och hur konflikter och hot rapporteras."
+    },
+    {
+     "type": "task",
+     "instruction": "Rollspela med en kollega: två kunder vill klättra på samma led och en av dem är irriterad. Byt roller efteråt.",
+     "hint": "Lägg märke till hur det känns att bli bemött med lugn röst jämfört med hög."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — våld och hot om våld",
+     "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/"
+    }
+   ],
+   "source": {
+    "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/",
+    "checkedAt": "2026-10-07"
+   }
+  },
+  {
+   "id": "hv-sista-timmen",
+   "label": "4.1",
+   "title": "Kvällens sista timme",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Den sista timmen är speciell. Kunderna blir färre, personalen också — och ibland är du ensam kvar. Hallen ska tömmas säkert, ingen ska bli kvar, och du ska komma hem tryggt."
+    },
+    {
+     "type": "richtext",
+     "text": "Stängning: Gasverket kl. 22 på vardagar och kl. 20 på helger. Sickla kl. 22 på vardagar och kl. 20 på helger."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c248835a-6103-4a4c-8e82-405f3083762a&size=1600",
+     "alt": "Gamla kontrollpaneler från gasverkstiden.",
+     "caption": "Gasverkets gamla kontrollpaneler. I dag är det du som stänger hallen."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så stänger du — en vanlig ordning"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Påminn i god tid** om att hallen stänger, så att ingen blir stressad.",
+      "**Gå sista ronderingen:** mattor, rep, automatsäkringar och gym.",
+      "**Töm alla ytor:** repväggar, boulder, tunneln i Sickla, gymmet, toaletter och omklädningsrum.",
+      "**Ta hand om hittegods.**",
+      "**Stäng enligt checklistan:** belysning, dörrar och larm.",
+      "**Meddela** att du har stängt och gått, enligt rutinen."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga:",
+     "text": "\"Hej allihop! Vi stänger om en kvart — ta gärna sista leden nu.\"  —  Till den som dröjer sig kvar: \"Nu behöver jag stänga. Tack för i kväll, välkommen tillbaka!\""
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "När du arbetar ensam"
+    },
+    {
+     "type": "richtext",
+     "text": "Arbetsmiljöverket skriver att [[ensamarbete|ensamarbete]] kan vara påfrestande och farligt, men att riskerna går att minska med ett systematiskt arbetsmiljöarbete. Ensamarbete kan också vara olämpligt eller inte tillåtet i vissa lägen. För dig betyder det: riskerna ska vara bedömda, och du ska veta hur du får hjälp."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "ensamarbete"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Ha telefonen laddad och på dig.",
+      "Vet vem du ringer om något händer — och spara numret.",
+      "Släpp inte in någon efter stängning som du inte vet ska vara där.",
+      "Känns något fel: håll avstånd, lås om dig om det behövs och ring. Vid akut fara: 112.",
+      "Skadas en kund under sista timmen: första hjälpen och 112 som vanligt — du ska inte vänta till morgonen."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgropen: någon blir kvar",
+     "text": "Det händer att en kund sitter kvar på toaletten, i omklädningsrummet eller i tunneln när lamporna släcks. Gå alltid igenom **alla** ytor innan du låser — även de som \"brukar vara tomma\"."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ae37d2cf-ef28-4a54-ba66-858c229373a8&size=1600",
+     "alt": "En kvinna bouldrar på ett överhäng.",
+     "caption": "Sista problemet för kvällen — sedan stänger hallen."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Stängningschecklista per hall, när den sista klättringen ska vara avslutad, larmrutin (koder skrivs inte här), vem hallvärden meddelar vid ensamarbete och hur, och vem som ska nås om något händer efter stängning."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå igenom stängningen tillsammans med platsansvarig i din hall. Spara numret du ska ringa om något händer när du är ensam.",
+     "hint": "Fråga också: när är jag ensam, och vad gäller då?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — ensamarbete",
+     "url": "https://www.av.se/halsa-och-sakerhet/ensamarbete/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — när ensamarbete är olämpligt eller inte är tillåtet",
+     "url": "https://www.av.se/halsa-och-sakerhet/ensamarbete/nar-ensamarbete-ar-olampligt-eller-inte-ar-tillatet/"
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu har du gått igenom hela kursen. Provet har tolv frågor som dras ur en större frågebank. Du behöver 80 procent rätt."
+    }
+   ],
+   "source": {
+    "url": "https://www.av.se/halsa-och-sakerhet/ensamarbete/",
+    "checkedAt": "2026-10-07"
+   }
+  }
+ ],
+ "terms": {
+  "kamratkontroll": {
+   "term": "Kamratkontroll",
+   "definition": "Klättrare och säkrare kontrollerar varandras knut, sele, säkringsanordning och karbin innan varje start. Görs alltid, även av vana klättrare."
+  },
+  "klatterkort": {
+   "term": "Klätterkort",
+   "definition": "Visar vad du får göra i hallen. Gult: automatsäkring. Grönt: topprepssäkring. Rött: ledklättring och ledsäkring. Kortet ska synas på selen."
+  },
+  "hjalplasande": {
+   "term": "Hjälplåsande broms",
+   "definition": "En säkringsanordning som hjälper till att låsa repet om klättraren faller. Klätterverket rekommenderar en sådan."
+  },
+  "fallzon": {
+   "term": "Fallzon",
+   "definition": "Ytan under och runt en klättrare där hen kan landa vid ett fall. Den ska vara fri från människor och föremål."
+  },
+  "rondering": {
+   "term": "Rondering",
+   "definition": "En planerad runda genom hallen för att hitta risker och fel innan någon skadas."
+  },
+  "felanmalan": {
+   "term": "Felanmälan",
+   "definition": "En kort anmälan om något som är trasigt: vad, var, när och vad du har gjort. Gör att rätt person kan åtgärda felet."
+  },
+  "tillbud": {
+   "term": "Tillbud",
+   "definition": "En händelse som kunde ha lett till en skada men inte gjorde det — \"nära ögat\". Ska rapporteras så att det inte händer igen."
+  },
+  "ansvarig-vuxen": {
+   "term": "Ansvarig person (boulder)",
+   "definition": "Barn under 13 år i bouldern ska ha med en ansvarig person över 15 år med minst gult kort. Max 2 barn per vuxen."
+  },
+  "nolltolerans": {
+   "term": "Nolltolerans",
+   "definition": "Sexism, rasism och kränkningar accepteras aldrig i hallen. Personalen säger alltid ifrån och tar hand om den som utsatts."
+  },
+  "lagaffektivt": {
+   "term": "Lågaffektivt bemötande",
+   "definition": "Ett sätt att möta upprörda personer med lugn: låg röst, få ord, utrymme och val — så att känslorna går ner i stället för upp."
+  },
+  "ensamarbete": {
+   "term": "Ensamarbete",
+   "definition": "När du arbetar utan kollegor i närheten, till exempel sista timmen på kvällen. Riskerna ska vara bedömda och du ska kunna få hjälp."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Hallvärd",
+  "passScore": 0.8,
+  "draw": 12,
+  "attempts": 3,
+  "items": [
+   {
+    "id": "hv-q1",
+    "type": "single",
+    "stem": "Vad är det viktigaste du gör på en runda i hallen?",
+    "options": [
+     "Ser klättrarna och säkrarna — med blicken uppåt",
+     "Tömmer alla papperskorgar",
+     "Räknar antalet kunder",
+     "Svarar på frågor i receptionen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-rutiner",
+    "why": "Rundan är både städning och rondering, men det viktigaste är att se människorna i hallen och det som kan gå fel."
+   },
+   {
+    "id": "hv-q2",
+    "type": "multi",
+    "stem": "Vad bör ingå i en bra överlämning till nästa pass? Välj alla som stämmer.",
+    "options": [
+     "Fel som är felanmälda",
+     "Tillbud som har hänt",
+     "Sådant som behöver följas upp",
+     "Vilka kunder du tyckte var jobbiga"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "hv-rutiner",
+    "why": "Överlämningen handlar om fakta som nästa pass behöver: fel, tillbud och uppföljning."
+   },
+   {
+    "id": "hv-q3",
+    "type": "single",
+    "stem": "Vilket klätterkort krävs för att säkra i topprep?",
+    "options": [
+     "Grönt",
+     "Gult",
+     "Inget kort behövs",
+     "Rött eller gult"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-sakerhetsansvar",
+    "why": "Grönt kort för topprep, rött för led. Gult räcker för automatsäkring."
+   },
+   {
+    "id": "hv-q4",
+    "type": "multi",
+    "stem": "Vilka säkringsmetoder är förbjudna på Klätterverket? Välj alla som stämmer.",
+    "options": [
+     "Firningsåtta",
+     "HMS-säkring",
+     "Hjälplåsande broms",
+     "Automatsäkring med gult kort"
+    ],
+    "correct": [
+     "a",
+     "b"
+    ],
+    "lesson": "hv-sakerhetsansvar",
+    "why": "Firningsåtta och HMS är förbjudna. En hjälplåsande broms rekommenderas."
+   },
+   {
+    "id": "hv-q5",
+    "type": "single",
+    "stem": "Du ser att en klättrare ska starta med en knut som inte är färdig. Vad gör du?",
+    "options": [
+     "Säger till direkt, högt och tydligt",
+     "Väntar tills hen är uppe och ropar då",
+     "Säger till platsansvarig efter passet",
+     "Låter bli — hen ser van ut"
+    ],
+    "intro": "Kvällspass i Gasverket. Många kunder vid repväggarna.",
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-sakerhetsansvar",
+    "why": "Vid akut fara säger du till direkt. Även vana klättrare kan glömma att göra klart knuten."
+   },
+   {
+    "id": "hv-q6",
+    "type": "single",
+    "stem": "En kund spiller vatten i gången vid bouldern. Vad gör du?",
+    "options": [
+     "Torkar direkt och sätter upp en skylt tills golvet är torrt",
+     "Väntar till nästa städrunda",
+     "Ber kunden torka själv och går vidare",
+     "Lägger en handduk över och går vidare"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-stadrunda",
+    "why": "Spill är en halkrisk och torkas direkt. Skylten sitter kvar tills golvet är torrt."
+   },
+   {
+    "id": "hv-q7",
+    "type": "single",
+    "stem": "På ronderingen märker du att ett grepp snurrar. Vad är din uppgift?",
+    "options": [
+     "Spärra problemet och felanmäla",
+     "Klättra upp och dra åt greppet",
+     "Ta bort greppet",
+     "Inget — kunderna ser själva att det snurrar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-rondering",
+    "why": "Hallvärden upptäcker, spärrar och felanmäler. Arbete på höjd och greppskruvning görs av den som har uppdraget."
+   },
+   {
+    "id": "hv-q8",
+    "type": "multi",
+    "stem": "Vad kontrollerar du på en rondering? Välj alla som stämmer.",
+    "options": [
+     "Glipor och föremål på bouldermattorna",
+     "Att utrymningsvägar är fria",
+     "Grepp som sitter löst",
+     "Kundernas klätterbetyg"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "hv-rondering",
+    "why": "Ronderingen letar efter risker: mattor, grepp, rep, autobelay, gym och utrymningsvägar."
+   },
+   {
+    "id": "hv-q9",
+    "type": "single",
+    "stem": "Du ska fylla på papper i ett omklädningsrum. Vad gör du först?",
+    "options": [
+     "Knackar, säger att det är personal och väntar på svar",
+     "Går in snabbt så att du inte stör länge",
+     "Ropar från dörren och går in direkt",
+     "Väntar tills hallen har stängt"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-toaletter",
+    "why": "Kundernas integritet går först. Knacka, säg till och vänta på svar."
+   },
+   {
+    "id": "hv-q10",
+    "type": "ordering",
+    "stem": "Sätt delarna i en bra felanmälan i en logisk ordning.",
+    "options": [
+     "Vad är fel",
+     "Var det är",
+     "När du upptäckte det",
+     "Vad du har gjort åt det"
+    ],
+    "lesson": "hv-felanmalan",
+    "why": "Vad, var, när och vad du gjort gör att rätt person kan åtgärda felet direkt."
+   },
+   {
+    "id": "hv-q11",
+    "type": "single",
+    "stem": "En kund snubblar nästan på en lös matta men skadar sig inte. Vad kallas det?",
+    "options": [
+     "Ett tillbud",
+     "En olycka",
+     "En felanmälan",
+     "En avvikelse som inte behöver rapporteras"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-felanmalan",
+    "why": "Ett tillbud är en händelse som kunde ha lett till skada. Det ska rapporteras."
+   },
+   {
+    "id": "hv-q12",
+    "type": "multi",
+    "stem": "Vilka regler gäller i bouldern? Välj alla som stämmer.",
+    "options": [
+     "Mattorna ska vara fria från föremål",
+     "Klättra ner i stället för att hoppa från toppen",
+     "Ingen rutschkana i tunneln i Sickla",
+     "Väskor får ligga på mattan om de står vid väggen"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "hv-ordning",
+    "why": "Mattorna ska alltid vara fria. Den som faller kan landa var som helst."
+   },
+   {
+    "id": "hv-q13",
+    "type": "single",
+    "stem": "Vilken åldersgräns gäller för gymmet i Gasverket?",
+    "options": [
+     "15 år",
+     "10 år",
+     "13 år",
+     "18 år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-ordning",
+    "why": "Gasverket: 15 år. Sickla: 10 år, och under 13 år med vuxen."
+   },
+   {
+    "id": "hv-q14",
+    "type": "single",
+    "stem": "En kund fäller en sexistisk kommentar till en annan kund. Vad gör du?",
+    "options": [
+     "Säger ifrån lugnt och tydligt, stöttar den utsatta och säger till platsansvarig",
+     "Låtsas inte höra för att inte skapa en scen",
+     "Skämtar bort det",
+     "Väntar och ser om det händer igen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-bemotande",
+    "why": "Klätterverket har nolltolerans mot sexism, rasism och kränkningar. Tystnad signalerar att det är okej."
+   },
+   {
+    "id": "hv-q15",
+    "type": "single",
+    "stem": "Två barn, 8 och 10 år, är ensamma i bouldern. Vad gäller?",
+    "options": [
+     "De behöver en ansvarig person över 15 år med minst gult kort vid mattan",
+     "Det är okej om de har klätterskor",
+     "Det är okej om en förälder finns i kaféet",
+     "De får klättra om de håller sig låga"
+    ],
+    "intro": "Lördag förmiddag i Gasverket. Pappan sitter i Mätarhuset.",
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-barn",
+    "why": "Barn under 13 år i bouldern ska ha en ansvarig person över 15 år med minst gult kort, max 2 barn per vuxen."
+   },
+   {
+    "id": "hv-q16",
+    "type": "single",
+    "stem": "Hur många barn under 13 år får en vuxen ansvara för i bouldern?",
+    "options": [
+     "Högst 2",
+     "Högst 4",
+     "Högst 6",
+     "Hur många som helst"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-barn",
+    "why": "Max 2 barn per vuxen i bouldern."
+   },
+   {
+    "id": "hv-q17",
+    "type": "single",
+    "stem": "Två kunder grälar om vem som ska klättra en led. Vad hjälper mest?",
+    "options": [
+     "Lugn röst, lyssna på en i taget och erbjuda ett val",
+     "Höja rösten så att båda hör",
+     "Avgöra vem som hade rätt inför de andra",
+     "Säga att båda måste gå"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-konflikter",
+    "why": "Lågaffektivt bemötande tar ner känslorna: lugn röst, få ord, utrymme och ett val."
+   },
+   {
+    "id": "hv-q18",
+    "type": "single",
+    "stem": "En kund hotar dig. Vad gör du först?",
+    "options": [
+     "Backar, skapar avstånd och hämtar hjälp — vid akut fara ringer du 112",
+     "Ställer dig nära och säger ifrån",
+     "Tar tag i kunden och leder ut hen",
+     "Fortsätter diskutera tills hen lugnat sig"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "hv-konflikter",
+    "why": "Din säkerhet går först. Mer om detta i kursen Agerande vid våld."
+   },
+   {
+    "id": "hv-q19",
+    "type": "ordering",
+    "stem": "Sätt stängningen i en rimlig ordning.",
+    "options": [
+     "Påminn kunderna om att hallen stänger",
+     "Gå sista ronderingen",
+     "Töm alla ytor, även toaletter och tunneln",
+     "Stäng enligt checklistan och meddela att du gått"
+    ],
+    "lesson": "hv-sista-timmen",
+    "why": "Först påminna, sedan kontrollera, tömma och till sist stänga och meddela."
+   },
+   {
+    "id": "hv-q20",
+    "type": "multi",
+    "stem": "Du arbetar ensam sista timmen. Vad är viktigt? Välj alla som stämmer.",
+    "options": [
+     "Telefonen laddad och på dig",
+     "Veta vem du ringer om något händer",
+     "Inte släppa in okända efter stängning",
+     "Vänta till morgonen med att ringa om en kund skadas"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "hv-sista-timmen",
+    "why": "Vid ensamarbete ska du kunna få hjälp. En skadad kund får första hjälpen och 112 som vanligt."
+   }
+  ]
+ }
+}

@@ -1,0 +1,1691 @@
+{
+ "format": "kv-utbildning-1",
+ "course": {
+  "id": "sakerhet-hall",
+  "title": "Säkerhet i hallen",
+  "summary": "Klätterverkets säkerhetsregler, akuta lägen och dagliga kontroller — för alla som jobbar i hallen. Du lär dig se riskerna, säga ifrån och rapportera.",
+  "audience": [
+   "all"
+  ],
+  "estimatedMinutes": 69,
+  "cover": "omslag.jpg",
+  "banner": "banner.jpg",
+  "certificate": {
+   "issue": true,
+   "validMonths": 24
+  },
+  "modules": [
+   {
+    "title": "Grunden och akuta lägen",
+    "lessons": [
+     "sak-olycka",
+     "sak-sakra-sakert",
+     "sak-akutlage",
+     "sak-brand",
+     "sak-forsta-hjalpen"
+    ]
+   },
+   {
+    "title": "Risker i hallen",
+    "lessons": [
+     "sak-autobelay",
+     "sak-boulder",
+     "sak-rephallen"
+    ]
+   },
+   {
+    "title": "Rapportera, säga ifrån och kontrollera",
+    "lessons": [
+     "sak-incident",
+     "sak-saga-ifran",
+     "sak-daglig-kontroll",
+     "sak-ur-bruk"
+    ]
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "sak-olycka",
+   "label": "1.1",
+   "title": "Olycka eller skada i hallen",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce4b1cd3-65f3-4586-ab8a-ea928d327f5d&size=1600",
+     "alt": "Klätterhallen sedd underifrån med höga väggar och klättrare.",
+     "caption": "I en full hall händer saker fort. Det som räknas är vad du gör de första minuterna."
+    },
+    {
+     "type": "richtext",
+     "text": "De flesta pass går utan en enda skråma. Men när någon skadar sig — en fot som landar snett på mattan, ett fall i repet som slutar mot väggen — är det du i personalen som besökarna tittar på. Den här lektionen ger dig en enkel ordning att följa, så att du inte behöver tänka ut den när det händer."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så gör du — i den här ordningen"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Skydda platsen.** Stoppa klättring ovanför och bredvid. Be säkrare att sänka ner sina klättrare lugnt. Håll [[fallzon|fallzonen]] fri.",
+      "**Gå fram och prata.** Säg vem du är. Fråga vad som hänt och var det gör ont.",
+      "**Bedöm.** Svarar personen inte, eller andas onormalt: ring 112 och starta HLR. Har personen fallit från höjd: flytta inte, håll huvudet stilla.",
+      "**Larma och kalla på kollega.** Ring 112 vid allvarlig skada. Be en kollega hämta första hjälpen-väskan och hjärtstartaren.",
+      "**Ta hand om.** Ge första hjälpen, håll personen varm och stanna kvar.",
+      "**Rapportera.** När det lugnat sig: skriv en rapport samma dag, även om det \"bara\" blev ett blåmärke."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=aad640c6-f322-43eb-be4f-a954a98af0fd&size=1600",
+     "alt": "Två instruktörer i Klätterverkets hall.",
+     "caption": "Ni är ett lag. Den som kommer först tar hand om personen — nästa tar hand om omgivningen."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "En lördag på Gasverket hoppar en man ner från toppen av ett boulderproblem och landar med foten i en glipa mellan två mattor. Han sitter kvar och håller om fotleden. Runt honom fortsätter folk att klättra."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Hej, jag heter Sara och jobbar här. Sitt kvar, du behöver inte resa dig. Kan du berätta var det gör ont?\" — och till dem runt omkring: \"Vi pausar på den här väggen en stund, tack. Klättra ner, inte hoppa.\""
+    },
+    {
+     "type": "richtext",
+     "text": "Sara ber en kollega hämta kylpåse och första hjälpen-väskan. Foten svullnar men mannen kan röra tårna. Han får hjälp att ringa en anhörig, och Sara skriver en rapport — och noterar glipan i mattan, som åtgärdas innan väggen öppnar igen."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att fokusera bara på den skadade",
+     "text": "Det är lätt att glömma omgivningen. Medan du hjälper någon kan nästa person landa på er båda. **Skydda platsen först** — det tar fem sekunder."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Var första hjälpen-väskan, kylpåsar och hjärtstartaren finns i varje hall, vem som är platsansvarig under passet och hur personalen kallar på varandra (radio, telefon, rop)."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå till din hall och leta upp första hjälpen-väskan och hjärtstartaren. Gå sedan till den vägg som ligger längst bort och räkna hur lång tid det tar att hämta båda dit.",
+     "hint": "Fråga din platsansvarige om du inte hittar dem — och säg till om de står svåråtkomligt."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: 1177 — Akuta råd och första hjälpen",
+     "url": "https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/"
+    }
+   ]
+  },
+  {
+   "id": "sak-sakra-sakert",
+   "label": "1.2",
+   "title": "Säkra säkert",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Nästan alla allvarliga olyckor i repklättring beror på samma få saker: en knut som inte är klar, en sele som inte sitter rätt, en säkrare som tittar bort. Därför har Klätterverket ett fåtal regler som aldrig förhandlas. Du ska kunna dem utantill — och se när de bryts."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=04cb99c4-7f9a-4545-b924-8f7971386c0e&size=1600",
+     "alt": "En klättrare knyter en åttaknut i selen.",
+     "caption": "Knuten ska vara klar innan klättraren lämnar marken — och kontrollerad av kamraten."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Klätterverkets regler för säkring"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Regel",
+      "Vad det betyder"
+     ],
+     "rows": [
+      [
+       "Kortet syns på selen",
+       "**Grönt kort** för topprep, **rött kort** för led. Gult, grönt eller rött kort för automatsäkring. Inget kort = ingen säkring."
+      ],
+      [
+       "[[kamratkontroll|Kamratkontroll]] alltid",
+       "Båda kontrollerar varandra innan varje klättring."
+      ],
+      [
+       "Förbjudna metoder",
+       "[[firningsatta|Firningsåtta]] och [[hms|HMS]] är förbjudna som säkringsmetod i hallen."
+      ],
+      [
+       "[[hjalplasande-broms|Hjälplåsande broms]]",
+       "Rekommenderas. Följ tillverkarens instruktioner."
+      ],
+      [
+       "Fri fallzon",
+       "Inga personer, väskor eller flaskor under klättraren."
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "kamratkontroll"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Kamratkontrollen — från repände till repände"
+    },
+    {
+     "type": "richtext",
+     "text": "Svenska Klätterförbundets norm för topprepskurs beskriver kontrollen som att gå igenom systemet **systematiskt från repände till repände**:"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Klättrarens knut: åttaknut, rätt knuten och genom båda inknytningsöglorna.",
+      "Klättrarens sele: spännet rätt trätt och åtdraget.",
+      "Repet: rätt genom toppankaret och in i repbromsen.",
+      "Karbinen: skruvad eller låst.",
+      "Säkrarens sele.",
+      "Stoppknut i repets passiva ände."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=b2ba3bdb-4beb-467b-be22-20b8ddb3293f&size=1600",
+     "alt": "En hand som håller upp ett grönt klätterkort.",
+     "caption": "Grönt kort betyder att personen har lärt sig säkra i topprep enligt SKF:s norm."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel: spännet som nästan satt rätt"
+    },
+    {
+     "type": "richtext",
+     "text": "Svenska Klätterförbundet har publicerat en säkerhetsrapport om en klättrare i en inomhushall vars midjebälte öppnade sig helt när han satte sig i selen för nedfirning. Spännet var bara trätt genom första hålet och sedan genom den lilla öglan som håller ändan på plats. Kamratkontrollen hade missat det, eftersom spännet såg nästan rätt ut. Lärdomen: **titta** på spännet, dra inte bara i bältet — och be klättraren visa hela selen, även om kläder är i vägen."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Hej! Jag ser inte ert kort — kan ni sätta det på selen? Och har ni hunnit göra kamratkontrollen? Toppen, då kör vi.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: \"vi har gjort det hundra gånger\"",
+     "text": "Erfarna par slarvar oftare med kontrollen än nybörjare. Rutinen ska vara densamma första som tusende gången — och upprepas inför varje ny klättring."
+    },
+    {
+     "type": "task",
+     "instruction": "Ställ dig vid en repvägg under tio minuter. Räkna hur många par som gör kamratkontroll innan de klättrar och hur många som har kortet synligt på selen.",
+     "hint": "Ser du ett par som hoppar över kontrollen: gå fram och påminn vänligt. Det är det lektion 4.2 handlar om."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm för kurs i topprepsklättring inomhus",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-topprepsklattring-inomhus.pdf"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Säkerhetsrapport om selar",
+     "url": "https://www.klatterforbundet.se/app/uploads/2021/07/Sakerhetsrapport-om-selar1.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sak-akutlage",
+   "label": "1.3",
+   "title": "Akutläge",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Ett akutläge är när någon kan dö eller skadas allvarligt om ni inte agerar direkt: ett hjärtstopp, ett fall från höjd, en svår allergisk reaktion i kaféet. Då handlar det om tre saker — **larma, hjälpa, leda in hjälpen**. Ju tydligare ni fördelar jobbet, desto snabbare går det."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6bca5cc9-d8d3-42d5-ade5-fa1107eaea82&size=1600",
+     "alt": "Översikt över Gasverkets klätterhall.",
+     "caption": "En stor hall har många vägar in. Ambulansen behöver veta exakt vart den ska."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Fördela rollerna — säg högt vilken du tar"
+    },
+    {
+     "type": "list",
+     "items": [
+      "**Hjälpa:** stanna hos personen och ge första hjälpen eller HLR.",
+      "**Larma:** ring 112. Slå på högtalaren och stanna i samtalet.",
+      "**Hämta:** hjärtstartaren och första hjälpen-väskan.",
+      "**Möta:** gå ut och möt ambulansen vid entrén och visa vägen.",
+      "**Skydda:** stoppa klättringen i närheten och håll undan besökare, särskilt barn."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "När du ringer 112"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Säg vad som hänt och hur många som är skadade.",
+      "Säg var ni är: **Gasverksvägen 15** (Gasverket) eller **Marcusplatsen 17, Nacka** (Sickla) — och var i huset.",
+      "Svara på frågorna och följ instruktionerna. Lägg inte på förrän du får veta det."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=1600",
+     "alt": "En medarbetare i Klätterverket-hoodie i hallen.",
+     "caption": "Personalkläderna gör att besökare och ambulanspersonal ser vem som leder."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "En tisdag morgon i Sickla faller en klättrare ihop vid topprepsväggen. Det är bara två i personal. Kalle börjar HLR. Maja ringer 112 med högtalare, hämtar hjärtstartaren och ber en stamkund gå ut och möta ambulansen vid entrén."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga till en besökare",
+     "text": "\"Du — kan du hjälpa oss? Gå ut till entrén och vinka in ambulansen hit. Säg att det är vid repväggen.\" Peka och ge **en** tydlig uppgift."
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att alla tror att någon annan har ringt",
+     "text": "När många står runt är risken stor att ingen ringer. Säg högt: \"**Jag** ringer 112\" — eller peka på en person och säg \"**Du** ringer 112.\""
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Klätterverkets larmkedja: vem som informeras efter 112 (platsansvarig, ledning), var ambulansen bäst tar sig in i respektive hall, vem som tar över kassan när personalen är upptagen och hur hallen eventuellt stängs."
+    },
+    {
+     "type": "task",
+     "instruction": "Gör en tvåminutersövning med en kollega: en spelar skadad vid en vägg, den andra fördelar rollerna högt och \"ringer\" 112 med rätt adress och plats i huset.",
+     "hint": "Säg adressen högt. Kan du den utan att tänka?"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: SOS Alarm — Bra att veta innan du ringer 112",
+     "url": "https://www.sosalarm.se/om-oss/vanliga-fragor-och-svar/for-privatpersoner/112-bra-att-veta-innan-du-ringer/"
+    }
+   ]
+  },
+  {
+   "id": "sak-brand",
+   "label": "1.4",
+   "title": "Brand och utrymning — repetition",
+   "estimatedMinutes": 4,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Det här är en kort repetition. Det fullständiga innehållet finns i utbildningen **Brandsäkerhet** här i Academy — har du inte gått den, gör det. Här tittar vi på det som är speciellt i en klätterhall: människor hänger högt upp på väggen när larmet går."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=c248835a-6103-4a4c-8e82-405f3083762a&size=1600",
+     "alt": "Gamla kontrollpaneler från gasverkstiden.",
+     "caption": "Gasverket är en gammal industribyggnad. Lär dig nödutgångarna i just ditt hus."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Grundordningen — rädda, varna, larma, släck"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Rädda** den som är i omedelbar fara.",
+      "**Varna** andra i närheten.",
+      "**Larma** 112 och tryck på brandlarmet om det inte redan gått.",
+      "**Släck** om det går utan risk. Annars: stäng dörren och gå ut."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Det speciella i en klätterhall"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Be alla säkrare att **sänka ner sina klättrare direkt**, lugnt och kontrollerat.",
+      "Den som klättrar i autobelay eller boulder klättrar ner — ingen hoppar.",
+      "Barngrupper och kalas: den ansvariga vuxna eller instruktören räknar barnen.",
+      "Ingen hämtar väskor eller skor i omklädningsrummet.",
+      "Gå till återsamlingsplatsen och stanna där tills räddningstjänsten säger annat."
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Sickla — en tur genom hallen (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=3e2a3a74-73a2-49b5-bc40-7442d4b8403a&_ignore=.mp4"
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Brandlarmet har gått. Sänk ner din klättrare nu, lugnt. Lämna allt och gå mot närmaste nödutgång — där borta.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: säkraren som springer",
+     "text": "Ett vanligt fel vid larm är att säkraren släpper fokus för att titta sig om. Klättraren på väggen är fortfarande hens ansvar tills hen står på marken."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Utrymningsvägar och återsamlingsplats för Gasverket och Sickla, vem som är utrymningsansvarig under ett pass, var brandsläckare och brandlarmknappar finns och hur personalen kontrollerar att alla kommit ut."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt i din hall och leta upp alla nödutgångar och närmaste brandsläckare. Gå sedan ut till återsamlingsplatsen den väg du skulle ta vid ett larm.",
+     "hint": "Fråga din platsansvarige om du är osäker på återsamlingsplatsen."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Myndigheten för civilt försvar — Ansvar och systematiskt brandskyddsarbete",
+     "url": "https://www.mcf.se/sv/amnesomraden/skydd-mot-olyckor-och-farliga-amnen/stod-till-kommunal-raddningstjanst/brandskydd-och-forebyggande/ansvar-sba-och-skriftlig-redogorelse/"
+    }
+   ]
+  },
+  {
+   "id": "sak-forsta-hjalpen",
+   "label": "1.5",
+   "title": "Första hjälpen — repetition",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Även det här är en repetition. Hjärtstopp, HLR och hjärtstartare går du igenom ordentligt i utbildningen **HLR och hjärtstartare** här i Academy. Här tar vi de skador du oftast möter i en klätterhall."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=0d313a5b-919c-4a72-8704-fc292dacd10c&size=1600",
+     "alt": "Kritade händer på nära håll.",
+     "caption": "Skrapsår och spruckna fingertoppar är vardag. Fotleder och fall är det som kräver mer av dig."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Vanliga lägen och vad du gör"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Läge",
+      "Gör så här"
+     ],
+     "rows": [
+      [
+       "Svarar inte, andas onormalt",
+       "Ring 112 och starta HLR. Hämta hjärtstartaren."
+      ],
+      [
+       "Fall från höjd, ont i nacke eller rygg",
+       "Flytta inte. Håll huvudet stilla och ring 112."
+      ],
+      [
+       "Blödning",
+       "Tryck direkt på såret. Håll högt om det går."
+      ],
+      [
+       "Stukad fot eller handled",
+       "Låt personen sitta. Kyl och håll högt. Belasta inte."
+      ],
+      [
+       "Andnöd, svullnad i munnen efter mat i kaféet",
+       "Kan vara allergisk chock. Ring 112. Hjälp personen ta sin adrenalinpenna om hen har en."
+      ],
+      [
+       "Blek, kallsvettig, svimfärdig",
+       "Låt personen ligga ner och håll hen varm. Ring 112 om det inte går över."
+      ]
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=5c2ddeb3-c294-4ecf-a9fc-e70d5223da41&size=1600",
+     "alt": "En kvinna bouldrar på ett överhäng.",
+     "caption": "Från ett överhäng kan man landa på rygg eller nacke. Tänk alltid: kan nacken vara skadad?"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "Ett barn på kalas i Sickla slår i hakan på ett grepp och blöder från en reva. Instruktören sätter sig ner med barnet, trycker en kompress mot såret och ber en kollega ringa barnets förälder. Blödningen stannar efter några minuter. Föräldern får råd att kontakta 1177 om såret behöver sys."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Det blöder lite, men vi fixar det. Jag håller den här mot hakan, så får du hålla min hand. Vi ringer pappa.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att låta någon \"skaka av sig\" ett fall",
+     "text": "Den som slagit i huvudet kan verka pigg först. Låt hen sitta en stund under uppsikt, och avråd från att klättra mer samma dag."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vad som finns i Klätterverkets första hjälpen-väskor, vem som fyller på dem, och vilka i personalen som har aktuell HLR-utbildning under varje pass."
+    },
+    {
+     "type": "task",
+     "instruction": "Öppna första hjälpen-väskan i din hall. Kontrollera att det finns kompresser, kylpåsar och handskar, och säg till om något saknas.",
+     "hint": "Lägg tillbaka allt precis som du hittade det."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: 1177 — Stoppa blödning",
+     "url": "https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/stoppa-blodning/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — Första hjälpen och krisstöd",
+     "url": "https://www.av.se/globalassets/filer/publikationer/broschyrer/forsta-hjalpen-och-krisstod-broschyr-adi534.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sak-autobelay",
+   "label": "2.1",
+   "title": "Autobelay — säkerhetskontroll",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "En [[autobelay|autobelay]] låter besökare klättra utan en säkrare. Det gör den perfekt för nybörjare och barn — och farlig för den som glömmer att haka i. Säkerheten vilar på två saker: att apparaten är kontrollerad, och att klättraren alltid är fastkopplad."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "autobelay"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc871eb2-b666-47c6-8e22-3a5fb3bc8b70&size=1600",
+     "alt": "En kvinna klättrar på en vägg i hallen.",
+     "caption": "I autobelay finns ingen säkrare som ser om klättraren har glömt att haka i. Det gör du."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Tillverkarens kontroller — exemplet TRUBLUE"
+    },
+    {
+     "type": "richtext",
+     "text": "Klätterverket ska följa manualen för just sin modell. Som exempel ställer tillverkaren Head Rush Technologies dessa krav på TRUBLUE:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "När",
+      "Vad"
+     ],
+     "rows": [
+      [
+       "Varje dag",
+       "Visuell kontroll av bandet. Får göras från marken om bandet syns ordentligt."
+      ],
+      [
+       "Före klättring",
+       "Dra ut en bit band och låt det dras tillbaka — kontrollera att det fungerar."
+      ],
+      [
+       "Varje vecka",
+       "Hölje, karbinhake, hela bandets längd och returen kontrolleras. Kontrollen loggas."
+      ],
+      [
+       "Varje år",
+       "Service och omcertifiering hos auktoriserad serviceagent."
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Manualen säger också att apparaten aldrig får användas utan en giltig [[certifieringsetikett|certifieringsetikett]], och att karbinen ska kontrolleras efter varje inkoppling: låst och stängd, i selens säkringsögla."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Klätterverkets regler"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Gult, grönt eller rött kort krävs för automatsäkring.",
+      "Klättraren kopplar in karbinen i selens säkringsögla — och kontrollerar att den är låst — innan första greppet.",
+      "Fallzonen under autobelayn är fri.",
+      "Klättra inte över eller under någon annan."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "En pappa hjälper sin 12-åring vid autobelayn. Han är upptagen med att filma. Barnet börjar klättra — karbinen hänger kvar på väggen."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Stopp, kliv ner en sekund! Vi kopplar in först.\" Och sedan till pappan: \"Kolla alltid karbinen innan första greppet — det är det enda som håller.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: bandet som är slitet \"bara lite\"",
+     "text": "Enligt TRUBLUE-manualen ska bandet bytas vid minsta tecken på skada. Ser du nötning, missfärgning eller skärskador: stäng autobelayn och säg till platsansvarig."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilken autobelay-modell Klätterverket har i varje hall, vem som gör den dagliga och veckovisa kontrollen, var loggen förs, hur en autobelay stängs av (skylt, avspärrning) och när nästa omcertifiering är."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå till en autobelay i din hall. Hitta certifieringsetiketten och läs av datumet. Dra ut bandet en bit och låt det gå tillbaka långsamt — kontrollera att det dras in jämnt.",
+     "hint": "Ser något fel ut: stäng av och säg till platsansvarig innan någon klättrar."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Head Rush Technologies — TRUBLUE Auto Belay Operation Manual",
+     "url": "https://products.papertrail.io/downloads/trublue/TRUBLUE%20Auto%20Belay%20Operation%20Manual.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sak-boulder",
+   "label": "2.2",
+   "title": "Risker i boulderhallen",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "I boulder finns inget rep. Allt skydd är mattan — och att man landar rätt. De flesta skadorna sker vid landningen: en fot som hamnar på en väska, en annan klättrare eller en glipa mellan två mattor."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=00abe9d0-d8c9-4766-a75d-23641b5b0fd8&size=1600",
+     "alt": "Boulderyta där en väska ligger på fallmattan nedanför väggen.",
+     "caption": "Hittar du felet? Väskan ligger mitt i landningsytan."
+    },
+    {
+     "type": "richtext",
+     "text": "Bilden ovan ser ut som vilken dag som helst. Men den som faller från väggen kan landa på väskan och vricka foten. **Mattorna ska vara fria från föremål** — väskor, flaskor, kritpåsar, telefoner."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Klätterverkets boulderregler"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Mattorna är fria från föremål.",
+      "Klättra ner — hoppa inte från toppen.",
+      "Gå inte under någon som klättrar, och vänta tills ytan under är fri.",
+      "Barn under 13 år ska ha en ansvarig person över 15 år med minst gult kort, **max 2 barn per vuxen**.",
+      "Sickla: ingen rutschkana eller åkning i tunneln."
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=6b7d2a6a-b3aa-491b-8b97-f1f480ea1aca&size=1600",
+     "alt": "Glada barn som klättrar i hallen.",
+     "caption": "Barn ser inte alltid vem som faller ovanför dem. Den vuxne ska vara nära."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "passning"
+    },
+    {
+     "type": "richtext",
+     "text": "Vid [[passning|passning]] står en kamrat redo att styra den som faller mot mattan, så att huvud och rygg skyddas. Det är vanligt i kurser och barngrupper."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "En söndag i Sickla springer tre barn runt på mattan medan en mamma sitter på bänken med telefonen. Två vuxna bouldrar på väggen bredvid."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Hej! Är det dina tre? Under 13 behöver de en vuxen nära, och max två barn per vuxen. Kan någon mer hänga med — eller vill ni turas om?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att plocka undan utan att säga något",
+     "text": "Det är bra att flytta en väska från mattan — men berätta varför för ägaren. Annars ligger den där igen om fem minuter."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå runt boulderytan i din hall. Ta bort föremål från mattorna, leta efter glipor mellan mattsektionerna och räkna barnen under 13 år och deras vuxna.",
+     "hint": "Glipor och trasiga mattor rapporterar du direkt till platsansvarig."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Klätterverket — klatterverket.se",
+     "url": "https://www.klatterverket.se/"
+    }
+   ]
+  },
+  {
+   "id": "sak-rephallen",
+   "label": "2.3",
+   "title": "Risker i rephallen",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "I rephallen är höjden den stora risken — Gasverkets väggar är 17 meter. Säkringssystemet är robust, men bara om alla delar sitter rätt. Ditt jobb är att se det lilla felet innan det blir ett stort."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=58651d57-2625-4c69-a377-bd00dcf638e2&size=1600",
+     "alt": "En säkrare som står vid väggen och tittar upp mot sin klättrare.",
+     "caption": "Blicken uppåt, handen på repet. Så ser en bra säkrare ut."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Det här tittar du efter"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Risk",
+      "Tecken",
+      "Gör så här"
+     ],
+     "rows": [
+      [
+       "Ingen kamratkontroll",
+       "Klättraren knyter och börjar direkt.",
+       "Påminn innan första greppet."
+      ],
+      [
+       "Förbjuden säkring",
+       "[[firningsatta|Firningsåtta]] eller [[hms|HMS]].",
+       "Stoppa och erbjud hyrbroms."
+      ],
+      [
+       "Fel kort",
+       "Ledklättring utan rött kort.",
+       "Hänvisa till topprep och till kursen Rött kort."
+      ],
+      [
+       "Ouppmärksam säkrare",
+       "Pratar, tittar i mobilen, släpper bromshanden.",
+       "Påminn direkt."
+      ],
+      [
+       "Fallzon inte fri",
+       "Folk eller väskor under klättraren.",
+       "Be dem flytta."
+      ],
+      [
+       "Säkraren långt från väggen",
+       "Står flera meter ut.",
+       "Be säkraren gå närmare, så att hen inte dras in eller pendlar."
+      ]
+     ]
+    },
+    {
+     "type": "keyTerm",
+     "termId": "hjalplasande-broms"
+    },
+    {
+     "type": "richtext",
+     "text": "Svenska Klätterförbundets norm påpekar att nedsänkning med hjälplåsande broms — till exempel med spaken på en Grigri — har egna risker, och att tillverkarens instruktioner ska följas. En hjälplåsande broms ersätter inte en uppmärksam säkrare."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=852e9bab-dcbf-4a57-9113-6e2d2234b44f&size=1600",
+     "alt": "En ledklättrare på väg upp längs väggen.",
+     "caption": "Ledklättring kräver rött kort. Fallen blir längre och säkringen mer krävande."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "Två studenter på Gasverket har med sig en firningsåtta hemifrån. De är vana från en kurs utomlands och blir förvånade när du kommer fram."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Det ser ut som ni kan det här! Men just firningsåttan är inte tillåten för säkring hos oss. Ni kan hyra en broms i receptionen — vill du att jag visar?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att vänta tills klättraren är uppe",
+     "text": "Ser du ett fel i säkringen när klättraren redan är högt upp: avbryt inte på ett sätt som stressar säkraren. Ställ dig bredvid, ta tag i det passiva repet och be säkraren lugnt sänka ner klättraren."
+    },
+    {
+     "type": "task",
+     "instruction": "Stå vid en repvägg i 15 minuter. Titta på varje säkrare: kort på selen, godkänd broms, bromshanden på repet, nära väggen. Notera hur många som gör allt rätt.",
+     "hint": "Gå fram och säg ifrån direkt vid något förbjudet. Mindre saker kan du ta när klättraren är nere."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Svenska Klätterförbundet — Norm för kurs i ledklättring inomhus",
+     "url": "https://www.klatterforbundet.se/app/uploads/2022/09/Norm-kurs-i-ledklattring-inomhus.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sak-incident",
+   "label": "3.1",
+   "title": "Incidentrapportering",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Varje [[tillbud|tillbud]] är en gratis lektion. En nästan-olycka visar var nästa olycka kan hända — men bara om någon skriver ner den. Därför rapporterar vi även det som slutade bra."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "tillbud"
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=04c99843-b114-4fab-8057-6f13f118c427&size=1600",
+     "alt": "En grupp i Klätterverkets hall.",
+     "caption": "Rapporter handlar om att lära, inte om att hitta någon att skylla på."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Två sorters rapporter"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Vad",
+      "Till vem",
+      "Vem gör det"
+     ],
+     "rows": [
+      [
+       "Alla olyckor och tillbud — personal och besökare",
+       "Internt, i Klätterverkets system",
+       "Du, samma dag"
+      ],
+      [
+       "Dödsfall, svår personskada eller [[allvarligt-tillbud|allvarligt tillbud]] i arbetet",
+       "Arbetsmiljöverket, utan dröjsmål",
+       "Arbetsgivaren — du säger till din chef direkt"
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Enligt arbetsmiljöförordningen ska arbetsgivaren **utan dröjsmål** underrätta Arbetsmiljöverket om dödsfall eller svårare personskada i samband med arbetet, och om tillbud som inneburit allvarlig fara för liv och hälsa. Arbetsmiljöverket påpekar också att det är viktigt att alla olyckor och tillbud rapporteras internt."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Det här skriver du"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "**Vad** hände — med fakta, inte gissningar.",
+      "**Var och när** — hall, vägg, klockslag.",
+      "**Vem** var inblandad — och om någon skadades.",
+      "**Vad ni gjorde** — första hjälpen, 112, vägg stängd.",
+      "**Förslag** — vad skulle kunna förhindra att det händer igen?"
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "En topprepsklättrare i Sickla blir nedsänkt för snabbt och slår i mattan med hälarna. Ingen skada. Säkraren använde en broms hen inte var van vid. Johan, som såg det, skriver en kort rapport: vad, var, vad som hände, och förslaget att receptionen frågar om vana när man hyr en ny broms."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga till en besökare",
+     "text": "\"Vi skriver alltid ner sådant här, även när det gick bra. Det hjälper oss göra hallen säkrare. Är det okej att jag tar ditt namn och nummer om vi behöver fråga något mer?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: \"det var ju inget\"",
+     "text": "Det är just de små händelserna som inte rapporteras. Tre likadana \"inget\" på samma vägg betyder att något behöver ändras."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Vilket system Klätterverket använder för incidentrapporter, vem som läser och följer upp dem, hur kontaktuppgifter till skadade besökare hanteras, och vem som anmäler till Arbetsmiljöverket."
+    },
+    {
+     "type": "task",
+     "instruction": "Tänk på något som nästan hände under ett av dina senaste pass. Skriv en tillbudsrapport om det med de fem punkterna ovan och lämna den till din platsansvarige.",
+     "hint": "Hittar du inget eget: skriv om exemplet med väskan på bouldermattan i lektion 2.2."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — Anmäl svåra personskador, dödsfall och allvarliga tillbud",
+     "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/arbetsgivarens-ansvar-for-arbetsmiljon/anmal-arbetsskada-dodsfall-och-allvarliga-tillbud-till-arbetsmiljoverket/"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — Rapportera och utreda tillbud och olyckor",
+     "url": "https://www.av.se/globalassets/filer/arbetsmiljoarbete-och-inspektioner/systematiskt-arbetsmiljoarbete-exempel-startpaket-handbok-09-rapportera-utreda-tillbud-olyckor.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sak-saga-ifran",
+   "label": "3.2",
+   "title": "När ska vi säga ifrån?",
+   "estimatedMinutes": 5,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Det svåraste med säkerhet är ofta inte att veta vad som är fel — det är att gå fram och säga det. Särskilt till en vuxen, en stamkund eller någon som verkar mer erfaren än du. Men du har både rätten och ansvaret."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=ce074c19-48de-4842-8666-a8a59450709e&size=1600",
+     "alt": "En instruktör visar en knut för en grupp.",
+     "caption": "Den som pratar säkerhet med ett leende blir lyssnad på."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Säg ifrån direkt — avbryt"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Knuten är inte klar, eller karbinen inte låst.",
+      "Förbjuden säkringsmetod — firningsåtta eller HMS.",
+      "Säkraren släpper bromshanden eller tittar bort.",
+      "Någon klättrar i autobelay utan att vara inkopplad.",
+      "Någon är påverkad av alkohol eller droger."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Säg ifrån vänligt — men säg det"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Kortet syns inte på selen.",
+      "Ingen kamratkontroll.",
+      "Föremål på mattan eller folk i fallzonen.",
+      "Barn under 13 utan ansvarig vuxen i boulder.",
+      "Sexism, rasism eller kränkningar — Klätterverket har nolltolerans."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så gör du"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Gå nära. Ropa bara om det är akut.",
+      "Säg vad du ser, kort och sakligt.",
+      "Ge en lösning: \"Vill du hyra en broms?\"",
+      "Tackar personen nej: kalla på platsansvarig. Du behöver inte lösa det ensam."
+     ]
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga",
+     "text": "\"Ursäkta att jag avbryter! Jag såg att knuten inte gick genom båda öglorna. Kan du göra om den? Tack!\""
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "En erfaren stamkund på Gasverket ledklättrar med en vän som säkrar utan rött kort. När du påpekar det säger han: \"Han har säkrat mig utomhus i tio år.\""
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du svara",
+     "text": "\"Jag förstår, och jag tror dig. Men här gäller rött kort för ledsäkring, för alla. Ni kan köra topprep idag — eller boka kursen. Jag hämtar gärna platsansvarig om du vill prata mer.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att vänta och se",
+     "text": "Om du tvekar — säg till. Det är bättre att du har fel en gång om dagen än att du har rätt en gång för sent."
+    },
+    {
+     "type": "richtext",
+     "text": "Samma sak gäller din egen arbetsmiljö. Ser du en risk för dig eller kollegor, säg till din chef. Enligt arbetsmiljölagen kan ett skyddsombud till och med stoppa ett arbete vid omedelbar och allvarlig fara."
+    },
+    {
+     "type": "task",
+     "instruction": "Öva med en kollega: välj tre situationer från listorna ovan och spela upp dem. Turas om att vara personal och besökare — och låt \"besökaren\" protestera lite.",
+     "hint": "Prova att säga vad du ser + en lösning, i högst två meningar."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Arbetsmiljöverket — Skyddsombudsstopp (6 kap. 7 §)",
+     "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/skyddsombud-och-arbetsmiljoombud/skyddsombudsstopp/"
+    }
+   ]
+  },
+  {
+   "id": "sak-daglig-kontroll",
+   "label": "3.3",
+   "title": "Daglig säkerhetskontroll",
+   "estimatedMinutes": 6,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Varje dag innan hallen fylls går någon en runda och tittar på det som håller människor uppe: mattor, rep, karbiner, autobelays. Det tar inte lång tid — men det är det viktigaste du gör på morgonen."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=24ef1768-ec3b-40ab-b984-1911936c43e1&size=1600",
+     "alt": "Höga klätterväggar med klättrare.",
+     "caption": "Varje topprep hänger uppe hela dagen. Kontrollera det innan första klättraren knyter in."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "En typisk morgonrunda"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Område",
+      "Titta efter"
+     ],
+     "rows": [
+      [
+       "Bouldermattor",
+       "Glipor mellan sektioner, trasig klädsel, föremål."
+      ],
+      [
+       "Grepp och volymer",
+       "Snurrande eller lösa grepp — särskilt efter omskruvning."
+      ],
+      [
+       "Topprep",
+       "Mantel som är nött eller skadad, rätt i ankaret."
+      ],
+      [
+       "Karbiner och ankare",
+       "Låsfunktion, slitage, rätt monterade."
+      ],
+      [
+       "Autobelays",
+       "Bandet enligt tillverkarens dagliga kontroll, giltig certifieringsetikett."
+      ],
+      [
+       "Hyrutrustning",
+       "Selar, bromsar och karbiner i hyran."
+      ],
+      [
+       "Nödläge",
+       "Hjärtstartare och första hjälpen-väska på plats, nödutgångar fria."
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Det här är en kontroll **före användning**. Petzl skiljer på den och en grundlig kontroll som en kompetent person gör minst var 12:e månad. Båda ska dokumenteras, till exempel i en logg."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "epi"
+    },
+    {
+     "type": "video",
+     "title": "Gasverket — hallen från insidan (Klätterverket)",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=e81568f0-2357-43f9-a7ab-3eb092fd2c63&_ignore=.mp4"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "Emma öppnar Sickla en vardagsmorgon. Under rundan ser hon att manteln på ett topprep är nött ända in mot kärnan, några meter från änden. Hon tar ner repet, sätter en skylt på leden och skriver i loggen."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga till en kund",
+     "text": "\"Den leden är stängd idag — vi har tagit ner repet för kontroll. Prova gärna de två bredvid, de har liknande grad.\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: att bocka av utan att titta",
+     "text": "En checklista man fyllt i hundra gånger blir lätt en ritual. Rör vid repet. Dra i greppet. Läs datumet."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Klätterverkets egen checklista för morgonrundan i Gasverket och Sickla, vem som gör den, var den loggas, hur en led eller vägg stängs (skylt, avspärrning) och vem som beslutar att den öppnas igen."
+    },
+    {
+     "type": "task",
+     "instruction": "Gå morgonrundan tillsammans med den som öppnar nästa gång du jobbar. Gör sedan en egen runda på ett område — till exempel tio topprep — och visa vad du hittade.",
+     "hint": "Börja med det du inte är van vid. Är du instruktör: titta på mattorna. Jobbar du i receptionen: titta på hyrselarna."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Petzl — What is PPE verification and how do you go about it?",
+     "url": "https://www.petzl.com/SE/en/Sport/News/2023-2-16/What-is-PPE-verification-and-how-do-you-go-about-it-"
+    }
+   ]
+  },
+  {
+   "id": "sak-ur-bruk",
+   "label": "3.4",
+   "title": "Klätterutrustning ur bruk",
+   "estimatedMinutes": 7,
+   "blocks": [
+    {
+     "type": "richtext",
+     "text": "Klätterutrustning håller länge, men inte för alltid. Textil åldras även när den ligger oanvänd, och hyrselar i en klätterhall används mer än de flesta privata. Den här lektionen handlar om när något ska tas ur bruk — och hur."
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=d99e1676-6370-4b62-aa0c-7dcc3db2bb4b&size=1600",
+     "alt": "En gul åttaknut i ett klätterrep.",
+     "caption": "Repet är ett textilprodukt. Det åldras av ljus, värme och slitage."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Vad tillverkarna säger"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Tillverkare",
+      "Livslängd",
+      "Ta ur bruk direkt om…"
+     ],
+     "rows": [
+      [
+       "Petzl",
+       "Textil och plast: högst 10 år från tillverkningsdatum. Metall: ingen fast livslängd.",
+       "Produkten inte klarar kontrollen, eller efter en exceptionell händelse."
+      ],
+      [
+       "Edelrid (rep)",
+       "Oanvänt och rätt förvarat: högst 12 år. Vid enstaka användning: 10 år.",
+       "Manteln är skadad så att kärnan syns, eller repet varit i kontakt med kemikalier."
+      ],
+      [
+       "Black Diamond (selar)",
+       "Ca 3 år vid normal användning. Förvarad i 10 år eller mer: kassera.",
+       "Reva eller hål, bränd eller smält väv, slitna sömmar, spänne med sprickor eller deformation, eller efter ett allvarligt fall."
+      ]
+     ]
+    },
+    {
+     "type": "richtext",
+     "text": "Gemensamt för alla: **vid minsta tvivel — ta ur bruk.** Och mer användning betyder kortare livslängd."
+    },
+    {
+     "type": "keyTerm",
+     "termId": "livslangd"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "EN-standarder"
+    },
+    {
+     "type": "richtext",
+     "text": "Klätterutrustning är personlig skyddsutrustning och ska vara CE-märkt. Märkningen visar vilken europeisk standard produkten är provad mot:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Standard",
+      "Gäller"
+     ],
+     "rows": [
+      [
+       "EN 12277",
+       "Selar"
+      ],
+      [
+       "EN 892",
+       "Dynamiska klätterrep"
+      ],
+      [
+       "EN 12275",
+       "Karbiner"
+      ],
+      [
+       "EN 15151-1",
+       "Repbromsar med manuellt assisterad låsning"
+      ],
+      [
+       "EN 12572-1",
+       "Konstgjorda klätterväggar"
+      ],
+      [
+       "EN 18039",
+       "Autobelays för fritidsbruk (ny 2026)"
+      ]
+     ]
+    },
+    {
+     "type": "image",
+     "src": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=cc73d0a2-82df-460c-9a77-edd32db978c1&size=1600",
+     "alt": "En kvinna tar på sig klätterskor.",
+     "caption": "Skor kasseras när de inte längre är hela — men selar och rep är det som avgör säkerheten."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Så tar du något ur bruk"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Ta bort produkten från hyran eller väggen direkt.",
+      "Märk den tydligt så att ingen tar tillbaka den.",
+      "Skriv i loggen: vad, varför, datum.",
+      "Petzl rekommenderar att kasserad utrustning görs obrukbar, till exempel genom att klippa av selens bryggor."
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Exempel från hallen"
+    },
+    {
+     "type": "richtext",
+     "text": "Vid återlämning i receptionen på Gasverket ser Ali att säkringsöglan på en hyrsele är luddig och blankt nött på ena sidan."
+    },
+    {
+     "type": "callout",
+     "intent": "ok",
+     "title": "Så kan du säga till kollegan",
+     "text": "\"Den här ska inte ut igen. Jag lägger den i lådan för kassering och skriver i loggen — kan du ta nästa kund så länge?\""
+    },
+    {
+     "type": "callout",
+     "intent": "warning",
+     "title": "Fallgrop: \"den ser ju okej ut\"",
+     "text": "Ålder syns inte. En sele kan se fin ut och ändå ha passerat sin livslängd. Kolla tillverkningsdatumet på etiketten."
+    },
+    {
+     "type": "callout",
+     "intent": "info",
+     "title": "Att fylla i för Klätterverket",
+     "text": "Var kasserad utrustning läggs i varje hall, hur den märks, vem som beslutar om kassering, hur hyrutrustningen spåras (datum, serienummer) och vem som gör den årliga grundliga kontrollen."
+    },
+    {
+     "type": "task",
+     "instruction": "Ta fram tre hyrselar. Leta upp tillverkningsdatum på etiketten och kontrollera säkringsöglan, sömmarna och spännet på var och en.",
+     "hint": "Hittar du en sele som är äldre än tillverkarens gräns eller har synligt slitage: ta den ur bruk enligt stegen ovan."
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Petzl — PPE verification",
+     "url": "https://www.petzl.com/SE/en/Sport/News/2023-2-16/What-is-PPE-verification-and-how-do-you-go-about-it-"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Black Diamond — QC Lab: worn belay loops and retiring a harness",
+     "url": "https://blackdiamondequipment.com/en_US/qc-lab-strength-of-worn-belay-loops.html"
+    },
+    {
+     "type": "reference",
+     "label": "Läs mer: Edelrid — bruksanvisning för rep",
+     "url": "https://avs.edelrid.com/images/attribut/54520_GAL_CONFIDENCE_ROPE_MS_20160201_WEB.pdf"
+    },
+    {
+     "type": "quizRef",
+     "text": "Nu har du gått igenom hela kursen. Provet har tolv frågor och tar ungefär tio minuter."
+    }
+   ]
+  }
+ ],
+ "terms": {
+  "kamratkontroll": {
+   "term": "Kamratkontroll",
+   "definition": "Klättrare och säkrare kontrollerar varandras knut, sele, rep, broms och karbin innan varje klättring — från repände till repände."
+  },
+  "fallzon": {
+   "term": "Fallzon",
+   "definition": "Ytan under och runt en klättrare där hen kan landa vid ett fall. Den ska alltid vara fri från människor och föremål."
+  },
+  "hjalplasande-broms": {
+   "term": "Hjälplåsande broms",
+   "definition": "En repbroms som hjälper till att låsa repet vid ett fall, till exempel Grigri eller Jul 2. Rekommenderas på Klätterverket, men ersätter inte en uppmärksam säkrare."
+  },
+  "firningsatta": {
+   "term": "Firningsåtta",
+   "definition": "Ett åttaformat redskap för nedfirning. Förbjuden som säkringsmetod på Klätterverket."
+  },
+  "hms": {
+   "term": "HMS",
+   "definition": "Säkring med en halvmastkast i en HMS-karbin. Förbjuden som säkringsmetod på Klätterverket."
+  },
+  "autobelay": {
+   "term": "Autobelay",
+   "definition": "Automatsäkring: en apparat i toppen av väggen som tar hem bandet medan du klättrar och sänker ner dig långsamt när du släpper."
+  },
+  "certifieringsetikett": {
+   "term": "Certifieringsetikett",
+   "definition": "Etikett på autobelayn som visar när den senast omcertifierades. Utan giltig etikett får apparaten inte användas."
+  },
+  "passning": {
+   "term": "Passning",
+   "definition": "När en kamrat står redo att styra en fallande boulderklättrare mot mattan och skydda huvud och rygg. Kallas också spotting."
+  },
+  "tillbud": {
+   "term": "Tillbud",
+   "definition": "En oönskad händelse som kunde ha lett till skada eller ohälsa — men inte gjorde det."
+  },
+  "allvarligt-tillbud": {
+   "term": "Allvarligt tillbud",
+   "definition": "Ett tillbud som inneburit allvarlig fara för liv eller hälsa. Arbetsgivaren ska anmäla det till Arbetsmiljöverket utan dröjsmål."
+  },
+  "epi": {
+   "term": "Kontroll före användning",
+   "definition": "Den visuella och funktionella kontrollen av utrustning innan den används. Kompletteras av en grundlig kontroll av en kompetent person minst var 12:e månad, enligt Petzl."
+  },
+  "livslangd": {
+   "term": "Livslängd",
+   "definition": "Hur länge tillverkaren säger att en produkt högst får användas. För textil räknas den från tillverkningsdatum, inte inköpsdatum."
+  }
+ },
+ "quiz": {
+  "title": "Prov: Säkerhet i hallen",
+  "passScore": 0.8,
+  "draw": 12,
+  "attempts": 3,
+  "items": [
+   {
+    "id": "q-sak-1",
+    "type": "ordering",
+    "stem": "En besökare har landat illa i boulderhallen. Sätt stegen i rätt ordning.",
+    "options": [
+     "Skydda platsen — stoppa klättring runt omkring",
+     "Gå fram, presentera dig och fråga vad som hänt",
+     "Bedöm läget och larma vid behov",
+     "Ge första hjälpen och stanna kvar",
+     "Skriv en rapport samma dag"
+    ],
+    "lesson": "sak-olycka",
+    "why": "Skydda först, så att ingen mer skadas. Sedan kontakt, bedömning, larm, omhändertagande — och sist rapporten."
+   },
+   {
+    "id": "q-sak-2",
+    "type": "single",
+    "stem": "En klättrare har fallit från höjd och klagar på ont i nacken. Hen är vaken. Vad gör du?",
+    "options": [
+     "Flyttar inte personen, håller huvudet stilla och ringer 112",
+     "Hjälper personen att sätta sig upp",
+     "Lägger personen i stabilt sidoläge",
+     "Ber personen gå till omklädningsrummet och vila"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-olycka",
+    "why": "Vid misstänkt nackskada flyttar du inte en vaken person. Håll huvudet stilla och larma."
+   },
+   {
+    "id": "q-sak-3",
+    "type": "multi",
+    "stem": "Vad ingår i kamratkontrollen? Välj alla som stämmer.",
+    "options": [
+     "Klättrarens knut och sele",
+     "Repet i ankaret och bromsen",
+     "Säkrarens sele och låst karbin",
+     "Att klättraren har druckit vatten"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "sak-sakra-sakert",
+    "why": "SKF:s norm beskriver kontrollen från repände till repände: knut, sele, rep, broms, karbin, säkrarens sele och stoppknut."
+   },
+   {
+    "id": "q-sak-4",
+    "type": "single",
+    "stem": "Vilket kort krävs för att säkra en ledklättrare på Klätterverket?",
+    "options": [
+     "Rött kort",
+     "Grönt kort",
+     "Gult kort",
+     "Inget kort, bara erfarenhet"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-sakra-sakert",
+    "why": "Grönt kort gäller topprep, rött kort led. Gult, grönt eller rött gäller automatsäkring."
+   },
+   {
+    "id": "q-sak-5",
+    "type": "multi",
+    "stem": "Vilka säkringsmetoder är förbjudna på Klätterverket? Välj alla som stämmer.",
+    "options": [
+     "Firningsåtta",
+     "HMS",
+     "Hjälplåsande broms",
+     "Rörbroms av ATC-typ"
+    ],
+    "correct": [
+     "a",
+     "b"
+    ],
+    "lesson": "sak-rephallen",
+    "why": "Firningsåtta och HMS är förbjudna. Hjälplåsande broms rekommenderas."
+   },
+   {
+    "id": "q-sak-6",
+    "type": "single",
+    "stem": "Varför räcker det inte att dra i bältet på selen vid kamratkontrollen?",
+    "options": [
+     "Ett felträtt spänne kan hålla för ett handryck men öppna sig under belastning",
+     "Det gör det — ett ryck är tillräckligt",
+     "För att selen kan vara för stor",
+     "För att det tar för lång tid"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-sakra-sakert",
+    "why": "I SKF:s säkerhetsrapport såg spännet nästan rätt ut och höll för ett ryck, men öppnade sig när klättraren satte sig i selen. Titta på spännet."
+   },
+   {
+    "id": "q-sak-7",
+    "type": "single",
+    "stem": "Ni är tre i personal när en besökare får hjärtstopp. Vad är viktigast att göra först tillsammans?",
+    "options": [
+     "Fördela rollerna högt: en hjälper, en larmar, en hämtar hjärtstartaren",
+     "Alla tre börjar HLR samtidigt",
+     "Ringa platsansvarig innan 112",
+     "Utrymma hallen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-akutlage",
+    "why": "Tydliga roller gör att inget glöms — och att någon faktiskt ringer 112."
+   },
+   {
+    "id": "q-sak-8",
+    "type": "single",
+    "stem": "Brandlarmet går medan en klättrare är högt upp i topprep. Vad säger du till säkraren?",
+    "options": [
+     "\"Sänk ner din klättrare nu, lugnt, och gå sedan ut.\"",
+     "\"Släpp repet och spring ut.\"",
+     "\"Låt klättraren firma sig själv.\"",
+     "\"Vänta tills larmet tystnar.\""
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-brand",
+    "why": "Klättraren är säkrarens ansvar tills hen står på marken. Sänk ner lugnt och kontrollerat."
+   },
+   {
+    "id": "q-sak-9",
+    "type": "single",
+    "stem": "En besökare blöder från ett sår på handen. Vad gör du först?",
+    "options": [
+     "Trycker direkt på såret",
+     "Spolar såret med varmt vatten i fem minuter",
+     "Ringer 112 direkt",
+     "Ber hen fortsätta klättra med tejp"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-forsta-hjalpen",
+    "why": "Ett direkt tryck stoppar de flesta blödningar. Håll högt om det går."
+   },
+   {
+    "id": "q-sak-10",
+    "type": "single",
+    "stem": "Enligt TRUBLUE-manualen — vad ska kontrolleras varje dag?",
+    "options": [
+     "Bandet, visuellt",
+     "Hela apparaten isärplockad",
+     "Bara certifieringsetiketten",
+     "Ingenting — kontrollen görs en gång om året"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-autobelay",
+    "why": "Den dagliga kontrollen är minst en visuell kontroll av bandet. Veckovis görs en mer fullständig kontroll och årligen en omcertifiering."
+   },
+   {
+    "id": "q-sak-11",
+    "type": "single",
+    "stem": "Du ser ett barn börja klättra i autobelayn utan att karbinen är inkopplad. Vad gör du?",
+    "options": [
+     "Ber barnet kliva ner direkt och kopplar in innan nästa försök",
+     "Väntar tills barnet är uppe och tar det sedan",
+     "Ropar till föräldern på andra sidan hallen",
+     "Inget — det är förälderns ansvar"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-autobelay",
+    "why": "En ej inkopplad klättrare i autobelay har inget skydd alls. Avbryt direkt."
+   },
+   {
+    "id": "q-sak-12",
+    "type": "single",
+    "stem": "Vilken regel gäller för barn under 13 år i boulderhallen?",
+    "options": [
+     "En ansvarig person över 15 år med minst gult kort, max 2 barn per vuxen",
+     "En vuxen per grupp, oavsett antal",
+     "Barn under 13 får inte bouldra",
+     "En ansvarig över 18 år med grönt kort"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-boulder",
+    "why": "Klätterverkets regel: ansvarig över 15 år med minst gult kort, och max två barn per vuxen."
+   },
+   {
+    "id": "q-sak-13",
+    "type": "multi",
+    "stem": "Vilka av dessa bryter mot Klätterverkets boulderregler? Välj alla som stämmer.",
+    "options": [
+     "En väska på mattan",
+     "Att hoppa ner från toppen",
+     "Åka rutschkana i tunneln i Sickla",
+     "Att klättra ner"
+    ],
+    "correct": [
+     "a",
+     "b",
+     "c"
+    ],
+    "lesson": "sak-boulder",
+    "why": "Mattorna ska vara fria, man klättrar ner i stället för att hoppa, och tunneln i Sickla är ingen rutschkana."
+   },
+   {
+    "id": "q-sak-14",
+    "type": "single",
+    "stem": "Du ser ett säkringsfel när klättraren redan är högt upp. Vad är bäst?",
+    "options": [
+     "Ställ dig bredvid, ta det passiva repet och be säkraren lugnt sänka ner",
+     "Ryck repet ur säkrarens händer",
+     "Ropa högt så att hela hallen hör",
+     "Vänta och ta det när klättraren är nere"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-rephallen",
+    "why": "Du vill rätta felet utan att stressa säkraren. Backa upp och sänk ner lugnt."
+   },
+   {
+    "id": "q-sak-15",
+    "type": "single",
+    "stem": "Vad är ett tillbud?",
+    "options": [
+     "En oönskad händelse som kunde ha lett till skada, men inte gjorde det",
+     "En olycka med sjukskrivning",
+     "En klagan från en kund",
+     "En skada som anmäls till Försäkringskassan"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-incident",
+    "why": "Arbetsmiljöverket: ett tillbud är en oönskad händelse som kunde ha lett till skada eller ohälsa."
+   },
+   {
+    "id": "q-sak-16",
+    "type": "single",
+    "stem": "En kollega var nära att falla från en stege vid omskruvning — en allvarlig fara för liv och hälsa. Vad gäller?",
+    "options": [
+     "Arbetsgivaren ska utan dröjsmål anmäla det till Arbetsmiljöverket",
+     "Det ska bara rapporteras om någon skadades",
+     "Det räcker att nämna det på nästa personalmöte",
+     "Kollegan ska själv anmäla det till polisen"
+    ],
+    "correct": [
+     "a"
+    ],
+    "intro": "Under en omskruvning i Gasverket glider stegen och kollegan hänger kvar i ett grepp fyra meter upp.",
+    "lesson": "sak-incident",
+    "why": "Enligt arbetsmiljöförordningen ska tillbud som inneburit allvarlig fara för liv och hälsa anmälas utan dröjsmål. Säg till din chef direkt."
+   },
+   {
+    "id": "q-sak-17",
+    "type": "single",
+    "stem": "En erfaren stamkund säkrar med HMS och säger att han alltid gjort så. Vad gör du?",
+    "options": [
+     "Säger vänligt att HMS inte är tillåtet här och erbjuder en hyrbroms",
+     "Låter det vara eftersom han är erfaren",
+     "Ber honom gå hem",
+     "Väntar till nästa gång han kommer"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-saga-ifran",
+    "why": "Regeln gäller alla. Säg vad du ser, ge en lösning, och kalla på platsansvarig om det behövs."
+   },
+   {
+    "id": "q-sak-18",
+    "type": "single",
+    "stem": "Under morgonrundan ser du att manteln på ett topprep är nött så att kärnan syns. Vad gör du?",
+    "options": [
+     "Tar ner repet, stänger leden och skriver i loggen",
+     "Tejpar över skadan",
+     "Låter repet vara kvar till kvällen",
+     "Vänder repet så att skadan hamnar högre upp"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-daglig-kontroll",
+    "why": "Synlig kärna betyder att repet ska tas ur bruk direkt. Stäng och dokumentera."
+   },
+   {
+    "id": "q-sak-19",
+    "type": "single",
+    "stem": "Enligt Petzl — hur länge får en sele (textil) högst användas?",
+    "options": [
+     "10 år från tillverkningsdatum",
+     "10 år från inköpsdatum",
+     "Obegränsat om den ser hel ut",
+     "2 år"
+    ],
+    "correct": [
+     "a"
+    ],
+    "lesson": "sak-ur-bruk",
+    "why": "Petzl anger högst 10 år för textil och plast, räknat från tillverkningsdatum."
+   },
+   {
+    "id": "q-sak-20",
+    "type": "ordering",
+    "stem": "Du hittar en hyrsele med sliten säkringsögla. Sätt stegen i rätt ordning.",
+    "options": [
+     "Ta bort selen från hyran direkt",
+     "Märk den så att ingen tar tillbaka den",
+     "Skriv i loggen vad, varför och datum",
+     "Gör den obrukbar vid kassering"
+    ],
+    "lesson": "sak-ur-bruk",
+    "why": "Först bort från hyran, sedan märkning och logg. Kasserad utrustning görs obrukbar."
+   }
+  ]
+ }
+}
