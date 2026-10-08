@@ -460,7 +460,7 @@ header .btn:hover{background:rgba(255,255,255,.12)}
 .ccard{overflow:hidden;position:relative}
 .ccard:hover{border-color:#000;background:#fff;transform:translateY(-1px)}
 .ccard{transition:transform .12s ease,border-color .12s ease}
-.ccover{margin:-16px -16px 6px;height:150px;background:#111;overflow:hidden}
+.ccover{margin:-16px -16px 6px;aspect-ratio:4/3;background:#111;overflow:hidden}
 .ccover img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.95)}
 .ccard h3{font-size:17px;font-weight:800;letter-spacing:-.015em}
 .ccard.lockd{background:#fff}
@@ -526,6 +526,8 @@ header .btn:hover{background:rgba(255,255,255,.12)}
 .chero::after{content:"";position:absolute;inset:0;background-image:inherit;background-size:contain;
   background-repeat:no-repeat;background-position:center}
 @media(max-width:640px){.chero{height:200px}}
+
+.cbanner{display:block;width:100%;height:auto;border-radius:16px;margin:2px 0 18px;background:#111}
 
 </style>
 </head>
@@ -1641,6 +1643,10 @@ UI.en = {
   'Instruktörer': 'Instructors',
   'Hallvärdar': 'Floor staff',
   'Kafé': 'Café',
+  'Shoppen': 'Shop',
+  'Barn & ungdom': 'Kids & youth',
+  'Personliga tränare': 'Personal trainers',
+  'Restaurang & café': 'Restaurant & café',
   'Platsansvariga': 'Facility leads',
   'Internt': 'Internal',
   'Alla roller': 'All roles',
@@ -2626,7 +2632,8 @@ function viewCatalog(){
   app.append(bar, grid); draw();
 }
 const AUD = {all:'Alla medarbetare', reception:'Reception', instructor:'Instruktörer',
-             hallvard:'Hallvärdar', cafe:'Kafé', lead:'Platsansvariga', internal:'Internt'};
+             hallvard:'Hallvärdar', shop:'Shoppen', kids:'Barn & ungdom', pt:'Personliga tränare',
+             cafe:'Restaurang & café', lead:'Platsansvariga', internal:'Internt'};
 /* Etiketten översätts vid visning, inte i tabellen — tabellen är nycklar. */
 const audienceLabel = a => t(AUD[a] || a);
 
@@ -2780,7 +2787,9 @@ function viewCourse(){
     h('button',{cls:'link',type:'button',text:'Kurser',onclick:()=>go('#/katalog')}),
     h('span',{text:'/'}), h('span',{text:c.title})));
 
-  if(c.cover){ const ch = h('div',{cls:'chero'}); ch.style.backgroundImage = 'url("' + String(c.cover).replace(/["\\]/g,'') + '")'; app.append(ch); }
+  /* banner: en bred bild för kurssidan (valfri). Annars visas omslaget. */
+  if(c.banner){ const bi = h('img',{cls:'cbanner',src:c.banner,alt:''}); bi.addEventListener('error',()=>bi.remove()); app.append(bi); }
+  else if(c.cover){ const ch = h('div',{cls:'chero'}); ch.style.backgroundImage = 'url("' + String(c.cover).replace(/["\\]/g,'') + '")'; app.append(ch); }
   app.append(h('h1',{text:c.title}));
   app.append(h('p',{cls:'muted',style:'max-width:70ch;margin-top:-6px',text:c.summary||''}));
 
@@ -4100,6 +4109,7 @@ function normalizePackage(pkg, folder){
     prerequisites: c0.prerequisites || [],
     estimatedMinutes: Number(c0.estimatedMinutes) || order.reduce((s, id) => s + (lessons[id].estimatedMinutes||5), 0),
     cover: rel(c0.cover),
+    banner: rel(c0.banner),
     certificate: c0.certificate || {issue: !!quiz, validMonths: 24},
     completion: {rule:'allRequiredLessons'}, modules });
   if(quiz) course.quizId = quiz.id; else delete course.quizId;
@@ -5311,10 +5321,10 @@ function packageFromCourse(c){
     return x;
   });
   const terms = {};
-  for(const l of L) for(const id of blockTerms(l)) if(termRaw(id)) terms[id] = termRaw(id);
+  for(const id0 of courseLessons(c)){ const l = lessonRaw(id0); if(l) for(const id of blockTerms(l)) if(termRaw(id)) terms[id] = termRaw(id); }
   const pkg = { format:'kv-utbildning-1',
     course: { id: c.id.replace(/^crs\./,''), title:c.title, summary:c.summary, audience:c.audience,
-      estimatedMinutes:c.estimatedMinutes, cover: strip(c.cover), certificate:c.certificate,
+      estimatedMinutes:c.estimatedMinutes, cover: strip(c.cover), banner: strip(c.banner), certificate:c.certificate,
       modules:(c.modules||[]).map(m => ({id:m.id, title:m.title, lessons:m.lessons})) },
     lessons: L, terms };
   const q = c.quizId ? quizRaw(c.quizId) : null;
