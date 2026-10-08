@@ -54,7 +54,8 @@
    ],
    "prerequisites": [],
    "estimatedMinutes": 40,
-   "cover": "media/hlr-utbildning.jpg",
+   "cover": "media/hlr-omslag.jpg",
+   "banner": "media/hlr-banner.jpg",
    "certificate": {
     "issue": true,
     "validMonths": 12,
@@ -99,7 +100,8 @@
    ],
    "prerequisites": [],
    "estimatedMinutes": 35,
-   "cover": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=852e9bab-dcbf-4a57-9113-6e2d2234b44f&size=600",
+   "cover": "media/brand-omslag.jpg",
+   "banner": "media/brand-banner.jpg",
    "certificate": {
     "issue": true,
     "validMonths": 24,
@@ -151,7 +153,8 @@
    ],
    "prerequisites": [],
    "estimatedMinutes": 35,
-   "cover": "https://d36szuo3i5x415.cloudfront.net/www.klatterverket.se/?key=317e51a9-197a-4cc5-b5c2-85f6d924ed85&size=600",
+   "cover": "media/vald-omslag.jpg",
+   "banner": "media/vald-banner.jpg",
    "certificate": {
     "issue": true,
     "validMonths": 24,
